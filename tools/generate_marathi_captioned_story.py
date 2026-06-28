@@ -13,38 +13,38 @@ FONT_REGULAR = r"C:\Windows\Fonts\Nirmala.ttf"
 CARDS = [
     (
         "01-late-order.png",
-        "Order अजून आला नाही",
-        "Customer ला फक्त एकच गोष्ट हवी आहे: “माझं parcel कुठे आहे?”",
+        "माझी ऑर्डर अजून आली नाही",
+        "कस्टमरला फक्त एकच गोष्ट जाणून घ्यायची आहे: “माझं पार्सल कुठे आहे?”",
     ),
     (
         "02-human-checks-system.png",
-        "Support अंदाज लावत नाही",
-        "तो Order ID किंवा Mobile Number घेऊन System मध्ये order check करतो.",
+        "सपोर्ट एजंट सिस्टम चेक करतो",
+        "तो ऑर्डर आयडी किंवा मोबाइल नंबर घेऊन सिस्टममध्ये ऑर्डर शोधतो.",
     ),
     (
         "03-ai-without-access.png",
-        "AI कडे access नसेल तर?",
-        "तो फक्त general answer देईल. खरा delivery status सांगू शकणार नाही.",
+        "एआयकडे माहितीच नसेल तर?",
+        "तो फक्त साधं उत्तर देऊ शकतो. खरं डिलिव्हरी स्टेटस सांगू शकत नाही.",
     ),
     (
         "04-ai-gets-tools.png",
-        "AI ला योग्य Tools मिळाले",
-        "Order System, Database आणि courier status जोडले की AI actual order check करू शकतो.",
+        "एआयला योग्य सिस्टम जोडली",
+        "ऑर्डर सिस्टम, डेटाबेस आणि कुरियर स्टेटस जोडले की एआय प्रत्यक्ष ऑर्डर चेक करू शकतो.",
     ),
     (
         "05-specific-update.png",
-        "आता answer specific होतो",
-        "Parcel कुठे आहे, delivery कधी expected आहे, हे AI स्पष्ट सांगू शकतो.",
+        "आता उत्तर नेमकं मिळतं",
+        "पार्सल सध्या कुठे आहे, डिलिव्हरी कधी होऊ शकते, हे एआय स्पष्ट सांगू शकतो.",
     ),
     (
         "06-human-handover.png",
-        "Tricky case? Human support",
-        "Refund, damaged item किंवा angry customer असेल, तर human support गरजेचा आहे.",
+        "केस अवघड असेल तर माणूस हवा",
+        "रिफंड, डॅमेज्ड आयटम किंवा रागावलेला कस्टमर असेल, तर माणसाचा सपोर्ट गरजेचा आहे.",
     ),
     (
         "07-ai-tools-human-summary.png",
-        "Best setup",
-        "AI routine काम करतो. Tricky cases human support कडे जातात.",
+        "बेस्ट सेटअप",
+        "साधं काम एआय करतो. अवघड केस माणसाकडे जातात.",
     ),
 ]
 

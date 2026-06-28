@@ -6,60 +6,60 @@ Tone: natural Marathi-English mix. Not textbook Marathi.
 
 ## Beat 1
 
-Visual: Student phone पाहतो. Parcel late आहे.
+Visual: स्टुडंट फोन पाहतो. पार्सल लेट आहे.
 
 Voiceover:
 
-> कधी online order late झाला की आपण लगेच support ला message करतो: माझं parcel कुठे आहे?
+> कधी ऑनलाइन ऑर्डर लेट झाली की आपण लगेच सपोर्टला मेसेज करतो: माझं पार्सल कुठे आहे?
 
 ## Beat 2
 
-Visual: Customer Support person laptop वर order search करतो.
+Visual: कस्टमर सपोर्ट एजंट लॅपटॉपवर ऑर्डर सर्च करतो.
 
 Voiceover:
 
-> Support person answer अंदाजाने देत नाही. तो Order ID किंवा Mobile Number घेऊन System मध्ये order check करतो.
+> सपोर्ट एजंट अंदाजाने उत्तर देत नाही. तो ऑर्डर आयडी किंवा मोबाइल नंबर घेऊन सिस्टममध्ये ऑर्डर शोधतो.
 
 ## Beat 3
 
-Visual: AI bot confused. Database आणि courier locked.
+Visual: एआय बॉट गोंधळलेला आहे. डेटाबेस आणि कुरियर लॉक आहेत.
 
 Voiceover:
 
-> AI कडे System access नसेल, तर तो फक्त general answer देईल. जसं, delivery ला साधारण काही दिवस लागतात.
+> एआयकडे माहितीच नसेल, तर तो फक्त साधं उत्तर देईल. जसं, डिलिव्हरीला साधारण काही दिवस लागतात.
 
 ## Beat 4
 
-Visual: AI bot ला secure access मिळतो. Database आणि courier जोडले जातात.
+Visual: एआय बॉटला सुरक्षित ॲक्सेस मिळतो. डेटाबेस आणि कुरियर जोडले जातात.
 
 Voiceover:
 
-> पण AI ला योग्य Tool आणि Database access असेल, तर तो actual order status check करू शकतो.
+> पण एआयला योग्य सिस्टम, डेटाबेस आणि कुरियर स्टेटस जोडले असेल, तर तो प्रत्यक्ष ऑर्डर चेक करू शकतो.
 
 ## Beat 5
 
-Visual: Student खुश. Phone वर map/delivery route.
+Visual: स्टुडंट खुश आहे. फोनवर मॅप आणि डिलिव्हरी रूट दिसतो.
 
 Voiceover:
 
-> मग answer specific होतो: parcel कुठे आहे, delivery कधी expected आहे, पुढे काय करायचं.
+> मग उत्तर नेमकं मिळतं: पार्सल कुठे आहे, डिलिव्हरी कधी होऊ शकते, पुढे काय करायचं.
 
 ## Beat 6
 
-Visual: Damaged package. AI human support कडे handover करतो.
+Visual: डॅमेज्ड पॅकेज. एआय माणसाच्या सपोर्टकडे हँडओव्हर करतो.
 
 Voiceover:
 
-> पण refund, damaged item, angry customer असे cases AI ने एकट्याने handle करू नयेत. तिथे human support लागतो.
+> पण रिफंड, डॅमेज्ड आयटम, रागावलेला कस्टमर अशा केसेस एआयने एकट्याने हँडल करू नयेत. तिथे माणसाचा सपोर्ट लागतो.
 
 ## Beat 7
 
-Visual: AI, human, database, delivery truck, customer happy.
+Visual: एआय, माणूस, डेटाबेस, डिलिव्हरी ट्रक, कस्टमर खुश.
 
 Voiceover:
 
-> म्हणजे AI Agent हा फक्त chatbot नाही. तो System, Tools आणि human handover सोबत काम करणारा support helper आहे.
+> म्हणजे एआय एजंट हा फक्त चॅटबॉट नाही. तो सिस्टम, टूल्स आणि माणसाकडे हँडओव्हर सोबत काम करणारा सपोर्ट हेल्पर आहे.
 
 ## Caption Option
 
-> AI + Tools + Human Support = useful Customer Support Agent
+> एआय + टूल्स + माणसाचा सपोर्ट = उपयोगी कस्टमर सपोर्ट एजंट

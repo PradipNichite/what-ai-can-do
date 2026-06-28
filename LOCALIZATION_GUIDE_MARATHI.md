@@ -10,28 +10,39 @@ The goal is understanding, not language purity.
 
 Use natural spoken Marathi with familiar English words where Marathi speakers already use those words.
 
+For Marathi visual content, common English words should often be written in Marathi letters so the viewer does not keep switching scripts.
+
 ## Keep Familiar English Words
 
-Generally keep these words in English inside Marathi sentences:
+Generally keep these words as familiar spoken terms, often written in Marathi letters inside Marathi visual copy:
 
-- AI
-- Customer Support
-- Agent
-- Order
-- Mobile Number
-- Email
-- System
-- ChatGPT
-- API
-- Tool
-- Website
-- Database
-- Login
-- Ticket
-- Dashboard
-- Automation
-- Report
-- Prompt
+- AI -> एआय
+- Customer -> कस्टमर
+- Customer Support -> कस्टमर सपोर्ट
+- Support Agent -> सपोर्ट एजंट
+- Order -> ऑर्डर
+- Order ID -> ऑर्डर आयडी
+- Mobile Number -> मोबाइल नंबर
+- Email -> ईमेल
+- System -> सिस्टम
+- ChatGPT -> चॅटजीपीटी
+- API -> एपीआय
+- Tool -> टूल
+- Website -> वेबसाइट
+- Database -> डेटाबेस
+- Login -> लॉगिन
+- Ticket -> तिकीट / टिकट, depending on context
+- Dashboard -> डॅशबोर्ड
+- Automation -> ऑटोमेशन
+- Report -> रिपोर्ट
+- Prompt -> प्रॉम्प्ट
+- Courier Status -> कुरियर स्टेटस
+- Delivery Status -> डिलिव्हरी स्टेटस
+- Refund -> रिफंड
+- Access -> ॲक्सेस
+- Check -> चेक
+- Search -> सर्च
+- Chatbot -> चॅटबॉट
 
 Do not force awkward Marathi replacements if people would not naturally say them.
 
@@ -39,11 +50,32 @@ Example:
 
 Use:
 
-> AI Agent ला Order System access असेल, तर तो delivery status check करू शकतो.
+> एआय एजंटला ऑर्डर सिस्टम ॲक्सेस असेल, तर तो डिलिव्हरी स्टेटस चेक करू शकतो.
 
 Avoid:
 
 > कृत्रिम बुद्धिमत्ता प्रतिनिधीला आदेश प्रणाली प्रवेश असेल, तर तो वितरण स्थिती तपासू शकतो.
+
+## Do Not Keep Every English Phrase
+
+Some English phrases feel artificial in Marathi. Use simple Marathi instead.
+
+Prefer:
+
+- general answer -> साधं उत्तर
+- specific answer -> नेमकं उत्तर
+- expected delivery -> डिलिव्हरी कधी होऊ शकते
+- tricky case -> अवघड केस
+- routine work -> साधं काम
+- angry customer -> रागावलेला कस्टमर
+
+Avoid lines like:
+
+> आता answer specific होतो.
+
+Prefer:
+
+> आता उत्तर नेमकं मिळतं.
 
 ## Voice
 
@@ -81,7 +113,7 @@ Prefer:
 Before finalizing, check:
 
 - Would I actually say this sentence while explaining to someone?
-- Did I keep common English words where Marathi speakers naturally use them?
+- Did I keep common English words where Marathi speakers naturally use them, preferably in Marathi letters for visual copy?
 - Did I avoid awkward literal translation?
 - Is the sentence simple enough for a student or parent?
 - Does the visual still work without heavy reading?
@@ -91,19 +123,19 @@ Before finalizing, check:
 
 Natural:
 
-> Customer विचारतो: "माझा Order अजून का आला नाही?"
+> कस्टमर विचारतो: "माझी ऑर्डर अजून आली नाही."
 
 Natural:
 
-> Support person आधी Order ID किंवा Mobile Number विचारतो. मग तो company System मध्ये order search करतो.
+> सपोर्ट एजंट आधी ऑर्डर आयडी किंवा मोबाइल नंबर विचारतो. मग तो सिस्टममध्ये ऑर्डर शोधतो.
 
 Natural:
 
-> AI कडे System access नसेल, तर तो फक्त general answer देईल. खरा delivery status सांगू शकणार नाही.
+> एआयकडे माहितीच नसेल, तर तो फक्त साधं उत्तर देईल. खरं डिलिव्हरी स्टेटस सांगू शकणार नाही.
 
 Natural:
 
-> AI कडे योग्य Tool आणि Database access असेल, तर तो specific answer देऊ शकतो.
+> एआयकडे योग्य सिस्टम आणि डेटाबेस ॲक्सेस असेल, तर तो नेमकं उत्तर देऊ शकतो.
 
 Avoid:
 

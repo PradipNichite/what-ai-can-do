@@ -102,3 +102,6 @@ Before finalizing a renderer, ask:
 - Does each frame or section reveal only one idea?
 - Does the format work for the intended device?
 - Is the Indian context visible without feeling forced?
+- Has the rendered output passed visual QA, including text rendering in local scripts?
+
+See `VISUAL_QA_CHECKLIST.md` before marking any visual renderer complete.

@@ -118,6 +118,12 @@ Before finalizing, check:
 - Is the sentence simple enough for a student or parent?
 - Does the visual still work without heavy reading?
 - Does the example feel local to Maharashtra or India?
+- Did the final rendered image pass Devanagari text rendering QA?
+- Are joined letters, matras, and half-letters correct in the actual image, not only in the source text?
+
+Important:
+
+Do not approve Marathi image assets only by reading the source caption. Always inspect the final rendered image.
 
 ## Good Style Examples
 

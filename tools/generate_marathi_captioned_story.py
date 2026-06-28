@@ -1,5 +1,7 @@
+from html import escape
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+import subprocess
+import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -7,8 +9,10 @@ SRC_DIR = ROOT / "assets" / "images" / "customer-support-mobile-story"
 OUT_DIR = ROOT / "assets" / "images" / "customer-support-mobile-story-mr"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-FONT_BOLD = r"C:\Windows\Fonts\NirmalaB.ttf"
-FONT_REGULAR = r"C:\Windows\Fonts\Nirmala.ttf"
+CHROME = Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe")
+
+WIDTH = 941
+HEIGHT = 1672
 
 CARDS = [
     (
@@ -49,127 +53,112 @@ CARDS = [
 ]
 
 
-def text_width(draw, text, font):
-    bbox = draw.textbbox((0, 0), text, font=font)
-    return bbox[2] - bbox[0]
+def html_for_card(index, filename, title, body):
+    image_uri = (SRC_DIR / filename).resolve().as_uri()
+    return f"""<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="utf-8">
+  <style>
+    * {{
+      box-sizing: border-box;
+    }}
+    html, body {{
+      margin: 0;
+      width: {WIDTH}px;
+      height: {HEIGHT}px;
+      overflow: hidden;
+      background: #111;
+      font-family: "Nirmala UI", "Noto Sans Devanagari", "Mangal", system-ui, sans-serif;
+    }}
+    .card {{
+      position: relative;
+      width: {WIDTH}px;
+      height: {HEIGHT}px;
+      background-image: url("{image_uri}");
+      background-size: cover;
+      background-position: center center;
+    }}
+    .caption {{
+      position: absolute;
+      left: 52px;
+      right: 52px;
+      bottom: 58px;
+      min-height: 320px;
+      padding: 34px 34px 38px;
+      border: 4px solid #ffc44d;
+      border-radius: 36px;
+      background: rgba(255, 250, 240, 0.95);
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.33);
+    }}
+    .step {{
+      position: absolute;
+      top: 22px;
+      right: 22px;
+      padding: 7px 18px 9px;
+      border-radius: 18px;
+      background: #0c2d5f;
+      color: #fff;
+      font-size: 34px;
+      font-weight: 800;
+      line-height: 1.05;
+    }}
+    h1 {{
+      margin: 0 95px 20px 0;
+      color: #0c2d5f;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }}
+    p {{
+      margin: 0;
+      color: #222;
+      font-size: 34px;
+      line-height: 1.42;
+      font-weight: 400;
+      letter-spacing: 0;
+    }}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <section class="caption">
+      <div class="step">{index}/7</div>
+      <h1>{escape(title)}</h1>
+      <p>{escape(body)}</p>
+    </section>
+  </main>
+</body>
+</html>
+"""
 
 
-def text_height(draw, text, font):
-    bbox = draw.textbbox((0, 0), text, font=font)
-    return bbox[3] - bbox[1]
+def render_card(index, filename, title, body, temp_dir):
+    html_path = temp_dir / f"{index:02d}.html"
+    out_path = OUT_DIR / filename
+    html_path.write_text(html_for_card(index, filename, title, body), encoding="utf-8")
 
-
-def fit_font(draw, text, font_path, max_width, start_size, min_size):
-    size = start_size
-    while size >= min_size:
-        font = ImageFont.truetype(font_path, size)
-        if text_width(draw, text, font) <= max_width:
-            return font
-        size -= 2
-    return ImageFont.truetype(font_path, min_size)
-
-
-def wrap_text(draw, text, font, max_width):
-    words = text.split(" ")
-    lines = []
-    line = ""
-    for word in words:
-        candidate = word if not line else f"{line} {word}"
-        if text_width(draw, candidate, font) <= max_width:
-            line = candidate
-        else:
-            if line:
-                lines.append(line)
-            line = word
-    if line:
-        lines.append(line)
-    return lines
-
-
-def render_card(index, filename, title, body):
-    img = Image.open(SRC_DIR / filename).convert("RGB")
-    width, height = img.size
-    canvas = img.copy().convert("RGBA")
-    draw = ImageDraw.Draw(canvas)
-
-    margin = int(width * 0.055)
-    panel_width = width - 2 * margin
-    panel_height = int(height * 0.21)
-    panel_x = margin
-    panel_y = height - panel_height - int(height * 0.035)
-    radius = 36
-
-    shadow = Image.new("RGBA", (width, height), (0, 0, 0, 0))
-    shadow_draw = ImageDraw.Draw(shadow)
-    shadow_draw.rounded_rectangle(
-        (
-            panel_x + 8,
-            panel_y + 10,
-            panel_x + panel_width + 8,
-            panel_y + panel_height + 10,
-        ),
-        radius=radius,
-        fill=(0, 0, 0, 90),
-    )
-    shadow = shadow.filter(ImageFilter.GaussianBlur(14))
-    canvas.alpha_composite(shadow)
-
-    draw.rounded_rectangle(
-        (panel_x, panel_y, panel_x + panel_width, panel_y + panel_height),
-        radius=radius,
-        fill=(255, 250, 240, 238),
-        outline=(255, 196, 77, 255),
-        width=4,
-    )
-
-    tag = f"{index}/7"
-    tag_font = ImageFont.truetype(FONT_BOLD, 34)
-    tag_w = text_width(draw, tag, tag_font)
-    tag_h = text_height(draw, tag, tag_font)
-    tag_pad_x, tag_pad_y = 18, 8
-    tag_x = panel_x + panel_width - tag_w - 2 * tag_pad_x - 22
-    tag_y = panel_y + 22
-    draw.rounded_rectangle(
-        (
-            tag_x,
-            tag_y,
-            tag_x + tag_w + 2 * tag_pad_x,
-            tag_y + tag_h + 2 * tag_pad_y,
-        ),
-        radius=18,
-        fill=(12, 45, 95, 255),
-    )
-    draw.text(
-        (tag_x + tag_pad_x, tag_y + tag_pad_y - 2),
-        tag,
-        font=tag_font,
-        fill=(255, 255, 255, 255),
-    )
-
-    max_text_width = panel_width - 60
-    title_font = fit_font(draw, title, FONT_BOLD, max_text_width - 110, 48, 34)
-    body_font = ImageFont.truetype(FONT_REGULAR, 34)
-    body_lines = wrap_text(draw, body, body_font, max_text_width)
-
-    while len(body_lines) > 3 and body_font.size > 26:
-        body_font = ImageFont.truetype(FONT_REGULAR, body_font.size - 2)
-        body_lines = wrap_text(draw, body, body_font, max_text_width)
-
-    text_x = panel_x + 34
-    text_y = panel_y + 24
-    draw.text((text_x, text_y), title, font=title_font, fill=(12, 45, 95, 255))
-    text_y += text_height(draw, title, title_font) + 22
-
-    for line in body_lines:
-        draw.text((text_x, text_y), line, font=body_font, fill=(32, 32, 32, 255))
-        text_y += int(body_font.size * 1.45)
-
-    canvas.convert("RGB").save(OUT_DIR / filename, quality=95)
+    cmd = [
+        str(CHROME),
+        "--headless=new",
+        "--disable-gpu",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        f"--window-size={WIDTH},{HEIGHT}",
+        f"--screenshot={out_path}",
+        html_path.resolve().as_uri(),
+    ]
+    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
 def main():
-    for index, (filename, title, body) in enumerate(CARDS, start=1):
-        render_card(index, filename, title, body)
+    if not CHROME.exists():
+        raise FileNotFoundError(f"Chrome not found at {CHROME}")
+    with tempfile.TemporaryDirectory() as tmp:
+        temp_dir = Path(tmp)
+        for index, (filename, title, body) in enumerate(CARDS, start=1):
+            render_card(index, filename, title, body, temp_dir)
     print(f"Created {len(CARDS)} Marathi captioned story images in {OUT_DIR}")
 
 

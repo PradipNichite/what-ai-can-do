@@ -71,6 +71,24 @@ Rules:
 - Preserve familiar technical words in English for local-language versions when that is how people speak.
 - Do not turn each frame into a paragraph.
 
+## Native Integrated Visual Renderer
+
+When image generation can produce accurate text, prefer native integrated story cards over manual caption overlays.
+
+Use text as part of the visual composition:
+
+- phone UI,
+- chat bubbles,
+- sticky notes,
+- notebook writing,
+- mini cards,
+- arrows and labels,
+- comparison blocks.
+
+This is especially useful for social/mobile education because the viewer experiences one designed card, not an image plus a caption pasted underneath.
+
+Still run visual QA. Generated text can be excellent, but every frame must be reviewed.
+
 ## Image-Only Renderer
 
 The image-only version should almost work without narration.

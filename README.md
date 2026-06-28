@@ -11,6 +11,7 @@ The first version is written for high school students, college students, teacher
 - [AI Customer Support Agent](modules/business/ai-customer-support-agent.md)
 - [AI Customer Support Agent Mobile Story](outputs/mobile-stories/ai-customer-support-agent.md)
 - [AI Customer Support Agent Marathi Mobile Story](outputs/mobile-stories/ai-customer-support-agent.mr.md)
+- [How Students Can Use AI To Study Better](outputs/mobile-stories/how-students-can-use-ai-to-study-better.md)
 - [AI as Personal Tutor](modules/everyday-life/ai-as-personal-tutor.md)
 - [How ChatGPT Sees Images](modules/visual-ai-concepts/how-chatgpt-sees-images.md)
 - [AI for Understanding Documents](modules/everyday-life/ai-for-understanding-documents.md)

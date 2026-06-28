@@ -1,6 +1,6 @@
 # AI Customer Support Agent
 
-![AI Customer Support Agent Infographic](../../assets/images/ai-customer-support-agent-infographic.png)
+![AI Customer Support Agent Infographic](assets/images/ai-customer-support-agent-infographic.png)
 
 ## 1. One-Line Idea
 
@@ -93,14 +93,14 @@ Without company data, AI cannot know the real order status. It can only explain 
 
 Reference visual:
 
-![AI Customer Support Agent Infographic](../../assets/images/ai-customer-support-agent-infographic.png)
+![AI Customer Support Agent Infographic](assets/images/ai-customer-support-agent-infographic.png)
 
 The diagram shows two ideas:
 
 1. Main workflow: Customer asks -> AI understands -> Asks for order ID -> Checks order system -> Explains status -> Ticket or human handover.
 2. Bot levels: FAQ bot gives fixed answers, document bot searches company docs, and AI agent uses tools and systems.
 
-The exact generation prompt is saved at [ai-customer-support-agent-infographic.md](../../assets/image-prompts/ai-customer-support-agent-infographic.md).
+The exact generation prompt is saved at [ai-customer-support-agent-infographic.md](assets/image-prompts/ai-customer-support-agent-infographic.md).
 
 ## 8. Try It Yourself
 
@@ -250,4 +250,3 @@ Ask learners to map one support question from a local business:
 - Add a small-business WhatsApp example using a simple order-tracking spreadsheet.
 - Create the second visual: secure access vs unsafe access.
 - Test this module with one student and one small-business owner.
-

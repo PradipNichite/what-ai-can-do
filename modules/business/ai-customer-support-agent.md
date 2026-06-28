@@ -1,252 +1,183 @@
-# AI Customer Support Agent
+# AI Customer Support Agent: A Visual Journey
 
-![AI Customer Support Agent Infographic](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/ai-customer-support-agent-infographic.png>)
+This module should not be taught like a blog post. Teach it like a short story.
 
-## 1. One-Line Idea
+Start with one ordinary message:
 
-An AI customer support agent can answer many routine customer questions when it is connected to the right company information, tools, and human handover process.
+> My order is late.
 
-## 2. Real-Life Situation
+Then reveal, step by step, what must happen behind the answer.
 
-Imagine you ordered shoes online. The delivery date has passed. You open WhatsApp or the store's chat window and type:
+## Learning Goal
 
-> My order has not arrived. When will it come?
+By the end, the learner should understand one thing clearly:
 
-A good support person does not guess. They ask for your order ID or mobile number, open the company system, check the delivery status, and then explain the answer in normal language.
+AI support is useful only when it can follow a real workflow: understand the question, get the right details, check the right system, reply clearly, and hand over tricky cases to humans.
 
-An AI support agent follows a similar pattern. The important point is this: AI does not automatically know your private order status. It can answer correctly only if the business safely connects it to the order system or gives it the right information.
+## How To Use This Module
 
-## 3. What Happens Today
+For each scene:
 
-In a normal support call or chat, the human support person usually:
+1. Show the image first.
+2. Ask the question below the image.
+3. Let learners guess.
+4. Then reveal the idea in 2-3 lines.
 
-1. Greets the customer.
-2. Understands the problem.
-3. Asks for order ID, mobile number, or email.
-4. Opens the order or customer-support system.
-5. Searches for the order.
-6. Checks payment, dispatch, courier, and delivery status.
-7. Explains the update in simple language.
-8. Raises a ticket if the parcel is delayed or lost.
-9. Escalates to another team when the issue is unusual.
+Do not explain the whole system at the beginning. Let the learner discover why each piece is needed.
 
-This is why support work can feel repetitive. Many customers ask the same few questions, but the support person still has to check the correct system before replying.
+---
 
-## 4. What Work Is Actually Being Done
+## Scene 1: Start With The Feeling
 
-The real work is not only "chatting". It is a small workflow:
+![Where is my order?](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/customer-support-journey/01-where-is-my-order.png>)
 
-| Step | What the human does | Why it matters |
+**Ask learners:**
+If you sent this message to a shop, what answer would you expect?
+
+**Reveal:**
+The customer does not want a lecture about delivery policy. They want to know what happened to their order.
+
+This is the hook. AI becomes interesting only when it solves a real, familiar moment.
+
+---
+
+## Scene 2: Notice The Hidden Work
+
+![Someone checks the system](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/customer-support-journey/02-someone-checks-system.png>)
+
+**Ask learners:**
+How does the support person know the answer?
+
+**Reveal:**
+They check a system. They look up the order ID, status, payment, courier update, and expected delivery.
+
+The answer is not coming from memory. It is coming from trusted company data.
+
+---
+
+## Scene 3: Show The Weak AI
+
+![Without data, AI can only guess](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/customer-support-journey/03-without-data-ai-guesses.png>)
+
+**Ask learners:**
+Is this answer useful?
+
+**Reveal:**
+Not very. "Delivery usually takes 3-5 days" may be true, but it does not answer this customer's question.
+
+This is the limit of a basic chatbot. Without order access, AI can only give a general answer.
+
+---
+
+## Scene 4: Add Tools
+
+![With tools, AI can check](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/customer-support-journey/04-with-tools-ai-checks.png>)
+
+**Ask learners:**
+What changed between Scene 3 and Scene 4?
+
+**Reveal:**
+The AI is now connected to tools: the order system and courier status.
+
+That connection changes the answer from generic to specific:
+
+> Your order is in transit. Expected tomorrow.
+
+This is the main "aha" moment. AI is not powerful because it talks nicely. It becomes useful when it can safely use the right tools.
+
+---
+
+## Scene 5: Keep Humans In The Loop
+
+![Humans handle the tricky cases](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/customer-support-journey/05-human-handover.png>)
+
+**Ask learners:**
+Should AI handle every case by itself?
+
+**Reveal:**
+No. Refunds, damaged items, angry customers, fraud, and unusual cases need human judgment.
+
+A good AI support system does not remove humans. It handles routine work and brings humans in when trust, money, or emotion is involved.
+
+---
+
+## The Big Idea
+
+Do not teach "AI agent" as a technical term first. Build it from the story:
+
+| Stage | What the learner saw | What it means |
 |---|---|---|
-| Understand | Figures out what the customer wants | The reply depends on the issue |
-| Identify | Collects order ID, phone, or email | The company needs the right customer record |
-| Check | Looks inside the order, courier, or ticket system | The answer must come from trusted data |
-| Explain | Converts system status into normal language | Customers should not need to understand internal codes |
-| Decide | Chooses reply, ticket, refund request, or handover | Some cases need human judgment |
-| Record | Updates ticket or notes | The next support person should know what happened |
+| Customer asks | "Where is my order?" | AI starts with a real human need |
+| Human checks | Support person opens the system | Answers need trusted data |
+| Weak bot replies | Generic delivery policy | Chat without data is limited |
+| AI uses tools | Order system + courier status | Tool access creates specific answers |
+| Human handover | Refund, damage, angry customer | Humans handle risky or emotional cases |
 
-Once we break the job into steps, it becomes easier to see where AI can help.
+One simple sentence:
 
-## 5. How AI Can Do This
+> An AI support agent is not just a chatbot. It is a chatbot connected to the right workflow, data, tools, and human handover.
 
-An AI agent can handle part of this workflow if the company connects it to the right tools.
+## Try It Yourself
 
-Example flow:
+Ask ChatGPT:
 
-1. Customer asks: "My order has not arrived."
-2. AI understands that this is a delivery-status question.
-3. AI asks: "Please share your order ID."
-4. Customer shares the order ID.
-5. AI uses a tool or API to check the order system.
-6. AI reads the delivery update.
-7. AI replies: "Your order is in transit and is expected tomorrow."
-8. AI creates a ticket if the parcel is stuck.
-9. AI hands over to a human for refund disputes, angry customers, fraud, damaged items, or unusual cases.
-
-The key difference is tool access. A chatbot that only has general information may say, "Delivery usually takes 3-5 days." An AI agent connected to the order system can answer about this customer's actual order.
-
-Simple comparison:
-
-| Type | What it can do | Example answer |
-|---|---|---|
-| FAQ bot | Answers fixed common questions | "Delivery usually takes 3-5 days." |
-| Document bot | Searches company documents and policies | "The return window is 7 days after delivery." |
-| AI agent | Uses tools and systems to check or update information | "Order ORD12345 is in transit and expected on 18 May." |
-
-## 6. What AI Needs Access To
-
-AI may need:
-
-- Customer question.
-- Order ID, mobile number, or email.
-- Order database.
-- Courier or delivery system.
-- Company policy documents.
-- Ticketing system.
-- Previous conversation.
-- Human handover channel.
-- Clear rules for what it is allowed to do.
-
-Without company data, AI cannot know the real order status. It can only explain general policy or ask the customer to contact support.
-
-## 7. Simple Visual Explanation
-
-Reference visual:
-
-![AI Customer Support Agent Infographic](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/ai-customer-support-agent-infographic.png>)
-
-The diagram shows two ideas:
-
-1. Main workflow: Customer asks -> AI understands -> Asks for order ID -> Checks order system -> Explains status -> Ticket or human handover.
-2. Bot levels: FAQ bot gives fixed answers, document bot searches company docs, and AI agent uses tools and systems.
-
-The exact generation prompt is saved at [ai-customer-support-agent-infographic.md](../../assets/image-prompts/ai-customer-support-agent-infographic.md).
-
-## 8. Try It Yourself
-
-Imagine you run a small Instagram or WhatsApp store selling T-shirts. Ask ChatGPT:
-
-> Create a customer support flow for customers asking where their order is. Include what information to ask, when to check the courier, when to apologize, and when to escalate to a human.
+> Imagine I run a small WhatsApp store. Customers often ask, "Where is my order?" Create a 5-step support journey like a story. For each step, tell me what the customer sees, what happens behind the scenes, and when a human should take over.
 
 Then ask:
 
-> Turn this flow into WhatsApp reply templates in simple English and Hindi. Include one polite reply for a delayed order, one reply asking for order ID, and one reply for human handover.
+> Now turn this into 5 image prompts for a visual lesson for Indian high school students.
 
-Optional activity:
+## Mini Activity
 
-> Make a table with three columns: customer message, AI draft reply, human should check? Use examples from a small Indian online store.
+Ask learners to choose one local workflow:
 
-## 9. What This Means for Jobs / Life / Business
+- Coaching class admission enquiry.
+- Food delivery complaint.
+- School fee receipt question.
+- Courier tracking question.
+- Small shop product exchange.
 
-AI can reduce repetitive support work like checking status, answering return-policy questions, drafting replies, and creating tickets.
+For that workflow, fill this table:
 
-But this does not mean every support worker disappears. Human support becomes more important for:
+| Step | What customer asks | What system must be checked | Can AI help? | When human takes over |
+|---|---|---|---|---|
+| 1 |  |  |  |  |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
 
-- Angry or worried customers.
-- Refund and replacement decisions.
-- Fraud or suspicious activity.
-- Cases where policy is unclear.
-- Empathy, negotiation, and trust.
-- Improving the support process itself.
+## Why This Format Works Better
 
-For small businesses, the first useful step may be simple: AI can help create better WhatsApp templates, organize common questions, and summarize customer complaints.
+The learner is not asked to read everything first.
 
-## 10. What AI Still Cannot Do Well
+They experience the idea in layers:
 
-- It cannot know private order data unless connected securely.
-- It may misunderstand vague, emotional, or mixed-language messages.
-- It may give wrong answers if company data is outdated.
-- It should not make sensitive refund, fraud, or legal decisions alone.
-- It needs privacy, security, logging, and human review.
-- It can sound confident even when it is wrong.
+1. I have a problem.
+2. Someone checks something.
+3. A weak bot cannot help much.
+4. A connected AI can help.
+5. Humans still matter.
 
-## 11. Common Misunderstandings
+This is the repeatable format for future modules: visual hook -> hidden human workflow -> weak AI -> capable AI -> human judgment.
 
-Misunderstanding: "AI support means no humans are needed."
+## Image Assets
 
-Reality: Humans are still needed for unusual, emotional, risky, or high-value cases.
+- `assets/images/customer-support-journey/01-where-is-my-order.png`
+- `assets/images/customer-support-journey/02-someone-checks-system.png`
+- `assets/images/customer-support-journey/03-without-data-ai-guesses.png`
+- `assets/images/customer-support-journey/04-with-tools-ai-checks.png`
+- `assets/images/customer-support-journey/05-human-handover.png`
 
-Misunderstanding: "AI automatically knows my order status."
+The generation prompts are saved at [customer-support-visual-journey.md](../../assets/image-prompts/customer-support-visual-journey.md).
 
-Reality: It needs access to the order system or a trusted data source.
-
-Misunderstanding: "A chatbot and an AI agent are the same."
-
-Reality: A chatbot may only answer. An agent can use tools and take limited actions, depending on permissions.
-
-Misunderstanding: "Connecting AI to systems is only a technical decision."
-
-Reality: It is also a trust decision. Businesses must decide what AI can see, what it can change, and when a human must approve.
-
-## 12. Indian Context
-
-Many Indian small businesses handle support through WhatsApp, Instagram DMs, phone calls, Excel sheets, Google Sheets, and courier dashboards. They may not have a big call center or expensive software.
-
-AI can still help in practical ways:
-
-- Draft polite WhatsApp replies.
-- Translate replies into Hindi, Marathi, Tamil, Telugu, Bengali, Kannada, or mixed English.
-- Sort messages into categories like delivery, refund, size exchange, payment, and complaint.
-- Summarize the day's customer issues.
-- Create a simple follow-up list for pending orders.
-
-For larger Indian businesses, multilingual support is important because customers may ask the same question in English, Hindi, Hinglish, Marathi, Tamil, Telugu, or another local language.
-
-## 13. Image Ideas
-
-### Image Idea 1: AI Customer Support Agent Infographic
-
-Purpose: Give learners one complete visual summary of the workflow.
-
-Status: Generated and saved at `assets/images/ai-customer-support-agent-infographic.png`.
-
-Layout: 16:9 landscape infographic with a top workflow and bottom comparison panel.
-
-Text labels:
-
-- Customer asks
-- AI understands
-- Asks for order ID
-- Checks order system
-- Explains status
-- Ticket or human handover
-- FAQ bot
-- Document bot
-- AI agent
-
-Style: Clean flat educational infographic, readable for classroom slides.
-
-### Image Idea 2: Secure Access vs Unsafe Access
-
-Purpose: Explain that AI should not be carelessly connected to private customer data.
-
-Layout: Split-screen caution diagram.
-
-Left side: "Safe setup" with limited access, logs, human approval, and secure company system.
-
-Right side: "Unsafe setup" with all data exposed, no approval, and no records.
-
-Text labels: Limited access, human approval, logs, private data, risky action.
-
-Suggested prompt: "Create a simple classroom caution infographic comparing safe AI access and unsafe AI access for customer support systems, with clear labels and no real company logos."
-
-## 14. Video / Slide Ideas
-
-5-slide classroom flow:
-
-1. "What happens when your order does not arrive?"
-2. "What does a support person actually do?"
-3. "How AI can follow the same steps."
-4. "Why AI needs company systems and human handover."
-5. "Try building a support flow for a small shop."
-
-60-second video:
-
-1. Show a delayed online order.
-2. Show the human support workflow.
-3. Show AI doing the same workflow with order-system access.
-4. Show handover to a human for refund or complaint.
-5. End with: "AI is useful when the workflow, data, and safety rules are clear."
-
-Seminar activity:
-
-Ask learners to map one support question from a local business:
-
-- What does the customer ask?
-- What information is needed?
-- Which system must be checked?
-- What can AI draft?
-- When should a human take over?
-
-## 15. Sources / References
+## Sources / References
 
 - Microsoft Learn: Copilot Studio overview - https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio
 - Salesforce Agentforce - https://www.salesforce.com/in/agentforce/
 - McKinsey: generative AI and customer operations - https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier
 
-## 16. Open Questions
+## Open Questions
 
-- Find strong Indian case studies of AI support in ecommerce, banking, telecom, or food delivery.
-- Add a small-business WhatsApp example using a simple order-tracking spreadsheet.
-- Create the second visual: secure access vs unsafe access.
-- Test this module with one student and one small-business owner.
+- Should future modules use 5 scenes or 7 scenes?
+- Should each scene become a slide, a website section, or a short video beat?
+- Should we create a standard visual character style for all modules?
+- Should we add Hindi/Marathi versions of the image text for Indian classrooms?

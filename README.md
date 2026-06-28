@@ -20,6 +20,7 @@ The first version is written for high school students, college students, teacher
 - `assets/`: diagrams, image prompts, images, slides, and video assets.
 - `research/`: source notes, examples, and references.
 - `outputs/`: future website, slide, PDF, and video-script exports.
+- `VISUAL_JOURNEY_TEMPLATE.md`: preferred format for modules that should feel like guided discovery instead of articles.
 
 ## Content Standard
 
@@ -34,4 +35,3 @@ Each module should answer:
 7. What changes in the future?
 
 Markdown is the source of truth. Visuals, slides, videos, worksheets, and website pages should be generated only after the explanation is clear.
-

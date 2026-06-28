@@ -30,6 +30,20 @@ Write:
 
 > When your order does not arrive, a support person checks the order system and replies. An AI agent can do a similar thing only if it is connected to the right company system.
 
+## Renderer Voice
+
+The same concept may need different expression in different formats:
+
+- Markdown can explain.
+- Mobile story should reveal one idea per frame.
+- Image-only version should work through scenes, icons, arrows, and expressions.
+- Presentation should feel like a guided classroom sequence.
+- Video should feel like a story with beats, not a narrated article.
+- Website should be interactive and exploratory where possible.
+- Local-language versions should sound natural, not translated.
+
+Do not let every output inherit the Markdown shape.
+
 ## Module Voice
 
 - Short paragraphs.
@@ -37,4 +51,3 @@ Write:
 - Clear step-by-step lists.
 - Visual explanation in words before image generation.
 - Sources for factual claims.
-

@@ -1,6 +1,6 @@
 # AI Possibility Explorer
 
-AI Possibility Explorer is a Markdown-first learning repository about what AI can already do for ordinary people.
+AI Possibility Explorer is a source-first learning repository about what AI can already do for ordinary people.
 
 It is not a technical course about model training, transformers, or coding. It is a capability awareness project: each module starts from a familiar real-life situation and shows what new ability AI gives a student, parent, teacher, worker, or small business owner.
 
@@ -10,6 +10,7 @@ The first version is written for high school students, college students, teacher
 
 - [AI Customer Support Agent](modules/business/ai-customer-support-agent.md)
 - [AI Customer Support Agent Mobile Story](outputs/mobile-stories/ai-customer-support-agent.md)
+- [AI Customer Support Agent Marathi Mobile Story](outputs/mobile-stories/ai-customer-support-agent.mr.md)
 - [AI as Personal Tutor](modules/everyday-life/ai-as-personal-tutor.md)
 - [How ChatGPT Sees Images](modules/visual-ai-concepts/how-chatgpt-sees-images.md)
 - [AI for Understanding Documents](modules/everyday-life/ai-for-understanding-documents.md)
@@ -21,6 +22,8 @@ The first version is written for high school students, college students, teacher
 - `assets/`: diagrams, image prompts, images, slides, and video assets.
 - `research/`: source notes, examples, and references.
 - `outputs/`: future website, slide, PDF, and video-script exports.
+- `RENDERER_GUIDE.md`: how one module becomes multiple native formats.
+- `LOCALIZATION_GUIDE_MARATHI.md`: natural Marathi localization rules.
 - `VISUAL_JOURNEY_TEMPLATE.md`: preferred format for modules that should feel like guided discovery instead of articles.
 
 ## Content Standard
@@ -35,4 +38,4 @@ Each module should answer:
 6. What can the learner try themselves?
 7. What changes in the future?
 
-Markdown is the source of truth. Visuals, slides, videos, worksheets, and website pages should be generated only after the explanation is clear.
+The module source is the source of truth. Markdown, mobile stories, slides, videos, PDFs, websites, and Marathi versions are independent renderers designed for their own medium.

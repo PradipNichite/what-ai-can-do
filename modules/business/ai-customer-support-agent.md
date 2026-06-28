@@ -1,6 +1,6 @@
 # AI Customer Support Agent
 
-![AI Customer Support Agent Infographic](assets/images/ai-customer-support-agent-infographic.png)
+![AI Customer Support Agent Infographic](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/ai-customer-support-agent-infographic.png>)
 
 ## 1. One-Line Idea
 
@@ -93,14 +93,14 @@ Without company data, AI cannot know the real order status. It can only explain 
 
 Reference visual:
 
-![AI Customer Support Agent Infographic](assets/images/ai-customer-support-agent-infographic.png)
+![AI Customer Support Agent Infographic](<C:/Users/Pradip Nichite/Documents/What AI Can Do/assets/images/ai-customer-support-agent-infographic.png>)
 
 The diagram shows two ideas:
 
 1. Main workflow: Customer asks -> AI understands -> Asks for order ID -> Checks order system -> Explains status -> Ticket or human handover.
 2. Bot levels: FAQ bot gives fixed answers, document bot searches company docs, and AI agent uses tools and systems.
 
-The exact generation prompt is saved at [ai-customer-support-agent-infographic.md](assets/image-prompts/ai-customer-support-agent-infographic.md).
+The exact generation prompt is saved at [ai-customer-support-agent-infographic.md](../../assets/image-prompts/ai-customer-support-agent-infographic.md).
 
 ## 8. Try It Yourself
 

@@ -1,0 +1,37 @@
+# AI Possibility Explorer
+
+AI Possibility Explorer is a Markdown-first learning repository about what AI can already do for ordinary people.
+
+It is not a technical course about model training, transformers, or coding. It is a capability awareness project: each module starts from a familiar real-life situation and shows what new ability AI gives a student, parent, teacher, worker, or small business owner.
+
+The first version is written for high school students, college students, teachers, parents, non-technical professionals, and small business owners in an Indian context.
+
+## Phase 1 Modules
+
+- [AI Customer Support Agent](modules/business/ai-customer-support-agent.md)
+- [AI as Personal Tutor](modules/everyday-life/ai-as-personal-tutor.md)
+- [How ChatGPT Sees Images](modules/visual-ai-concepts/how-chatgpt-sees-images.md)
+- [AI for Understanding Documents](modules/everyday-life/ai-for-understanding-documents.md)
+- [Realistic AI Automation Examples](modules/jobs-and-future/realistic-ai-automation-examples.md)
+
+## Repository Structure
+
+- `modules/`: source lessons grouped by topic.
+- `assets/`: diagrams, image prompts, images, slides, and video assets.
+- `research/`: source notes, examples, and references.
+- `outputs/`: future website, slide, PDF, and video-script exports.
+
+## Content Standard
+
+Each module should answer:
+
+1. What happens today?
+2. What work does the human actually do?
+3. Which parts can AI do?
+4. What does AI need access to?
+5. What still needs humans?
+6. What can the learner try themselves?
+7. What changes in the future?
+
+Markdown is the source of truth. Visuals, slides, videos, worksheets, and website pages should be generated only after the explanation is clear.
+

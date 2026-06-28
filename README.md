@@ -24,6 +24,7 @@ The first version is written for high school students, college students, teacher
 - `assets/`: diagrams, image prompts, images, slides, and video assets.
 - `research/`: source notes, examples, and references.
 - `outputs/`: future website, slide, PDF, and video-script exports.
+- `PROJECT_STATUS.md`: current project snapshot, decisions, asset inventory, and next steps.
 - `RENDERER_GUIDE.md`: how one module becomes multiple native formats.
 - `LOCALIZATION_GUIDE_MARATHI.md`: natural Marathi localization rules.
 - `VISUAL_JOURNEY_TEMPLATE.md`: preferred format for modules that should feel like guided discovery instead of articles.

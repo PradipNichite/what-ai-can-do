@@ -1,6 +1,10 @@
 # Career Discovery After 12th
 
-Status: High-level topic track.
+Status: scene-flow
+Pipeline stage: 02 Scene Flow
+Type: Umbrella Topic
+Primary format: 9:16 mobile visual story
+Next action: Develop `Biology But Not Doctor` or the umbrella career map.
 
 ## Core Promise
 

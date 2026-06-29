@@ -1,6 +1,10 @@
 # How Students Can Use AI To Study Better
 
-Status: Prototype created.
+Status: visual-draft
+Pipeline stage: 05 Visual Draft
+Type: Granular Episode
+Primary format: 9:16 mobile visual story
+Next action: Create Marathi version and video storyboard.
 
 Parent topic: [Student AI Learning](../topics/student-ai-learning.md)
 

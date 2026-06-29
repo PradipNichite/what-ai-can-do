@@ -2,6 +2,8 @@
 
 This backlog has two content levels. Both can become publishable assets.
 
+This structure works together with [Content Pipeline](CONTENT_PIPELINE.md) and [Pipeline Board](PIPELINE_BOARD.md).
+
 ## 1. Umbrella Topic
 
 An umbrella topic gives the learner a broad map.
@@ -68,3 +70,5 @@ Some ideas can exist at both levels. For example:
 ## Guiding Principle
 
 Do not dump ideas into a list. Arrange them so the learner can move from curiosity to map to deeper understanding.
+
+Also do not treat all items as if they are at the same maturity. Some are only captured, some have scene flows, some have visuals, and some are nearly publishable. Track that movement in the pipeline board.

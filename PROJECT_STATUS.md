@@ -33,6 +33,7 @@ The strongest direction so far is mobile-first visual storytelling with generate
 - Applied mathematics can become its own series, especially concepts students learn in 11th/12th standard and later see in AI, engineering, or data science.
 - The backlog should keep both levels of planning: high-level topic tracks and granular episode briefs. A topic track gives the learner a larger map; an episode brief becomes an actual visual story or module.
 - High-level topic tracks should not be empty buckets. Each umbrella topic should also include a possible scene flow so it can become a standalone post, carousel, video, or visual story.
+- The project should operate as a pipeline. Many items can be at different stages: captured, framed, scene-flow, source-draft, prompt-pack, visual-draft, visual-QA, localized, video/interactive, publish-ready, published, or archived.
 
 ## Completed / Preserved Work
 
@@ -191,6 +192,8 @@ Good next umbrella topics:
 For the broader topic backlog, see:
 
 - `EPISODE_IDEAS.md`
+- `CONTENT_PIPELINE.md`
+- `PIPELINE_BOARD.md`
 - `backlog/topics/`
 - `backlog/ideas/`
 

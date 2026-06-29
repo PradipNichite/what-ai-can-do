@@ -1,6 +1,10 @@
 # Careers That Did Not Look Serious 10 Years Ago
 
-Status: Backlog idea.
+Status: scene-flow
+Pipeline stage: 02 Scene Flow
+Type: Granular Episode
+Primary format: 9:16 mobile visual story
+Next action: Turn into prompt pack or Marathi-first post.
 
 Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
 

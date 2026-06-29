@@ -1,6 +1,10 @@
 # Derivatives: How AI Learns From Mistakes
 
-Status: Prototype created.
+Status: visual-qa
+Pipeline stage: 06 Visual QA
+Type: Granular Episode
+Primary format: 9:16 mobile visual story
+Next action: Review math-glimpse card, then create Marathi version.
 
 Parent topic: [Applied Mathematics In AI](../topics/applied-mathematics-ai.md)
 

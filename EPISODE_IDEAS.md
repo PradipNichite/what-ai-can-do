@@ -19,6 +19,8 @@ Use this index for scanning. Use topic docs for planning a series. Use episode d
 
 See [Backlog Structure](BACKLOG_STRUCTURE.md) for how to decide whether an idea should be an umbrella topic, a granular episode, or both.
 
+See [Pipeline Board](PIPELINE_BOARD.md) for each item’s current stage and next action.
+
 Each topic track should capture:
 
 - Core promise

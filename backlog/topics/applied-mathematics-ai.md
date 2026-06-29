@@ -1,6 +1,10 @@
 # Applied Mathematics In AI
 
-Status: High-level topic track.
+Status: scene-flow
+Pipeline stage: 02 Scene Flow
+Type: Umbrella Topic
+Primary format: 9:16 mobile visual story
+Next action: Use as the series map after polishing the derivatives episode.
 
 ## Core Promise
 

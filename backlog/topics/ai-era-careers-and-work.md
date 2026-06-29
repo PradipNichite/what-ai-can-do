@@ -1,6 +1,10 @@
 # AI-Era Careers And Work
 
-Status: High-level topic track.
+Status: scene-flow
+Pipeline stage: 02 Scene Flow
+Type: Umbrella Topic
+Primary format: 9:16 mobile visual story
+Next action: Develop `Careers That Did Not Look Serious 10 Years Ago`.
 
 ## Core Promise
 

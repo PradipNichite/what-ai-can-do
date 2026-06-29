@@ -1,242 +1,82 @@
-# Episode Ideas Backlog
+# Episode Ideas Backlog Index
 
 Last updated: 2026-06-29
 
-This file preserves topic and episode ideas discussed during planning. These are not final modules yet. They are seeds for future visual stories, explainers, presentations, videos, or Marathi-localized versions.
+This is the index for future topic and episode ideas. Each idea has its own brief under `backlog/ideas/` so it can grow into a full module, visual story, video storyboard, Marathi version, or interactive asset later.
 
-## Current Flagship Threads
+## How To Use This Backlog
 
-### How Students Can Use AI To Study Better
+Use the index for scanning. Use the dedicated idea docs for development.
 
-Status: Prototype created.
+Each idea brief should capture:
 
-Core hook:
+- Core hook
+- Target learner
+- Why it matters
+- Possible 9:16 visual story
+- Renderer possibilities
+- Marathi/localization notes
+- Status and next step
 
-An 8th standard student is stuck on a textbook page. Instead of copying answers, the student uses AI to understand, simplify, practice, and verify.
+## Current Prototype Threads
 
-Possible follow-up episodes:
-
-1. How to ask AI better questions while studying.
-2. How to use AI with textbook photos.
-3. How AI can turn a hard paragraph into simple Marathi-English.
-4. How AI can quiz you without giving answers directly.
-5. How to use AI without becoming dependent on it.
-
-### Derivatives: How AI Learns From Mistakes
-
-Status: Prototype created.
-
-Core hook:
-
-Students learn derivatives in 11th/12th standard, but often do not see why they matter. Show how slope, error, and small updates help AI improve.
-
-Possible follow-up episodes:
-
-1. What does derivative mean at one point?
-2. Why does AI need a slope to reduce error?
-3. Why does AI learn in small steps?
-4. What happens if the step is too big?
-5. How does a model improve after many mistakes?
+| Idea | Status | Dedicated Doc |
+|---|---|---|
+| How Students Can Use AI To Study Better | Prototype created | [Open](backlog/ideas/how-students-use-ai-study-better.md) |
+| Derivatives: How AI Learns From Mistakes | Prototype created | [Open](backlog/ideas/derivatives-ai-learns-from-mistakes.md) |
 
 ## Applied Mathematics In AI Series
 
-Goal:
+Goal: Make students feel that school mathematics is not a waste of time by showing where those ideas appear in AI, engineering, data science, and real-world systems.
 
-Make students feel that school mathematics is not a waste of time by showing where those ideas appear in AI, engineering, data science, and real-world systems.
-
-Tone:
-
-Curiosity first, technical glimpse second. Do not start with formal definitions. Do touch the real mathematical point so the learner understands the gist.
-
-Candidate episodes:
-
-1. Derivatives: How AI Learns From Mistakes
-   - Slope, tangent, error curve, small update step.
-   - Current flagship prototype.
-
-2. Matrices: How Images Become Numbers
-   - A photo is a grid of pixels.
-   - Each pixel has numbers.
-   - AI does calculations on those grids.
-   - Visual story: selfie/photo -> pixel grid -> number table -> AI detection.
-
-3. Vectors: How AI Compares Meaning
-   - Words, images, and users can be represented as points/directions.
-   - Similar meanings come closer together.
-   - Visual story: "king", "queen", "doctor", "hospital", "medicine" as points on a map.
-
-4. Probability: How AI Handles Uncertainty
-   - AI often gives the most likely answer, not a guaranteed truth.
-   - Visual story: image classifier choosing between cat/dog/fox probabilities.
-
-5. Functions: How Inputs Become Outputs
-   - AI is built from many input-output transformations.
-   - Visual story: marks, attendance, and practice -> prediction; image pixels -> label.
-
-6. Optimization: How AI Improves Step By Step
-   - Find the best setting by reducing loss/error.
-   - Visual story: walking down a valley to the lowest point.
-
-7. Statistics: How AI Learns Patterns From Many Examples
-   - One example is not enough; patterns come from many cases.
-   - Visual story: many student scores, many photos, many shopping choices.
-
-8. Graphs: How Networks Connect People, Roads, Pages, And Ideas
-   - Nodes and connections.
-   - Visual story: friends, cities, websites, recommendation systems.
+| Idea | One-Line Hook | Dedicated Doc |
+|---|---|---|
+| Derivatives | AI learns from mistakes using slope and small updates. | [Open](backlog/ideas/derivatives-ai-learns-from-mistakes.md) |
+| Matrices | Images become grids of numbers. | [Open](backlog/ideas/matrices-images-become-numbers.md) |
+| Vectors | AI compares meaning using direction and distance. | [Open](backlog/ideas/vectors-ai-compares-meaning.md) |
+| Probability | AI often chooses the most likely answer, not a guaranteed truth. | [Open](backlog/ideas/probability-ai-handles-uncertainty.md) |
+| Functions | AI is built from many input-output transformations. | [Open](backlog/ideas/functions-inputs-become-outputs.md) |
+| Optimization | AI improves by reducing error step by step. | [Open](backlog/ideas/optimization-ai-improves-step-by-step.md) |
+| Statistics | AI learns patterns from many examples. | [Open](backlog/ideas/statistics-ai-learns-patterns.md) |
+| Graphs | Networks connect people, roads, pages, and ideas. | [Open](backlog/ideas/graphs-networks-connect-ideas.md) |
 
 ## Career Guidance Series
 
-Goal:
+Goal: Help students and parents understand career options after 10th/12th, especially non-obvious paths that are not limited to doctor/engineer.
 
-Help students and parents understand career options after 10th/12th, especially non-obvious paths that are not limited to doctor/engineer.
-
-### After 12th Science: What Are The Real Options?
-
-Core hook:
-
-A student finishes 12th Science and feels there are only two respectable paths: engineering or medical. Show a wider map.
-
-Possible visual story:
-
-1. Student sees only two doors: Doctor and Engineer.
-2. Camera zooms out: many more doors appear.
-3. Split by interest: biology, computers, design, research, business, communication, environment.
-4. Each path shows one real-life work scene.
-5. End with: choose by work you want to do, not only degree name.
-
-Candidate branches:
-
-- Engineering
-- Medical and allied health
-- Pure sciences
-- Biotechnology
-- Bioinformatics
-- Food Technology
-- Data Science
-- Design
-- Psychology
-- Pharmacy
-- Agriculture and environmental science
-- Forensics
-- Research and academia
-
-### Biology But Not Doctor: What Else Can I Do?
-
-Core hook:
-
-Many Biology students think failure to get MBBS means failure in life. Show meaningful alternatives.
-
-Episode ideas:
-
-1. Bioinformatics: When Biology Meets Computers
-   - Use case: compare DNA sequences, study disease patterns, analyze lab data.
-   - Visual story: biology student + laptop + DNA data -> insights.
-
-2. Biotechnology: Using Living Systems To Build Useful Things
-   - Use case: vaccines, enzymes, agriculture, fermentation, diagnostics.
-   - Visual story: lab work -> product/process -> real-world impact.
-
-3. Food Technology: Science Behind Safe And Better Food
-   - Use case: packaged food safety, nutrition, shelf life, quality testing.
-   - Visual story: milk/snacks/grains -> lab testing -> safer product.
-
-4. Pharmacy And Clinical Research
-   - Use case: medicines, trials, safety, regulation.
-
-5. Genetics And Genomics
-   - Use case: inherited diseases, ancestry, personalized medicine.
-
-6. Public Health
-   - Use case: disease prevention, vaccination programs, health data.
-
-### Biotechnology vs Bioinformatics vs Food Technology
-
-Core hook:
-
-Use one practical case and show how different fields look at it differently.
-
-Example case:
-
-A new nutritious millet-based snack or a disease-resistant crop.
-
-How each field sees it:
-
-- Biotechnology: Can we create or improve the biological process?
-- Bioinformatics: Can we analyze biological data and identify patterns?
-- Food Technology: Can we make it safe, tasty, scalable, and shelf-stable?
-
-Possible visual story:
-
-1. One real-world problem appears.
-2. Three students stand at three doors: Biotech, Bioinformatics, Food Tech.
-3. Same problem, three different toolkits.
-4. Show the workbench for each field.
-5. End with: different careers solve different parts of the same world problem.
+| Idea | One-Line Hook | Dedicated Doc |
+|---|---|---|
+| After 12th Science | There are more doors than doctor and engineer. | [Open](backlog/ideas/after-12th-science-options.md) |
+| Biology But Not Doctor | MBBS is not the only meaningful biology path. | [Open](backlog/ideas/biology-but-not-doctor.md) |
+| Bioinformatics | Biology meets computers and data. | [Open](backlog/ideas/bioinformatics-biology-meets-computers.md) |
+| Biotechnology | Living systems can solve real problems. | [Open](backlog/ideas/biotechnology-living-systems.md) |
+| Food Technology | Science makes food safer, better, and scalable. | [Open](backlog/ideas/food-technology-safe-better-food.md) |
+| Biotechnology vs Bioinformatics vs Food Technology | Same problem, three different toolkits. | [Open](backlog/ideas/biotechnology-vs-bioinformatics-vs-food-technology.md) |
 
 ## AI-Era Career Series
 
-Goal:
+Goal: Explain new and non-traditional career paths opened by generative AI, creator economy, gig economy, automation, and digital tools.
 
-Explain new and non-traditional career paths opened by generative AI, creator economy, gig economy, automation, and digital tools.
+| Idea | One-Line Hook | Dedicated Doc |
+|---|---|---|
+| AI-Era Careers Overview | Careers now include tools, content, services, and AI-assisted workflows. | [Open](backlog/ideas/ai-era-careers-overview.md) |
+| Creator Economy | Turn knowledge into useful content. | [Open](backlog/ideas/creator-economy-knowledge-content.md) |
+| AI-Assisted Freelancer | AI speeds up work, but skill decides quality. | [Open](backlog/ideas/ai-assisted-freelancer.md) |
+| No-Code Builder | Build useful tools without becoming a full software engineer. | [Open](backlog/ideas/no-code-builder.md) |
+| Prompt-Based Content Designer | Use prompts to create story cards, visuals, ads, and explainers. | [Open](backlog/ideas/prompt-based-content-designer.md) |
+| AI Automation Consultant | Help small businesses automate repeatable work. | [Open](backlog/ideas/ai-automation-consultant-small-business.md) |
+| Data Storyteller | Turn spreadsheets and reports into decisions. | [Open](backlog/ideas/data-storyteller.md) |
+| Local-Language AI Educator | Explain AI in Marathi, Hindi, and local contexts. | [Open](backlog/ideas/local-language-ai-educator.md) |
+| Personal Knowledge Manager | Help people organize notes, documents, and learning workflows. | [Open](backlog/ideas/personal-knowledge-manager.md) |
+| Gig Economy With AI | AI lowers entry barriers, but judgment still matters. | [Open](backlog/ideas/gig-economy-with-ai.md) |
 
-### Careers That Did Not Exist Like This Before
+## Format Experiments
 
-Core hook:
-
-Earlier, career meant degree -> job. Now people can build income through skills, tools, content, services, and AI-assisted workflows.
-
-Candidate episodes:
-
-1. Creator Economy: Turning Knowledge Into Content
-   - Teachers, designers, coaches, students, and professionals can publish educational or useful content.
-   - Visual story: idea -> script -> visual -> post -> audience -> income paths.
-
-2. AI-Assisted Freelancer
-   - Use AI for research, drafts, design options, coding help, translation, proposals.
-   - Show difference between lazy copy-paste and skilled delivery.
-
-3. No-Code Builder
-   - Build simple websites, forms, automations, dashboards, internal tools.
-
-4. Prompt-Based Content Designer
-   - Create story cards, product visuals, ad concepts, explainer images, video prompts.
-
-5. AI Automation Consultant For Small Businesses
-   - WhatsApp replies, lead tracking, invoice summaries, customer FAQs, reports.
-
-6. Data Storyteller
-   - Turn spreadsheets, surveys, and reports into clear explanations and visuals.
-
-7. Local-Language AI Educator
-   - Explain technology in Marathi/Hindi/regional languages for students, parents, and small businesses.
-
-8. Personal Knowledge Manager
-   - Help people organize notes, documents, research, and learning workflows using AI.
-
-### Gig Economy With AI: Opportunity And Risk
-
-Core hook:
-
-AI can help people earn with skills faster, but it also increases competition. The edge is judgment, taste, reliability, and domain understanding.
-
-Possible visual story:
-
-1. Student sees many online gigs.
-2. AI helps create first draft quickly.
-3. Many others can also create first drafts.
-4. The human adds domain knowledge, quality, communication, and trust.
-5. Final idea: AI reduces entry barrier, but skill still matters.
-
-## Format Experiments To Try
-
-1. 9:16 visual story with native generated text.
-2. Marathi 9:16 version with natural spoken Marathi.
-3. Image-only visual comic.
-4. Video storyboard.
-5. Animated short using still-card animation plus selected image-to-video clips.
-6. Interactive mini-simulation, especially for applied math topics.
-7. Printable classroom handout.
+| Experiment | Dedicated Doc |
+|---|---|
+| Mobile visual story format | [Renderer Guide](RENDERER_GUIDE.md) |
+| Marathi localization | [Marathi Guide](LOCALIZATION_GUIDE_MARATHI.md) |
+| Video generation pipeline | [Video Pipeline Research](research/notes/api-first-video-generation-pipeline-research.md) |
 
 ## Priority Suggestions
 

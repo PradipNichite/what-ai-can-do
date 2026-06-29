@@ -21,6 +21,7 @@ The first version is written for high school students, college students, teacher
 ## Repository Structure
 
 - `modules/`: source lessons grouped by topic.
+- `backlog/`: dedicated idea briefs before they become full modules.
 - `assets/`: diagrams, image prompts, images, slides, and video assets.
 - `research/`: source notes, examples, and references.
 - `outputs/`: future website, slide, PDF, and video-script exports.

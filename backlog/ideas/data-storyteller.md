@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
+
 ## Core Hook
 
 Many people have spreadsheets and reports, but they do not know what the data is saying. A data storyteller turns numbers into decisions.

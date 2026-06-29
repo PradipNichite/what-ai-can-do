@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
+
 ## Core Hook
 
 You can build useful websites, forms, dashboards, and automations without becoming a full software engineer.

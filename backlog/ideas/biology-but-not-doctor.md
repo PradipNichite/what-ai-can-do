@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Career Discovery After 12th](../topics/career-discovery-after-12th.md)
+
 ## Core Hook
 
 Many Biology students think not getting MBBS means failure. Show meaningful alternatives where biology is still useful.

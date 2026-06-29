@@ -21,12 +21,13 @@ The first version is written for high school students, college students, teacher
 ## Repository Structure
 
 - `modules/`: source lessons grouped by topic.
-- `backlog/`: dedicated idea briefs before they become full modules.
+- `backlog/topics/`: high-level topic tracks and series maps.
+- `backlog/ideas/`: granular episode briefs before they become full modules.
 - `assets/`: diagrams, image prompts, images, slides, and video assets.
 - `research/`: source notes, examples, and references.
 - `outputs/`: future website, slide, PDF, and video-script exports.
 - `PROJECT_STATUS.md`: current project snapshot, decisions, asset inventory, and next steps.
-- `EPISODE_IDEAS.md`: backlog of topic and episode ideas for future modules.
+- `EPISODE_IDEAS.md`: index of high-level topic tracks and granular episode ideas.
 - `RENDERER_GUIDE.md`: how one module becomes multiple native formats.
 - `LOCALIZATION_GUIDE_MARATHI.md`: natural Marathi localization rules.
 - `VISUAL_JOURNEY_TEMPLATE.md`: preferred format for modules that should feel like guided discovery instead of articles.

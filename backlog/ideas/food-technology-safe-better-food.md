@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Career Discovery After 12th](../topics/career-discovery-after-12th.md)
+
 ## Core Hook
 
 Food Technology uses science to make food safe, nutritious, tasty, scalable, and shelf-stable.

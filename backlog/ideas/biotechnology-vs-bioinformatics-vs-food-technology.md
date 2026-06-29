@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Career Discovery After 12th](../topics/career-discovery-after-12th.md)
+
 ## Core Hook
 
 Take one real-world problem and show how three fields solve different parts of it.

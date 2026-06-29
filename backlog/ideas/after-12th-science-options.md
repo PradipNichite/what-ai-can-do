@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Career Discovery After 12th](../topics/career-discovery-after-12th.md)
+
 ## Core Hook
 
 A student finishes 12th Science and feels there are only two respectable paths: doctor or engineer. Then the camera zooms out and many more doors appear.

@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Applied Mathematics In AI](../topics/applied-mathematics-ai.md)
+
 ## Core Hook
 
 Many real systems are networks: friends, roads, websites, recommendations, and knowledge.

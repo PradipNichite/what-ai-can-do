@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
+
 ## Core Hook
 
 AI can speed up freelance work, but it does not replace skill, taste, reliability, and client understanding.

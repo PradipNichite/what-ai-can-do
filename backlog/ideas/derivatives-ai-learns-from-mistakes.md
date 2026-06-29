@@ -2,6 +2,8 @@
 
 Status: Prototype created.
 
+Parent topic: [Applied Mathematics In AI](../topics/applied-mathematics-ai.md)
+
 ## Core Hook
 
 Students learn derivatives in 11th/12th standard, but often do not see why they matter. Show how slope, error, and small updates help AI improve.

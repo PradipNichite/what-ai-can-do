@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
+
 ## Core Hook
 
 AI can help people earn with skills faster, but it also increases competition. The edge is judgment, taste, reliability, and domain understanding.

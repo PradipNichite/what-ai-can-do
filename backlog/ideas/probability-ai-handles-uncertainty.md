@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Applied Mathematics In AI](../topics/applied-mathematics-ai.md)
+
 ## Core Hook
 
 AI often gives the most likely answer, not a guaranteed truth.

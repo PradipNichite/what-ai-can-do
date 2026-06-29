@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Applied Mathematics In AI](../topics/applied-mathematics-ai.md)
+
 ## Core Hook
 
 A photo looks visual to us, but to a computer it can become a grid of numbers.

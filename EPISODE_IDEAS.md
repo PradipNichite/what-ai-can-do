@@ -1,14 +1,31 @@
-# Episode Ideas Backlog Index
+# Topic And Episode Backlog Index
 
 Last updated: 2026-06-29
 
-This is the index for future topic and episode ideas. Each idea has its own brief under `backlog/ideas/` so it can grow into a full module, visual story, video storyboard, Marathi version, or interactive asset later.
+This is the index for future topic and episode ideas.
+
+The backlog has two useful levels:
+
+- High-level topic tracks under `backlog/topics/`
+- Granular episode briefs under `backlog/ideas/`
+
+Both levels matter. A high-level topic gives the learner a larger mental map. A granular episode goes deep enough to become a visual story, video storyboard, Marathi version, or interactive asset.
 
 ## How To Use This Backlog
 
-Use the index for scanning. Use the dedicated idea docs for development.
+Use this index for scanning. Use topic docs for planning a series. Use episode docs for developing a specific module.
 
-Each idea brief should capture:
+Each topic track should capture:
+
+- Core promise
+- Audience
+- Why the topic matters
+- Granular episode map
+- Best formats
+- Marathi/localization notes
+- Next step
+
+Each episode brief should capture:
 
 - Core hook
 - Target learner
@@ -18,6 +35,15 @@ Each idea brief should capture:
 - Marathi/localization notes
 - Status and next step
 
+## High-Level Topic Tracks
+
+| Topic Track | Core Promise | Dedicated Doc |
+|---|---|---|
+| Student AI Learning | How students can use AI to study better without copying blindly. | [Open](backlog/topics/student-ai-learning.md) |
+| Applied Mathematics In AI | Make school math feel useful by showing how it appears in AI and real systems. | [Open](backlog/topics/applied-mathematics-ai.md) |
+| Career Discovery After 12th | Help students and parents see options beyond doctor/engineer. | [Open](backlog/topics/career-discovery-after-12th.md) |
+| AI-Era Careers And Work | Explain new careers shaped by generative AI, creator economy, gig work, and automation. | [Open](backlog/topics/ai-era-careers-and-work.md) |
+
 ## Current Prototype Threads
 
 | Idea | Status | Dedicated Doc |
@@ -25,7 +51,22 @@ Each idea brief should capture:
 | How Students Can Use AI To Study Better | Prototype created | [Open](backlog/ideas/how-students-use-ai-study-better.md) |
 | Derivatives: How AI Learns From Mistakes | Prototype created | [Open](backlog/ideas/derivatives-ai-learns-from-mistakes.md) |
 
-## Applied Mathematics In AI Series
+## Student AI Learning Episodes
+
+Parent topic: [Student AI Learning](backlog/topics/student-ai-learning.md)
+
+| Idea | One-Line Hook | Dedicated Doc |
+|---|---|---|
+| How Students Can Use AI To Study Better | AI can help a student understand, practice, and verify without simply copying. | [Open](backlog/ideas/how-students-use-ai-study-better.md) |
+| How To Ask AI Better Study Questions | Better questions produce better learning. | To create |
+| Use AI With Textbook Photos | A textbook page can become a guided explanation. | To create |
+| Turn A Hard Paragraph Into Simple Marathi-English | AI can bridge textbook language and student language. | To create |
+| AI As A Practice Partner | AI can quiz you without giving away the answer immediately. | To create |
+| How Not To Become Dependent On AI | AI should improve learning habits, not replace thinking. | To create |
+
+## Applied Mathematics In AI Episodes
+
+Parent topic: [Applied Mathematics In AI](backlog/topics/applied-mathematics-ai.md)
 
 Goal: Make students feel that school mathematics is not a waste of time by showing where those ideas appear in AI, engineering, data science, and real-world systems.
 
@@ -40,7 +81,9 @@ Goal: Make students feel that school mathematics is not a waste of time by showi
 | Statistics | AI learns patterns from many examples. | [Open](backlog/ideas/statistics-ai-learns-patterns.md) |
 | Graphs | Networks connect people, roads, pages, and ideas. | [Open](backlog/ideas/graphs-networks-connect-ideas.md) |
 
-## Career Guidance Series
+## Career Discovery Episodes
+
+Parent topic: [Career Discovery After 12th](backlog/topics/career-discovery-after-12th.md)
 
 Goal: Help students and parents understand career options after 10th/12th, especially non-obvious paths that are not limited to doctor/engineer.
 
@@ -53,7 +96,9 @@ Goal: Help students and parents understand career options after 10th/12th, espec
 | Food Technology | Science makes food safer, better, and scalable. | [Open](backlog/ideas/food-technology-safe-better-food.md) |
 | Biotechnology vs Bioinformatics vs Food Technology | Same problem, three different toolkits. | [Open](backlog/ideas/biotechnology-vs-bioinformatics-vs-food-technology.md) |
 
-## AI-Era Career Series
+## AI-Era Careers And Work Episodes
+
+Parent topic: [AI-Era Careers And Work](backlog/topics/ai-era-careers-and-work.md)
 
 Goal: Explain new and non-traditional career paths opened by generative AI, creator economy, gig economy, automation, and digital tools.
 

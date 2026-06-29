@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
+
 ## Core Hook
 
 Earlier, career often meant degree -> job. Now people can build income through skills, tools, content, services, and AI-assisted workflows.

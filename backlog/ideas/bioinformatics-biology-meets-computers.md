@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Career Discovery After 12th](../topics/career-discovery-after-12th.md)
+
 ## Core Hook
 
 Biology now creates huge data: DNA sequences, protein data, disease records, and lab results. Bioinformatics uses computers to find patterns in that data.

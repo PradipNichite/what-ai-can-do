@@ -31,6 +31,7 @@ The strongest direction so far is mobile-first visual storytelling with generate
 - Familiar technical words should remain in English when Marathi speakers naturally use them: AI, Agent, Order, Mobile Number, System, Tool, Prompt, Dashboard, API, Database, etc.
 - Educational examples should be student-first and curiosity-building, not random business automation examples.
 - Applied mathematics can become its own series, especially concepts students learn in 11th/12th standard and later see in AI, engineering, or data science.
+- The backlog should keep both levels of planning: high-level topic tracks and granular episode briefs. A topic track gives the learner a larger map; an episode brief becomes an actual visual story or module.
 
 ## Completed / Preserved Work
 
@@ -181,6 +182,8 @@ Good next applied-math topics:
 For the broader topic backlog, see:
 
 - `EPISODE_IDEAS.md`
+- `backlog/topics/`
+- `backlog/ideas/`
 
 ## Git Snapshot
 

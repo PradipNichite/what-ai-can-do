@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
+
 ## Core Hook
 
 Teachers, students, professionals, and small experts can turn useful knowledge into posts, videos, courses, newsletters, or communities.

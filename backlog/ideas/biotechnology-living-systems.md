@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Career Discovery After 12th](../topics/career-discovery-after-12th.md)
+
 ## Core Hook
 
 Biotechnology uses living systems, cells, microbes, enzymes, or biological processes to solve real problems.

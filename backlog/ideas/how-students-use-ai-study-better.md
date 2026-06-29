@@ -2,6 +2,8 @@
 
 Status: Prototype created.
 
+Parent topic: [Student AI Learning](../topics/student-ai-learning.md)
+
 ## Core Hook
 
 An 8th standard student is stuck on a textbook page. Instead of copying answers, the student uses AI to understand, simplify, practice, and verify.

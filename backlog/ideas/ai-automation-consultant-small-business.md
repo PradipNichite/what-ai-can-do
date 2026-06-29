@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
+
 ## Core Hook
 
 Small businesses repeat many tasks: replies, invoices, summaries, reports, follow-ups. AI can help automate parts of that workflow.

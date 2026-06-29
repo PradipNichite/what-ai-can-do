@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Applied Mathematics In AI](../topics/applied-mathematics-ai.md)
+
 ## Core Hook
 
 A function takes an input, applies a rule, and gives an output. AI is built from many such transformations.

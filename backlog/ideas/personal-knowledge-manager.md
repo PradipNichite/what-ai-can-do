@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [AI-Era Careers And Work](../topics/ai-era-careers-and-work.md)
+
 ## Core Hook
 
 People have notes, PDFs, screenshots, bookmarks, and documents everywhere. AI can help organize and retrieve what matters.

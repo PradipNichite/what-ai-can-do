@@ -2,6 +2,8 @@
 
 Status: Backlog idea.
 
+Parent topic: [Applied Mathematics In AI](../topics/applied-mathematics-ai.md)
+
 ## Core Hook
 
 AI can compare meanings by placing words, images, or users as points/directions in a number space.

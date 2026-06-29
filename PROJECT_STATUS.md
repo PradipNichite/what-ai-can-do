@@ -32,6 +32,7 @@ The strongest direction so far is mobile-first visual storytelling with generate
 - Educational examples should be student-first and curiosity-building, not random business automation examples.
 - Applied mathematics can become its own series, especially concepts students learn in 11th/12th standard and later see in AI, engineering, or data science.
 - The backlog should keep both levels of planning: high-level topic tracks and granular episode briefs. A topic track gives the learner a larger map; an episode brief becomes an actual visual story or module.
+- High-level topic tracks should not be empty buckets. Each umbrella topic should also include a possible scene flow so it can become a standalone post, carousel, video, or visual story.
 
 ## Completed / Preserved Work
 
@@ -178,6 +179,14 @@ Good next applied-math topics:
 - Vectors: how AI compares meaning and similarity.
 - Functions: how inputs become outputs.
 - Optimization: how AI improves step by step.
+
+Good next umbrella topics:
+
+- Student AI Learning: how students can use AI to study better.
+- Applied Mathematics In AI: the math you study is hiding inside AI.
+- Career Discovery After 12th: more doors than doctor/engineer.
+- AI-Era Careers And Work: careers are changing shape.
+- Careers That Did Not Look Serious 10 Years Ago: some serious careers first looked like hobbies.
 
 For the broader topic backlog, see:
 

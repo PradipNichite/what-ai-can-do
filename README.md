@@ -27,6 +27,7 @@ The first version is written for high school students, college students, teacher
 - `research/`: source notes, examples, and references.
 - `outputs/`: future website, slide, PDF, and video-script exports.
 - `PROJECT_STATUS.md`: current project snapshot, decisions, asset inventory, and next steps.
+- `BACKLOG_STRUCTURE.md`: how umbrella topics and granular episode briefs should be organized.
 - `EPISODE_IDEAS.md`: index of high-level topic tracks and granular episode ideas.
 - `RENDERER_GUIDE.md`: how one module becomes multiple native formats.
 - `LOCALIZATION_GUIDE_MARATHI.md`: natural Marathi localization rules.

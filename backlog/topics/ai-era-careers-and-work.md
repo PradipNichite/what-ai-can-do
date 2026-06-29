@@ -14,11 +14,35 @@ High-school students, college students, early professionals, freelancers, parent
 
 Many new opportunities do not look like traditional careers. Students need examples that show the work, skills, tools, and judgment involved, instead of only hearing vague advice like "learn AI."
 
+## Umbrella Post Treatment
+
+This high-level topic can become a complete post called something like `Careers Are Changing Shape`.
+
+### 9:16 Scene Flow
+
+1. Old career map: degree, job, office, fixed role.
+2. New career map appears: creator, freelancer, AI-assisted worker, no-code builder, automation consultant, local-language educator.
+3. Show a student creating one useful explainer with AI, then improving it with their own judgment.
+4. Show a freelancer using AI for speed, but using skill for quality.
+5. Show a small business owner getting help with reports, replies, and dashboards.
+6. Show the missing serious layer: trust, taste, consistency, domain understanding, communication.
+7. Show warning: tool knowledge alone is not enough.
+8. End with: AI does not remove careers; it changes what one person can do.
+
+### What The Umbrella Post Should Teach
+
+New careers are not only job titles. They are combinations of skill, tools, audience, trust, and useful output.
+
+### Where Granular Episodes Go Deeper
+
+The umbrella post gives the broad mental map. Child episodes go deeper into creator economy, freelancing, no-code building, prompt-based content design, automation consulting, and local-language education.
+
 ## Granular Episode Ideas
 
 | Episode | Role In The Track | Dedicated Doc |
 |---|---|---|
 | AI-Era Careers Overview | Broad map of new work | [Open](../ideas/ai-era-careers-overview.md) |
+| Careers That Did Not Look Serious 10 Years Ago | Mindset shift about emerging careers | [Open](../ideas/careers-that-did-not-look-serious-10-years-ago.md) |
 | Creator Economy: Turn Knowledge Into Content | Content as career and service | [Open](../ideas/creator-economy-knowledge-content.md) |
 | AI-Assisted Freelancer | AI speeds up work, skill controls quality | [Open](../ideas/ai-assisted-freelancer.md) |
 | No-Code Builder | Build useful tools without full software engineering | [Open](../ideas/no-code-builder.md) |

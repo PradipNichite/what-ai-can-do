@@ -18,6 +18,29 @@ Many students learn derivatives, matrices, probability, vectors, functions, stat
 
 Do not stop at analogy. Each episode should include at least one frame that touches the actual mathematical idea in a simple way, such as slope, rate of change, grid of numbers, vector distance, probability score, or error reduction.
 
+## Umbrella Post Treatment
+
+This topic can become a complete visual post called something like `The Math You Study Is Hiding Inside AI`.
+
+### 9:16 Scene Flow
+
+1. Student looks at a math textbook and thinks: "Where will I ever use this?"
+2. Phone screen shows AI recognizing an image, recommending a video, translating text, and answering questions.
+3. The image breaks into a matrix grid.
+4. Words become vectors placed near related meanings.
+5. A wrong prediction creates an error curve.
+6. A derivative arrow shows which way to reduce that error.
+7. Probability bars show AI choosing the most likely next answer.
+8. Final frame shows the same textbook again, now connected to real systems.
+
+### What The Umbrella Post Should Teach
+
+Math is not only for exams. In AI, math becomes a way to represent images, compare meanings, measure mistakes, and improve step by step.
+
+### Where Granular Episodes Go Deeper
+
+The umbrella post creates curiosity. Each child episode should then pick one concept and show a small mathematical glimpse, not just an analogy.
+
 ## Granular Episode Ideas
 
 | Episode | Mathematical Glimpse | Dedicated Doc |

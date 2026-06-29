@@ -11,9 +11,13 @@ The backlog has two useful levels:
 
 Both levels matter. A high-level topic gives the learner a larger mental map. A granular episode goes deep enough to become a visual story, video storyboard, Marathi version, or interactive asset.
 
+Important: a high-level topic is not only a category. It can also become its own post, carousel, video, or visual story. For example, `How Students Can Use AI To Study Better` can be an umbrella post, and `How To Ask AI Better Study Questions` can be a granular deep-dive episode.
+
 ## How To Use This Backlog
 
 Use this index for scanning. Use topic docs for planning a series. Use episode docs for developing a specific module.
+
+See [Backlog Structure](BACKLOG_STRUCTURE.md) for how to decide whether an idea should be an umbrella topic, a granular episode, or both.
 
 Each topic track should capture:
 
@@ -105,6 +109,7 @@ Goal: Explain new and non-traditional career paths opened by generative AI, crea
 | Idea | One-Line Hook | Dedicated Doc |
 |---|---|---|
 | AI-Era Careers Overview | Careers now include tools, content, services, and AI-assisted workflows. | [Open](backlog/ideas/ai-era-careers-overview.md) |
+| Careers That Did Not Look Serious 10 Years Ago | Some serious careers first looked like hobbies or side activities. | [Open](backlog/ideas/careers-that-did-not-look-serious-10-years-ago.md) |
 | Creator Economy | Turn knowledge into useful content. | [Open](backlog/ideas/creator-economy-knowledge-content.md) |
 | AI-Assisted Freelancer | AI speeds up work, but skill decides quality. | [Open](backlog/ideas/ai-assisted-freelancer.md) |
 | No-Code Builder | Build useful tools without becoming a full software engineer. | [Open](backlog/ideas/no-code-builder.md) |

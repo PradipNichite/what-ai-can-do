@@ -14,6 +14,29 @@ Help students and parents see career options beyond the two default answers: doc
 
 Career choices often feel binary and high-pressure. Many good fields remain invisible because students do not see what the work actually looks like. This track should explain careers through real-life use cases, not just lists of degree names.
 
+## Umbrella Post Treatment
+
+This high-level topic can become a complete career-map post for students and parents.
+
+### 9:16 Scene Flow
+
+1. Student after 12th Science sees only two doors: Doctor and Engineer.
+2. The camera zooms out and more doors appear.
+3. Biology path splits into medicine, biotechnology, bioinformatics, food technology, agriculture, psychology, public health, and research.
+4. Math/CS path splits into engineering, data, design, product, AI tools, finance, analytics, and no-code building.
+5. Show one real problem: "How do we make food safer?"
+6. Different fields attack the same problem differently: lab, data, factory, quality testing, policy.
+7. Parent/student conversation changes from "Which degree sounds famous?" to "What work do you want to do?"
+8. End with: career choice becomes easier when you can see the work.
+
+### What The Umbrella Post Should Teach
+
+After 12th Science, the real question is not only which degree to choose. It is which kind of problems, tools, and work environments fit the student.
+
+### Where Granular Episodes Go Deeper
+
+Child episodes can focus on one branch, such as Biology But Not Doctor, Bioinformatics, Biotechnology, Food Technology, or a comparison between related fields.
+
 ## Granular Episode Ideas
 
 | Episode | Role In The Track | Dedicated Doc |

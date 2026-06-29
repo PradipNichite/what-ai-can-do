@@ -27,6 +27,7 @@ The first version is written for high school students, college students, teacher
 - `research/`: source notes, examples, and references.
 - `outputs/`: future website, slide, PDF, and video-script exports.
 - `PROJECT_STATUS.md`: current project snapshot, decisions, asset inventory, and next steps.
+- `NEW_SESSION_START_NOTE.md`: quick resume note for starting a fresh Codex session.
 - `BACKLOG_STRUCTURE.md`: how umbrella topics and granular episode briefs should be organized.
 - `CONTENT_PIPELINE.md`: production stages for moving ideas toward publishable assets.
 - `PIPELINE_BOARD.md`: current board of topics, episodes, renderers, stages, and next actions.

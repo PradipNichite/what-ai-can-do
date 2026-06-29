@@ -178,6 +178,10 @@ Good next applied-math topics:
 - Functions: how inputs become outputs.
 - Optimization: how AI improves step by step.
 
+For the broader topic backlog, see:
+
+- `EPISODE_IDEAS.md`
+
 ## Git Snapshot
 
 Latest meaningful content commit before pause:

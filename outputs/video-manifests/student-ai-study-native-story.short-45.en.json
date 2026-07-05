@@ -1,0 +1,67 @@
+{
+  "id": "student-ai-study-native-story-short-45-en",
+  "title": "How Students Can Use AI To Study Better - 45s Short",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 45,
+  "source_story": "outputs/mobile-stories/how-students-can-use-ai-to-study-better.md",
+  "image_base_path": "assets/images/student-ai-study-native-story",
+  "voiceover": {
+    "provider": "creatomate-elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": null,
+    "stability": 0.74,
+    "text": "Here is a better way for students to use AI while studying. If you are stuck on a textbook page, do not ask, teach me this chapter. Show AI the exact page and ask: explain this simply. Next, give context. Tell it your class, the subject, what you already understood, and where you got confused. Then turn the confusion into steps. Ask for a simple explanation, one example, and one question for you to solve. Most important: do not just copy the final answer. Ask AI to quiz you, give hints, and check your answer. The best study setup is simple: AI helps, you practice, and your teacher or textbook verifies."
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "duration": 9,
+      "image": "01-stuck-show-ai-page.png",
+      "image_url": "https://tmpfiles.org/dl/waw4ySu6ohZA/01-stuck-show-ai-page.png",
+      "caption_title": "Stuck on a textbook page?",
+      "caption_body": "Show AI the page and ask clearly.",
+      "motion": "pan_left_with_zoom"
+    },
+    {
+      "id": "scene-02",
+      "duration": 9,
+      "image": "02-give-ai-context.png",
+      "image_url": "https://tmpfiles.org/dl/wKwKy4uJosdW/02-give-ai-context.png",
+      "caption_title": "Do not ask vaguely",
+      "caption_body": "Class + topic + doubt gives better help.",
+      "motion": "pan_right_with_zoom"
+    },
+    {
+      "id": "scene-03",
+      "duration": 9,
+      "image": "03-turn-confusion-into-steps.png",
+      "image_url": "https://tmpfiles.org/dl/w4wyyBuso9YA/03-turn-confusion-into-steps.png",
+      "caption_title": "Turn confusion into steps",
+      "caption_body": "Explain. Example. Question.",
+      "motion": "pan_center"
+    },
+    {
+      "id": "scene-04",
+      "duration": 9,
+      "image": "04-practice-not-copy.png",
+      "image_url": "https://tmpfiles.org/dl/wKwuyHuZoRSs/04-practice-not-copy.png",
+      "caption_title": "Do not just copy answers",
+      "caption_body": "Use AI for hints, quizzes, and feedback.",
+      "motion": "pan_left_with_zoom"
+    },
+    {
+      "id": "scene-05",
+      "duration": 9,
+      "image": "05-best-study-setup.png",
+      "image_url": "https://tmpfiles.org/dl/wFwWyyuIJdHr/05-best-study-setup.png",
+      "caption_title": "Use AI like a study coach",
+      "caption_body": "AI helps. You practice. Teacher verifies.",
+      "motion": "pan_right_with_zoom"
+    }
+  ]
+}

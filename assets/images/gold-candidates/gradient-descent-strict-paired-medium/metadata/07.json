@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 7,
+  "image_title": "Repeat To Learn",
+  "video_title": "Repeat",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_0600cf051bbb44d3006a4a3747969081a08dbcd3618ca72e3b",
+  "openai_request_id": "a710146f-7a99-4f25-96c5-42ad8aa9a485",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\07-repeat-to-learn.png",
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\07-repeat-to-learn-video.png"
+  ]
+}

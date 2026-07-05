@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-07-04T12:30:57+00:00",
+  "prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "out_dir": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai",
+  "model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "parallel": 3,
+  "cards": [
+    {
+      "number": 1,
+      "title": "Separate Items",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\01-separate-items.png"
+    },
+    {
+      "number": 2,
+      "title": "Items Become Nodes",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\02-items-become-nodes.png"
+    },
+    {
+      "number": 3,
+      "title": "Relationships Become Edges",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\03-relationships-become-edges.png"
+    },
+    {
+      "number": 4,
+      "title": "Nodes Plus Edges Form A Graph",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\04-nodes-plus-edges-form-a-graph.png"
+    },
+    {
+      "number": 5,
+      "title": "Connected Nodes Are Related",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\05-connected-nodes-are-related.png"
+    },
+    {
+      "number": 6,
+      "title": "Path Explains A Recommendation",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\06-path-explains-a-recommendation.png"
+    },
+    {
+      "number": 7,
+      "title": "Knowledge Graphs Connect Facts",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\07-knowledge-graphs-connect-facts.png"
+    },
+    {
+      "number": 8,
+      "title": "Quick Check",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\08-quick-check.png"
+    }
+  ],
+  "results": [
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 1,
+      "card_title": "Separate Items",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card\nPrimary request: Create card 1 for \"Graphs: How AI Understands Relationships\". The card should feel like one complete designed educational poster, where illustration, diagram, and text are generated together, not a separate caption pasted on top. Show an Indian high-school learner at a warm study desk looking at a tablet. The tablet shows separate video/topic cards with simple icons: AI basics, machine learning, coding tutorial, study tips, cricket, music.\nStyle/medium: realistic warm study-desk/tablet technical style.\nComposition/framing: tablet large in foreground; learner visible behind it. Integrate the lesson title as designed poster typography in the scene, the learning promise as a tablet/notebook callout, and the example task as a sticky note or mini card near the tablet.\nText (verbatim): \"Graphs: How AI understands relationships\", \"Nodes and edges help AI connect video topics.\", \"Example: recommend the next study video\".\nConstraints: no lines between cards yet; make the items clearly separate; render all text clearly and exactly; no extra text; no logos; no watermark; no generic caption panel; text must feel native to the generated educational card, not pasted over the image.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:28:39+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\01-separate-items.png",
+      "api_response_id": null,
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 2,
+      "card_title": "Items Become Nodes",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 2 showing separate video/topic cards simplified into circular nodes on the tablet.\nScene/backdrop: same warm Indian study desk and learner.\nTechnical overlay: each earlier video/topic card becomes one large circular node with a tiny icon inside; one enlarged example node is labeled \"node\".\nText (verbatim): \"Each item becomes a node.\", \"node\".\nConstraints: do not show edges yet; nodes must be large enough for mobile; keep text large and readable; no extra text.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:28:40+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\02-items-become-nodes.png",
+      "api_response_id": null,
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 3,
+      "card_title": "Relationships Become Edges",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 3 showing relationship lines added between related video/topic nodes.\nTechnical overlay: tablet shows the same nodes. Clear edges connect AI basics to machine learning, machine learning to coding tutorial, and study tips to study topic. Unrelated nodes such as cricket and music remain unconnected or dim.\nText (verbatim): \"Relationships become edges.\", \"edge\", \"related\".\nConstraints: edges must look like chosen relationships, not random decoration; avoid a tangled web; keep all labels readable; no extra text.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:28:39+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\03-relationships-become-edges.png",
+      "api_response_id": null,
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 4,
+      "card_title": "Nodes Plus Edges Form A Graph",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 4 showing a compact readable graph network on the tablet.\nTechnical overlay: about 8 to 10 large circular nodes connected by clean edges, grouped into two or three small clusters: learning/AI, study/math, entertainment. The graph is sparse and readable.\nText (verbatim): \"Nodes + edges form a graph.\", \"graph\".\nConstraints: no dense network; no tiny labels; the graph must be understandable on a phone; no extra text.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:29:31+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\04-nodes-plus-edges-form-a-graph.png",
+      "api_response_id": null,
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 5,
+      "card_title": "Connected Nodes Are Related",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 5 showing a watched AI basics node and nearby connected recommendation candidates.\nTechnical overlay: one watched AI basics node is highlighted. Two directly connected neighbor nodes, machine learning and coding tutorial, are marked as related through visible edges. Far nodes like cricket and music are dimmed and farther away.\nText (verbatim): \"Connected neighbors are related.\", \"related\".\nConstraints: visible edges must explain relatedness; do not rely only on glow; keep graph sparse and readable; no extra text.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:29:35+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\05-connected-nodes-are-related.png",
+      "api_response_id": null,
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 6,
+      "card_title": "Path Explains A Recommendation",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 6 showing a highlighted graph path from watched AI basics to a suggested coding tutorial.\nTechnical overlay: tablet shows a small graph. A clear highlighted path runs from AI basics to machine learning to coding tutorial. The final coding tutorial node is marked as the recommendation, while unrelated nodes are dim.\nText (verbatim): \"A path can explain a recommendation.\", \"path\", \"recommend\".\nConstraints: the path must be clearly sequential from start to suggestion; no random arrows; no dense network; keep text and path readable.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:29:39+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\06-path-explains-a-recommendation.png",
+      "api_response_id": null,
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 7,
+      "card_title": "Knowledge Graphs Connect Facts",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 7 showing a simple knowledge graph on the tablet.\nTechnical overlay: large entity nodes with icons for person, place, concept, video, and book. Clean edges connect the entities into a small fact network. Include one small node label and one small edge label.\nText (verbatim): \"Graphs can connect facts too.\", \"knowledge graph\", \"node\", \"edge\".\nConstraints: avoid dense concept-map text; use icons and very short labels; keep everything readable on mobile; no extra text.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:30:13+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\07-knowledge-graphs-connect-facts.png",
+      "api_response_id": null,
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 8,
+      "card_title": "Quick Check",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 8 as a quick check comparing two recommendation choices.\nTechnical overlay: tablet shows a watched AI basics node. One candidate coding tutorial card is connected by a visible highlighted path and has a check mark. A second cricket highlights card has no visible connection and is dim.\nText (verbatim): \"Quick check: which recommendation fits?\", \"Choose the one with a path.\", \"path\".\nConstraints: the connected choice must be justified by the visible path, not only by color or check mark; no dense graph; keep text large and readable.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:30:15+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\08-quick-check.png",
+      "api_response_id": null,
+      "retry_count": 0
+    }
+  ]
+}

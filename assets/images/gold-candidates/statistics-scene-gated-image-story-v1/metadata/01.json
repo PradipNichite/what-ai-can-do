@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\statistics-how-ai-learns-patterns-from-data-image-story.md",
+  "card_number": 1,
+  "card_title": "Lesson Opener",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 1 for \"Statistics: How AI Learns Patterns From Data\". Make it a self-contained opener for Indian 11th/12th standard students: title the lesson, show that school statistics helps AI training, and introduce the concrete study-hours-to-test-score example used by the rest of the story.\nScene/backdrop: warm Indian study room with wooden desk, lamp, notebook, books, small plant, and a tablet.\nSubject: recurring Indian high-school learner with dark wavy hair and teal/green shirt, looking at a tablet with curiosity.\nTechnical visual: tablet shows several small student example cards flowing into a simple data table and scatterplot preview.\nStyle/medium: realistic warm study-desk/tablet technical style, high quality mobile educational story card, native poster typography mixed with crisp tablet UI.\nComposition/framing: tablet large in foreground; learner visible behind it; title as native poster typography or notebook header; learning promise as a sticky note; concrete example on the tablet.\nText (verbatim): \"Statistics: How AI Learns Patterns From Data\", \"AI learns from many examples.\", \"Example: study hours -> test score\".\nConstraints: opener must explain the school concept to AI use; text must be native to tablet/notebook/sticky-note surfaces; keep text large and readable; no extra text; no logos; no watermark.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:32:52+00:00",
+  "output_path": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\01-lesson-opener.png",
+  "api_response_id": "resp_04352b6dcacecf07006a4a5d06ddd081a0b4d0f23eac41bb18",
+  "openai_request_id": "900c28d8-7a3d-4abe-b40f-cca16415d948",
+  "langsmith_parent_trace_id": "019f327b-47d0-7701-9b4f-11656061f015",
+  "style_references": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium-gold-v2\\image-only\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

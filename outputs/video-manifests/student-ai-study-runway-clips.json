@@ -1,0 +1,41 @@
+{
+  "id": "student-ai-study-runway-clips",
+  "title": "Student AI Study - Runway Image-to-Video Clips",
+  "language": "en-IN",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "image_base_path": "assets/images/student-ai-study-native-story",
+  "clips": [
+    {
+      "id": "scene-01-stuck",
+      "image": "01-stuck-show-ai-page.png",
+      "image_url": "https://tmpfiles.org/dl/waw4ySu6ohZA/01-stuck-show-ai-page.png",
+      "prompt": "Subtle educational animation. Student thinks, taps the textbook once, then glances at the phone. Friendly phone assistant gently reacts. Add light parallax only. Preserve the full vertical card. Keep existing text unchanged and readable. No new text."
+    },
+    {
+      "id": "scene-02-context",
+      "image": "02-give-ai-context.png",
+      "image_url": "https://tmpfiles.org/dl/wKwKy4uJosdW/02-give-ai-context.png",
+      "prompt": "Keep the full vertical card visible. Add continuous visible motion for the full 5 seconds: the student's hand lifts the phone slightly toward the textbook, the blue arrows pulse in sequence, the phone screen scan glows softly, and the AI helper nods or waves. Subtle push-in camera motion. Keep all existing text unchanged and readable. No new text."
+    },
+    {
+      "id": "scene-03-steps",
+      "image": "03-turn-confusion-into-steps.png",
+      "image_url": "https://tmpfiles.org/dl/w4wyyBuso9YA/03-turn-confusion-into-steps.png",
+      "prompt": "Locked camera. Preserve the full vertical card exactly. Do not change or blank the phone screen. Keep all existing text and UI readable and unchanged. Add small continuous motion only: student eyes blink, slight smile appears, finger moves a little, phone step cards glow one by one, arrows pulse gently. No new text. No zoom. No crop."
+    },
+    {
+      "id": "scene-04-practice",
+      "image": "04-practice-not-copy.png",
+      "image_url": "https://tmpfiles.org/dl/wKwuyHuZoRSs/04-practice-not-copy.png",
+      "prompt": "Student writes one short answer in the notebook while the phone quiz and hint cards gently animate. Small hand movement, friendly UI motion, clean study energy. Preserve the full vertical card. Keep existing text unchanged and readable. No new text."
+    },
+    {
+      "id": "scene-05-best-setup",
+      "image": "05-best-study-setup.png",
+      "image_url": "https://tmpfiles.org/dl/wFwWyyuIJdHr/05-best-study-setup.png",
+      "prompt": "Locked camera. Preserve the full vertical card exactly. Keep every word readable and unchanged. Do not alter labels or create new text. Add small continuous motion only: connecting lines glow in sequence, AI helper waves subtly, student gives a small confident smile, notebook icon pulses gently. No zoom. No crop. No text morphing."
+    }
+  ]
+}

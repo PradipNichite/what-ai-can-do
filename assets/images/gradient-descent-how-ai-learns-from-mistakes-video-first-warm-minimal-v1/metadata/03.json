@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "card_number": 3,
+  "card_title": "Loss Curve",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 3 showing a one-weight loss curve.\nScene/backdrop: close tablet on warm study desk with notebook edge, pencil, and soft lamp glow.\nSubject: same recurring Indian teenage learner; only teal/green sleeve, hand, or soft partial face needed; tablet mechanism is dominant.\nStyle/medium: warm minimalist tablet closeup, premium mobile educational illustration, clean graph, soft paper-and-lamp warmth.\nComposition/framing: tablet fills about 75 percent of the vertical frame; graph is large and centered with safe margins.\nText (verbatim): \"loss\", \"weight setting\".\nTechnical overlay: tablet shows one large clean U-shaped loss curve with a single glowing point high on the right slope. Add a simple vertical cue labeled \"loss\" and horizontal cue labeled \"weight setting\". No axis numbers.\nMotion target for later video: loss curve draws from left to right, then the high point pops into place.\nConstraints: no extra text, no formulas, no logos, no watermark, keep graph and labels large, do not make the tablet look like a generic presentation slide.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "low",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:57:25+00:00",
+  "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\03-loss-curve.png",
+  "api_response_id": "resp_03dfcf8ff261e36b006a4a8cfe6e5481a2bc5aafff3808b60f",
+  "openai_request_id": "66d24411-332c-432e-9e76-40111810eeb5",
+  "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+  "style_references": [
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+  ],
+  "retry_count": 0
+}

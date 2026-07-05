@@ -1,0 +1,85 @@
+{
+    "id":  "student-ai-study-video-first-story-edit-stable-en",
+    "title":  "How Students Can Use AI To Study Better - Continuous Story Edit",
+    "language":  "en-IN",
+    "format":  "vertical-video",
+    "width":  720,
+    "height":  1280,
+    "fps":  30,
+    "output_format":  "mp4",
+    "target_duration_seconds":  22,
+    "voiceover":  {
+                      "provider":  "elevenlabs",
+                      "model_id":  "eleven_multilingual_v2",
+                      "voice_id":  "ADd2WEtjmwokqUr0Y5Ad",
+                      "voice_name":  "Zara - Soft and Serene Indian Voice",
+                      "local_output_path":  "outputs/video-assets/student-ai-study-video-first-story-edit-en.voiceover.mp3",
+                      "text":  "She is stuck on one textbook page. Instead of asking a vague question, she shows AI the page. Now AI can see the exact doubt and turn it into simple steps. She tries the answer herself, takes a hint only when needed, and then checks her work. That is how AI becomes a study coach, not a shortcut.",
+                      "public_url":  "https://tmpfiles.org/dl/wGwwyXxuLkpR/student-ai-study-video-first-story-edit-en.voiceover.mp3"
+                  },
+    "scenes":  [
+                   {
+                       "id":  "01-stuck",
+                       "duration":  3.4,
+                       "video_url":  "https://tmpfiles.org/dl/wRwNyaxPLg9M/01-stuck.mp4"
+                   },
+                   {
+                       "id":  "02-photo",
+                       "duration":  4.0,
+                       "video_url":  "https://tmpfiles.org/dl/wpwwyHx9LUOe/02-photo.mp4",
+                       "caption":  "Don\u0027t ask vaguely",
+                       "caption_start":  4.1,
+                       "caption_duration":  1.7,
+                       "sfx":  [
+                                   {
+                                       "url":  "https://tmpfiles.org/dl/wRw3y3xSJebr/page-scan.mp3",
+                                       "time":  4.2,
+                                       "duration":  0.9,
+                                       "volume":  "30%"
+                                   }
+                               ]
+                   },
+                   {
+                       "id":  "04-steps",
+                       "duration":  3.8,
+                       "video_url":  "https://tmpfiles.org/dl/wFwty4x5LSsw/04-steps.mp4"
+                   },
+                   {
+                       "id":  "05-practice",
+                       "duration":  4.3,
+                       "video_url":  "https://tmpfiles.org/dl/wOwfyZxnLm41/05-practice.mp4",
+                       "caption":  "Try first",
+                       "caption_start":  11.5,
+                       "caption_duration":  1.5,
+                       "sfx":  [
+                                   {
+                                       "url":  "https://tmpfiles.org/dl/wHwcyZxIJpja/hint-pop.mp3",
+                                       "time":  12.2,
+                                       "duration":  0.65,
+                                       "volume":  "28%"
+                                   }
+                               ]
+                   },
+                   {
+                       "id":  "06-feedback",
+                       "duration":  3.2,
+                       "video_url":  "https://tmpfiles.org/dl/wHwGyRxXLWPx/06-feedback.mp4"
+                   },
+                   {
+                       "id":  "07-verify",
+                       "duration":  3.3,
+                       "video_url":  "https://tmpfiles.org/dl/wBwjyvxILLxo/07-verify.mp4",
+                       "caption":  "Study coach, not shortcut",
+                       "caption_start":  18.7,
+                       "caption_duration":  2.2,
+                       "sfx":  [
+                                   {
+                                       "url":  "https://tmpfiles.org/dl/wEwIyWxqJo19/final-chime.mp3",
+                                       "time":  19.4,
+                                       "duration":  1.0,
+                                       "volume":  "28%"
+                                   }
+                               ]
+                   }
+               ]
+}

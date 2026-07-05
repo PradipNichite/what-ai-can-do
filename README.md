@@ -26,6 +26,9 @@ The first version is written for high school students, college students, teacher
 - `assets/`: diagrams, image prompts, images, slides, and video assets.
 - `research/`: source notes, examples, and references.
 - `outputs/`: future website, slide, PDF, and video-script exports.
+- `archive/`: dated historical handoffs, audits, and notes that should not be loaded by default.
+- `AGENT_SYSTEM_OVERVIEW.md`: local Codex agent instructions, skills, hooks, and verifier map.
+- `OPENAI_VISUAL_PRODUCTIZATION_PLAN.md`: plan for API-backed image generation and OpenAI vision QA scripts.
 - `PROJECT_STATUS.md`: current project snapshot, decisions, asset inventory, and next steps.
 - `NEW_SESSION_START_NOTE.md`: quick resume note for starting a fresh Codex session.
 - `BACKLOG_STRUCTURE.md`: how umbrella topics and granular episode briefs should be organized.
@@ -35,6 +38,7 @@ The first version is written for high school students, college students, teacher
 - `RENDERER_GUIDE.md`: how one module becomes multiple native formats.
 - `LOCALIZATION_GUIDE_MARATHI.md`: natural Marathi localization rules.
 - `VISUAL_JOURNEY_TEMPLATE.md`: preferred format for modules that should feel like guided discovery instead of articles.
+- `YOUTUBE_CHANNEL_INITIATIVE.md`: dedicated YouTube channel positioning, audience, launch playlist, voice strategy, and success rules.
 
 ## Content Standard
 

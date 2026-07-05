@@ -1,0 +1,55 @@
+{
+  "image_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "video_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-video-first-v2.md",
+  "out_dir": "assets\\images\\experiments\\probability-dual-format-paired-frames-v2-strict",
+  "frames": [
+    3,
+    5
+  ],
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "quality": "low",
+  "size": "1024x1536",
+  "style_references": [
+    "assets\\images\\experiments\\probability-single-request-medium\\01-lesson-opener.png"
+  ],
+  "langsmith_trace_id": "019f3123-3279-7e80-bf57-6b3e1ef3896e",
+  "results": [
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 3,
+      "image_title": "Scores For Options",
+      "video_title": "Score Bars",
+      "image_model": "gpt-image-2",
+      "quality": "low",
+      "size": "1024x1536",
+      "api_response_id": "resp_0af13e9b37ec0618006a4a04f25cac81998a5f035f4eb8cd8b",
+      "openai_request_id": "d5525e36-f4d3-42a3-90c5-eb8a8678d3cc",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\experiments\\probability-dual-format-paired-frames-v2-strict\\image-only\\03-scores-for-options.png",
+        "assets\\images\\experiments\\probability-dual-format-paired-frames-v2-strict\\video-first\\03-scores-for-options-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 5,
+      "image_title": "Close Scores Mean Uncertainty",
+      "video_title": "Uncertainty",
+      "image_model": "gpt-image-2",
+      "quality": "low",
+      "size": "1024x1536",
+      "api_response_id": "resp_02868742d61bab8b006a4a054034c4819a9dc6311264cd733e",
+      "openai_request_id": "bed63861-4f5a-424f-8721-9609b2d5f0fe",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\experiments\\probability-dual-format-paired-frames-v2-strict\\image-only\\05-close-scores-mean-uncertainty.png",
+        "assets\\images\\experiments\\probability-dual-format-paired-frames-v2-strict\\video-first\\05-close-scores-mean-uncertainty-video.png"
+      ]
+    }
+  ],
+  "image_contact_sheet": "assets\\images\\experiments\\probability-dual-format-paired-frames-v2-strict\\image-only-contact-sheet.jpg",
+  "video_contact_sheet": "assets\\images\\experiments\\probability-dual-format-paired-frames-v2-strict\\video-first-contact-sheet.jpg"
+}

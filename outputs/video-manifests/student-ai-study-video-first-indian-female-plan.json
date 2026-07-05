@@ -1,0 +1,57 @@
+{
+  "id": "student-ai-study-video-first-indian-female-plan",
+  "title": "Student AI Study - Video First Indian Female Edit",
+  "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+  "voice_name": "Zara - Soft and Serene Indian Voice",
+  "strategy": "Use video-specific source frames and successful Runway clips. Six compact scenes, no dense carousel cards.",
+  "scenes": [
+    {
+      "id": "01-stuck",
+      "duration": 3.6,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/66f92af0-71c4-4fb8-8fbf-551900e92850.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNGQ5YzNmZDk5NmRlNTA2YSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4MjkwMTU5M30.SkSimlNtnP5xmfu9l38SuOLnpuYYlHYjt_9hx2Su5A4",
+      "voiceover_text": "Stuck on a textbook page?",
+      "voiceover_start": 0.15,
+      "audio_duration": 3.0
+    },
+    {
+      "id": "02-photo",
+      "duration": 3.8,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/f11b34f4-1dbc-4b51-ba98-5b8291912393.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzdhZDRiY2UwNTRjN2M0ZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg5OTkxOH0.mPlaHGyJ7Frmre6U-90g8AlY4JorTcdzYAhS2jt7_TY",
+      "voiceover_text": "Show AI the exact page.",
+      "voiceover_start": 3.35,
+      "audio_duration": 3.2
+    },
+    {
+      "id": "04-steps",
+      "duration": 4.1,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/34089c05-cf55-4c34-b5a6-490543c70117.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMWZkNTUxNDY3MmEwZDM3YyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg5OTI3MH0.adp-aZZlY9Ijv24-KEetp85S6dVjJ1eEbjH_iSbEAAU",
+      "voiceover_text": "Ask for simple steps and one example.",
+      "voiceover_start": 7.0,
+      "audio_duration": 3.8
+    },
+    {
+      "id": "05-practice",
+      "duration": 4.2,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/1c8f862b-c6cc-458f-a045-53eb46e86f58.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjk5NWZlMTY1NGFhMTFjMSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg3OTc2Nn0.hgkd0kc0xALw5poeup54tsGloGhcOOmVDKH3EX20NAs",
+      "voiceover_text": "Do not copy. Use hints and practice.",
+      "voiceover_start": 10.95,
+      "audio_duration": 3.8
+    },
+    {
+      "id": "06-feedback",
+      "duration": 3.8,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/fdc5f286-84bd-49b5-920a-0067d38073b2.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNjJlZjg5ZGJhNjRiYzlkOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg5OTE2M30.O_D2OhewpF7DVI_qfJe4iNMwQDA52S57te63xwYGqMk",
+      "voiceover_text": "Then ask AI to check your answer.",
+      "voiceover_start": 15.0,
+      "audio_duration": 3.4
+    },
+    {
+      "id": "07-verify",
+      "duration": 4.0,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/866be9e5-a181-4a0c-a1e8-59fd343fb45e.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOWE3Zjg5NjA3MWY3ZDUyOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4MjgyNzEwNH0.GO8x-1h9lXToTsNY3u3Bm6d9V8KOP3OyqFc251DELtg",
+      "voiceover_text": "Best setup: AI helps, you practice, teacher verifies.",
+      "voiceover_start": 18.75,
+      "audio_duration": 4.0
+    }
+  ]
+}

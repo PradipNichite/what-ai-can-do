@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\matrices-images-become-numbers-runway-clips\\05-rgb-channels.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 13.064183870951334,
+  "max_frame_diff": 14.292742729187012,
+  "black_border_ratio_mean": 0.06637396918402777,
+  "black_border_ratio_max": 0.07163194444444444,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\matrices-images-become-numbers-runway-clips\\verification\\05-rgb-channels.contact-sheet.jpg"
+}

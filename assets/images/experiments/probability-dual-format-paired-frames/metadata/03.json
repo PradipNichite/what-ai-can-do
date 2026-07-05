@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 3,
+  "image_title": "Scores For Options",
+  "video_title": "Probability Scores",
+  "image_model": "gpt-image-2",
+  "quality": "low",
+  "size": "1024x1536",
+  "api_response_id": "resp_0f149b16f231c7a8006a492b6c1a64819ca9b5571add683709",
+  "openai_request_id": "6fd9da5a-803e-42a1-b827-71edabdd9801",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\experiments\\probability-dual-format-paired-frames\\image-only\\03-scores-for-options.png",
+    "assets\\images\\experiments\\probability-dual-format-paired-frames\\video-first\\03-scores-for-options-video.png"
+  ]
+}

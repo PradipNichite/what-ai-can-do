@@ -1,0 +1,12 @@
+{
+  "status": "needs-revision",
+  "next_action": "regenerate-set",
+  "lesson_slug": "graphs-how-ai-understands-relationships-v2",
+  "pipeline_run_id": "20260704T144034Z",
+  "langsmith_trace_id": "019f2d92-fb24-7b73-837f-11e22676dfc7",
+  "out_dir": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full",
+  "contact_sheet": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full-contact-sheet.jpg",
+  "qa_md": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full-qa.md",
+  "qa_json": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full-qa.json",
+  "qa_openai_request_id": "eddd5549-9c15-44b1-b623-d76749a0f49d"
+}

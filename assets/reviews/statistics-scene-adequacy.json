@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-07-05T13:31:56+00:00",
+  "model": "gpt-5.5",
+  "renderer": "image-story",
+  "response_id": "resp_0c5b10f88814722b006a4a5caaa1d8819fa2755d9ab759796e",
+  "openai_request_id": "55437ef8-a14a-4a18-b495-9cd394c89ad4",
+  "langsmith_trace_id": "019f3279-e383-74a0-9dce-93adaabc4abc",
+  "inputs": {
+    "topic": "Statistics: how AI learns patterns from data",
+    "source_module": "modules/visual-ai-concepts/statistics-how-ai-learns-patterns-from-data.source.md",
+    "prompt_pack": "assets/image-prompts/statistics-how-ai-learns-patterns-from-data-image-story.md",
+    "video_prompt_pack": "assets/image-prompts/statistics-how-ai-learns-patterns-from-data-video-first.md"
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "scene_count": {
+      "status": "pass",
+      "evidence": "The image-story plan uses 8 cards, within the preferred 6-8 scene range. The source mechanism is fully allocated across the sequence: many examples, numeric measurements, plotted points, pattern estimate, variation, prediction, and data-quality check.",
+      "required_fix": "None for the image-story renderer."
+    },
+    "mechanism_chain": {
+      "status": "pass",
+      "evidence": "The planned chain is visible and causal: Card 2 establishes why one example is insufficient; Card 3 converts examples into numbers; Card 4 plots those numbers as data points; Card 5 estimates a trend line through the cloud; Card 6 shows variation around the pattern; Card 7 uses the trend to predict a new example; Card 8 checks narrow versus varied data.",
+      "required_fix": "None."
+    },
+    "technical_completeness": {
+      "status": "pass",
+      "evidence": "The mini example remains concrete with exact rows 1\u219245, 2\u219252, 3\u219261, 4\u219268, 5\u219276. The required statistical bridge is explicit through table, axes, scatterplot, trend line, spread/noise, and predicted score about 72 for 4.5 hours. The lesson avoids treating statistics as only averages and includes biased/narrow data risk.",
+      "required_fix": "None, but generated images must preserve the exact numeric table and the 4.5-hours-to-about-72 prediction visibly."
+    },
+    "opener_readiness": {
+      "status": "pass",
+      "evidence": "Card 1 names the lesson, states the learning idea, connects school statistics to AI training, and introduces the concrete study-hours-to-test-score example. This satisfies the self-contained opener requirement for image-only story cards.",
+      "required_fix": "None."
+    },
+    "renderer_readiness": {
+      "status": "pass",
+      "evidence": "The image-story prompt pack explicitly requires native generated composition, integrated text through tablet/notebook/sticky-note surfaces, mobile-readable technical overlays, and a visible technical chain. The cards are designed to work without voiceover. The video-first pack is much sparser, but the declared renderer target is image-story and the image-story pack is adequate.",
+      "required_fix": "None for image-story. Do not treat the sparse video-first frames as the concept proof without the approved image-story sequence."
+    },
+    "false_completion_risk": {
+      "status": "low",
+      "evidence": "The learner is not only told that AI finds patterns; they see examples become numbers, numbers become points, a trend line estimated from points, variation around the trend, and a new input mapped to an estimated prediction. The quick check also prevents the false idea that any large dataset is automatically good.",
+      "required_fix": "None."
+    },
+    "scene_notes": [
+      {
+        "scene": 1,
+        "title": "Lesson Opener",
+        "status": "pass",
+        "learning_job": "Orient the learner to the topic, AI use, and concrete mini example.",
+        "visible_evidence": "Title, learning promise, school statistics-to-AI-training bridge, and preview of example cards flowing into a table/scatterplot.",
+        "transformation_or_comparison": "School statistics concept is connected to AI model training using study hours -> test score as the shared example.",
+        "misconception_risk": "If generated too generically, it could become a decorative AI poster rather than a lesson opener.",
+        "required_fix": "None at scene-flow level; during image QA, verify the opener is self-contained and not pasted-overlay text."
+      },
+      {
+        "scene": 2,
+        "title": "Many Examples",
+        "status": "pass",
+        "learning_job": "Show that a pattern cannot be learned reliably from one example alone.",
+        "visible_evidence": "One lonely example card contrasted with five example cards; only the many-example side forms a clear line/pattern icon.",
+        "transformation_or_comparison": "Comparison of one example versus several examples as evidence for pattern estimation.",
+        "misconception_risk": "Could imply that more data is always better if the visual does not preserve quality/variety context.",
+        "required_fix": "None, but keep the contrast focused on insufficiency of one example, not blind data quantity."
+      },
+      {
+        "scene": 3,
+        "title": "Data Table",
+        "status": "pass",
+        "learning_job": "Represent concrete examples as measurable numerical features and labels.",
+        "visible_evidence": "Readable two-column table with exact rows: hours/score, 1\u219245, 2\u219252, 3\u219261, 4\u219268, 5\u219276.",
+        "transformation_or_comparison": "Real examples become numeric measurements/features suitable for model training.",
+        "misconception_risk": "If numbers are unreadable or altered, the rest of the mechanism loses its concrete basis.",
+        "required_fix": "None, but generated image must preserve all numbers exactly and legibly."
+      },
+      {
+        "scene": 4,
+        "title": "Points On A Plot",
+        "status": "pass",
+        "learning_job": "Show that each table row can be plotted as a data point.",
+        "visible_evidence": "Table rows moving into a scatterplot with x-axis hours and y-axis score; five upward-trending dots.",
+        "transformation_or_comparison": "Each (hours, score) pair becomes one point in a coordinate-style feature space.",
+        "misconception_risk": "If dots sit on a perfect rigid line, learners may miss real-world variation.",
+        "required_fix": "None; maintain slight non-perfect alignment as specified."
+      },
+      {
+        "scene": 5,
+        "title": "Trend Line",
+        "status": "pass",
+        "learning_job": "Show that the model estimates a general pattern from the points.",
+        "visible_evidence": "Upward trend line passing through the middle of the point cloud with labels 'trend line' and 'not memorizing one point'.",
+        "transformation_or_comparison": "The scatter of examples is summarized into an estimated pattern/prediction rule.",
+        "misconception_risk": "Could look like an arbitrary decorative diagonal if it does not pass through the point cloud.",
+        "required_fix": "None; ensure the line is visibly fitted through the points, not simply drawn across the chart."
+      },
+      {
+        "scene": 6,
+        "title": "Variation Around Pattern",
+        "status": "pass",
+        "learning_job": "Show that a trend is useful but not an exact guarantee for every example.",
+        "visible_evidence": "Points near, above, and below the trend line with off-line points highlighted.",
+        "transformation_or_comparison": "Individual data points are compared against the estimated trend line to reveal spread/noise.",
+        "misconception_risk": "If too many new unexplained points appear, the learner may wonder whether the dataset changed; if all points are on the line, the lesson falsely implies certainty.",
+        "required_fix": "None, but keep the visual sparse and clearly tied to the same study-hours/score context."
+      },
+      {
+        "scene": 7,
+        "title": "Predict A New Example",
+        "status": "pass",
+        "learning_job": "Show how the learned pattern guides prediction for a new input.",
+        "visible_evidence": "Existing scatterplot and trend line, a new 4.5-hour input, projection to the line, and predicted score about 72.",
+        "transformation_or_comparison": "New input value is mapped through the estimated pattern to an approximate output value.",
+        "misconception_risk": "Could imply the model guarantees an exact score if 'about' and variation context are not visible.",
+        "required_fix": "None; keep 'about 72' and projection evidence visible."
+      },
+      {
+        "scene": 8,
+        "title": "Quick Check",
+        "status": "pass",
+        "learning_job": "Check understanding that representative varied data is safer than narrow biased data for general patterns.",
+        "visible_evidence": "Side-by-side dataset cards: A narrow cluster versus B varied examples, with B highlighted.",
+        "transformation_or_comparison": "Comparison of narrow data versus varied/representative data for learning a general pattern.",
+        "misconception_risk": "Could imply that quantity alone beats quality if B is shown only as 'more dots' rather than more varied/representative examples.",
+        "required_fix": "None; make B visibly varied across the range, not merely larger."
+      }
+    ],
+    "missing_scenes": [],
+    "recommended_scene_flow": [
+      "Self-contained opener: name statistics in AI, state that AI learns from many examples, and introduce study hours -> test score.",
+      "Contrast one example with many examples to show why a pattern needs multiple cases.",
+      "Convert the concrete examples into a numeric hours/score table.",
+      "Plot each table row as a point on hours-vs-score axes.",
+      "Estimate an upward trend line through the point cloud as the learned pattern.",
+      "Show variation/noise around the trend line so the pattern is not treated as a guarantee.",
+      "Use a new input, 4.5 hours, to read an approximate predicted score of about 72 from the trend.",
+      "Quick check: compare narrow/bias-prone data with many varied examples and identify the safer dataset for learning a general pattern."
+    ],
+    "verdict": "The image-story scene sequence is adequate for the concept. It shows the full technical bridge from school statistics to AI model training using a concrete numeric mini example. The main caveat is execution: generated cards must keep the table, plot, trend line, variation, and prediction readable and visibly connected, not merely label them.",
+    "next_action": "proceed-to-prompts"
+  }
+}

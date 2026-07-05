@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\02-direction-clue.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 0.801892360051473,
+  "max_frame_diff": 0.8208159804344177,
+  "black_border_ratio_mean": 0.019139268663194445,
+  "black_border_ratio_max": 0.01955295138888889,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\verification\\02-direction-clue.contact-sheet.jpg"
+}

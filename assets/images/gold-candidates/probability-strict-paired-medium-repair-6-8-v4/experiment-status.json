@@ -1,0 +1,55 @@
+{
+  "image_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "video_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-video-first-v2.md",
+  "out_dir": "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-6-8-v4",
+  "frames": [
+    6,
+    8
+  ],
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "quality": "medium",
+  "size": "1024x1536",
+  "style_references": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium-gold-v2\\image-only\\01-lesson-opener.png"
+  ],
+  "langsmith_trace_id": "019f316c-4378-7cb3-87a5-2b8c13d7c0f4",
+  "results": [
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 6,
+      "image_title": "Same Idea In Real AI",
+      "video_title": "Real AI Panels",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_049b6ad5fabd6a97006a4a17a1cf7c8199bac2cf97fb7c047e",
+      "openai_request_id": "d09dfbdb-a68a-403d-ab10-5b949650d78a",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-6-8-v4\\image-only\\06-same-idea-in-real-ai.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-6-8-v4\\video-first\\06-same-idea-in-real-ai-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 8,
+      "image_title": "Quick Check",
+      "video_title": "Quick Check",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0a4dd78911624460006a4a18314b00819aa43d662ea3b448fd",
+      "openai_request_id": "025dc9cd-69a0-4e39-9bf2-e2817494be6e",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-6-8-v4\\image-only\\08-quick-check.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-6-8-v4\\video-first\\08-quick-check-video.png"
+      ]
+    }
+  ],
+  "image_contact_sheet": "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-6-8-v4\\image-only-contact-sheet.jpg",
+  "video_contact_sheet": "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-6-8-v4\\video-first-contact-sheet.jpg"
+}

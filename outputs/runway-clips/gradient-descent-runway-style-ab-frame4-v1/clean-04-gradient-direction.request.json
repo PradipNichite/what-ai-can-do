@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wgw1anOfNimc/04-gradient-direction.png",
+  "promptText": "Locked camera. Preserve the full vertical frame exactly. Keep all labels readable and unchanged. The tangent line highlights first, the higher-loss gradient cue glows, then the green descent arrow gently pulses down the curve. Add only subtle pointing-hand motion and clean graph glow. No zoom. No crop. No text morphing. No new text.",
+  "ratio": "720:1280",
+  "duration": 5
+}

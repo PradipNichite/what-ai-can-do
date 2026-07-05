@@ -1,0 +1,22 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "card_number": 8,
+  "card_title": "Quick Check",
+  "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 8 of 8\nPrimary request: Create a polished final quick-check mobile story card. It should feel like the same warm native story world, with the learner choosing between two recommendation cards.\nScene/backdrop: Same learner at desk with tablet and notebook. Tablet shows watched \"AI basics\" connected by a visible path to \"coding tutorial\". Two choice cards sit below: coding tutorial with check mark, cricket highlights dimmed/unconnected.\nSubject: Tablet quick-check UI, visible path, two recommendation choices, student thinking and pointing.\nStyle/medium: warm modern educational illustration, high quality Instagram/WhatsApp story aesthetic, integrated quiz UI, not a generic quiz slide.\nComposition/framing: 9:16 portrait. Main question at top as tablet/notebook heading. Graph path in middle. Two choice cards at bottom with visual evidence.\nText to render verbatim, exactly:\n\"Quick check: which recommendation fits?\"\n\"Choose the one with a path.\"\n\"AI basics\"\n\"coding tutorial\"\n\"cricket highlights\"\n\"path\"\nConstraints: connected recommendation must be visibly justified by path; unconnected cricket choice should be dim; keep text readable; no extra text; no logos; no watermark; no generic caption panel.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:47:59+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\08-quick-check.png",
+  "api_response_id": "resp_0bee1d2179c7c22c006a491d260144819e95668679771b6e77",
+  "openai_request_id": "5826b88f-ff6a-4ff0-bee4-7f06e4267213",
+  "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

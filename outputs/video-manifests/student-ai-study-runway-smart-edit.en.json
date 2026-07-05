@@ -1,0 +1,68 @@
+{
+  "id": "student-ai-study-runway-smart-edit-en",
+  "title": "How Students Can Use AI To Study Better - Smart Planned Edit",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 24.0,
+  "source_plan": "outputs\\video-manifests\\student-ai-study-runway-smart-plan.json",
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "scenes": [
+    {
+      "id": "scene-01-stuck",
+      "duration": 4.2,
+      "video_time": 0,
+      "video_url": "https://tmpfiles.org/dl/wdwuyluczUu4/scene-01-stuck.mp4",
+      "voiceover_text": "Stuck on a textbook page? Show AI the page.",
+      "voiceover_start": 0.25,
+      "audio_duration": 3.9,
+      "voiceover_url": "https://tmpfiles.org/dl/wdwyyGz06ggT/01-scene-01-stuck.mp3"
+    },
+    {
+      "id": "scene-02-context",
+      "duration": 5.4,
+      "video_time": 4.2,
+      "video_url": "https://tmpfiles.org/dl/wgwDy0uJzdGQ/scene-02-context.mp4",
+      "voiceover_text": "Then give context: your class, topic, and exact doubt.",
+      "voiceover_start": 4.0,
+      "audio_duration": 4.7,
+      "voiceover_url": "https://tmpfiles.org/dl/wvwJyczI6ZKV/02-scene-02-context.mp3"
+    },
+    {
+      "id": "scene-03-steps",
+      "duration": 4.6,
+      "video_time": 9.6,
+      "video_url": "https://tmpfiles.org/dl/whwvyLuvzW8K/scene-03-steps.mp4",
+      "voiceover_text": "Ask for simple steps, one example, and one question.",
+      "voiceover_start": 9.15,
+      "audio_duration": 4.3,
+      "voiceover_url": "https://tmpfiles.org/dl/wJw4ySzh6RLw/03-scene-03-steps.mp3"
+    },
+    {
+      "id": "scene-04-practice",
+      "duration": 5.2,
+      "video_time": 14.2,
+      "video_url": "https://tmpfiles.org/dl/wEwey4uDi9fw/scene-04-practice.mp4",
+      "voiceover_text": "Do not copy answers. Use hints, quizzes, and feedback.",
+      "voiceover_start": 13.45,
+      "audio_duration": 4.7,
+      "voiceover_url": "https://tmpfiles.org/dl/wWwdybz56I59/04-scene-04-practice.mp3"
+    },
+    {
+      "id": "scene-05-best-setup",
+      "duration": 4.6,
+      "video_time": 19.4,
+      "video_url": "https://tmpfiles.org/dl/wUwkyvuJiXLf/scene-05-best-setup.mp4",
+      "voiceover_text": "Best setup: AI helps, you practice, teacher verifies.",
+      "voiceover_start": 18.45,
+      "audio_duration": 4.5,
+      "voiceover_url": "https://tmpfiles.org/dl/wYwYyDzm6n7h/05-scene-05-best-setup.mp3"
+    }
+  ]
+}

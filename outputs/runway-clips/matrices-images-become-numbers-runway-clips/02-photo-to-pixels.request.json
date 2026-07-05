@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/w0wqt56ILcw7/02-photo-to-pixels.png",
+  "promptText": "A circular zoom bubble expands over the phone photo, revealing clear square pixels. The pixel grid sharpens gently while the phone remains steady. Subtle parallax and clean educational motion. Keep the full vertical frame visible. No new text. No crop.",
+  "ratio": "720:1280",
+  "duration": 5
+}

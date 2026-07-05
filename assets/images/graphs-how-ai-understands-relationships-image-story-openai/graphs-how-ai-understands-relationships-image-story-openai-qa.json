@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-07-04T12:32:03+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_094552aa044c9ba5006a48fd29a19081a188370d0ab1e7178c",
+  "inputs": {
+    "image_folder": "assets/images/graphs-how-ai-understands-relationships-image-story-openai",
+    "contact_sheet": "assets/images/graphs-how-ai-understands-relationships-image-story-openai/graphs-how-ai-understands-relationships-image-story-openai-contact-sheet.jpg",
+    "prompt_pack": "assets/image-prompts/graphs-how-ai-understands-relationships-image-story.md",
+    "source_module": "modules/visual-ai-concepts/graphs-how-ai-understands-relationships.source.md",
+    "images": [
+      "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\graphs-how-ai-understands-relationships-image-story-openai-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: it visibly names the topic as \u201cGraphs: How AI understands relationships,\u201d includes the AI-use promise \u201cNodes and edges help AI connect video topics,\u201d and introduces the example task on a sticky note: \u201cExample: recommend the next study video.\u201d The tablet shows separate video/topic cards including AI basics, machine learning, coding tutorial, study tips, cricket, and music.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "partial",
+      "evidence": "Most frames present text and diagrams as designed educational cards with tablet UI, sticky notes, labels, and graph elements. Frames 1, 2, 6, 7, and 8 especially feel like complete lesson cards. However, frames 3, 4, and especially 5 use large clean poster-like headline areas and minimal scene context; frame 5 loses the warm study-desk/tablet/learner style almost entirely and looks more like a standalone infographic card.",
+      "required_fix": "For strongest consistency, regenerate or revise frame 5 to include the recurring study-desk/tablet context while keeping the sparse graph readable. Consider adding subtle tablet framing or desk elements to frames 3\u20134 if strict style consistency is required."
+    },
+    "overlay_risk": {
+      "status": "medium",
+      "evidence": "The text generally aligns with the card designs, but several large top headlines sit on blank/light backgrounds and could be perceived as layout text added over a generated scene rather than embedded in tablet/notebook/sticky UI. Frame 5 has the highest pasted-overlay risk because it is mostly a white infographic with a top headline and floating graph, without visible desk/tablet integration. Frame 1\u2019s title and sticky-note text feel more integrated; frames 6\u20138 are acceptable because the text and technical UI are part of the educational layout."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The visual sequence clearly shows the intended mechanism: frame 1 separate video/topic items; frame 2 items simplified into nodes; frame 3 edges added between related nodes while cricket/music remain separate or dim; frame 4 nodes plus edges as a graph; frame 5 connected neighbors marked related; frame 6 a highlighted path from AI basics through machine learning to coding tutorial with a recommend marker; frame 7 knowledge graph with entity nodes and edges; frame 8 quick check where the connected recommendation has a visible path and the cricket choice is unconnected/dim.",
+      "required_fix": "None"
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Main headlines are large and readable across all frames. Core labels such as node, edge, related, path, recommend, knowledge graph, and the quick-check text are mostly visible. Some supporting text and tiny node/card labels are small in the contact sheet: frame 1\u2019s notebook/sticky-note copy, frame 3\u2019s small node names and edge labels, frame 5\u2019s small related labels, and frame 8\u2019s small tablet path label may be borderline on small phones if viewed as a compressed image rather than full-size cards.",
+      "required_fix": "If final export is the same resolution as the contact sheet crops, enlarge small labels and reduce tiny secondary text. If individual cards are exported at full 9:16 resolution, this is likely acceptable with caveats."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener. Shows learner at warm desk, tablet with six separate topic/video cards, title, AI-use explanation, and recommendation example. No connecting lines yet, matching the teaching job.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Shows separate icons becoming circular nodes on the tablet. The enlarged yellow circle is labeled \u201cnode.\u201d No relationship edges are shown, aside from a dashed pointer from the label, which functions as a callout rather than a graph edge.",
+        "fix": "None"
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Shows relationships as edges: AI basics connects to machine learning and coding tutorial; study tips connects to study topic; cricket and music are left separate/dim. Labels \u201cedge\u201d and \u201crelated\u201d are visible.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Shows a compact graph/network on a tablet with clean nodes and edges in small clusters. Headline reads \u201cNodes + edges form a graph.\u201d Network is sparse and phone-readable.",
+        "fix": "None"
+      },
+      {
+        "frame": 5,
+        "status": "needs-revision",
+        "evidence": "Mechanism is clear: AI basics is highlighted and connected to machine learning and coding tutorial, with cricket/music dimmed. However, the card loses the recurring warm desk/tablet/learner style and looks like a plain white infographic. The \u201crelated\u201d labels are also quite small.",
+        "fix": "Regenerate with the graph displayed on a tablet or desk surface, preserve the sparse layout, and enlarge the two \u201crelated\u201d labels."
+      },
+      {
+        "frame": 6,
+        "status": "pass",
+        "evidence": "Clearly shows a highlighted yellow path from AI basics to machine learning to coding tutorial, with the final node marked \u201crecommend.\u201d Unrelated nodes are greyed out. Main text and path label are readable.",
+        "fix": "None"
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "Knowledge graph is visible on a tablet with large entity icons, clean edges, and labels \u201cknowledge graph,\u201d \u201cnode,\u201d and \u201cedge.\u201d It broadens graphs beyond videos as intended.",
+        "fix": "None"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Quick check is understandable: the AI basics watched node has a visible path to the checked tutorial recommendation, while cricket highlights is unconnected and dim. Main question and instruction are readable.",
+        "fix": "Optional: use the exact recurring candidate name \u201cCoding tutorial\u201d instead of \u201cPython Basics Tutorial\u201d for tighter story consistency."
+      }
+    ],
+    "verdict": "The image story is educationally coherent and mostly ready: the opener is self-contained, the node-edge-path recommendation mechanism is visible, and the sequence can be understood without voiceover. The main caveat is style/native-composition consistency, especially frame 5, which reads more like a plain infographic than the warm study-desk/tablet story style. Some small labels may need enlargement for mobile.",
+    "next_action": "accept"
+  }
+}

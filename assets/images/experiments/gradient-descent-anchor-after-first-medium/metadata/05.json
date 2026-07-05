@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 5,
+  "card_title": "One Small Update",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 5 showing one small gradient descent update on the curve.\nTechnical overlay: old point and nearby new point slightly lower on the curve, connected by a short step arrow.\nText (verbatim): \"Gradient descent takes one small step.\", \"weight -> weight - small step\", \"small step\".\nConstraints: step must be visibly small; update expression should be large and simple; no extra formulas.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:05:19+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\05-one-small-update.png",
+  "api_response_id": "resp_078324dc7305c55b006a492131bd948191a12be6911954da40",
+  "openai_request_id": "37dbe698-d161-4fdc-b168-f0ddcd3cffb7",
+  "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+  "style_references": [
+    "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

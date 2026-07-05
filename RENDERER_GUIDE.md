@@ -18,6 +18,15 @@ A module source should define:
 - Local context.
 - Sources.
 
+For reusable lesson series, keep a renderer-agnostic lesson core. The core should not contain video-only timing, image-generation wording, or platform-specific design decisions. Those belong in renderer files.
+
+When improving a lesson, update in this order:
+
+1. Lesson core or source module.
+2. Renderer adaptation notes.
+3. Image prompts, video scripts, slide copy, or interactive copy.
+4. Generated assets and QA notes.
+
 From that source, create renderers:
 
 | Renderer | Native Form | What To Avoid |
@@ -87,7 +96,7 @@ Use text as part of the visual composition:
 
 This is especially useful for social/mobile education because the viewer experiences one designed card, not an image plus a caption pasted underneath.
 
-Still run visual QA. Generated text can be excellent, but every frame must be reviewed.
+Still run visual QA with ChatGPT vision inspection of the rendered frames. Generated text can be excellent, but every frame must be visually reviewed.
 
 ## Image-Only Renderer
 
@@ -120,6 +129,6 @@ Before finalizing a renderer, ask:
 - Does each frame or section reveal only one idea?
 - Does the format work for the intended device?
 - Is the Indian context visible without feeling forced?
-- Has the rendered output passed visual QA, including text rendering in local scripts?
+- Has the rendered output passed ChatGPT vision QA, including visible text rendering in the actual image?
 
 See `VISUAL_QA_CHECKLIST.md` before marking any visual renderer complete.

@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-07-05T15:07:23+00:00",
+  "model": "gpt-5.5",
+  "mode": "video-first",
+  "response_id": "resp_02b092d4a7f84fec006a4a7308e2488192a7b8207a0444b43e",
+  "openai_request_id": "3110e221-ef72-9ad5-b346-35865f68f95c",
+  "inputs": {
+    "image_folder": "assets/images/gold-candidates/gradient-descent-runway-smoke-source-v1",
+    "contact_sheet": "assets/images/gold-candidates/gradient-descent-runway-smoke-source-v1/gradient-descent-runway-smoke-source-v1-contact-sheet.jpg",
+    "prompt_pack": "assets/image-prompts/gradient-descent-runway-smoke-video-first.md",
+    "source_module": "modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md",
+    "images": [
+      "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v1\\gradient-descent-runway-smoke-source-v1-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "needs-revision",
+    "intended_use": "video-first",
+    "opener": {
+      "status": "partial",
+      "evidence": "The contact sheet has a strong, readable repeated title banner: \u201cGradient Descent: How AI Learns From Mistakes.\u201d It visually signals the topic, but these are supposed to be source frames 4, 5, and 8, not opener/title cards. The repeated headline consumes prime vertical space and makes each frame feel like a finished poster rather than a clean video source frame for one technical action.",
+      "required_fix": "Remove the repeated large title from these mid-lesson video-first frames unless it is intentionally part of every clip. Use the tablet area for the specific mechanism step instead."
+    },
+    "native_composition": {
+      "status": "partial",
+      "evidence": "The warm Indian study desk, learner, lamp, notebook, tablet, books, and plant are coherently generated in a consistent illustrated style. Text appears mostly embedded in tablet, sticky notes, and notebook surfaces rather than as a completely separate flat overlay. However, the frames look like dense finished educational posters, not sparse video-first source frames.",
+      "required_fix": "Regenerate as cleaner video source frames: one technical action per frame, larger tablet diagram, fewer repeated poster elements, fewer extra labels, and more space for animation."
+    },
+    "overlay_risk": {
+      "status": "medium",
+      "evidence": "Most labels appear integrated into scene objects, but the large brush-stroke title banner and sticky-note slogans are graphic layers that dominate the composition. The diagram labels are not the requested labels and some small notebook graphics/text feel decorative rather than part of a precise generated technical interface."
+    },
+    "mechanism_visibility": {
+      "status": "fail",
+      "evidence": "The required mechanisms are mostly missing or too indirect. Frame 1 should show a point on a loss curve, tangent line, uphill gradient cue labeled \u201cgradient: higher loss,\u201d and a separate downhill arrow labeled \u201cmove opposite\u201d toward \u201clower error.\u201d Instead, the main tablet shows cat/prediction/correct cards, while the slope/update information is tiny on a notebook. Frame 2 should show old and new points with one short opposite-gradient step and the update note, but the visible tablet again shows prediction/correct cards, not the weight update. Frame 3 partially shows a U-shaped curve and paths, but the comparison labels \u201csmall step\u201d and \u201ctoo far\u201d are not visibly clear, and the causal comparison is overwhelmed by unrelated prediction/correct elements and repeated title/sticky text.",
+      "required_fix": "Regenerate the set with the tablet as the main technical surface for each target frame. Frame 4: local tangent plus uphill gradient cue and separate opposite downhill arrow. Frame 5: old point, nearby lower new point, short step arrow, and readable update note. Frame 8: one large U-curve with clearly separated small-step path versus oversized overshoot path landing higher."
+    },
+    "technical_understanding": {
+      "status": "fail",
+      "evidence": "The visuals signal that gradient descent is about lowering error, but they do not let a student explain what was computed or updated. The slope/gradient direction is not visibly connected to a specific local point on the loss curve. The small update from old weight to new weight is not shown in the main diagram. The overshoot comparison is present only vaguely and lacks readable labels/cause-effect clarity. Much of the teaching burden is carried by generic labels and slogans, not by visible computation or update mechanics.",
+      "required_fix": "Make each frame answer: what changed, what was compared/computed, and why the next step follows. Use large old/new points, local tangent, direction arrows, loss height change, and clear path contrast. Remove unrelated prediction/correct cards from these specific frames unless they directly connect to the loss/update."
+    },
+    "false_completion_risk": {
+      "status": "high",
+      "evidence": "The frames are polished, warm, and confidence-building, with a readable lesson title and friendly AI-learning slogans. This creates the feeling that the concept has been explained, but the actual mechanisms\u2014gradient as higher-loss direction, moving opposite it, a small weight update, and overshooting from too-large step size\u2014are hidden, tiny, missing, or displaced to decorative notebook sketches.",
+      "required_fix": "Do not proceed to Runway with these frames. Redesign around visible mechanism-first diagrams rather than poster-like topic recognition."
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "The large title and some tablet labels such as \u201cprediction: dog\u201d and \u201ccorrect: cat\u201d are readable on the contact sheet. However, the actual required technical labels are absent or too small; notebook diagrams and text would be hard to read on a phone. The repeated top title also wastes mobile space that should show the learning step.",
+      "required_fix": "Use fewer words, larger mechanism labels, and make the tablet diagram occupy more of the frame. Ensure required labels are readable at phone size: \u201cgradient: higher loss,\u201d \u201cmove opposite,\u201d \u201clower error,\u201d \u201csmall step,\u201d \u201copposite gradient,\u201d and \u201ctoo far.\u201d"
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "reject",
+        "evidence": "Labeled as 04-gradient-direction, but the main tablet shows a cat image with \u201cprediction: dog\u201d and \u201ccorrect: cat.\u201d The requested gradient-direction diagram is not on the tablet. A tiny notebook sketch says \u201cSlope tells which way to move,\u201d but it does not clearly show a point on a loss curve, tangent line, uphill gradient cue, separate opposite arrow, or the labels \u201cgradient: higher loss,\u201d \u201cmove opposite,\u201d and \u201clower error.\u201d",
+        "fix": "Regenerate frame 4. Put a large U-shaped loss curve on the tablet with one point on the slope, a thin tangent line, a faint uphill arrow labeled \u201cgradient: higher loss,\u201d and a separate stronger downhill arrow labeled \u201cmove opposite\u201d toward \u201clower error.\u201d Remove cat/prediction/correct UI from this frame."
+      },
+      {
+        "frame": 2,
+        "status": "reject",
+        "evidence": "Labeled as 05-small-update, but it again centers the cat/prediction/correct tablet. The required old point/new point, short step arrow, \u201copposite gradient,\u201d and \u201cnew weight = old weight - small step\u201d are not visible on the main technical surface. A notebook path is too small and decorative.",
+        "fix": "Regenerate frame 5. Tablet should show the loss curve with an old point and a nearby slightly lower new point, connected by a visibly small arrow labeled \u201copposite gradient.\u201d Add the readable update note \u201cnew weight = old weight - small step.\u201d Keep the step small and remove unrelated prediction/correct cards."
+      },
+      {
+        "frame": 3,
+        "status": "needs-revision",
+        "evidence": "Labeled as 08-quick-check-step-size-matters. This is the closest to the target because the tablet/notebook include a U-shaped curve and multiple paths. However, the required labels \u201csmall step\u201d and \u201ctoo far\u201d are not clearly readable, the overshoot path is not sufficiently isolated as landing higher, and the frame still includes unrelated \u201cprediction: dog\u201d and \u201ccorrect: cat\u201d cards plus a repeated generic sticky slogan.",
+        "fix": "Regenerate or heavily revise frame 8. Use one large tablet diagram with two clearly labeled paths: calm dotted \u201csmall step\u201d path descending into the valley, and a larger \u201ctoo far\u201d jump crossing the valley and landing higher. Remove unrelated prediction/correct cards and extra slogans."
+      }
+    ],
+    "verdict": "Reject for video-first use. The set has strong warm style and native-looking composition, but it fails the core technical teaching gates. It looks like a polished gradient descent poster sequence while hiding or omitting the actual mechanisms needed for frames 4, 5, and 8. Strict QA override: high false-completion risk or failed technical understanding cannot be accepted.",
+    "next_action": "regenerate-frame"
+  }
+}

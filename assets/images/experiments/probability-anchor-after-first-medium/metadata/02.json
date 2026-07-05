@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "card_number": 2,
+  "card_title": "Probability Scale",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card, frame 2 of 8\nPrimary request: Create a polished native story card showing probability as a scale. Keep the same warm Indian study-desk world and recurring learner style as card 1.\nScene/backdrop: Same learner at the wooden study desk, pointing at a tablet.\nSubject: Tablet shows a large horizontal probability scale from 0 to 1, with 0%, 50%, and 100% below it. A pointer sits near 0.7 with a soft confidence glow.\nTechnical visual: Notebook beside tablet has a simple handwritten note connecting higher probability to stronger confidence.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, integrated tablet UI and notebook notes, not a clean infographic slide.\nComposition/framing: 9:16 portrait. Big tablet in lower/middle area; student face and pointing hand visible behind it.\nText to render verbatim, exactly:\n\"Probability is a likelihood score.\"\n\"0\"\n\"0.5\"\n\"1\"\n\"0%\"\n\"50%\"\n\"100%\"\nConstraints: scale and numbers must be large enough for mobile; no extra text; no logos; no watermark; no blank PPT background.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:29:43+00:00",
+  "output_path": "assets\\images\\experiments\\probability-anchor-after-first-medium\\02-probability-scale.png",
+  "api_response_id": "resp_08a012fa1d8993d1006a4926eac980819183da094a804a29e2",
+  "openai_request_id": "4eb17a3a-9fae-48af-9599-f7bc3464eb47",
+  "langsmith_parent_trace_id": "019f2dbe-9dbd-7b80-aaab-1cfd242a5883",
+  "style_references": [
+    "assets\\images\\experiments\\probability-anchor-after-first-medium\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

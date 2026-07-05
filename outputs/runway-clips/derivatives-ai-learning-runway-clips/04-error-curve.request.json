@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wywBtXAIKlXJ/04-derivative-reduces-error.png",
+  "promptText": "Create a subtle animated infographic from this exact vertical card. Preserve all existing text and graph labels. The current point moves slightly down the error curve, tangent line and downhill arrow glow, mini panels pulse softly. No new text, no camera crop, keep graph readable and mathematically clean.",
+  "ratio": "720:1280",
+  "duration": 5
+}

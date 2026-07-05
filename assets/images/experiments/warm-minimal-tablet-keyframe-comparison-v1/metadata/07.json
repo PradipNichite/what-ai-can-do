@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\warm-minimal-tablet-keyframe-comparison-v1.md",
+  "card_number": 7,
+  "card_title": "Vectors Opener Bridge",
+  "prompt": "Use case: scientific-educational style comparison\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create a Warm Minimal Tablet Closeup source frame for the opening bridge of \"Vectors: How AI Compares Meaning\".\nScene/backdrop: warm wooden desk, close tablet, notebook and phone edge visible, soft lamp glow.\nSubject: Indian teenage learner's teal/green sleeve and hand near tablet; partial face may be softly visible.\nTechnical visual: tablet shows two different message bubbles as icons only, one with a phone/price idea and one with a smartphone/savings idea, connected to nearby glowing dots in meaning space. The visual should imply related meaning without relying on text.\nStyle/medium: warm minimalist tablet closeup, human and cinematic, clean icon-based technical overlay.\nComposition/framing: tablet fills most of the frame; icons and nearby dots are large.\nText to render verbatim, exactly: \"related meaning\".\nMotion target for later video: the two meaning dots glow and connect with a soft line.\nConstraints: no sentence text; no extra words; no logos; no watermark; avoid generic chatbot UI.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:24:01+00:00",
+  "output_path": "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\07-vectors-opener-bridge.png",
+  "api_response_id": "resp_0228a211a01ceb8f006a4a8522c58081a29c1fe9693d76af2b",
+  "openai_request_id": "3579e114-f585-44dd-a187-8317c5ea09fb",
+  "langsmith_parent_trace_id": "019f3316-5c4a-7d83-81eb-a23699daa22e",
+  "style_references": [],
+  "retry_count": 0
+}

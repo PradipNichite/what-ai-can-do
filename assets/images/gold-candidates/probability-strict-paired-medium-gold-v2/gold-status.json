@@ -1,0 +1,53 @@
+{
+  "lesson": "probability-how-ai-handles-uncertainty",
+  "status": "accepted-gold-candidate",
+  "generated_variant": "strict-paired-medium-gold-v2",
+  "image_only": {
+    "folder": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/image-only",
+    "contact_sheet": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/image-only-contact-sheet.jpg",
+    "qa_markdown": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/image-only-qa.md",
+    "qa_json": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/image-only-qa.json",
+    "qa_status": "pass-with-caveats",
+    "qa_next_action": "accept",
+    "remaining_caveat": "Frame 6 is slightly crowded but accepted; opener, mechanism, native composition, and mobile readability gates pass."
+  },
+  "video_first": {
+    "folder": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/video-first",
+    "contact_sheet": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/video-first-contact-sheet.jpg",
+    "qa_markdown": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/video-first-qa.md",
+    "qa_json": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/video-first-qa.json",
+    "qa_status": "pass-with-caveats",
+    "qa_next_action": "accept",
+    "remaining_caveat": "Accepted for video-first use; minor compression risk remains in small labels on frames 4, 6, and 7."
+  },
+  "generation_traces": [
+    {
+      "trace_id": "019f312f-fbce-75f0-9f30-a32eb1c153ae",
+      "purpose": "initial full strict paired medium run"
+    },
+    {
+      "trace_id": "019f3143-359c-7753-991d-bdd822b986e3",
+      "purpose": "targeted repairs for frames 1, 3, 5, 6, and 8"
+    },
+    {
+      "trace_id": "019f3151-397c-75f3-bc40-ecd81d764502",
+      "purpose": "targeted frame 8 repair"
+    },
+    {
+      "trace_id": "019f315a-7bdc-7b23-93ee-10310b06478c",
+      "purpose": "targeted repairs for frames 1, 3, 6, and 8"
+    },
+    {
+      "trace_id": "019f316c-4378-7cb3-87a5-2b8c13d7c0f4",
+      "purpose": "final image-only frame 6 and 8 repair"
+    }
+  ],
+  "qa_request_ids": {
+    "image_only_final": "f439f6f4-d05b-486d-95e7-87bd55b40858",
+    "video_first_final": "e7d22dae-0885-46f4-9d6e-6bbded78869a"
+  },
+  "prompt_packs": {
+    "image_only": "assets/image-prompts/probability-how-ai-handles-uncertainty-image-story.md",
+    "video_first": "assets/image-prompts/probability-how-ai-handles-uncertainty-video-first-v2.md"
+  }
+}

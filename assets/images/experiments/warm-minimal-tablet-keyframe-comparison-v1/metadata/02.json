@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\warm-minimal-tablet-keyframe-comparison-v1.md",
+  "card_number": 2,
+  "card_title": "Gradient Direction",
+  "prompt": "Use case: scientific-educational style comparison\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create a Warm Minimal Tablet Closeup source frame showing that the gradient points toward higher loss and the update moves opposite toward lower error.\nScene/backdrop: close-up tablet on warm study desk, pencil and notebook edge visible, soft lamp glow.\nSubject: learner's teal/green sleeve and pointing hand near the graph; no full character needed.\nTechnical visual: tablet shows one large U-shaped loss curve with a point on the slope. A thin red/orange tangent or uphill cue is labeled \"gradient: higher loss\". A separate green arrow starts at the point and is labeled \"move opposite\", ending near \"lower error\".\nStyle/medium: warm minimalist tablet closeup, premium mobile explainer, clean graph, soft paper-and-lamp warmth.\nComposition/framing: graph is large and readable, with safe margins for video motion.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nMotion target for later video: tangent cue appears first, then the opposite update arrow draws toward lower error.\nConstraints: no lesson title; no extra text; no formulas; no logos; no watermark; do not label the downhill arrow as the gradient.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:22:16+00:00",
+  "output_path": "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+  "api_response_id": "resp_0d8dfdfe11e0c70b006a4a84bae5bc81a1bc7ed90a2e2132e6",
+  "openai_request_id": "e1cac96c-b5f6-4ef3-9179-7610ac2fc645",
+  "langsmith_parent_trace_id": "019f3316-5c4a-7d83-81eb-a23699daa22e",
+  "style_references": [],
+  "retry_count": 0
+}

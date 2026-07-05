@@ -1,0 +1,22 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "card_number": 1,
+  "card_title": "Lesson Opener",
+  "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 1 of 8\nPrimary request: Create a polished vertical mobile story card for Indian 11th/12th standard students titled \"Graphs: How AI understands relationships\". The card must feel like a complete designed educational poster where illustration, tablet diagram, notebook notes, sticky notes, and text are generated together, not a separate caption overlay.\nScene/backdrop: Warm Indian student study desk at home. A recurring Indian high-school learner in a green/teal shirt sits at a wooden desk with a tablet, open notebook, pen cup, books, sticky notes, and warm lamp. The tablet shows separate video/topic cards: AI basics, machine learning, coding tutorial, study tips, cricket, music.\nSubject: Indian high-school learner, tablet with video/topic cards, notebook showing tiny node-and-edge doodle, sticky note with recommendation task.\nStyle/medium: warm modern educational illustration, high quality Instagram/WhatsApp story aesthetic, expressive, clear, hand-drawn poster typography mixed with tablet UI, not corporate stock, not flat PPT.\nComposition/framing: 9:16 portrait. Student and tablet occupy the middle. Integrate the title as large friendly poster typography near the top, the learning promise as a notebook callout, and the example as a sticky note attached near the tablet.\nText to render verbatim, exactly:\n\"Graphs: How AI understands relationships\"\n\"Nodes + edges connect video topics.\"\n\"Example: recommend the next study video\"\nConstraints: no lines between video cards yet; keep items separate; render all text clearly and exactly; no extra text; no logos; no watermark; no generic caption panel; text must feel native to the scene through poster title, notebook callout, and sticky note; mobile readable.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:34:11+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full\\01-lesson-opener.png",
+  "api_response_id": "resp_0afac9d825f85198006a4919eb3088819fba367486a0a178d4",
+  "openai_request_id": "516d7f76-b08d-4a1e-bae6-fe7e9707716a",
+  "langsmith_parent_trace_id": "019f2d8d-0c87-7f92-98ab-cfbd84d10cca",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 6,
+  "image_title": "Lower Error",
+  "video_title": "Lower Loss",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_01bfb1f2c4c2d614006a4a4f8ae1a4819d8e506d4bb4ee7d24",
+  "openai_request_id": "af625f77-2621-47df-bb11-b6fe2674b66b",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-6-v2\\image-only\\06-lower-error.png",
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-6-v2\\video-first\\06-lower-error-video.png"
+  ]
+}

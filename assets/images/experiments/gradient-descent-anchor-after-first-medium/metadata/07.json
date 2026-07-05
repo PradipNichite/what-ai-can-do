@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 7,
+  "card_title": "Repeat To Learn",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 7 showing repeated gradient descent steps.\nTechnical overlay: U-shaped loss curve with dotted points and short step arrows descending toward the valley.\nText (verbatim): \"Training repeats the loop.\", \"small steps -> lower loss\", \"repeat\".\nConstraints: repeated steps must be clearly ordered; path should not look decorative; no dense formulas.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:05:30+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\07-repeat-to-learn.png",
+  "api_response_id": "resp_05f81d2a8bf9435e006a49213d596481a1b34f1571c84b45d3",
+  "openai_request_id": "fa56b6bc-5d8c-481a-a1b8-dcaca220e178",
+  "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+  "style_references": [
+    "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 5,
+  "image_title": "One Small Update",
+  "video_title": "Small Update",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_066aa1d4d0b2054a006a4a4b7991bc819f870e5b7de96e4884",
+  "openai_request_id": "fbb5b373-8bbb-4f43-8354-2f9ee6595120",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\image-only\\05-one-small-update.png",
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\video-first\\05-one-small-update-video.png"
+  ]
+}

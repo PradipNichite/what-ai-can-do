@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\warm-minimal-tablet-keyframe-comparison-v1.md",
+  "card_number": 1,
+  "card_title": "Gradient Opener Bridge",
+  "prompt": "Use case: scientific-educational style comparison\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create a Warm Minimal Tablet Closeup source frame for the opening bridge of \"Gradient Descent: How AI Learns From Mistakes\".\nScene/backdrop: warm wooden study desk with soft lamp glow, notebook edge, pencil, and a tablet held close to the viewer.\nSubject: Indian 11th/12th standard learner, teal/green sleeve visible, focused hand pointing at the tablet; partial face may appear softly in the background but the tablet is the hero.\nTechnical visual: tablet shows a compact visual chain: wrong prediction icon -> loss meter -> curved loss graph -> small downhill step. The chain must imply AI improves by reducing error.\nStyle/medium: warm minimalist tablet closeup, polished educational illustration, human and cinematic but uncluttered.\nComposition/framing: tablet fills about 75 percent of the frame; desk context stays subtle.\nText to render verbatim, exactly: \"mistake\", \"loss\", \"small step\".\nMotion target for later video: chain lights up left to right and the small step arrow pulses.\nConstraints: no dog/cat words; no lesson title; no extra text; keep labels large; no formulas; no logos; no watermark.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:22:16+00:00",
+  "output_path": "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+  "api_response_id": "resp_05822f958b7e24ba006a4a84bb1f10819e8c66dee99b4a51bd",
+  "openai_request_id": "e91e3ca8-cdad-41eb-bca2-72d90cec8d1e",
+  "langsmith_parent_trace_id": "019f3316-5c4a-7d83-81eb-a23699daa22e",
+  "style_references": [],
+  "retry_count": 0
+}

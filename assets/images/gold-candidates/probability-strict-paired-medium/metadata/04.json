@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 4,
+  "image_title": "Highest Score Is Chosen",
+  "video_title": "Highest Score",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_044786c1cd8fac35006a4a099fdd78819a82357fa5da5dac1b",
+  "openai_request_id": "2a95fb58-6b4e-40b2-8dd2-e1772bd9fba6",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\04-highest-score-is-chosen.png",
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\04-highest-score-is-chosen-video.png"
+  ]
+}

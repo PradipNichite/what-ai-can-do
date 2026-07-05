@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 7,
+  "image_title": "Memory Anchor",
+  "video_title": "Recap Chain",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_00976c6d6082731c006a4a0b089a38819ab2099631248001c1",
+  "openai_request_id": "933528da-3a8f-49f3-a550-ce6734123594",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\07-memory-anchor.png",
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\07-memory-anchor-video.png"
+  ]
+}

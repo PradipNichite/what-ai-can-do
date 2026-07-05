@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\statistics-how-ai-learns-patterns-from-data-image-story.md",
+  "card_number": 5,
+  "card_title": "Trend Line",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 5 showing a trend line estimated through the cloud of study-hours and score points.\nScene/backdrop: same learner at the desk, tablet centered.\nTechnical overlay: tablet shows the five scatterplot points and a clean upward trend line passing through the middle of the point cloud. One individual point should not be singled out as the rule.\nText (verbatim): \"The model estimates a pattern.\", \"trend line\", \"not memorizing one point\".\nConstraints: show a real pattern estimate, not a decorative diagonal; line should pass through the data cloud; no equation; no extra text.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:35:00+00:00",
+  "output_path": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\05-trend-line.png",
+  "api_response_id": "resp_095d41f95d2185c6006a4a5d8644008192a71993184db770df",
+  "openai_request_id": "373ae4b6-97f3-41cb-a8cf-4bdc5ca4a167",
+  "langsmith_parent_trace_id": "019f327b-47d0-7701-9b4f-11656061f015",
+  "style_references": [
+    "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

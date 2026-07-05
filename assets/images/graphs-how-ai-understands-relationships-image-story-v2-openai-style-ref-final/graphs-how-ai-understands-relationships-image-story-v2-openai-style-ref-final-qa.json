@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-04T14:49:56+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_08d99349df558b5c006a491d7bb96c819f9c28d48b8aaaebe4",
+  "openai_request_id": "57f6f0b9-d841-4e98-965c-3b3064821f48",
+  "inputs": {
+    "image_folder": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final",
+    "contact_sheet": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final-contact-sheet.jpg",
+    "prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+    "source_module": "modules\\visual-ai-concepts\\graphs-how-ai-understands-relationships.source.md",
+    "images": [
+      "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: it shows the title \u201cGraphs: How AI understands relationships,\u201d a tablet with separate topic/video cards, the notebook line \u201cNodes + edges connect video topics,\u201d and a sticky note example \u201crecommend the next study video.\u201d A viewer can understand the lesson topic, the school graph idea, and the AI recommendation example from the opener alone.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "All eight frames share a coherent warm study-desk world with the recurring Indian learner in a green/teal shirt, lamp, books, notebook, sticky notes, pen cup, and tablet as the teaching surface. Diagrams and text appear inside tablet UIs, notebooks, sticky notes, and poster-style brush headings rather than on blank corporate slides.",
+      "required_fix": "None"
+    },
+    "overlay_risk": {
+      "status": "medium",
+      "evidence": "Most text appears integrated into the scene, especially tablet labels, notebook writing, and sticky notes. However, several large white brush-stroke headline areas in frames 1, 5, 6, 7, and 8 read somewhat like graphic title bands placed over the illustration. They are stylistically consistent and not plain rectangular overlays, but the risk is visible."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The sequence visibly shows the mechanism: separate video cards in frame 1, item-to-node transformation in frame 2, relationship edges in frame 3, a graph/network in frame 4, connected neighbors in frame 5, a highlighted path to recommendation in frame 6, a knowledge graph in frame 7, and a path-supported choice versus dim unconnected cricket option in frame 8.",
+      "required_fix": "None"
+    },
+    "mobile_readability": {
+      "status": "pass",
+      "evidence": "The main teaching text and key labels are readable in the contact sheet: \u201cEach item becomes a node,\u201d \u201cRelationships become edges,\u201d \u201cNodes + edges form a graph,\u201d \u201cConnected neighbors are related,\u201d \u201cA path can explain a recommendation,\u201d \u201cknowledge graph,\u201d and the quick-check choices. Some small tablet/notebook details are tight, but the essential mechanism labels remain legible.",
+      "required_fix": "None"
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener with title, learner, tablet topic cards, notebook graph doodle, and sticky-note example. Separate items are visible with no edges yet.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Clearly shows video/topic labels transforming into colored circular nodes with arrows. \u201cnode\u201d callout is large, and no graph edges are shown yet.",
+        "fix": "None"
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Shows related items connected by glowing edges on the tablet, with \u201cRelationships become edges,\u201d \u201cedge,\u201d and \u201crelated\u201d visible. Unrelated cards/icons remain separate.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Tablet displays a compact graph/network with connected nodes, and notebook text states \u201cNodes + edges form a graph.\u201d The learner points at the graph, reinforcing the teaching step.",
+        "fix": "None"
+      },
+      {
+        "frame": 5,
+        "status": "pass",
+        "evidence": "Shows \u201cAI basics\u201d connected to \u201cmachine learning\u201d and \u201ccoding tutorial,\u201d with related labels attached to the visible edges. Far nodes are dimmed.",
+        "fix": "None"
+      },
+      {
+        "frame": 6,
+        "status": "pass",
+        "evidence": "A highlighted path runs from \u201cAI basics\u201d through \u201cmachine learning\u201d to \u201ccoding tutorial,\u201d with \u201cpath\u201d and \u201crecommend\u201d labels visible. The recommendation is explained by the visible route.",
+        "fix": "None"
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "Broadens the concept to a knowledge graph on the tablet with icons, connected nodes, and readable labels \u201cknowledge graph,\u201d \u201cnode,\u201d and \u201cedge.\u201d",
+        "fix": "None"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Quick-check frame clearly contrasts a connected \u201ccoding tutorial\u201d choice with a dimmed \u201ccricket highlights\u201d choice. The visible path from \u201cAI basics\u201d supports the correct recommendation.",
+        "fix": "None"
+      }
+    ],
+    "verdict": "Acceptable native image-story set. It successfully teaches the graph mechanism through visible nodes, edges, paths, and recommendation evidence in a consistent warm student/tablet scene. Minor caveat: the large brush-stroke headline areas have some overlay-like risk, but they are not severe enough to block use.",
+    "next_action": "accept"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "card_number": 8,
+  "card_title": "Quick Check",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 8 as a quick check comparing two recommendation choices.\nTechnical overlay: tablet shows a watched AI basics node. One candidate coding tutorial card is connected by a visible highlighted path and has a check mark. A second cricket highlights card has no visible connection and is dim.\nText (verbatim): \"Quick check: which recommendation fits?\", \"Choose the one with a path.\", \"path\".\nConstraints: the connected choice must be justified by the visible path, not only by color or check mark; no dense graph; keep text large and readable.",
+  "model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T12:30:15+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\08-quick-check.png",
+  "api_response_id": null,
+  "retry_count": 0
+}

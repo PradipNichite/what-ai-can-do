@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-04T15:43:39+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_06f4ee4d8e2d4076006a492a0f21e081a1ba4f5e35c3aff153",
+  "openai_request_id": "62bf36ef-afd2-4e68-9691-557d6b6134b9",
+  "inputs": {
+    "image_folder": "assets\\images\\experiments\\probability-single-request-medium",
+    "contact_sheet": "assets\\images\\experiments\\probability-single-request-medium\\probability-single-request-medium-contact-sheet.jpg",
+    "prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+    "source_module": "modules\\visual-ai-concepts\\probability-how-ai-handles-uncertainty.source.md",
+    "images": [
+      "assets\\images\\experiments\\probability-single-request-medium\\probability-single-request-medium-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: it visibly names the lesson as \u201cProbability: How AI handles uncertainty,\u201d shows the learner at a desk with a tablet, presents cat/dog/car options, and includes the core idea \u201cAI estimates what is most likely.\u201d",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "All eight frames share a coherent warm Indian study-desk/tablet illustration style. Text appears as poster typography, tablet UI, notebook writing, and sticky notes rather than as a plain external caption layer. The learner, lamp, books, desk, tablet, and notebook recur consistently.",
+      "required_fix": "None"
+    },
+    "overlay_risk": {
+      "status": "low",
+      "evidence": "Most text is visibly integrated into generated surfaces: top paper/poster banners, sticky notes, notebook pages, and tablet interfaces. The large headings sit on illustrated paper swatches rather than generic flat overlay boxes. No obvious watermark or post-production caption block is visible inside the cards."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The sequence visibly shows the intended mechanism: Frame 1 possible answers, Frame 2 probability scale from 0 to 1 / 0% to 100%, Frame 3 scored options, Frame 4 highest score chosen with caution, Frame 5 close scores and low confidence, Frame 6 real AI panels, Frame 7 input \u2192 probability scores \u2192 chosen answer, Frame 8 clear vs close-score quick check.",
+      "required_fix": "None"
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Main headings and key labels are readable across the contact sheet. Tablet text and numbers are generally legible, especially in Frames 2\u20135 and 7. Frame 8\u2019s A/B score lists and Frame 6\u2019s mini-panel labels are smaller and may be marginal on a phone, though still understandable at full asset size.",
+      "required_fix": "If revising, enlarge Frame 8\u2019s A/B score text and simplify/enlarge Frame 6 mini-panel details."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener with lesson title, learner, tablet, cat/dog/car options, probability scale in notebook, and task sticky note. The concept is understandable without external context.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Probability scale is large and clear with 0, 0.5, 1 and 0%, 50%, 100%. Pointer near the higher end visually supports likelihood/confidence.",
+        "fix": "Minor caveat: notebook includes extra explanatory text beyond the specified verbatim list, but it supports the lesson and does not harm clarity."
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Cat/dog/car probability bars are visible, with cat tallest at 0.72, dog medium at 0.20, and car shortest at 0.08. Headline is integrated on a sticky-note style banner.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Tablet highlights the cat choice and notebook says \u201cHighest score gets chosen\u201d plus \u201clikely, not guaranteed,\u201d preventing certainty overclaim. Student points at the selected/highest option.",
+        "fix": "None"
+      },
+      {
+        "frame": 5,
+        "status": "pass",
+        "evidence": "Close cat and dog scores, 0.42 and 0.39, are shown together with car 0.19 and a low-confidence meter. Learner expression also supports uncertainty.",
+        "fix": "None"
+      },
+      {
+        "frame": 6,
+        "status": "needs-revision",
+        "evidence": "The three real-AI panels are present and readable enough: image AI, recommendation, chatbot. The repeated scoring-to-choice idea is visible. However, the required text appears as \u201cscores \u2192 choice\u201d rather than the exact requested ASCII \u201cscores -> choice,\u201d and the mini panels are somewhat small.",
+        "fix": "For exact prompt compliance, render the sticky note text as \u201cscores -> choice\u201d and slightly enlarge the three panel labels/bars."
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "Recap chain is visible on the tablet: input, probability scores, chosen answer. The notebook clearly states \u201cAI predictions are confidence-weighted guesses.\u201d",
+        "fix": "None"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Quick-check question is clear. Two score cards compare A and B, B is marked as lower confidence/more uncertain, and the yellow note says \u201cB has closer scores.\u201d",
+        "fix": "Optional: enlarge the A/B probability list text on the tablet for safer mobile readability."
+      }
+    ],
+    "verdict": "The contact sheet is a strong native image-story draft. It clearly teaches probability as confidence-weighted prediction through a recurring learner, desk, tablet UI, bars, scales, and quick check. No major pasted-overlay problem is visible. Minor caveats are small-text density in Frames 6 and 8 and one exact-text mismatch in Frame 6.",
+    "next_action": "accept"
+  }
+}

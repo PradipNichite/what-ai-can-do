@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\statistics-how-ai-learns-patterns-from-data-image-story.md",
+  "card_number": 2,
+  "card_title": "Many Examples",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 2 showing why many examples are needed before AI can learn a pattern.\nScene/backdrop: same warm Indian study desk and learner.\nTechnical overlay: tablet shows one lonely example card on the left dimmed, and a larger group of five example cards on the right highlighted. Each group flows toward a small pattern icon, but only the many-example side forms a clear line.\nText (verbatim): \"One example is not enough.\", \"Many examples reveal a pattern.\".\nConstraints: make the contrast between one example and many examples obvious; do not imply more data is always good regardless of quality; keep text large; no dense formulas; no extra text.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:33:59+00:00",
+  "output_path": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\02-many-examples.png",
+  "api_response_id": "resp_0190664b8e89550a006a4a5d4c7c0081a28b09f573d4c1fd10",
+  "openai_request_id": "a5781cdd-71ea-4682-a538-e01819c992aa",
+  "langsmith_parent_trace_id": "019f327b-47d0-7701-9b4f-11656061f015",
+  "style_references": [
+    "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

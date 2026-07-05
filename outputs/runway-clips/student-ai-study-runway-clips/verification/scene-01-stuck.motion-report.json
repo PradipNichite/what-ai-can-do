@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\student-ai-study-runway-clips\\scene-01-stuck.mp4",
+  "duration_seconds": 5.04,
+  "samples": 6,
+  "mean_frame_diff": 15.348111534118653,
+  "max_frame_diff": 24.284114837646484,
+  "black_border_ratio_mean": 0.034501591435185185,
+  "black_border_ratio_max": 0.03626410590277778,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\student-ai-study-runway-clips\\verification\\scene-01-stuck.contact-sheet.jpg"
+}

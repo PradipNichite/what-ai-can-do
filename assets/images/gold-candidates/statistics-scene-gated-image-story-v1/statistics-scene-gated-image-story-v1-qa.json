@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-07-05T13:37:33+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_01c448742c5ba41b006a4a5e0a077c81a2838d4b6b74a4dabb",
+  "openai_request_id": "fc503221-247e-4fd5-a7cc-6014d4f6a738",
+  "inputs": {
+    "image_folder": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1",
+    "contact_sheet": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\statistics-scene-gated-image-story-v1-contact-sheet.jpg",
+    "prompt_pack": "assets\\image-prompts\\statistics-how-ai-learns-patterns-from-data-image-story.md",
+    "source_module": "modules\\visual-ai-concepts\\statistics-how-ai-learns-patterns-from-data.source.md",
+    "images": [
+      "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\statistics-scene-gated-image-story-v1-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: the large notebook header reads \u201cStatistics: How AI Learns Patterns From Data,\u201d the sticky note says \u201cAI learns from many examples,\u201d and another sticky note introduces \u201cExample: study hours -> test score.\u201d The tablet visibly shows example cards flowing into a table and a scatterplot preview, so the lesson topic, AI connection, and concrete example are present in the pixels.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "Across the contact sheet, text is integrated into notebook headers, sticky notes, tablet UI panels, graph labels, and callouts. The recurring learner, warm desk, lamp, notebook, books, plant, and tablet are consistently part of one generated scene rather than isolated slide elements.",
+      "required_fix": "None"
+    },
+    "overlay_risk": {
+      "status": "low",
+      "evidence": "The large text appears on physical notebook/sign surfaces with perspective and shadows, and the technical labels sit inside tablet interfaces or on sticky notes. It does not look like a flat post-production caption pasted over unrelated stock imagery."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The sequence visibly follows the intended chain: frame 2 contrasts one example with many examples; frame 3 converts student/example cards into a numeric hours-score table; frame 4 turns examples into plotted points; frame 5 adds a trend line through the point cloud; frame 6 shows points varying around the line; frame 7 uses a new 4.5-hour input with guide lines to estimate a score; frame 8 compares narrow versus varied datasets.",
+      "required_fix": "None"
+    },
+    "technical_understanding": {
+      "status": "pass",
+      "evidence": "The diagrams do more than label the concept. The viewer can see what changes from frame to frame: examples become measurements, measurements become points, points support a trend estimate, and the trend is used for an approximate prediction. The quick-check frame also visually supports why the many-varied dataset is safer than a narrow group.",
+      "required_fix": "None"
+    },
+    "false_completion_risk": {
+      "status": "low",
+      "evidence": "The polished style is supported by real teaching structure. The cards do not jump directly from \u201cstatistics\u201d to \u201cAI prediction\u201d; they show the intermediate representations and the estimation step. Variation/noise is also included, reducing the risk that students think the line guarantees exact scores.",
+      "required_fix": "None"
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Main headers and key sticky-note phrases are large and readable in the contact sheet. The tablet table in frame 3 is clear, and the prediction text in frame 7 is legible. Some smaller graph labels and tablet-side labels, especially in frames 4, 5, 6, and 8, may be marginal on small phones if viewed without zoom.",
+      "required_fix": "If regenerating or final-exporting, slightly enlarge the smallest in-tablet labels such as axis labels, \u201ctrend line,\u201d \u201cnot memorizing one point,\u201d and dataset-card labels. Do not change the overall composition."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener with title, memory anchor, concrete study-hours-to-test-score example, and visible flow from example cards to table and scatterplot.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Clearly contrasts a dim single example with a larger highlighted group. The many-example side forms a visible upward pattern while the one-example side does not.",
+        "fix": "None"
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "The card visibly performs the representation step: example cards point into a clean table with headers \u201chours\u201d and \u201cscore\u201d and rows 1/45, 2/52, 3/61, 4/68, 5/76. The numbers appear correct and readable.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Example cards on the tablet flow into a scatterplot. The plotted dots rise from lower-left to upper-right, and the axes are labeled hours and score.",
+        "fix": "Axis labels are small; enlarge slightly if regenerating for phone-first use."
+      },
+      {
+        "frame": 5,
+        "status": "pass",
+        "evidence": "The trend line passes through the middle of multiple points, and the labels \u201ctrend line\u201d and \u201cnot memorizing one point\u201d support the key idea that the model estimates a pattern rather than copying one example.",
+        "fix": "None"
+      },
+      {
+        "frame": 6,
+        "status": "pass",
+        "evidence": "Variation is visible: points are scattered around the trend line, with off-line points circled and labeled \u201cnot exact.\u201d This prevents the misconception that every prediction is guaranteed.",
+        "fix": "None"
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "The new input \u201c4.5 hours\u201d is connected to the trend line with guide lines, and the sticky note states \u201cpredicted score: about 72.\u201d The visual shows estimation from the learned pattern rather than a magic result.",
+        "fix": "None"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "The quick check is understandable: A shows a narrow group, B shows many varied examples across the plot, and B is highlighted with a check mark and explanatory sticky note.",
+        "fix": "Dataset-card labels are somewhat small; enlarge them slightly if the final card will be viewed mostly on small screens."
+      }
+    ],
+    "verdict": "Accept with minor readability caveats. The contact sheet forms a coherent image-story lesson with a self-contained opener, native integrated composition, visible technical chain, and low false-completion risk. The only notable issue is that some small tablet labels may need enlargement for phone viewing.",
+    "next_action": "accept"
+  }
+}

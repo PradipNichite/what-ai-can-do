@@ -1,0 +1,96 @@
+{
+  "id": "ai-customer-support-agent-mr-phase1",
+  "title": "AI Customer Support Agent - Marathi Phase 1 Video",
+  "language": "mr-IN",
+  "format": "vertical-video",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 42,
+  "source_story": "outputs/mobile-stories/ai-customer-support-agent.mr.md",
+  "source_script": "outputs/video-scripts/ai-customer-support-agent.mr.md",
+  "image_base_path": "assets/images/customer-support-mobile-story-mr",
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "local_output_path": "outputs/video-assets/ai-customer-support-agent.mr.voiceover.mp3",
+    "public_url": null
+  },
+  "music": {
+    "public_url": null,
+    "volume": "12%"
+  },
+  "scenes": [
+    {
+      "id": "beat-01",
+      "duration": 5.0,
+      "image": "01-late-order.png",
+      "visual": "स्टुडंट फोन पाहतो. पार्सल लेट आहे.",
+      "caption_title": "माझी ऑर्डर अजून आली नाही",
+      "caption_body": "कस्टमरला फक्त एकच गोष्ट जाणून घ्यायची आहे: \"माझं पार्सल कुठे आहे?\"",
+      "voiceover": "कधी ऑनलाइन ऑर्डर लेट झाली की आपण लगेच सपोर्टला मेसेज करतो: माझं पार्सल कुठे आहे?",
+      "motion": "pan_left_with_zoom"
+    },
+    {
+      "id": "beat-02",
+      "duration": 6.0,
+      "image": "02-human-checks-system.png",
+      "visual": "कस्टमर सपोर्ट एजंट लॅपटॉपवर ऑर्डर सर्च करतो.",
+      "caption_title": "सपोर्ट एजंट सिस्टम चेक करतो",
+      "caption_body": "तो ऑर्डर आयडी किंवा मोबाइल नंबर घेऊन सिस्टममध्ये ऑर्डर शोधतो.",
+      "voiceover": "सपोर्ट एजंट अंदाजाने उत्तर देत नाही. तो ऑर्डर आयडी किंवा मोबाइल नंबर घेऊन सिस्टममध्ये ऑर्डर शोधतो.",
+      "motion": "pan_right_with_zoom"
+    },
+    {
+      "id": "beat-03",
+      "duration": 5.0,
+      "image": "03-ai-without-access.png",
+      "visual": "एआय बॉट गोंधळलेला आहे. डेटाबेस आणि कुरियर लॉक आहेत.",
+      "caption_title": "एआयकडे माहितीच नसेल तर?",
+      "caption_body": "तो फक्त साधं उत्तर देऊ शकतो. खरं डिलिव्हरी स्टेटस सांगू शकत नाही.",
+      "voiceover": "एआयकडे माहितीच नसेल, तर तो फक्त साधं उत्तर देईल. जसं, डिलिव्हरीला साधारण काही दिवस लागतात.",
+      "motion": "pan_center"
+    },
+    {
+      "id": "beat-04",
+      "duration": 6.0,
+      "image": "04-ai-gets-tools.png",
+      "visual": "एआय बॉटला सुरक्षित ॲक्सेस मिळतो. डेटाबेस आणि कुरियर जोडले जातात.",
+      "caption_title": "एआयला योग्य सिस्टम जोडली",
+      "caption_body": "ऑर्डर सिस्टम, डेटाबेस आणि कुरियर स्टेटस जोडले की एआय प्रत्यक्ष ऑर्डर चेक करू शकतो.",
+      "voiceover": "पण एआयला योग्य सिस्टम, डेटाबेस आणि कुरियर स्टेटस जोडले असेल, तर तो प्रत्यक्ष ऑर्डर चेक करू शकतो.",
+      "motion": "pan_left_with_zoom"
+    },
+    {
+      "id": "beat-05",
+      "duration": 5.5,
+      "image": "05-specific-update.png",
+      "visual": "स्टुडंट खुश आहे. फोनवर मॅप आणि डिलिव्हरी रूट दिसतो.",
+      "caption_title": "आता उत्तर नेमकं मिळतं",
+      "caption_body": "पार्सल सध्या कुठे आहे, डिलिव्हरी कधी होऊ शकते, हे एआय स्पष्ट सांगू शकतो.",
+      "voiceover": "मग उत्तर नेमकं मिळतं: पार्सल कुठे आहे, डिलिव्हरी कधी होऊ शकते, पुढे काय करायचं.",
+      "motion": "pan_right_with_zoom"
+    },
+    {
+      "id": "beat-06",
+      "duration": 7.0,
+      "image": "06-human-handover.png",
+      "visual": "डॅमेज्ड पॅकेज. एआय माणसाच्या सपोर्टकडे हँडओव्हर करतो.",
+      "caption_title": "केस अवघड असेल तर माणूस हवा",
+      "caption_body": "रिफंड, डॅमेज्ड आयटम किंवा रागावलेला कस्टमर असेल, तर माणसाचा सपोर्ट गरजेचा आहे.",
+      "voiceover": "पण रिफंड, डॅमेज्ड आयटम, रागावलेला कस्टमर अशा केसेस एआयने एकट्याने हँडल करू नयेत. तिथे माणसाचा सपोर्ट लागतो.",
+      "motion": "pan_center"
+    },
+    {
+      "id": "beat-07",
+      "duration": 7.5,
+      "image": "07-ai-tools-human-summary.png",
+      "visual": "एआय, माणूस, डेटाबेस, डिलिव्हरी ट्रक, कस्टमर खुश.",
+      "caption_title": "बेस्ट सेटअप",
+      "caption_body": "साधं काम एआय करतो. अवघड केस माणसाकडे जातात.",
+      "voiceover": "म्हणजे एआय एजंट हा फक्त चॅटबॉट नाही. तो सिस्टम, टूल्स आणि माणसाकडे हँडओव्हर सोबत काम करणारा सपोर्ट हेल्पर आहे.",
+      "motion": "pan_left_with_zoom"
+    }
+  ]
+}

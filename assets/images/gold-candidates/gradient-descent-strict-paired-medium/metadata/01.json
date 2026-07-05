@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 1,
+  "image_title": "Mistake Starts Learning",
+  "video_title": "Wrong Prediction",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_0c6f067c7b3ade0f006a4a22be877c8198ba7eac1ac9bd913a",
+  "openai_request_id": "d07bea7e-2af5-422b-a3a2-203fcffb781c",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\01-mistake-starts-learning.png",
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\01-mistake-starts-learning-video.png"
+  ]
+}

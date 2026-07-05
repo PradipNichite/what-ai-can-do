@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\statistics-how-ai-learns-patterns-from-data-image-story.md",
+  "card_number": 3,
+  "card_title": "Data Table",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 3 showing the study-hours examples becoming a clean data table.\nScene/backdrop: same learner at the warm desk, pencil near notebook.\nTechnical overlay: tablet shows a simple two-column table with headers \"hours\" and \"score\", using the exact rows 1 -> 45, 2 -> 52, 3 -> 61, 4 -> 68, 5 -> 76. A few small example cards transform into table rows.\nText (verbatim): \"Examples become numbers.\", \"hours\", \"score\", \"1 -> 45\", \"2 -> 52\", \"3 -> 61\", \"4 -> 68\", \"5 -> 76\".\nConstraints: table must be readable on mobile; no extra rows; no formulas; no extra text; preserve all numbers exactly.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:33:59+00:00",
+  "output_path": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\03-data-table.png",
+  "api_response_id": "resp_0c242af5c88f8160006a4a5d4b8ff481a0813cc5d9f07aa988",
+  "openai_request_id": "bf74283d-465a-4221-987e-77fdf4cac289",
+  "langsmith_parent_trace_id": "019f327b-47d0-7701-9b4f-11656061f015",
+  "style_references": [
+    "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

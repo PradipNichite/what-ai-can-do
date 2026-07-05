@@ -1,0 +1,68 @@
+{
+  "id": "student-ai-study-runway-smooth-female-edit-en",
+  "title": "How Students Can Use AI To Study Better - Smart Planned Edit",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 23.1,
+  "source_plan": "outputs\\video-manifests\\student-ai-study-runway-smooth-female-plan.json",
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "scenes": [
+    {
+      "id": "scene-01-stuck",
+      "duration": 4.5,
+      "video_time": 0,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/0693108e-b9fc-47a5-84ed-17b723e5914d.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjk0Mzc0YWU4MzhjYmEzNSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg3ODc2Nn0.L7FgZN4FnygicS3nzOU4dkVmuNSYG8ljaGNbx09YZA4",
+      "voiceover_text": "Stuck on a textbook page? Show AI the page.",
+      "voiceover_start": 0.15,
+      "audio_duration": 3.9,
+      "voiceover_url": "https://tmpfiles.org/dl/wiwEy1zFOS5m/01-scene-01-stuck.mp3"
+    },
+    {
+      "id": "scene-02-context",
+      "duration": 4.6,
+      "video_time": 4.5,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/1b42ee45-fc52-4f84-8d5b-148cc0767305.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMDA3ZjI1ZDQwYWY0OWJmMiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4MjgxNTk1Nn0.ul6FcLHIe4omJ9D4KlQIsd6zu8SymPVZwcBAxkRsA8c",
+      "voiceover_text": "Then give it context: your class, topic, and exact doubt.",
+      "voiceover_start": 4.15,
+      "audio_duration": 4.4,
+      "voiceover_url": "https://tmpfiles.org/dl/wgwfy9zvOR7y/02-scene-02-context.mp3"
+    },
+    {
+      "id": "scene-03-steps",
+      "duration": 4.7,
+      "video_time": 9.1,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/4621ef55-01a6-4ad5-8cf8-81eca9ba781c.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMmNkYTY1ZjA3NWI5YTk5ZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4MjgzMDQ0OH0.t0CsF0KZVOLYZsyv1hRBPkTpkVp8f2l5-usS-S8m6r0",
+      "voiceover_text": "Ask for simple steps, one example, and a question.",
+      "voiceover_start": 8.9,
+      "audio_duration": 4.1,
+      "voiceover_url": "https://tmpfiles.org/dl/wQwbyEzAOVXK/03-scene-03-steps.mp3"
+    },
+    {
+      "id": "scene-04-practice",
+      "duration": 4.8,
+      "video_time": 13.8,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/ac4e2fde-885e-4549-a117-c25735cc6bb0.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNGJmZDAxYzU1ZDMxZTVlZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4MjgxNzg2MX0.hC3IYaq5Yhaz3SVjSngSmMs0QSZuYEUFqeOYRTykexs",
+      "voiceover_text": "Do not copy answers. Use hints, quizzes, and feedback.",
+      "voiceover_start": 13.35,
+      "audio_duration": 4.5,
+      "voiceover_url": "https://tmpfiles.org/dl/wtwqynzqOg3N/04-scene-04-practice.mp3"
+    },
+    {
+      "id": "scene-05-best-setup",
+      "duration": 4.5,
+      "video_time": 18.6,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/6937f96a-f7cb-4e6c-abf0-960ccae64a56.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZWQ1NGU1ZDMzYTJjZTlkYiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg4NDA1MX0.F1vKtQ7YHjY1ZrqsyyMtbQIVZ9XC5GptuFucWzuKxyw",
+      "voiceover_text": "Best setup: AI helps, you practice, teacher verifies.",
+      "voiceover_start": 18.15,
+      "audio_duration": 4.3,
+      "voiceover_url": "https://tmpfiles.org/dl/wUw8ygzfOg9e/05-scene-05-best-setup.mp3"
+    }
+  ]
+}

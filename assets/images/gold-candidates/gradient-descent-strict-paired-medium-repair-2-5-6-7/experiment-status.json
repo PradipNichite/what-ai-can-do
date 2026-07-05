@@ -1,0 +1,91 @@
+{
+  "image_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "video_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "out_dir": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7",
+  "frames": [
+    2,
+    5,
+    6,
+    7
+  ],
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "quality": "medium",
+  "size": "1024x1536",
+  "style_references": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\01-mistake-starts-learning.png"
+  ],
+  "langsmith_trace_id": "019f3234-d0e8-7eb3-bb99-d279864b4ee0",
+  "results": [
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 2,
+      "image_title": "Mistake Becomes Loss",
+      "video_title": "Measure Loss",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0b39ecc2f974b332006a4a4af9a10081a0bb1a193c138e8f97",
+      "openai_request_id": "e7af0a7d-8e65-45ec-ad64-7ddbdf3f59ad",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\image-only\\02-mistake-becomes-loss.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\video-first\\02-mistake-becomes-loss-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 5,
+      "image_title": "One Small Update",
+      "video_title": "Small Update",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_066aa1d4d0b2054a006a4a4b7991bc819f870e5b7de96e4884",
+      "openai_request_id": "fbb5b373-8bbb-4f43-8354-2f9ee6595120",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\image-only\\05-one-small-update.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\video-first\\05-one-small-update-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 6,
+      "image_title": "Lower Error",
+      "video_title": "Lower Loss",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_03889a450cfd5a01006a4a4bf4bf0081a2b92058136b4dc500",
+      "openai_request_id": "d9921d13-f5f6-42a6-a844-eebbeb50efbd",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\image-only\\06-lower-error.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\video-first\\06-lower-error-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 7,
+      "image_title": "Repeat To Learn",
+      "video_title": "Repeat",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0a0419342dda43df006a4a4c6eb890819fb173c4367c13147f",
+      "openai_request_id": "b1fc8178-8887-45fa-93b1-9ec1cdbbbec0",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\image-only\\07-repeat-to-learn.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\video-first\\07-repeat-to-learn-video.png"
+      ]
+    }
+  ],
+  "image_contact_sheet": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\image-only-contact-sheet.jpg",
+  "video_contact_sheet": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-2-5-6-7\\video-first-contact-sheet.jpg"
+}

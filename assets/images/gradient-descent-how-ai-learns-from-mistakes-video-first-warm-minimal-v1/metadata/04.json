@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "card_number": 4,
+  "card_title": "Gradient Direction",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 4 showing that the gradient points toward higher loss and the update moves opposite toward lower error.\nScene/backdrop: close-up tablet on warm study desk, pencil and notebook edge visible, soft lamp glow.\nSubject: same recurring Indian teenage learner; teal/green sleeve and pointing hand near the graph; no full character required.\nStyle/medium: warm minimalist tablet closeup, premium mobile explainer illustration, clean graph, warm human desk context.\nComposition/framing: tablet fills most of the frame; graph is large and readable with safe margins for video motion.\nText (verbatim): \"gradient: higher loss\", \"move opposite\", \"lower error\".\nTechnical overlay: tablet shows one large U-shaped loss curve with a point on the slope. A thin red/orange tangent or uphill cue at the point is labeled \"gradient: higher loss\". A separate green arrow starts at the same point and is labeled \"move opposite\", ending near \"lower error\" toward the valley.\nMotion target for later video: tangent cue appears first, then the opposite update arrow draws toward lower error.\nConstraints: no lesson title, no extra text, no formulas, no logos, no watermark, do not label the downhill arrow as the gradient, keep labels high contrast and larger than in the style-grid experiment.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "low",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:58:23+00:00",
+  "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\04-gradient-direction.png",
+  "api_response_id": "resp_014544a42c5e41d1006a4a8d3a4850819d819a249dc06049f1",
+  "openai_request_id": "702bd0ba-cb93-49c2-8af7-45890daf2d84",
+  "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+  "style_references": [
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+  ],
+  "retry_count": 0
+}

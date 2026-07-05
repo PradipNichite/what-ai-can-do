@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\warm-minimal-tablet-keyframe-comparison-v1.md",
+  "card_number": 9,
+  "card_title": "Vectors Nearby Search",
+  "prompt": "Use case: scientific-educational style comparison\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create a Warm Minimal Tablet Closeup source frame showing semantic search using nearby vectors.\nScene/backdrop: close tablet on warm study desk with subtle notebook and lamp context.\nSubject: learner hand points to a highlighted query dot.\nTechnical visual: tablet shows a meaning-space map with one bright query dot connected to two nearby phone-related icon cards, while unrelated food and sports icons sit farther away dimmed. The nearby relationship must be visually obvious.\nStyle/medium: warm minimalist tablet closeup, clean icon-based technical scene, warm human context.\nComposition/framing: tablet fills most of the frame; query dot and nearby results are large.\nText to render verbatim, exactly: \"nearest meanings\".\nMotion target for later video: query dot lands, nearby connections glow, far icons stay dim.\nConstraints: no extra text; no formulas; no logos; no watermark; avoid cluttered network graph.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:24:19+00:00",
+  "output_path": "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\09-vectors-nearby-search.png",
+  "api_response_id": "resp_01af56e8097db7a8006a4a8535523481a1a2624077bae9a747",
+  "openai_request_id": "b241c13e-c09d-434a-a6f1-ffafaca6cc88",
+  "langsmith_parent_trace_id": "019f3316-5c4a-7d83-81eb-a23699daa22e",
+  "style_references": [],
+  "retry_count": 0
+}

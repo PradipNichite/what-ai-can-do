@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 3,
+  "image_title": "Loss Curve",
+  "video_title": "Loss Curve",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_04e0556e3736f2b6006a4a3572cce481a1a4abb6fc396054e5",
+  "openai_request_id": "6dc68046-482c-4453-a8a2-c5eab063f73f",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\03-loss-curve.png",
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\03-loss-curve-video.png"
+  ]
+}

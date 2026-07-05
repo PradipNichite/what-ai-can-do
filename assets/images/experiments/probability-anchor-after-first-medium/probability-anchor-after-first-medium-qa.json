@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-04T15:33:24+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_0c0dbb21322a1993006a4927af96048192800c688fda63847e",
+  "openai_request_id": "ba526677-a28d-4f3e-a827-c019dfcb6287",
+  "inputs": {
+    "image_folder": "assets\\images\\experiments\\probability-anchor-after-first-medium",
+    "contact_sheet": "assets\\images\\experiments\\probability-anchor-after-first-medium\\probability-anchor-after-first-medium-contact-sheet.jpg",
+    "prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+    "source_module": "modules\\visual-ai-concepts\\probability-how-ai-handles-uncertainty.source.md",
+    "images": [
+      "assets\\images\\experiments\\probability-anchor-after-first-medium\\probability-anchor-after-first-medium-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: it has the large title \u201cProbability: How AI handles uncertainty,\u201d a notebook callout \u201cAI estimates what is most likely.\u201d and the concrete tablet example with cat/dog/car answer cards. A viewer can understand the topic, AI use, and example without external context.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "All frames share a warm Indian study-desk setting with the same learner, green/teal school shirt, desk lamp, books, plants, notebook, sticky notes, and tablet UI. Text is mostly embedded as poster lettering, tablet interfaces, notebook writing, sticky notes, and callouts rather than plain captions.",
+      "required_fix": "None"
+    },
+    "overlay_risk": {
+      "status": "low",
+      "evidence": "The text surfaces have shadows, paper texture, notebook/sticky-note placement, and tablet perspective consistent with the illustrated scene. The large headings in frames 1, 6, and 8 look like generated poster/notebook surfaces, not flat external overlays."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The sequence visibly shows the mechanism: possible answers in frame 1, probability scale in frame 2, scored option bars in frame 3, highest-score selection in frame 4, close-score uncertainty in frame 5, repeated scoring panels for real AI uses in frame 6, input -> probability scores -> chosen answer chain in frame 7, and quick-check comparison in frame 8.",
+      "required_fix": "None"
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Major headings and core labels are readable in the contact sheet. Frames 1, 2, 3, 4, 7, and 8 are strong. Some smaller UI text in frames 5, 6, and 8 may be borderline on a phone, especially the small panel labels and numbers inside the tablet mini-panels.",
+      "required_fix": "If rerendering, enlarge frame 5 tablet title/labels, frame 6 mini-panel labels, and frame 8 A/B score text slightly while preserving the same composition."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener with title, AI-likelihood callout, cat/dog/car tablet example, and probability scale notebook. Warm recurring learner/desk style is clear.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Probability scale is large and readable with 0, 0.5, 1 and 0%, 50%, 100%. Pointer near 0.7 communicates likelihood/confidence.",
+        "fix": "None"
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Tablet shows three option bars with cat tallest, dog medium, car short. Labels and values cat 0.72, dog 0.20, car 0.08 are readable. Headline is on a paper note, not a generic overlay.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "needs-revision",
+        "evidence": "Mechanism is clear: cat bar is highlighted, dog/car are dimmer, and tablet says \u201cHighest score gets chosen.\u201d plus \u201cchosen: cat.\u201d Notebook says \u201cLikely, not guaranteed,\u201d which preserves meaning but does not match the requested lowercase exact text. A warning triangle appears, which is slightly more warning-symbol-like than requested.",
+        "fix": "For exact prompt compliance, change notebook text to \u201clikely, not guaranteed\u201d and remove or soften the warning triangle."
+      },
+      {
+        "frame": 5,
+        "status": "pass",
+        "evidence": "Close cat/dog bars are nearly equal, car is lower, and the low confidence meter appears at the bottom. The learner\u2019s thoughtful expression supports uncertainty. Core labels cat 0.42, dog 0.39, car 0.19 are visible, though small.",
+        "fix": "Optional: enlarge tablet labels and low-confidence meter for stronger mobile readability."
+      },
+      {
+        "frame": 6,
+        "status": "pass",
+        "evidence": "Frame broadens the idea to image AI, recommendation, and chatbot panels. Each panel contains small score bars and a repeated scores-to-choice idea; sticky note reads \u201cscores -> choice.\u201d",
+        "fix": "Optional: enlarge the three mini-panel labels and reduce tiny decorative UI details to improve phone readability."
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "Memory anchor is clear and large: \u201cAI predictions are confidence-weighted guesses.\u201d Tablet shows the chain input -> probability scores -> chosen answer with arrows and bars.",
+        "fix": "None"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Quick check is visually understandable: A has a clear winner, B has close cat/dog values, the learner points toward B, and the notebook states \u201cB has closer scores.\u201d",
+        "fix": "Optional: enlarge A/B score-card text slightly for smaller mobile screens."
+      }
+    ],
+    "verdict": "Acceptable image-story set with minor caveats. The rendered contact sheet shows a coherent native educational story, self-contained opener, recurring learner/style, and visible probability mechanism. Only small repair issues remain around exact text casing in frame 4 and borderline small UI text in a few later frames.",
+    "next_action": "accept"
+  }
+}

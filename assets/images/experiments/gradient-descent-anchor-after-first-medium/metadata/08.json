@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 8,
+  "card_title": "Quick Check: Step Size Matters",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 8 as a quick check about step size.\nTechnical overlay: one U-shaped loss curve with two paths: a smooth small-step dotted path descending into the valley and a second oversized path jumping past the valley and landing higher.\nText (verbatim): \"Quick check: why small steps?\", \"Too large can overshoot the valley.\", \"small step\", \"too far\".\nConstraints: make the two paths easy to compare; avoid scary warning symbols; no extra text.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:06:28+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\08-quick-check-step-size-matters.png",
+  "api_response_id": "resp_043a29b37d13a0dd006a4921766d908192b724109bbdb0f8aa",
+  "openai_request_id": "95a88bde-258f-42e8-87ae-1ee030c2ef1f",
+  "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+  "style_references": [
+    "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

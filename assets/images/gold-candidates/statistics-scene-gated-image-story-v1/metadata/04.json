@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\statistics-how-ai-learns-patterns-from-data-image-story.md",
+  "card_number": 4,
+  "card_title": "Points On A Plot",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 4 showing the table rows becoming points on a scatterplot.\nScene/backdrop: same warm Indian study desk and learner.\nTechnical overlay: tablet shows the same five rows sliding into a scatterplot. The x-axis cue is labeled \"hours\" and the y-axis cue is labeled \"score\". Five dots rise from lower-left to upper-right, matching the 1 to 5 hour trend.\nText (verbatim): \"Each example becomes a point.\", \"hours\", \"score\".\nConstraints: axes must be simple and readable; dots should clearly trend upward but not sit on a perfect rigid line; no dense axis numbers; no extra text.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:33:59+00:00",
+  "output_path": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\04-points-on-a-plot.png",
+  "api_response_id": "resp_0af7e94a162c2a3b006a4a5d4c801481929d6c95c3eb96966b",
+  "openai_request_id": "3f9426fe-856a-4723-afb1-882e29061f74",
+  "langsmith_parent_trace_id": "019f327b-47d0-7701-9b4f-11656061f015",
+  "style_references": [
+    "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

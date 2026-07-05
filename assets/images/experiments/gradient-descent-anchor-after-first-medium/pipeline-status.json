@@ -1,0 +1,12 @@
+{
+  "status": "needs-revision",
+  "next_action": "regenerate-frame",
+  "lesson_slug": "gradient-descent-how-ai-learns-from-mistakes",
+  "pipeline_run_id": "20260704T150241Z",
+  "langsmith_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+  "out_dir": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium",
+  "contact_sheet": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\gradient-descent-anchor-after-first-medium-contact-sheet.jpg",
+  "qa_md": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\gradient-descent-anchor-after-first-medium-qa.md",
+  "qa_json": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\gradient-descent-anchor-after-first-medium-qa.json",
+  "qa_openai_request_id": "e85f5219-f179-4ed3-bbf1-3c13b64cfa98"
+}

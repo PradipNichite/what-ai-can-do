@@ -1,0 +1,53 @@
+{
+  "id": "student-ai-study-video-first-runway-clips",
+  "title": "Student AI Study - Video First Runway Clips",
+  "language": "en-IN",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "image_base_path": "assets/images/student-ai-study-video-first-story",
+  "clips": [
+    {
+      "id": "01-stuck",
+      "image": "01-stuck.png",
+      "image_url": "https://tmpfiles.org/dl/w2wJyNhcznUW/01-stuck.png",
+      "prompt": "Locked vertical frame with gentle push-in. Student looks confused, taps the textbook once, then notices the phone glow. Natural blink and small head movement. Keep the frame clean. Do not add new text."
+    },
+    {
+      "id": "02-photo",
+      "image": "02-photo.png",
+      "image_url": "https://tmpfiles.org/dl/wdwByjhHzD7v/02-photo.png",
+      "prompt": "Student lifts the phone slightly over the textbook as if taking a photo. A soft scan light moves across the page. Natural hand movement, clean parallax. Do not add new text."
+    },
+    {
+      "id": "03-context",
+      "image": "03-context.png",
+      "image_url": "https://tmpfiles.org/dl/wVwZyCh7zWDt/03-context.png",
+      "prompt": "The three context bubbles gently appear and pulse near the phone: class, topic, doubt. Student points to the page. Phone assistant nods. Keep text minimal and readable. No extra text."
+    },
+    {
+      "id": "04-steps",
+      "image": "04-steps.png",
+      "image_url": "https://tmpfiles.org/dl/wWwQyGhCzTNt/04-steps.png",
+      "prompt": "The phone step cards light up one by one. Student expression changes to an aha moment. Textbook diagram glows softly. Keep movement smooth and educational. Do not add extra text."
+    },
+    {
+      "id": "05-practice",
+      "image": "05-practice.png",
+      "image_url": "https://tmpfiles.org/dl/wqwIyShfiMZC/05-practice.png",
+      "prompt": "Student writes in notebook. Phone shows a hint card, not a final answer. Pencil moves, hint card gently pops, AI helper encourages. Keep text minimal and readable. Do not add extra text."
+    },
+    {
+      "id": "06-feedback",
+      "image": "06-feedback.png",
+      "image_url": "https://tmpfiles.org/dl/wgwzynhpi2aV/06-feedback.png",
+      "prompt": "Notebook answer receives a green checkmark and a small correction bubble. Student compares notebook and phone. Gentle UI motion, no dramatic camera movement. Do not add extra text."
+    },
+    {
+      "id": "07-verify",
+      "image": "07-verify.png",
+      "image_url": "https://tmpfiles.org/dl/wHwaymhjihD6/07-verify.png",
+      "prompt": "Final balanced study setup. Student, AI phone, textbook, and teacher verification nodes glow one by one. Connecting lines pulse gently. Confident student smile. Keep minimal text readable. No extra text."
+    }
+  ]
+}

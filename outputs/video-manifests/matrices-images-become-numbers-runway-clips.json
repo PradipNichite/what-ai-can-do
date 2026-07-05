@@ -1,0 +1,43 @@
+{
+  "id": "matrices-images-become-numbers-runway-clips",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "clips": [
+    {
+      "id": "01-learning-promise",
+      "image_url": "https://tmpfiles.org/dl/wmwFtn6zV3me/01-learning-promise.png",
+      "prompt": "Student looks from the phone photo to the notebook with a curious expression. The phone screen glows softly and the notebook catches a slight light sweep. Gentle camera push-in, calm lesson mood. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "02-photo-to-pixels",
+      "image_url": "https://tmpfiles.org/dl/w0wqt56ILcw7/02-photo-to-pixels.png",
+      "prompt": "A circular zoom bubble expands over the phone photo, revealing clear square pixels. The pixel grid sharpens gently while the phone remains steady. Subtle parallax and clean educational motion. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "03-brightness-numbers",
+      "image_url": "https://tmpfiles.org/dl/wLwStS6gL066/03-brightness-numbers.png",
+      "prompt": "The grayscale pixel squares glow one by one and visually connect to matching brightness numbers. The student finger points gently across a row. Locked readable composition, small smooth motion only. Keep the full vertical frame visible. Keep numbers readable and unchanged. No new text. No crop."
+    },
+    {
+      "id": "04-image-as-matrix",
+      "image_url": "https://tmpfiles.org/dl/wVwjtF6kL8U0/04-image-as-matrix.png",
+      "prompt": "Large matrix brackets subtly draw attention around the number grid. Rows and columns highlight softly in sequence while the student watches. Locked readable composition with gentle motion. Keep the full vertical frame visible. Keep numbers unchanged. No new text. No crop."
+    },
+    {
+      "id": "05-rgb-channels",
+      "image_url": "https://tmpfiles.org/dl/wNw0tP6bLw5g/05-rgb-channels.png",
+      "prompt": "The color image separates smoothly into three translucent grid layers: red, green, and blue. The layers float apart slightly and settle like stacked sheets. Clean educational motion, no flashy effects. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "06-ai-scans-patterns",
+      "image_url": "https://tmpfiles.org/dl/wtwqtY6BLP76/06-ai-scans-patterns.png",
+      "prompt": "A soft scan line moves across the matrix grid on the tablet. Simple edge and shape patterns glow as the scan passes. The friendly AI assistant reacts with a small nod. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "07-recap",
+      "image_url": "https://tmpfiles.org/dl/w7wctg6dL7t2/07-recap.png",
+      "prompt": "The visual chain lights up in order: phone photo, pixel grid, matrix grid, AI seeing icon. The student smiles with a small aha expression. Gentle final camera push-in. Keep the full vertical frame visible. No new text. No crop."
+    }
+  ]
+}

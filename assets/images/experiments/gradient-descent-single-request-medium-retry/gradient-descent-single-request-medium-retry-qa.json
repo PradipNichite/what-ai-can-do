@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-04T15:27:52+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_008ac6ee7f020f79006a4926628138819d93ca121374a5973a",
+  "openai_request_id": "90f1343e-c639-4e1f-ae1f-f2990a39f210",
+  "inputs": {
+    "image_folder": "assets\\images\\experiments\\gradient-descent-single-request-medium-retry",
+    "contact_sheet": "assets\\images\\experiments\\gradient-descent-single-request-medium-retry\\gradient-descent-single-request-medium-retry-contact-sheet.jpg",
+    "prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+    "source_module": "modules\\visual-ai-concepts\\gradient-descent-how-ai-learns-from-mistakes.source.md",
+    "images": [
+      "assets\\images\\experiments\\gradient-descent-single-request-medium-retry\\gradient-descent-single-request-medium-retry-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "needs-revision",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "fail",
+      "evidence": "Frame 1 visibly says \u201cAI makes a prediction. But it is wrong.\u201d and shows a tablet with a cat image, \u201cprediction: dog,\u201d and \u201ccorrect: cat.\u201d This introduces the wrong-prediction example clearly, but it does not name the lesson topic \u201cGradient Descent,\u201d does not state the learning promise, and does not connect the school concept of slope/graphs to AI training.",
+      "required_fix": "Regenerate/revise card 1 so it is self-contained: include the topic/title, a short promise such as \u201clearn how AI uses slope to reduce mistakes,\u201d and keep the dog/cat mismatch example."
+    },
+    "native_composition": {
+      "status": "partial",
+      "evidence": "Most frames feel like complete educational poster/tablet scenes: learner, desk, tablet diagrams, sticky notes, arrows, and labels are visually integrated. However, several large white brush-stroke headline blocks sit across the top of the scene and can read like generic poster overlays rather than tablet/notebook/UI-integrated lesson elements.",
+      "required_fix": "Keep the integrated tablet and sticky-note style, but make the opener and major headlines feel more like native lesson-card typography or classroom poster elements, not detached top banners."
+    },
+    "overlay_risk": {
+      "status": "medium",
+      "evidence": "The generated cards are coherent and not obvious manual pasted captions, but the repeated white brush banner headlines at the top of nearly every frame create moderate pasted-overlay risk. Tablet diagrams and sticky-note callouts are more naturally integrated."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The visible sequence shows the intended mechanism: wrong prediction vs correct answer in frame 1, loss meter in frame 2, U-shaped loss curve and high point in frame 3, slope/downhill arrow in frame 4, small point update in frame 5, lower loss/prediction closer in frame 6, repeated descending points in frame 7, and small-step vs too-far overshoot comparison in frame 8.",
+      "required_fix": "None for the overall mechanism; only minor diagram-label readability improvements are recommended."
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Main headlines and key callouts are generally large and readable in the contact sheet. Some smaller tablet labels are likely marginal on a phone, especially frame 5 labels like \u201cold point/new point,\u201d frame 6 prediction/correct chips, and some axis labels. Frame 7\u2019s dotted path is visible, but the ordered step arrows are not very explicit.",
+      "required_fix": "Increase small diagram labels and make repeated-step direction arrows more obvious, especially in frames 5\u20137."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "needs-revision",
+        "evidence": "Clear warm study-desk scene with learner and tablet. The cat image, \u201cprediction: dog,\u201d and \u201ccorrect: cat\u201d make the mismatch obvious. Text is readable.",
+        "fix": "Must add self-contained lesson orientation: title/topic \u201cGradient Descent,\u201d learning promise, and slope/AI-training connection. Keep the wrong prediction example."
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Shows mistake becoming a loss score with a large loss meter, colored gap/dots, and readable text \u201cThe mistake becomes a loss score\u201d and \u201closs = how wrong the model is.\u201d",
+        "fix": "None."
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Large U-shaped loss curve on tablet with a point high on the right side and callout \u201cHigh point = high error.\u201d The loss axis is visible and uncluttered.",
+        "fix": "None."
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Tablet shows U-shaped curve, point, tangent/slope label, and arrow toward \u201clower error.\u201d The direction clue is visually clear.",
+        "fix": "None."
+      },
+      {
+        "frame": 5,
+        "status": "needs-revision",
+        "evidence": "Shows old point and new point on the curve with a small step arrow and the update expression \u201cweight -> weight - small step.\u201d The concept is correct, but small labels on the tablet are hard to read in the contact sheet.",
+        "fix": "Enlarge \u201cold point,\u201d \u201cnew point,\u201d and \u201csmall step,\u201d or simplify the tablet labels so the small update remains readable on mobile."
+      },
+      {
+        "frame": 6,
+        "status": "pass",
+        "evidence": "Shows lower-loss meter, \u201clower error,\u201d prediction/correct chips closer together, and text \u201cThe prediction is closer, not perfect.\u201d This avoids implying perfection after one step.",
+        "fix": "Optional: enlarge the prediction/correct chips slightly for mobile."
+      },
+      {
+        "frame": 7,
+        "status": "needs-revision",
+        "evidence": "Frame communicates repetition with \u201cTraining repeats the loop,\u201d \u201csmall steps -> lower loss,\u201d \u201crepeat,\u201d and a dotted descending path on the curve. However, the sequence order relies mostly on colored dots; step arrows are subtle or missing.",
+        "fix": "Add clearer short arrows or numbering along the dotted path so repeated ordered updates are unmistakable."
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Quick-check comparison is clear: one small-step dotted path descends into the valley, while a large red dashed path overshoots and lands higher. Labels \u201csmall step,\u201d \u201ctoo far,\u201d and overshoot explanation are readable.",
+        "fix": "None."
+      }
+    ],
+    "verdict": "Strong visual sequence with clear gradient-descent mechanism and generally readable native educational compositions, but it cannot pass the image-story gate because the opener is not self-contained: it does not name Gradient Descent or state the school-concept-to-AI learning promise. Regenerate card 1; optionally improve small diagram labels and repeated-step arrows.",
+    "next_action": "regenerate-frame"
+  }
+}

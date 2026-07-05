@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 1,
+  "image_title": "Lesson Opener",
+  "video_title": "Possible Answers",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_0e3e3146d1f0dea4006a4a08338ad0819aa3b5c877bebf7431",
+  "openai_request_id": "5761c744-da5e-4eff-862d-d49580d1d348",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\01-lesson-opener.png",
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\01-lesson-opener-video.png"
+  ]
+}

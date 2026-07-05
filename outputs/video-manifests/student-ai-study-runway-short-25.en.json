@@ -1,0 +1,46 @@
+{
+  "id": "student-ai-study-runway-short-25-en",
+  "title": "How Students Can Use AI To Study Better - Runway 25s Short",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 25,
+  "source_story": "outputs/mobile-stories/how-students-can-use-ai-to-study-better.md",
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "local_output_path": "outputs/video-assets/student-ai-study-runway-short-25-en.voiceover.mp3",
+    "public_url": null,
+    "text": "Stuck on a textbook page? Show AI the exact page and ask clearly. Give context: your class, topic, and doubt. Then ask for simple steps, an example, and one question to solve. Do not copy answers. Use AI for hints, quizzes, and feedback. Best setup: AI helps, you practice, and your teacher or textbook verifies."
+  },
+  "scenes": [
+    {
+      "id": "scene-01-stuck",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wdwuyluczUu4/scene-01-stuck.mp4"
+    },
+    {
+      "id": "scene-02-context",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wgwDy0uJzdGQ/scene-02-context.mp4"
+    },
+    {
+      "id": "scene-03-steps",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/whwvyLuvzW8K/scene-03-steps.mp4"
+    },
+    {
+      "id": "scene-04-practice",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wEwey4uDi9fw/scene-04-practice.mp4"
+    },
+    {
+      "id": "scene-05-best-setup",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wUwkyvuJiXLf/scene-05-best-setup.mp4"
+    }
+  ]
+}

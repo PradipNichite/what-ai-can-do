@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\warm-minimal-tablet-keyframe-comparison-v1.md",
+  "card_number": 3,
+  "card_title": "Gradient Repeat Loop",
+  "prompt": "Use case: scientific-educational style comparison\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create a Warm Minimal Tablet Closeup source frame showing repeated small updates reducing loss.\nScene/backdrop: tablet close on warm desk, notebook and pencil visible, learner hand resting nearby.\nSubject: only hand/sleeve human context; tablet mechanism is dominant.\nTechnical visual: tablet shows a U-shaped loss curve with a dotted path of three small points stepping downhill toward the valley. A small loss meter beside the curve shrinks from high to lower. Keep the update loop visually clear.\nStyle/medium: warm minimalist tablet closeup, clean educational illustration with soft glow.\nComposition/framing: tablet fills most of frame; dotted path and loss meter are large enough for mobile.\nText to render verbatim, exactly: \"repeat\", \"lower loss\".\nMotion target for later video: dotted points light up in sequence and the loss meter shrinks.\nConstraints: no extra text; no dense formulas; no perfect-answer implication; no logos; no watermark.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:22:16+00:00",
+  "output_path": "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png",
+  "api_response_id": "resp_0bda0397d2361edc006a4a84bcde4c8192b209713d08055dd9",
+  "openai_request_id": "e0ee2a2d-65d6-4b25-aee6-221510868ca1",
+  "langsmith_parent_trace_id": "019f3316-5c4a-7d83-81eb-a23699daa22e",
+  "style_references": [],
+  "retry_count": 0
+}

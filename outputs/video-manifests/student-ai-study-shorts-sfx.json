@@ -1,0 +1,35 @@
+{
+  "id": "student-ai-study-shorts-sfx",
+  "sfx": [
+    {
+      "id": "phone-glow",
+      "duration": 0.7,
+      "prompt": "Soft friendly digital notification glow, short bright UI chime, educational app sound, no music"
+    },
+    {
+      "id": "page-scan",
+      "duration": 0.9,
+      "prompt": "Gentle smartphone document scan sweep, clean futuristic scan sound, short and subtle, no music"
+    },
+    {
+      "id": "step-pop",
+      "duration": 0.65,
+      "prompt": "Three quick soft UI pop sounds, positive educational app feedback, short and clean, no music"
+    },
+    {
+      "id": "hint-pop",
+      "duration": 0.65,
+      "prompt": "Small friendly hint card pop sound, soft notification, positive and subtle, no music"
+    },
+    {
+      "id": "checkmark",
+      "duration": 0.7,
+      "prompt": "Clear positive checkmark success sound, soft educational app confirmation, short and clean, no music"
+    },
+    {
+      "id": "final-chime",
+      "duration": 1.0,
+      "prompt": "Warm gentle completion chime, optimistic educational ending, short bright success sound, no music"
+    }
+  ]
+}

@@ -26,7 +26,7 @@ The strongest direction so far is mobile-first visual storytelling with generate
 - Do not make the output feel like a blog converted into images.
 - Use 9:16 story cards for WhatsApp Status, Instagram Stories, YouTube Community posts, and mobile-first education.
 - Captions are allowed, but they should be short and native to the card.
-- Generated text inside images is allowed and useful, but every image needs visual QA.
+- Generated text inside images is allowed and useful, but every image needs ChatGPT vision QA on the actual rendered output.
 - Marathi localization should sound like natural spoken Marathi, not textbook translation.
 - Familiar technical words should remain in English when Marathi speakers naturally use them: AI, Agent, Order, Mobile Number, System, Tool, Prompt, Dashboard, API, Database, etc.
 - Educational examples should be student-first and curiosity-building, not random business automation examples.
@@ -119,7 +119,7 @@ Prompt archives:
 
 Generated text can be strong, especially for English educational cards, but it must be reviewed manually.
 
-For Marathi and Devanagari text, local PIL rendering failed because complex joined letters did not shape correctly. The current safer path is browser/HTML rendering for Marathi overlays, or native image generation followed by manual visual review.
+For Marathi and Devanagari text, local PIL rendering failed because complex joined letters did not shape correctly. The current safer path is browser/HTML rendering for Marathi overlays, or native image generation followed by ChatGPT vision review of the final rendered image.
 
 Use:
 

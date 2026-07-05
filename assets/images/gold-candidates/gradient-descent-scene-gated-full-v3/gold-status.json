@@ -1,0 +1,37 @@
+{
+  "lesson": "gradient-descent-how-ai-learns-from-mistakes",
+  "status": "accepted-gold-candidate",
+  "generated_variant": "scene-gated-full-v3",
+  "image_only": {
+    "folder": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3",
+    "contact_sheet": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-contact-sheet.jpg",
+    "qa_markdown": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-qa.md",
+    "qa_json": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-qa.json",
+    "qa_status": "pass-with-caveats",
+    "qa_next_action": "accept",
+    "remaining_caveat": "Accepted for image-only use; smallest technical labels in frames 4 and 5 may need enlargement for phone-only publication."
+  },
+  "scene_adequacy": {
+    "qa_markdown": "assets/reviews/gradient-descent-scene-adequacy.md",
+    "qa_json": "assets/reviews/gradient-descent-scene-adequacy.json",
+    "status": "pass-with-caveats",
+    "next_action": "proceed-to-prompts"
+  },
+  "prompt_packs": {
+    "image_only": "assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+    "video_first": "assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-video-first.md"
+  },
+  "generation_traces": [
+    {
+      "trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+      "purpose": "targeted repair generation for cards 2-6"
+    }
+  ],
+  "qa_request_ids": {
+    "image_only_final": "9703f9a2-f854-45fa-881f-96441b6d8c59"
+  },
+  "next_video_test": {
+    "recommended_scope": "Runway smoke test on frames 4, 5, and 8 before full video assembly.",
+    "reason": "These scenes carry gradient/opposite-update, small-step movement, and overshoot motion risk."
+  }
+}

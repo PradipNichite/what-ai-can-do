@@ -1,0 +1,163 @@
+{
+  "image_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "video_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "out_dir": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium",
+  "frames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "quality": "medium",
+  "size": "1024x1536",
+  "style_references": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium-gold-v2\\image-only\\01-lesson-opener.png"
+  ],
+  "langsmith_trace_id": "019f318c-f8a9-7d31-9a99-965cdb267b82",
+  "results": [
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 1,
+      "image_title": "Mistake Starts Learning",
+      "video_title": "Wrong Prediction",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0c6f067c7b3ade0f006a4a22be877c8198ba7eac1ac9bd913a",
+      "openai_request_id": "d07bea7e-2af5-422b-a3a2-203fcffb781c",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\01-mistake-starts-learning.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\01-mistake-starts-learning-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 2,
+      "image_title": "Mistake Becomes Loss",
+      "video_title": "Measure Loss",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_050ab25fa6ff9129006a4a34c30354819fa74ab4377c797579",
+      "openai_request_id": "8fb291f9-829b-4c5a-8069-0662a98c335a",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\02-mistake-becomes-loss.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\02-mistake-becomes-loss-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 3,
+      "image_title": "Loss Curve",
+      "video_title": "Loss Curve",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_04e0556e3736f2b6006a4a3572cce481a1a4abb6fc396054e5",
+      "openai_request_id": "6dc68046-482c-4453-a8a2-c5eab063f73f",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\03-loss-curve.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\03-loss-curve-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 4,
+      "image_title": "Slope Gives Direction",
+      "video_title": "Gradient Direction",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0e4869800fb2bde6006a4a35e0f044819cb877cb7e0506c788",
+      "openai_request_id": "f2b2cf99-7ffe-483f-96e0-bd0dce4b0f30",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\04-slope-gives-direction.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\04-slope-gives-direction-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 5,
+      "image_title": "One Small Update",
+      "video_title": "Small Update",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_010c2b2d616da9d2006a4a365178f881929c78f2e4aeae34d1",
+      "openai_request_id": "d2691557-3fb2-42bc-a57d-7f1a95e2a2f5",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\05-one-small-update.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\05-one-small-update-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 6,
+      "image_title": "Lower Error",
+      "video_title": "Lower Loss",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_09e23678305c74f9006a4a36d1ded081a0b48a52986caa0a5e",
+      "openai_request_id": "b921b96e-f8a9-48c0-b220-0d9c321cb384",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\06-lower-error.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\06-lower-error-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 7,
+      "image_title": "Repeat To Learn",
+      "video_title": "Repeat",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0600cf051bbb44d3006a4a3747969081a08dbcd3618ca72e3b",
+      "openai_request_id": "a710146f-7a99-4f25-96c5-42ad8aa9a485",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\07-repeat-to-learn.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\07-repeat-to-learn-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 8,
+      "image_title": "Quick Check: Step Size Matters",
+      "video_title": "Quick Check: Step Size Matters",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0b6fda9a4e313143006a4a380c5c94819db535089d940df74c",
+      "openai_request_id": "2f2b1ce4-1d50-4d7d-b8a7-26c03274bc6e",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\08-quick-check-step-size-matters.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\08-quick-check-step-size-matters-video.png"
+      ]
+    }
+  ],
+  "image_contact_sheet": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only-contact-sheet.jpg",
+  "video_contact_sheet": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first-contact-sheet.jpg"
+}

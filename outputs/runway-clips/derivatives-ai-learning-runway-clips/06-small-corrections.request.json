@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wIwStIASKg9f/04-training-small-corrections.png",
+  "promptText": "Animate this training path card. Preserve all text exactly. Small step arrows move down the path from big error to better result, AI icons bounce subtly, student watches, final green result glows. Smooth continuous motion, full vertical poster visible, no new text or objects.",
+  "ratio": "720:1280",
+  "duration": 5
+}

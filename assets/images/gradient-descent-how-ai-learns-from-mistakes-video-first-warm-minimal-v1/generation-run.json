@@ -1,0 +1,241 @@
+{
+  "generated_at": "2026-07-05T17:00:16+00:00",
+  "prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "out_dir": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1",
+  "lesson_slug": "gradient-descent-how-ai-learns-from-mistakes-video-first",
+  "pipeline_run_id": "20260705T165718Z",
+  "model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "size": "1024x1536",
+  "quality": "low",
+  "parallel": 3,
+  "cards": [
+    {
+      "number": 1,
+      "title": "Opener Bridge",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\01-opener-bridge.png"
+    },
+    {
+      "number": 2,
+      "title": "Measure Loss",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\02-measure-loss.png"
+    },
+    {
+      "number": 3,
+      "title": "Loss Curve",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\03-loss-curve.png"
+    },
+    {
+      "number": 4,
+      "title": "Gradient Direction",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\04-gradient-direction.png"
+    },
+    {
+      "number": 5,
+      "title": "Small Update",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\05-small-update.png"
+    },
+    {
+      "number": 6,
+      "title": "Lower Loss",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\06-lower-loss.png"
+    },
+    {
+      "number": 7,
+      "title": "Repeat Loop",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\07-repeat-loop.png"
+    },
+    {
+      "number": 8,
+      "title": "Step-Size Quick Check",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\08-step-size-quick-check.png"
+    }
+  ],
+  "langsmith_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+  "results": [
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+      "card_number": 1,
+      "card_title": "Opener Bridge",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 1 of a Warm Minimal Tablet Closeup micro-lesson about \"Gradient Descent: How AI Learns From Mistakes\".\nScene/backdrop: warm wooden study desk with soft lamp glow, notebook edge, pencil, books, small plant, and a tablet held close to the viewer.\nSubject: Indian 11th/12th standard learner; teal/green sleeve and focused pointing hand visible near the tablet; partial face may appear softly in the background but the tablet is the hero.\nStyle/medium: warm minimalist tablet closeup, polished modern Indian educational illustration, cinematic 9:16 mobile frame, uncluttered and motion-safe.\nComposition/framing: tablet fills about 75 percent of the frame; desk context stays subtle; leave safe bottom margin for captions.\nText (verbatim): \"mistake\", \"loss\", \"small step\".\nTechnical overlay: tablet shows a compact left-to-right chain: wrong prediction icon -> vertical loss meter -> U-shaped loss curve -> short green downhill step arrow. The chain must imply AI improves by reducing error.\nMotion target for later video: chain lights up left to right and the small step arrow pulses once.\nConstraints: no lesson title, no dog/cat words, no extra text, no dense formulas, no logos, no watermark, keep labels large and native to the tablet UI, do not make a flat slide card.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "low",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T16:57:25+00:00",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\01-opener-bridge.png",
+      "api_response_id": "resp_0c8613fc4eeac947006a4a8cfd55d481a1b297fd35ec388714",
+      "openai_request_id": "462ec0ed-7dfc-45d9-baa5-377c62c2ae36",
+      "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+      "style_references": [
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+      "card_number": 2,
+      "card_title": "Measure Loss",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 2 showing a model mistake becoming a loss score.\nScene/backdrop: close-up tablet on warm wooden study desk with lamp glow, notebook edge, pencil, and subtle books/plant context.\nSubject: same recurring Indian teenage learner; teal/green sleeve and hand near the tablet; tablet is dominant.\nStyle/medium: warm minimalist tablet closeup, polished educational illustration, cinematic 9:16 frame.\nComposition/framing: tablet fills most of frame; simple UI elements large enough for phone viewing; safe margins for slight camera motion.\nText (verbatim): \"prediction\", \"correct\", \"loss: 8/10\".\nTechnical overlay: tablet shows two icon chips that do not match: one prediction chip and one correct-answer chip. A highlighted gap between them feeds into a large vertical loss meter labeled \"loss: 8/10\", filled high on a simple 0-to-10 scale without clutter.\nMotion target for later video: mismatch gap glows, then a pulse flows into the loss meter and fills it upward.\nConstraints: no dog/cat words, no extra text, no logos, no watermark, no dense formulas, avoid angry warning graphics, keep the score label large and readable.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "low",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T16:57:25+00:00",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\02-measure-loss.png",
+      "api_response_id": "resp_0dc6c436d65eb817006a4a8d00c9d0819eb20dc952b130e53f",
+      "openai_request_id": "fee051a5-d7af-4fec-997f-ba8936cc8c07",
+      "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+      "style_references": [
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+      "card_number": 3,
+      "card_title": "Loss Curve",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 3 showing a one-weight loss curve.\nScene/backdrop: close tablet on warm study desk with notebook edge, pencil, and soft lamp glow.\nSubject: same recurring Indian teenage learner; only teal/green sleeve, hand, or soft partial face needed; tablet mechanism is dominant.\nStyle/medium: warm minimalist tablet closeup, premium mobile educational illustration, clean graph, soft paper-and-lamp warmth.\nComposition/framing: tablet fills about 75 percent of the vertical frame; graph is large and centered with safe margins.\nText (verbatim): \"loss\", \"weight setting\".\nTechnical overlay: tablet shows one large clean U-shaped loss curve with a single glowing point high on the right slope. Add a simple vertical cue labeled \"loss\" and horizontal cue labeled \"weight setting\". No axis numbers.\nMotion target for later video: loss curve draws from left to right, then the high point pops into place.\nConstraints: no extra text, no formulas, no logos, no watermark, keep graph and labels large, do not make the tablet look like a generic presentation slide.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "low",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T16:57:25+00:00",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\03-loss-curve.png",
+      "api_response_id": "resp_03dfcf8ff261e36b006a4a8cfe6e5481a2bc5aafff3808b60f",
+      "openai_request_id": "66d24411-332c-432e-9e76-40111810eeb5",
+      "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+      "style_references": [
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+      "card_number": 4,
+      "card_title": "Gradient Direction",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 4 showing that the gradient points toward higher loss and the update moves opposite toward lower error.\nScene/backdrop: close-up tablet on warm study desk, pencil and notebook edge visible, soft lamp glow.\nSubject: same recurring Indian teenage learner; teal/green sleeve and pointing hand near the graph; no full character required.\nStyle/medium: warm minimalist tablet closeup, premium mobile explainer illustration, clean graph, warm human desk context.\nComposition/framing: tablet fills most of the frame; graph is large and readable with safe margins for video motion.\nText (verbatim): \"gradient: higher loss\", \"move opposite\", \"lower error\".\nTechnical overlay: tablet shows one large U-shaped loss curve with a point on the slope. A thin red/orange tangent or uphill cue at the point is labeled \"gradient: higher loss\". A separate green arrow starts at the same point and is labeled \"move opposite\", ending near \"lower error\" toward the valley.\nMotion target for later video: tangent cue appears first, then the opposite update arrow draws toward lower error.\nConstraints: no lesson title, no extra text, no formulas, no logos, no watermark, do not label the downhill arrow as the gradient, keep labels high contrast and larger than in the style-grid experiment.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "low",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T16:58:23+00:00",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\04-gradient-direction.png",
+      "api_response_id": "resp_014544a42c5e41d1006a4a8d3a4850819d819a249dc06049f1",
+      "openai_request_id": "702bd0ba-cb93-49c2-8af7-45890daf2d84",
+      "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+      "style_references": [
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+      "card_number": 5,
+      "card_title": "Small Update",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 5 showing one small gradient descent update.\nScene/backdrop: tablet closeup on warm wooden study desk with notebook edge, pencil, and soft lamp glow.\nSubject: same recurring Indian teenage learner; teal/green sleeve and hand resting near the tablet.\nStyle/medium: warm minimalist tablet closeup, polished 9:16 educational illustration, uncluttered and motion-safe.\nComposition/framing: tablet is the main technical surface; curve and old/new points are large; safe bottom margin for captions.\nText (verbatim): \"small step\", \"opposite gradient\".\nTechnical overlay: tablet shows the same U-shaped loss curve with an old point and a nearby new point slightly lower on the curve. A short green step arrow labeled \"opposite gradient\" connects them, and a small native tablet chip reads \"small step\". Do not include a full formula.\nMotion target for later video: old point moves one short step to the nearby lower point and the arrow glows.\nConstraints: no extra text, no formulas, no logos, no watermark, step must be visibly small, do not show the point jumping across the valley.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "low",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T16:58:24+00:00",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\05-small-update.png",
+      "api_response_id": "resp_04b178c9d64797a8006a4a8d39387881a2b1657ff28d81e9c9",
+      "openai_request_id": "f4f3b646-b1b0-4905-8cb6-edc96c595b32",
+      "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+      "style_references": [
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+      "card_number": 6,
+      "card_title": "Lower Loss",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 6 showing lower loss after one small update.\nScene/backdrop: close tablet on warm study desk with notebook, pencil, and lamp glow.\nSubject: same recurring Indian teenage learner; teal/green sleeve and soft partial face or hand context.\nStyle/medium: warm minimalist tablet closeup, polished mobile educational illustration, cinematic but uncluttered.\nComposition/framing: tablet fills most of frame; loss meter and prediction chips are large; safe margins for motion.\nText (verbatim): \"loss: 5/10\", \"lower error\".\nTechnical overlay: tablet shows a smaller loss meter labeled \"loss: 5/10\". Nearby, prediction and correct icon chips are closer together than in frame 2 but still visibly separate. Include a tiny curve inset with the point slightly lower than before.\nMotion target for later video: loss meter shrinks and prediction chip slides closer to the correct chip without fully matching.\nConstraints: no extra text, no logos, no watermark, no dense formulas, do not show perfect prediction, keep labels readable.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "low",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T16:58:33+00:00",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\06-lower-loss.png",
+      "api_response_id": "resp_02aff29ff4d129f1006a4a8d3eaff0819fbc0a84554ef90813",
+      "openai_request_id": "3d767844-618c-40e8-86ea-d66e007542f8",
+      "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+      "style_references": [
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+      "card_number": 7,
+      "card_title": "Repeat Loop",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 7 showing repeated small gradient descent updates reducing loss.\nScene/backdrop: tablet close on warm desk, notebook and pencil visible, learner hand resting nearby.\nSubject: same recurring Indian teenage learner; teal/green sleeve or hand context only; tablet mechanism dominates.\nStyle/medium: warm minimalist tablet closeup, clean educational illustration with soft glow, 9:16 mobile source frame.\nComposition/framing: tablet fills most of frame; dotted path and loss meter are large enough for mobile.\nText (verbatim): \"repeat\", \"lower loss\".\nTechnical overlay: tablet shows a U-shaped loss curve with a dotted path of four small points stepping downhill toward the valley. Beside the curve, a compact loss meter shows stacked ghost levels shrinking from high to lower. The final point is near lower loss but not exactly perfect.\nMotion target for later video: dotted points light up in order and the loss meter shrinks level by level.\nConstraints: no extra text, no dense formulas, no logos, no watermark, no perfect-answer implication, make the ordered step sequence unmistakable.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "low",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T16:59:17+00:00",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\07-repeat-loop.png",
+      "api_response_id": "resp_016b19c259afeb58006a4a8d6ca8fc819c99c8d8a217cb6574",
+      "openai_request_id": "a6770b83-0d6a-43ce-ba89-05ffc1b014c0",
+      "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+      "style_references": [
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+      "card_number": 8,
+      "card_title": "Step-Size Quick Check",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 8 as a quick check showing that step size matters in gradient descent.\nScene/backdrop: warm study desk closeup with tablet as the main surface, notebook and pencil nearby.\nSubject: same recurring Indian teenage learner; teal/green sleeve and pencil-holding hand near the tablet.\nStyle/medium: warm minimalist tablet closeup, polished educational illustration, clean graph and sparse text.\nComposition/framing: tablet fills about 75 percent of the frame; two paths are easy to compare; safe margins for video motion.\nText (verbatim): \"small step\", \"too far\".\nTechnical overlay: tablet shows one large U-shaped loss curve with two paths: a smooth small-step dotted path descending toward the valley, and a second oversized path that jumps across the valley and lands higher, labeled \"too far\". Use a calm green path for small step and a warm orange/red path for too far.\nMotion target for later video: small-step path glows calmly, then the too-far overshoot path flashes once and settles higher.\nConstraints: no extra text, no formulas, no logos, no watermark, avoid scary warning symbols, keep labels large and readable, do not crop the valley or overshoot landing point.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "low",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T16:59:17+00:00",
+      "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\08-step-size-quick-check.png",
+      "api_response_id": "resp_0ac51e95d0200ddf006a4a8d6c3de4819ebe9a186745ca4f7c",
+      "openai_request_id": "0e6a0d72-e6be-4d92-a60b-f66b97807b15",
+      "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+      "style_references": [
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+        "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+      ],
+      "retry_count": 0
+    }
+  ]
+}

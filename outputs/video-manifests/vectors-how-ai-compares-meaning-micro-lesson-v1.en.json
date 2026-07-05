@@ -1,0 +1,93 @@
+{
+  "id": "vectors-how-ai-compares-meaning-micro-lesson-v1-en",
+  "title": "Micro-Lesson: How AI Compares Meaning With Vectors",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 36.4,
+  "image_base_path": "assets/images/vectors-how-ai-compares-meaning-video-first",
+  "learning_design": {
+    "format": "micro-lesson",
+    "learning_goal": "Understand that AI can compare meaning by turning text into vectors and checking which vectors are close or point in similar directions.",
+    "why_it_matters": "This explains semantic search, recommendations, embeddings, and retrieval over notes or documents.",
+    "memory_anchor": "Similar meaning means nearby vectors.",
+    "quick_check": "Which pair should be closer: car and vehicle, or car and banana?",
+    "cognitive_load": "medium"
+  },
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+    "voice_name": "Zara - Soft and Serene Indian Voice",
+    "local_output_path": "outputs/video-assets/vectors-how-ai-compares-meaning-micro-lesson-v1-en.voiceover.mp3",
+    "text": "In this micro lesson, you will learn how AI compares meaning with vectors. AI can find related meaning even when words differ. A vector is a list of numbers. A sentence becomes a point in meaning space. Similar meanings land close, or point in similar directions. So affordable smartphone can match cheap phone or budget mobile. This powers semantic search, recommendations, and embeddings. Remember: similar meaning means nearby vectors. Quick check: car and vehicle, or car and banana?",
+    "public_url": "https://tmpfiles.org/dl/w0whtzZtBYvp/vectors-how-ai-compares-meaning-micro-lesson-v1-en.voiceover.mp3",
+    "measured_duration_seconds": 36.389
+  },
+  "scenes": [
+    {
+      "id": "01-meaning-not-exact-words",
+      "duration": 5.0,
+      "image": "01-meaning-not-exact-words.png",
+      "video_url": "https://tmpfiles.org/dl/wbwatHZwsd1g/01-meaning-not-exact-words.mp4",
+      "caption": "What you will learn",
+      "caption_start": 0.3,
+      "caption_duration": 1.8
+    },
+    {
+      "id": "02-vector-list-of-numbers",
+      "duration": 5.0,
+      "image": "02-vector-list-of-numbers.png",
+      "video_url": "https://tmpfiles.org/dl/wpw0t6ZKsg9Y/02-vector-list-of-numbers.mp4",
+      "caption": "Vector = list of numbers",
+      "caption_start": 6.2,
+      "caption_duration": 2.0
+    },
+    {
+      "id": "03-meaning-space-nearby-points",
+      "duration": 5.0,
+      "image": "03-meaning-space-nearby-points.png",
+      "video_url": "https://tmpfiles.org/dl/wNwatsZXslIz/03-meaning-space-nearby-points.mp4"
+    },
+    {
+      "id": "04-similar-directions-small-angle",
+      "duration": 5.0,
+      "image": "04-similar-directions-small-angle.png",
+      "video_url": "https://tmpfiles.org/dl/wgwqtzZCsGCS/04-similar-directions-small-angle.mp4",
+      "caption": "Close or similar direction",
+      "caption_start": 16.0,
+      "caption_duration": 2.2
+    },
+    {
+      "id": "05-semantic-search-nearest-vectors",
+      "duration": 5.0,
+      "image": "05-semantic-search-nearest-vectors.png",
+      "video_url": "https://tmpfiles.org/dl/wjwVtJZOsZBJ/05-semantic-search-nearest-vectors.mp4"
+    },
+    {
+      "id": "06-recommendations-nearby-vectors",
+      "duration": 5.0,
+      "image": "06-recommendations-nearby-vectors.png",
+      "video_url": "https://tmpfiles.org/dl/wqwytwZEsYPL/06-recommendations-nearby-vectors.mp4"
+    },
+    {
+      "id": "07-memory-anchor-quick-check",
+      "duration": 5.0,
+      "image": "07-memory-anchor-quick-check.png",
+      "video_url": "https://tmpfiles.org/dl/wewntYZQsvxi/07-memory-anchor-quick-check.mp4",
+      "caption": "Similar meaning = nearby vectors",
+      "caption_start": 31.0,
+      "caption_duration": 3.4
+    },
+    {
+      "id": "08-final-quick-check-hold",
+      "duration": 1.4,
+      "image": "07-memory-anchor-quick-check.png",
+      "image_url": "https://tmpfiles.org/dl/wMwtt6ZZJlGC/07-memory-anchor-quick-check.png",
+      "video_url": "https://tmpfiles.org/dl/wewntYZQsvxi/07-memory-anchor-quick-check.mp4"
+    }
+  ]
+}

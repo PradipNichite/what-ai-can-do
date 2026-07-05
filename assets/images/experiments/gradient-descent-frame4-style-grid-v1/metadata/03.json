@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+  "card_number": 3,
+  "card_title": "Warm Minimal Tablet Closeup",
+  "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one warm minimalist tablet closeup showing the gradient direction mechanism for Gradient Descent.\nScene/backdrop: close-up of hands holding or pointing at a tablet on a warm study desk; only hints of notebook, lamp glow, and pencil are visible.\nSubject: learner is mostly represented by hands and sleeve in teal/green; no full face needed.\nTechnical visual: tablet screen shows a large U-shaped loss curve with one point on the slope. A thin red/orange tangent or uphill cue is labeled \"gradient: higher loss\". A separate green update arrow is labeled \"move opposite\" and leads toward a small \"lower error\" marker near the valley.\nStyle/medium: warm minimalist educational illustration, soft lighting, premium mobile explainer look, fewer objects than story mode.\nComposition/framing: tablet fills 75 percent of the vertical frame; hands and desk edges provide human context.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no dog/cat prediction; no extra text; no logos; no watermark; labels must be large and readable; keep graph technically clean and uncluttered.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:33:00+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\03-warm-minimal-tablet-closeup.png",
+  "api_response_id": "resp_0b5f2adf8de4fc94006a4a792e4d58819c8b2adb746725d85b",
+  "openai_request_id": "d86a41ec-3c22-4eb2-a669-aedb80eadef2",
+  "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+  "style_references": [],
+  "retry_count": 0
+}

@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 1,
+  "card_title": "Mistake Starts Learning",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 1 for \"Gradient Descent: How AI Learns From Mistakes\". Show an Indian high-school learner at a warm study desk looking at a tablet. The tablet shows an animal input card, a model prediction chip, and a correct answer chip that do not match.\nStyle/medium: realistic warm study-desk/tablet technical style.\nComposition/framing: tablet large in foreground; learner visible behind it; headline/callout text integrated in the upper safe area.\nText (verbatim): \"AI makes a prediction.\", \"But it is wrong.\", \"prediction: dog\", \"correct: cat\".\nConstraints: make the mismatch visually obvious; keep text large and readable; no extra text; no logos; no watermark.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:02:47+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png",
+  "api_response_id": "resp_0433304237146c49006a49209d083481a3894fb32a95521838",
+  "openai_request_id": "fed7d99d-1581-49d6-af2c-2f3d2bcb575a",
+  "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

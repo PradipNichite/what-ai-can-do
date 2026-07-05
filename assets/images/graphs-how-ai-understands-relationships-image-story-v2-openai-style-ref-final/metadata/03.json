@@ -1,0 +1,22 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "card_number": 3,
+  "card_title": "Relationships Become Edges",
+  "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 3 of 8\nPrimary request: Create a polished native story card showing relationship lines added between related video/topic nodes. Keep the same warm desk, learner, tablet, and story-card composition.\nScene/backdrop: Same learner leans toward the tablet with an aha expression. The tablet shows the nodes from the previous card. Clean glowing edges are drawn between related nodes: AI basics to machine learning, machine learning to coding tutorial, and study tips to study topic. Cricket and music remain dim and separate.\nSubject: Tablet graph UI, hand-drawn arrows, edge labels, learner noticing the connections.\nStyle/medium: warm modern educational illustration, high quality WhatsApp/Instagram story aesthetic, integrated text, not flat infographic.\nComposition/framing: 9:16 portrait. The tablet fills the lower half, learner and desk objects fill the upper/middle. Integrate the headline as a sticky note or notebook banner, not a floating poster block.\nText to render verbatim, exactly:\n\"Relationships become edges.\"\n\"edge\"\n\"related\"\nConstraints: edges must explain chosen relationships, not random decoration; avoid tangled network; keep labels large; no extra text; no logos; no watermark; no generic caption panel.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:45:18+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\03-relationships-become-edges.png",
+  "api_response_id": "resp_09712c241414bb51006a491c86e484819ca0e12b446eedabfe",
+  "openai_request_id": "a2bbec1f-afd8-424b-b79b-f0015a6eccec",
+  "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

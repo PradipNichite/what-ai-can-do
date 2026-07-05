@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\05-math-glimpse.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 3.1297107140223184,
+  "max_frame_diff": 5.051319599151611,
+  "black_border_ratio_mean": 0.0069791666666666665,
+  "black_border_ratio_max": 0.008186848958333333,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\verification\\05-math-glimpse.contact-sheet.jpg"
+}

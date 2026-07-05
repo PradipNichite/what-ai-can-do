@@ -1,0 +1,10 @@
+{
+  "video": "D:\\Projects\\FutureSmart\\Media Engine\\What AI Can Do\\outputs\\runway-clips\\gradient-descent-runway-style-ab-frame4-v1\\story-04-gradient-direction.mp4",
+  "duration_seconds": 5.04,
+  "samples": 8,
+  "mean_frame_diff": 2.345022303717477,
+  "max_frame_diff": 4.80388879776001,
+  "black_border_ratio_mean": 0.04693060980902778,
+  "black_border_ratio_max": 0.057634548611111114,
+  "contact_sheet": "D:\\Projects\\FutureSmart\\Media Engine\\What AI Can Do\\outputs\\runway-clips\\gradient-descent-runway-style-ab-frame4-v1\\verification\\story-04-gradient-direction.contact-sheet.jpg"
+}

@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "card_number": 8,
+  "card_title": "Step-Size Quick Check",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 8 as a quick check showing that step size matters in gradient descent.\nScene/backdrop: warm study desk closeup with tablet as the main surface, notebook and pencil nearby.\nSubject: same recurring Indian teenage learner; teal/green sleeve and pencil-holding hand near the tablet.\nStyle/medium: warm minimalist tablet closeup, polished educational illustration, clean graph and sparse text.\nComposition/framing: tablet fills about 75 percent of the frame; two paths are easy to compare; safe margins for video motion.\nText (verbatim): \"small step\", \"too far\".\nTechnical overlay: tablet shows one large U-shaped loss curve with two paths: a smooth small-step dotted path descending toward the valley, and a second oversized path that jumps across the valley and lands higher, labeled \"too far\". Use a calm green path for small step and a warm orange/red path for too far.\nMotion target for later video: small-step path glows calmly, then the too-far overshoot path flashes once and settles higher.\nConstraints: no extra text, no formulas, no logos, no watermark, avoid scary warning symbols, keep labels large and readable, do not crop the valley or overshoot landing point.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "low",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:59:17+00:00",
+  "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\08-step-size-quick-check.png",
+  "api_response_id": "resp_0ac51e95d0200ddf006a4a8d6c3de4819ebe9a186745ca4f7c",
+  "openai_request_id": "0e6a0d72-e6be-4d92-a60b-f66b97807b15",
+  "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+  "style_references": [
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+  ],
+  "retry_count": 0
+}

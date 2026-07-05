@@ -1,0 +1,49 @@
+{
+  "id": "student-ai-study-runway-smooth-female-plan",
+  "title": "Student AI Study - Smooth Female Voice Edit",
+  "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+  "voice_name": "Alice - Clear, Engaging Educator",
+  "strategy": "Avoid black pauses by keeping every visual segment under the 5.04s source clip length. Avoid the scene-2 cropped feeling by shortening its visual hold. Use a calmer female educator voice and short scene voiceovers with small J/L-cut offsets.",
+  "scenes": [
+    {
+      "id": "scene-01-stuck",
+      "duration": 4.5,
+      "video_url": "https://tmpfiles.org/dl/wdwuyluczUu4/scene-01-stuck.mp4",
+      "voiceover_text": "Stuck on a textbook page? Show AI the page.",
+      "voiceover_start": 0.15,
+      "audio_duration": 3.9
+    },
+    {
+      "id": "scene-02-context",
+      "duration": 4.6,
+      "video_url": "https://tmpfiles.org/dl/wgwDy0uJzdGQ/scene-02-context.mp4",
+      "voiceover_text": "Then give it context: your class, topic, and exact doubt.",
+      "voiceover_start": 4.15,
+      "audio_duration": 4.4
+    },
+    {
+      "id": "scene-03-steps",
+      "duration": 4.7,
+      "video_url": "https://tmpfiles.org/dl/whwvyLuvzW8K/scene-03-steps.mp4",
+      "voiceover_text": "Ask for simple steps, one example, and a question.",
+      "voiceover_start": 8.9,
+      "audio_duration": 4.1
+    },
+    {
+      "id": "scene-04-practice",
+      "duration": 4.8,
+      "video_url": "https://tmpfiles.org/dl/wEwey4uDi9fw/scene-04-practice.mp4",
+      "voiceover_text": "Do not copy answers. Use hints, quizzes, and feedback.",
+      "voiceover_start": 13.35,
+      "audio_duration": 4.5
+    },
+    {
+      "id": "scene-05-best-setup",
+      "duration": 4.5,
+      "video_url": "https://tmpfiles.org/dl/wUwkyvuJiXLf/scene-05-best-setup.mp4",
+      "voiceover_text": "Best setup: AI helps, you practice, teacher verifies.",
+      "voiceover_start": 18.15,
+      "audio_duration": 4.3
+    }
+  ]
+}

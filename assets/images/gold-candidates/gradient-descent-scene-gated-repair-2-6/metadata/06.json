@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 6,
+  "card_title": "Lower Error",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 6 showing lower loss after one update.\nTechnical overlay: one large tablet UI only: smaller loss meter marked \"loss: 5/10\", prediction/correct chips closer together, and a small curve inset with the point lower than before. Include a small before-to-after cue from \"loss: 8/10\" to \"loss: 5/10\". Put the sentence \"The prediction is closer, not perfect.\" as a large notebook or tablet callout. Keep the diagram simple and avoid extra mini-panels.\nText (verbatim): \"After the step, loss is lower.\", \"The prediction is closer, not perfect.\", \"lower error\", \"loss: 5/10\", \"loss: 8/10\".\nConstraints: do not show perfect prediction after one step; use only the required text; no extra sticky-note explanations; keep text and diagram readable on mobile.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:28:18+00:00",
+  "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\06-lower-error.png",
+  "api_response_id": "resp_076cafc378486c4d006a4a5bf51048819188391b6af3a42fca",
+  "openai_request_id": "87691f6d-4d5e-4714-82a3-a9c1a3a17d0f",
+  "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+  "style_references": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

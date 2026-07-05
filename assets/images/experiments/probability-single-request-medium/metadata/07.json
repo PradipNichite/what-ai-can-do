@@ -1,0 +1,24 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "card_number": 7,
+  "card_title": "Memory Anchor",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card, frame 7 of 8\nPrimary request: Create a polished native story card summarizing probability in AI prediction. Keep the same warm educational story style.\nScene/backdrop: Same study desk. The learner smiles with an aha expression while looking at a tablet and notebook.\nSubject: Tablet shows a clean chain from input to probability scores to chosen answer. Notebook has the memory anchor written clearly.\nTechnical visual: Chain nodes connected by arrows, with small probability bars inside the middle node.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, integrated text, not a flat diagram slide.\nComposition/framing: 9:16 portrait. Tablet centered, hands visible, warm desk objects around it. Main anchor appears as friendly notebook typography integrated into the scene.\nText to render verbatim, exactly:\n\"input\"\n\"probability scores\"\n\"chosen answer\"\n\"AI predictions are confidence-weighted guesses.\"\nConstraints: keep memory anchor readable; avoid dense paragraphs; no extra text; no logos; no watermark; no generic caption panel.",
+  "generation_mode": "single-request-lesson",
+  "card_count_requested": 8,
+  "image_outputs_received": 8,
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "api_response_id": "resp_00d1e90c4d86c6c8006a4927de7604819e9c68bd4632821bc7",
+  "openai_request_id": "6b2cae5d-b9c0-4ee1-bcde-514a603ee79e",
+  "langsmith_parent_trace_id": "019f2dc3-9924-7962-a398-d987da5ba82f",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "output_path": "assets\\images\\experiments\\probability-single-request-medium\\07-memory-anchor.png"
+}

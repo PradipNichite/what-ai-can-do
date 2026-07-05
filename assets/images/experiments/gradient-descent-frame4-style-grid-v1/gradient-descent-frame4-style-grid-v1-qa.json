@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-07-05T15:36:49+00:00",
+  "model": "gpt-5.5",
+  "mode": "video-first",
+  "response_id": "resp_0cb61c956ece29c6006a4a79f262ac8192ba35c5e3ffcf851a",
+  "openai_request_id": "a20a330b-23c4-4daa-a919-01bdaf0204f8",
+  "inputs": {
+    "image_folder": "assets/images/experiments/gradient-descent-frame4-style-grid-v1",
+    "contact_sheet": "assets/images/experiments/gradient-descent-frame4-style-grid-v1/gradient-descent-frame4-style-grid-v1-contact-sheet.jpg",
+    "prompt_pack": "assets/image-prompts/gradient-descent-frame4-style-grid.md",
+    "source_module": "modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md",
+    "images": [
+      "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\gradient-descent-frame4-style-grid-v1-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "intended_use": "video-first",
+    "opener": {
+      "status": "pass",
+      "evidence": "The first visible frame is visually strong for a video-first source: warm Indian study-room context, learner at desk, tablet as the main technical surface, and a clear U-shaped curve. It immediately signals a student learning a math/AI mechanism rather than a generic decorative scene.",
+      "required_fix": "None for style exploration. If this were the actual lesson opener, it would need a title or topic bridge, but the prompt explicitly asks for a controlled technical frame, not a self-contained opening card."
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "All six panels appear natively composed into their scenes: labels sit on tablet screens, notebook paper, dashboard, or chalkboard surfaces. The graph, arrows, hands/character, desk, board, and lighting belong to the generated environments rather than looking like a separate slide pasted on top.",
+      "required_fix": "None."
+    },
+    "overlay_risk": {
+      "status": "low",
+      "evidence": "Text and arrows follow the perspective and medium in most frames: tablet labels in frames 1, 3, and 5; handwritten notebook labels in frame 4; chalkboard labels in frame 6. There is no obvious flat rectangular caption layer or post-production text box floating independently over the image."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The intended mechanism is visible in every frame: a U-shaped loss curve, one point on the slope, an uphill/tangent cue labeled \u201cgradient: higher loss,\u201d and a distinct downhill arrow labeled \u201cmove opposite\u201d leading toward \u201clower error.\u201d Frames 2, 3, 4, and 5 make the opposite-direction relationship especially clear.",
+      "required_fix": "For final lesson frames, add animation or a second point showing the actual update step from old point to new point. The still frames show direction but not the completed update movement."
+    },
+    "technical_understanding": {
+      "status": "partial",
+      "evidence": "The visuals do more than show generic gradient-descent labels: the gradient cue points toward a higher part of the curve while the update arrow points toward the valley/lower-error region. A student could infer that the model should move opposite the local slope direction. However, the frame does not show a computed gradient value, an old-to-new weight change, or repeated checking of loss; it teaches direction choice, not the full training loop.",
+      "required_fix": "For the final video sequence, do not let this frame stand alone as the whole explanation. Follow it with visible point movement, old/new markers, and a lower loss indicator so the causal chain becomes: gradient direction \u2192 opposite step \u2192 new lower-error position."
+    },
+    "false_completion_risk": {
+      "status": "medium",
+      "evidence": "The frames are polished and readable, which could make the concept feel complete. But they only show labeled arrows on a curve; they do not show the update being calculated, the point moving, loss decreasing numerically, or repetition. The risk is not high for this specific style-grid frame because the narrow learning job is gradient direction versus opposite update, and that relationship is visible.",
+      "required_fix": "Use these as a source frame for the gradient-direction moment only. Add adjacent video frames or animation showing the point actually stepping and the loss becoming lower."
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Frames 2, 3, 4, and 5 have mostly readable labels at contact-sheet size. Frame 1\u2019s tablet labels are smaller and \u201clower error\u201d appears cramped/merged near the bottom of the tablet. Frame 6\u2019s board labels are readable but the right-side composition leaves the curve/labels close to the edge and could be vulnerable to video crop or motion.",
+      "required_fix": "If choosing frame 1 or 6 for production, enlarge the technical surface/labels and add safer margins. Keep labels short and high contrast during image-to-video generation."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "needs-revision",
+        "evidence": "Strong warm study-desk style and good recurring learner context. The tablet contains the correct U-curve, point, gradient cue, and opposite arrow, but the graph is relatively small inside the full frame. The \u201clower error\u201d label is small and appears almost merged as \u201clowererror\u201d at contact-sheet size.",
+        "fix": "Crop/push in on the tablet or enlarge the graph and labels. Separate the \u201clower error\u201d text from the arrow/curve and preserve safe margins for video motion."
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Best mechanism-first clarity. Large curve dominates, axes are visible, point is on the right slope, dashed/purple gradient cue points upward toward higher loss, and green arrow clearly moves opposite toward the valley/lower error. Character is secondary and does not distract.",
+        "fix": "None. This is the clearest teaching diagram, though it is less consistent with the warm desk/tablet series style."
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Strong warm tablet close-up. The U-curve is large, the point is on the left slope, red/orange gradient cue indicates higher loss, and the green \u201cmove opposite\u201d arrow moves downhill toward the valley/lower-error marker. Mobile readability is good.",
+        "fix": "None major. For final video, consider making the gradient cue a little more tangent-like and ensuring the update arrow starts visibly from the current point."
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Notebook tutor sketch is clean and technically legible. Hand-drawn U-curve, point, red dashed gradient cue, blue opposite arrow, and lower-error marker are all visible. The paper context feels native and approachable.",
+        "fix": "None major. If animated, keep the pencil/hand from covering the right side of the curve and avoid adding extra handwriting."
+      },
+      {
+        "frame": 5,
+        "status": "pass",
+        "evidence": "Dark dashboard frame has excellent contrast. The glowing curve, current point, yellow gradient cue, green opposite arrow, and lower-error marker are distinct and readable. It provides a strong video motion target.",
+        "fix": "None. This is a strong candidate if a modern dashboard style is acceptable for the lesson."
+      },
+      {
+        "frame": 6,
+        "status": "needs-revision",
+        "evidence": "Warm classroom board style is appealing, and the labels are readable. However, the technical diagram is compressed toward the right side; the learner occupies much of the left/middle, and the update arrow/gradient relationship is less immediately clear than in frames 2\u20135. The curve and labels may be at risk during video crop or camera motion.",
+        "fix": "Make the board graph larger and more centered, move the learner slightly aside, and ensure the downhill \u201cmove opposite\u201d arrow visibly starts from the current point and points toward the lower-error marker."
+      }
+    ],
+    "verdict": "The style grid is usable for selecting a video-first source style. The core gradient-descent direction idea is visible: gradient points toward higher loss, update moves opposite toward lower error. Frames 2, 3, 4, and 5 are strongest; frames 1 and 6 need readability/composition repairs if selected. Do not treat this single frame as a complete gradient-descent lesson, because it does not yet show the actual point update, loss reduction, or repeated loop.",
+    "next_action": "accept"
+  }
+}

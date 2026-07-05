@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\warm-minimal-tablet-keyframe-comparison-v1.md",
+  "card_number": 5,
+  "card_title": "Statistics Data To Points",
+  "prompt": "Use case: scientific-educational style comparison\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create a Warm Minimal Tablet Closeup source frame showing examples becoming plotted data points.\nScene/backdrop: tablet close on warm desk with notebook and pencil nearby.\nSubject: learner hand hovers near the tablet, guiding attention.\nTechnical visual: tablet shows a tiny readable two-column table on the left with only simple pairs \"1 hr 45\", \"3 hr 61\", \"5 hr 76\"; arrows transform the rows into three dots on a scatterplot at right. The transformation must be obvious.\nStyle/medium: warm minimalist tablet closeup, clean native tablet UI, not a slide.\nComposition/framing: tablet fills most of the frame; table and scatterplot are large and balanced.\nText to render verbatim, exactly: \"data points\".\nMotion target for later video: rows slide into the scatterplot and become dots.\nConstraints: no extra text beyond the simple table values and \"data points\"; no logos; no watermark; keep numbers readable.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:23:12+00:00",
+  "output_path": "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\05-statistics-data-to-points.png",
+  "api_response_id": "resp_0f3d5e1d95897831006a4a84f2e23c81a29815f45933325ea4",
+  "openai_request_id": "3e9c5798-d4c3-490f-8d0d-fa32c37a4fde",
+  "langsmith_parent_trace_id": "019f3316-5c4a-7d83-81eb-a23699daa22e",
+  "style_references": [],
+  "retry_count": 0
+}

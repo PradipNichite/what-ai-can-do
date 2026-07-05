@@ -1,0 +1,43 @@
+{
+  "id": "derivatives-ai-learning-runway-clips",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "clips": [
+    {
+      "id": "01-mistake",
+      "image_url": "https://tmpfiles.org/dl/wWwPtnACKiT5/01-ai-makes-mistake.png",
+      "prompt": "Animate this vertical educational story card as a smooth 5 second mobile video. Preserve all existing text exactly. The basketball gently travels along the red missed path, the student holds follow-through, subtle sunlight and camera push-in, the miss marker and arrows slightly pulse. No new text, no extra objects, no cropping, keep the full 9:16 card readable."
+    },
+    {
+      "id": "02-direction-clue",
+      "image_url": "https://tmpfiles.org/dl/wtwvtVAKKNoS/02-derivative-direction-clue.png",
+      "prompt": "Turn this exact 9:16 educational card into a smooth explainer video. Preserve all text and layout exactly. Animate the adjustment arrows one by one, ball path lightly moves, the highlighted correct direction glows, student remains consistent. Subtle camera motion only, full card visible, no new text, no distortion."
+    },
+    {
+      "id": "03-prediction-error",
+      "image_url": "https://tmpfiles.org/dl/wFwetPAHKg7g/03-prediction-error-adjust.png",
+      "prompt": "Animate the existing split metaphor card. Preserve all text exactly. Top basketball adjustment has a small motion; bottom AI prediction, correct answer, error meter and adjustment knob gently pulse in sequence. Make it feel like a connected lesson, not a slideshow. Keep full vertical frame visible, no new text."
+    },
+    {
+      "id": "04-error-curve",
+      "image_url": "https://tmpfiles.org/dl/wywBtXAIKlXJ/04-derivative-reduces-error.png",
+      "prompt": "Create a subtle animated infographic from this exact vertical card. Preserve all existing text and graph labels. The current point moves slightly down the error curve, tangent line and downhill arrow glow, mini panels pulse softly. No new text, no camera crop, keep graph readable and mathematically clean."
+    },
+    {
+      "id": "05-math-glimpse",
+      "image_url": "https://tmpfiles.org/dl/wDwdtIAFKFae/05-the-math-glimpse.png",
+      "prompt": "Animate this exact math glimpse card as a clear mobile explainer. Preserve all text and equations exactly. The slope triangle draws on, the current point glows, the update formula highlights left to right, dashboard lights softly animate. Keep full 9:16 card readable, no new equations or labels."
+    },
+    {
+      "id": "06-small-corrections",
+      "image_url": "https://tmpfiles.org/dl/wIwStIASKg9f/04-training-small-corrections.png",
+      "prompt": "Animate this training path card. Preserve all text exactly. Small step arrows move down the path from big error to better result, AI icons bounce subtly, student watches, final green result glows. Smooth continuous motion, full vertical poster visible, no new text or objects."
+    },
+    {
+      "id": "07-why-matters",
+      "image_url": "https://tmpfiles.org/dl/wCw5tCA1KnIp/05-why-derivatives-matter.png",
+      "prompt": "Animate this final educational story card. Preserve all text exactly. The student studies, AI learning loop icons pulse, slope arrow and real-world AI icons glow in sequence, gentle camera push-in. Keep the entire 9:16 card visible and readable, no new text, no watermark."
+    }
+  ]
+}

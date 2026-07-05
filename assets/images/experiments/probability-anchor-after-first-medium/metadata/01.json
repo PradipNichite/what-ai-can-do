@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "card_number": 1,
+  "card_title": "Lesson Opener",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card, frame 1 of 8\nPrimary request: Create a polished vertical mobile story card for Indian 11th/12th standard students titled \"Probability: How AI handles uncertainty\". The card must feel like a complete designed educational poster where illustration, tablet UI, notebook notes, sticky notes, and text are generated together, not a separate caption overlay.\nScene/backdrop: Warm Indian student study desk at home. A recurring Indian high-school learner in a green/teal shirt sits at a wooden desk with a tablet, notebook, pen cup, books, sticky notes, small plant, and warm desk lamp.\nSubject: Tablet shows one photo/input card with three possible answer cards around it: cat, dog, car. None is guaranteed yet.\nTechnical visual: Notebook has a tiny probability scale from 0 to 1 and a sticky note introduces the concrete task.\nStyle/medium: warm modern Indian educational illustration, high quality Instagram/WhatsApp story aesthetic, expressive, clear, hand-drawn poster typography mixed with crisp tablet UI, not corporate stock, not flat PPT.\nComposition/framing: 9:16 portrait. Student and tablet occupy the middle. Integrate the title as large friendly poster typography near the top, the learning promise as a notebook callout, and the example as a sticky note attached near the tablet.\nText to render verbatim, exactly:\n\"Probability: How AI handles uncertainty\"\n\"AI estimates what is most likely.\"\n\"Example: cat, dog, or car?\"\nConstraints: render all text clearly and exactly; no extra text; no logos; no watermark; no generic caption panel; text must feel native to the scene through poster title, notebook callout, sticky note, and tablet UI; mobile readable.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:28:18+00:00",
+  "output_path": "assets\\images\\experiments\\probability-anchor-after-first-medium\\01-lesson-opener.png",
+  "api_response_id": "resp_07307c4db5946b48006a492697a1948191a9c74c5e45c1d921",
+  "openai_request_id": "5321839c-bf4f-4030-9dfd-f8a274f2ca29",
+  "langsmith_parent_trace_id": "019f2dbe-9dbd-7b80-aaab-1cfd242a5883",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+  "card_number": 6,
+  "card_title": "Classroom Board Hybrid",
+  "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one classroom board hybrid frame showing the gradient direction mechanism for Gradient Descent.\nScene/backdrop: warm classroom or tutoring corner with a large board and a small tablet on a desk.\nSubject: Indian teenage learner stands beside or points toward the board; friendly, focused, not cartoonish.\nTechnical visual: board shows one large U-shaped loss curve with one point on the slope. A thin chalk tangent or uphill cue is labeled \"gradient: higher loss\". A separate colored downhill update arrow is labeled \"move opposite\" and points toward \"lower error\". The board must look like a living teaching scene, not a slide.\nStyle/medium: warm classroom explainer illustration with chalk/marker texture, clean but human.\nComposition/framing: board occupies most of the frame; learner provides scale and emotion; safe margins for video motion.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no extra text; no logos; no watermark; labels must be large and readable; do not add formulas or unrelated diagrams.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:34:17+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\06-classroom-board-hybrid.png",
+  "api_response_id": "resp_0b483715ce4699ad006a4a797b0b4c819eba9be9b599b7b8a8",
+  "openai_request_id": "a5c61358-fc33-43dc-92c7-5748109de10d",
+  "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+  "style_references": [],
+  "retry_count": 0
+}

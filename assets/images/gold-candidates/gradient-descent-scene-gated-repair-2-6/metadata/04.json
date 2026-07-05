@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 4,
+  "card_title": "Slope Gives Direction",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 4 showing the local slope at a point on the loss curve.\nTechnical overlay: U-shaped loss curve with a point and tangent line. Show two clearly separated cues: a faint uphill cue labeled \"gradient: higher loss\" and a stronger downhill cue labeled \"move opposite\" toward \"lower error\". Keep the tablet diagram simple enough for mobile.\nText (verbatim): \"Slope gives the direction clue.\", \"Move downhill to lower error.\", \"gradient: higher loss\", \"move opposite\", \"slope\", \"lower error\".\nConstraints: make the distinction clear: gradient indicates higher loss, gradient descent moves opposite toward lower error; do not let the downhill arrow be labeled as the gradient; no dense formulas.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:27:01+00:00",
+  "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\04-slope-gives-direction.png",
+  "api_response_id": "resp_00df4a62f49db706006a4a5ba92e70819fa1c7ea3a14a01a07",
+  "openai_request_id": "02d073db-6da7-41b8-bb91-e2de8ae0f2d3",
+  "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+  "style_references": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

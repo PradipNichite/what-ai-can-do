@@ -1,0 +1,123 @@
+{
+  "id": "student-ai-study-video-first-shorts-plan",
+  "title": "Student AI Study - Shorts Energy Edit",
+  "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+  "voice_name": "Zara - Soft and Serene Indian Voice",
+  "strategy": "Shorts-style edit with punchier script, keyword captions, and small generated SFX. Uses video-first source clips.",
+  "scenes": [
+    {
+      "id": "01-stuck",
+      "duration": 3.0,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/66f92af0-71c4-4fb8-8fbf-551900e92850.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNGQ5YzNmZDk5NmRlNTA2YSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4MjkwMTU5M30.SkSimlNtnP5xmfu9l38SuOLnpuYYlHYjt_9hx2Su5A4",
+      "voiceover_text": "Don't use AI like Google.",
+      "voiceover_start": 0.1,
+      "audio_duration": 2.4,
+      "caption": "DON'T GOOGLE IT",
+      "caption_start": 0.25,
+      "caption_duration": 1.65,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/wDwmyrmwHXh4/phone-glow.mp3",
+          "time": 0.35,
+          "duration": 0.7,
+          "volume": "35%"
+        }
+      ]
+    },
+    {
+      "id": "02-photo",
+      "duration": 3.2,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/f11b34f4-1dbc-4b51-ba98-5b8291912393.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzdhZDRiY2UwNTRjN2M0ZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg5OTkxOH0.mPlaHGyJ7Frmre6U-90g8AlY4JorTcdzYAhS2jt7_TY",
+      "voiceover_text": "If you are stuck, show it the page.",
+      "voiceover_start": 2.75,
+      "audio_duration": 3.0,
+      "caption": "SHOW THE PAGE",
+      "caption_start": 3.0,
+      "caption_duration": 1.75,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/wVwkyNmGH0Ch/page-scan.mp3",
+          "time": 3.25,
+          "duration": 0.9,
+          "volume": "38%"
+        }
+      ]
+    },
+    {
+      "id": "04-steps",
+      "duration": 3.8,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/34089c05-cf55-4c34-b5a6-490543c70117.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMWZkNTUxNDY3MmEwZDM3YyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg5OTI3MH0.adp-aZZlY9Ijv24-KEetp85S6dVjJ1eEbjH_iSbEAAU",
+      "voiceover_text": "Ask for steps, not final answers.",
+      "voiceover_start": 5.9,
+      "audio_duration": 3.0,
+      "caption": "ASK FOR STEPS",
+      "caption_start": 6.15,
+      "caption_duration": 1.8,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/wIwPygmBHw4M/step-pop.mp3",
+          "time": 6.35,
+          "duration": 0.65,
+          "volume": "40%"
+        }
+      ]
+    },
+    {
+      "id": "05-practice",
+      "duration": 4.0,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/1c8f862b-c6cc-458f-a045-53eb46e86f58.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjk5NWZlMTY1NGFhMTFjMSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg3OTc2Nn0.hgkd0kc0xALw5poeup54tsGloGhcOOmVDKH3EX20NAs",
+      "voiceover_text": "Practice first. Take hints when you need them.",
+      "voiceover_start": 9.35,
+      "audio_duration": 3.6,
+      "caption": "PRACTICE FIRST",
+      "caption_start": 9.55,
+      "caption_duration": 1.9,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/wzwgycmLHDRU/hint-pop.mp3",
+          "time": 10.2,
+          "duration": 0.65,
+          "volume": "38%"
+        }
+      ]
+    },
+    {
+      "id": "06-feedback",
+      "duration": 3.6,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/fdc5f286-84bd-49b5-920a-0067d38073b2.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNjJlZjg5ZGJhNjRiYzlkOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg5OTE2M30.O_D2OhewpF7DVI_qfJe4iNMwQDA52S57te63xwYGqMk",
+      "voiceover_text": "Then let AI check your work.",
+      "voiceover_start": 13.35,
+      "audio_duration": 2.9,
+      "caption": "CHECK YOUR WORK",
+      "caption_start": 13.55,
+      "caption_duration": 1.8,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/w7wJyWmyHoaR/checkmark.mp3",
+          "time": 14.2,
+          "duration": 0.7,
+          "volume": "42%"
+        }
+      ]
+    },
+    {
+      "id": "07-verify",
+      "duration": 3.8,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/866be9e5-a181-4a0c-a1e8-59fd343fb45e.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOWE3Zjg5NjA3MWY3ZDUyOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4MjgyNzEwNH0.GO8x-1h9lXToTsNY3u3Bm6d9V8KOP3OyqFc251DELtg",
+      "voiceover_text": "That is a study coach, not a shortcut.",
+      "voiceover_start": 16.65,
+      "audio_duration": 3.4,
+      "caption": "STUDY COACH",
+      "caption_start": 17.0,
+      "caption_duration": 2.2,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/wGwzyTmGHdYe/final-chime.mp3",
+          "time": 18.75,
+          "duration": 1.0,
+          "volume": "35%"
+        }
+      ]
+    }
+  ]
+}

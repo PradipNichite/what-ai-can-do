@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "card_number": 5,
+  "card_title": "Close Scores Mean Uncertainty",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card, frame 5 of 8\nPrimary request: Create a polished native story card showing uncertainty when scores are close. This card must not become a plain infographic; keep the warm desk/tablet/learner story composition.\nScene/backdrop: Same Indian learner at the wooden desk with a thoughtful uncertain expression. Tablet is angled toward the viewer.\nSubject: Tablet shows close cat and dog probability bars, plus a low confidence meter.\nTechnical visual: Cat 0.42 and dog 0.39 bars are almost the same height. Car 0.19 is lower. Confidence meter is yellow and low.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, expressive, native integrated text, no clean corporate slide.\nComposition/framing: 9:16 portrait. Learner, tablet, notebook, sticky notes, and probability UI all visible. Put the main sentence as a handwritten notebook banner or tablet top bar.\nText to render verbatim, exactly:\n\"Close scores mean uncertainty.\"\n\"cat 0.42\"\n\"dog 0.39\"\n\"car 0.19\"\n\"low confidence\"\nConstraints: close bars must visibly look close; do not use scary warning symbols; keep graph sparse and readable; no extra text; no logos; no watermark.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:30:49+00:00",
+  "output_path": "assets\\images\\experiments\\probability-anchor-after-first-medium\\05-close-scores-mean-uncertainty.png",
+  "api_response_id": "resp_051e3122b341edc6006a49272c48ec8191bed87d20d419e7e8",
+  "openai_request_id": "31cbc6ce-3ccb-4d71-83ee-fb55c75e6154",
+  "langsmith_parent_trace_id": "019f2dbe-9dbd-7b80-aaab-1cfd242a5883",
+  "style_references": [
+    "assets\\images\\experiments\\probability-anchor-after-first-medium\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

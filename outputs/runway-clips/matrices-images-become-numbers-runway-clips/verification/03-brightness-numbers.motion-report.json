@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\matrices-images-become-numbers-runway-clips\\03-brightness-numbers.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 7.588999112447103,
+  "max_frame_diff": 11.108993530273438,
+  "black_border_ratio_mean": 0.07864203559027777,
+  "black_border_ratio_max": 0.09369574652777778,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\matrices-images-become-numbers-runway-clips\\verification\\03-brightness-numbers.contact-sheet.jpg"
+}

@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 5,
+  "image_title": "Close Scores Mean Uncertainty",
+  "video_title": "Close Scores Mean Uncertainty",
+  "image_model": "gpt-image-2",
+  "quality": "low",
+  "size": "1024x1536",
+  "api_response_id": "resp_0e9a6e40502f9ccf006a492bb7d49881a389af05a1e6f1667b",
+  "openai_request_id": "58f38922-33de-4515-b249-9c5f4d7b7bd9",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\experiments\\probability-dual-format-paired-frames\\image-only\\05-close-scores-mean-uncertainty.png",
+    "assets\\images\\experiments\\probability-dual-format-paired-frames\\video-first\\05-close-scores-mean-uncertainty-video.png"
+  ]
+}

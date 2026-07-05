@@ -1,0 +1,12 @@
+{
+  "status": "generated",
+  "next_action": null,
+  "lesson_slug": "graphs-how-ai-understands-relationships",
+  "pipeline_run_id": "20260704T142257Z",
+  "langsmith_trace_id": "019f2d82-daf3-7842-8e15-f4b0235aa19d",
+  "out_dir": "assets\\images\\langsmith-auto-test-card5",
+  "contact_sheet": "assets\\images\\langsmith-auto-test-card5\\langsmith-auto-test-card5-contact-sheet.jpg",
+  "qa_md": null,
+  "qa_json": null,
+  "qa_openai_request_id": null
+}

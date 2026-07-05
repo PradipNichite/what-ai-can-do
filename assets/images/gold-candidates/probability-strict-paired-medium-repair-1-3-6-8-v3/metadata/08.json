@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 8,
+  "image_title": "Quick Check",
+  "video_title": "Quick Check",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_00954f9515279bc4006a4a147dd180819a98a49d3ebf8d3c86",
+  "openai_request_id": "ee6cee91-23a0-4376-b38f-745c78701038",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-1-3-6-8-v3\\image-only\\08-quick-check.png",
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-1-3-6-8-v3\\video-first\\08-quick-check-video.png"
+  ]
+}

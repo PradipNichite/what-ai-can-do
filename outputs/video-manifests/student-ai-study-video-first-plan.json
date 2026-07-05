@@ -1,0 +1,67 @@
+{
+  "id": "student-ai-study-video-first-plan",
+  "title": "Student AI Study - Video First English Short",
+  "language": "en-IN",
+  "goal": "Create a more engaging English video by using video-specific source frames rather than dense carousel cards.",
+  "visual_style": "warm modern Indian educational illustration, consistent Indian school student, clean study desk, minimal text, large action areas, vertical 9:16",
+  "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+  "voice_name": "Zara - Soft and Serene Indian Voice",
+  "scenes": [
+    {
+      "id": "01-stuck",
+      "duration": 3.4,
+      "scene_type": "hook",
+      "motion_role": "student reaction and phone glow",
+      "voiceover_text": "Stuck on a textbook page?",
+      "runway_prompt": "Locked vertical frame with gentle push-in. Student looks confused, taps the textbook once, then notices the phone glow. Natural blink and small head movement. Keep the frame clean. Do not add new text."
+    },
+    {
+      "id": "02-photo",
+      "duration": 3.8,
+      "scene_type": "demonstration",
+      "motion_role": "phone camera scans page",
+      "voiceover_text": "Show AI the exact page.",
+      "runway_prompt": "Student lifts the phone slightly over the textbook as if taking a photo. A soft scan light moves across the page. Natural hand movement, clean parallax. Do not add new text."
+    },
+    {
+      "id": "03-context",
+      "duration": 4.0,
+      "scene_type": "instruction",
+      "motion_role": "context bubbles appear",
+      "voiceover_text": "Add your class, topic, and exact doubt.",
+      "runway_prompt": "Three simple context bubbles gently appear near the phone: class, topic, doubt. The student points to the page. Phone assistant nods. Keep text minimal and readable. No extra text."
+    },
+    {
+      "id": "04-steps",
+      "duration": 4.0,
+      "scene_type": "explanation",
+      "motion_role": "AI turns page into steps",
+      "voiceover_text": "Ask for simple steps and one example.",
+      "runway_prompt": "The phone shows three clean step cards lighting up one by one. Student expression changes to aha. Textbook diagram glows softly. Keep movement smooth and educational. Do not add extra text."
+    },
+    {
+      "id": "05-practice",
+      "duration": 4.2,
+      "scene_type": "practice",
+      "motion_role": "student writes and receives hint",
+      "voiceover_text": "Do not copy. Use hints and practice.",
+      "runway_prompt": "Student writes in notebook. Phone shows a hint card, not a final answer. Pencil moves, hint card gently pops, AI helper encourages. Keep all text minimal and readable. Do not add extra text."
+    },
+    {
+      "id": "06-feedback",
+      "duration": 3.8,
+      "scene_type": "feedback",
+      "motion_role": "answer check",
+      "voiceover_text": "Then ask AI to check your answer.",
+      "runway_prompt": "Notebook answer receives a simple checkmark and small correction bubble. Student compares notebook and phone. Gentle UI motion, no dramatic camera movement. Do not add extra text."
+    },
+    {
+      "id": "07-verify",
+      "duration": 4.0,
+      "scene_type": "summary",
+      "motion_role": "balanced setup",
+      "voiceover_text": "Best setup: AI helps, you practice, teacher verifies.",
+      "runway_prompt": "Final balanced study setup. Student, AI phone, textbook, and teacher/parent verification form a simple triangle. Nodes glow one by one. Confident student smile. Keep minimal text readable. No extra text."
+    }
+  ]
+}

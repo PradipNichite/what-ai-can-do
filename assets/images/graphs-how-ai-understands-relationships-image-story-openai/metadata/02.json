@@ -1,0 +1,14 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "card_number": 2,
+  "card_title": "Items Become Nodes",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 2 showing separate video/topic cards simplified into circular nodes on the tablet.\nScene/backdrop: same warm Indian study desk and learner.\nTechnical overlay: each earlier video/topic card becomes one large circular node with a tiny icon inside; one enlarged example node is labeled \"node\".\nText (verbatim): \"Each item becomes a node.\", \"node\".\nConstraints: do not show edges yet; nodes must be large enough for mobile; keep text large and readable; no extra text.",
+  "model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T12:28:40+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai\\02-items-become-nodes.png",
+  "api_response_id": null,
+  "retry_count": 0
+}

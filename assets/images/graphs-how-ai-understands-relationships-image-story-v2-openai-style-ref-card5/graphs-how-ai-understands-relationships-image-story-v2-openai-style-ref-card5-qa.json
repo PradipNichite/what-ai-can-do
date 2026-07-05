@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-07-04T14:31:45+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_0783df59e619f726006a491935efa48192b0c457c4d30f36fe",
+  "openai_request_id": "ada38f0e-e455-4e28-95a5-9da7bb15e9d9",
+  "inputs": {
+    "image_folder": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-card5",
+    "contact_sheet": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-card5\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-card5-contact-sheet.jpg",
+    "prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+    "source_module": "modules\\visual-ai-concepts\\graphs-how-ai-understands-relationships.source.md",
+    "images": [
+      "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-card5\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-card5-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "needs-revision",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "fail",
+      "evidence": "The attached contact sheet shows only one visible card, titled \u201cConnected neighbors are related.\u201d There is no opener card naming \u201cGraphs: How AI understands relationships,\u201d no introduction of nodes/edges as the lesson topic, and no recommendation example setup for a new viewer.",
+      "required_fix": "Attach or regenerate the full 8-frame image-story sequence. Card 1 must be a self-contained opener with the lesson title, school concept-to-AI use connection, and the concrete recommendation example."
+    },
+    "native_composition": {
+      "status": "partial",
+      "evidence": "The visible card itself has a warm study-desk scene with an Indian learner, lamp, notebook, tablet graph UI, sticky notes, books, and graph elements integrated into the illustration. However, the submitted contact sheet contains a large blank white area to the right and only one frame, so the image-story set cannot be judged as a complete native sequence.",
+      "required_fix": "Regenerate/export the complete 8-card contact sheet without excess blank canvas. Preserve the native desk/tablet/notebook composition across all frames."
+    },
+    "overlay_risk": {
+      "status": "medium",
+      "evidence": "The top headline appears on a notebook-paper banner within the scene, which is reasonably integrated. The graph labels are placed on the tablet surface. However, because only one frame is visible and the contact sheet has a large white empty region, the overall asset has some layout/export risk rather than a polished story export. The headline also reads as a clean banner but not a severe pasted caption overlay."
+    },
+    "mechanism_visibility": {
+      "status": "partial",
+      "evidence": "The visible card shows a central highlighted node on the tablet connected by lines to nearby nodes, with small \u201crelated\u201d labels along two edges and dim gray far nodes. This communicates connected neighbors fairly well. But the node identities are icon-only; \u201cAI basics,\u201d \u201cmachine learning,\u201d and \u201ccoding tutorial\u201d are not readable as specific recommendation candidates, and the full mechanism progression from items \u2192 nodes \u2192 edges \u2192 graph \u2192 path \u2192 recommendation is absent because only one frame is attached.",
+      "required_fix": "For card 5, make the watched node and connected candidates more explicit through readable short labels or clearer icons, while keeping sparse edges. For the set, include all mechanism frames in order."
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "The main headline \u201cConnected neighbors are related.\u201d is readable. The tiny \u201crelated\u201d labels on the tablet edges are much smaller and may be hard to read on a phone. The graph nodes are visible, but their meanings are mostly conveyed by icons rather than readable text. The contact sheet\u2019s large blank area also reduces useful reviewed image area.",
+      "required_fix": "Increase the size/contrast of edge labels and any key node labels. Export each card/contact sheet so the story frames occupy the canvas cleanly."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "needs-revision",
+        "evidence": "Only one visible frame is present, apparently intended as Card 5. It shows a warm Indian student desk scene with tablet graph, central connected node, two visible related edges, dim gray far nodes, notebook doodle, and readable title \u201cConnected neighbors are related.\u201d",
+        "fix": "Keep this as a usable direction for Card 5, but improve mobile readability of the small \u201crelated\u201d labels and make the watched/neighbor node identities clearer. Also provide/regenerate the missing Cards 1\u20134 and 6\u20138 in sequence."
+      }
+    ],
+    "verdict": "Not acceptable as an image-story set yet. The visible Card 5 is stylistically close and partially communicates connected neighbors, but the submission lacks the required self-contained opener and the rest of the 8-frame mechanism sequence. Treat the current asset as a partial/reference frame, not a complete approved story.",
+    "next_action": "regenerate-set"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "generated_at": "2026-07-05T13:29:23+00:00",
+  "lesson_slug": "gradient-descent-how-ai-learns-from-mistakes",
+  "pipeline_run_id": "20260705T132655Z",
+  "pipeline_stage": "image_story_pipeline",
+  "request_group": "image_story_lesson",
+  "prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "source_module": "modules\\visual-ai-concepts\\gradient-descent-how-ai-learns-from-mistakes.source.md",
+  "out_dir": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6",
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "qa_model": "gpt-5.5",
+  "parallel": 3,
+  "style_references": [
+    "assets/images/gold-candidates/gradient-descent-strict-paired-medium-gold-v2/image-only/01-mistake-starts-learning.png"
+  ],
+  "reference_strategy": "all-cards",
+  "character_anchor_card": 1,
+  "cards": [
+    {
+      "number": 2,
+      "title": "Mistake Becomes Loss",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\02-mistake-becomes-loss.png"
+    },
+    {
+      "number": 3,
+      "title": "Loss Curve",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\03-loss-curve.png"
+    },
+    {
+      "number": 4,
+      "title": "Slope Gives Direction",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\04-slope-gives-direction.png"
+    },
+    {
+      "number": 5,
+      "title": "One Small Update",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\05-one-small-update.png"
+    },
+    {
+      "number": 6,
+      "title": "Lower Error",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\06-lower-error.png"
+    }
+  ],
+  "contact_sheet": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\gradient-descent-scene-gated-repair-2-6-contact-sheet.jpg",
+  "qa_md": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\gradient-descent-scene-gated-repair-2-6-qa.md",
+  "qa_json": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\gradient-descent-scene-gated-repair-2-6-qa.json",
+  "langsmith_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+  "results": [
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 2,
+      "card_title": "Mistake Becomes Loss",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 2 showing the mismatch becoming a loss score.\nScene/backdrop: same warm Indian study desk and learner.\nTechnical overlay: tablet shows the same example direction as card 1: the model prediction is dog and the correct answer is cat. Put a \"prediction: dog\" chip and a \"correct: cat\" chip separated by a highlighted error gap; the gap feeds into a large score-like loss meter with 0-to-10 tick marks and a clear high marker at 8.\nText (verbatim): \"The mistake becomes a loss score.\", \"loss = how wrong the model is\", \"loss: 8/10\".\nConstraints: loss meter must read as a measured score, not a warning decoration or emotion meter; do not reverse the example; keep prediction dog and correct cat; keep labels large; no dense formulas; no extra text.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T13:27:01+00:00",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\02-mistake-becomes-loss.png",
+      "api_response_id": "resp_0100e538d4558683006a4a5badd3e4819d8e1d6901d6660c15",
+      "openai_request_id": "56dc8bd5-70e8-424b-91e5-7faab1146998",
+      "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+      "style_references": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 3,
+      "card_title": "Loss Curve",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 3 showing one large U-shaped loss curve on the tablet.\nTechnical overlay: a single large U-shaped loss curve on the tablet. Show a vertical cue labeled \"loss\" and a simple horizontal cue labeled \"weight setting\"; place one glowing point high on the right side of the curve so it clearly means this weight setting creates high loss. Keep the curve, point, and two axis cues large enough for mobile.\nText (verbatim): \"A model setting sits on a loss curve.\", \"High point = high error\", \"loss\", \"weight setting\".\nConstraints: keep the two axis cues simple and readable; avoid dense axis numbers; no formulas; no extra labels beyond the listed text.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T13:27:01+00:00",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\03-loss-curve.png",
+      "api_response_id": "resp_0e38777cd5f887d4006a4a5ba9755481a3bc7184ed4f3ec856",
+      "openai_request_id": "047df306-c407-4031-869d-665465fc048b",
+      "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+      "style_references": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 4,
+      "card_title": "Slope Gives Direction",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 4 showing the local slope at a point on the loss curve.\nTechnical overlay: U-shaped loss curve with a point and tangent line. Show two clearly separated cues: a faint uphill cue labeled \"gradient: higher loss\" and a stronger downhill cue labeled \"move opposite\" toward \"lower error\". Keep the tablet diagram simple enough for mobile.\nText (verbatim): \"Slope gives the direction clue.\", \"Move downhill to lower error.\", \"gradient: higher loss\", \"move opposite\", \"slope\", \"lower error\".\nConstraints: make the distinction clear: gradient indicates higher loss, gradient descent moves opposite toward lower error; do not let the downhill arrow be labeled as the gradient; no dense formulas.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T13:27:01+00:00",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\04-slope-gives-direction.png",
+      "api_response_id": "resp_00df4a62f49db706006a4a5ba92e70819fa1c7ea3a14a01a07",
+      "openai_request_id": "02d073db-6da7-41b8-bb91-e2de8ae0f2d3",
+      "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+      "style_references": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 5,
+      "card_title": "One Small Update",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 5 showing one small gradient descent update on the curve.\nTechnical overlay: old point and nearby new point slightly lower on the curve, connected by a short arrow labeled \"step opposite gradient\". Put the update rule on one large notebook/tablet note as two stacked lines: \"new weight =\" and \"old weight - small step\". It must use exactly one equals sign and one clear minus sign.\nText (verbatim): \"Gradient descent takes one small step.\", \"step opposite gradient\", \"new weight =\", \"old weight - small step\", \"small step\".\nConstraints: step must be visibly small and opposite the gradient cue; update expression should be large and simple; do not replace the minus sign with a second equals sign; keep the two-line update visually grouped as one rule; no extra formulas.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T13:28:09+00:00",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\05-one-small-update.png",
+      "api_response_id": "resp_00bb6ed5deff5a50006a4a5bec1e44819f853904ea80fb7403",
+      "openai_request_id": "ee4d6537-0942-4932-9ec2-d4431cdcc948",
+      "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+      "style_references": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 6,
+      "card_title": "Lower Error",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 6 showing lower loss after one update.\nTechnical overlay: one large tablet UI only: smaller loss meter marked \"loss: 5/10\", prediction/correct chips closer together, and a small curve inset with the point lower than before. Include a small before-to-after cue from \"loss: 8/10\" to \"loss: 5/10\". Put the sentence \"The prediction is closer, not perfect.\" as a large notebook or tablet callout. Keep the diagram simple and avoid extra mini-panels.\nText (verbatim): \"After the step, loss is lower.\", \"The prediction is closer, not perfect.\", \"lower error\", \"loss: 5/10\", \"loss: 8/10\".\nConstraints: do not show perfect prediction after one step; use only the required text; no extra sticky-note explanations; keep text and diagram readable on mobile.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T13:28:18+00:00",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\06-lower-error.png",
+      "api_response_id": "resp_076cafc378486c4d006a4a5bf51048819188391b6af3a42fca",
+      "openai_request_id": "87691f6d-4d5e-4714-82a3-a9c1a3a17d0f",
+      "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+      "style_references": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    }
+  ]
+}

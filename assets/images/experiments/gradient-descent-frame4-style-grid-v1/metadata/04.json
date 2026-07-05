@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+  "card_number": 4,
+  "card_title": "Notebook Tutor Sketch",
+  "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one notebook tutor-style frame showing the gradient direction mechanism for Gradient Descent.\nScene/backdrop: open notebook on a study desk, with a pencil and a small tablet edge nearby.\nSubject: learner's hand is drawing the graph in the notebook; no full character required.\nTechnical visual: hand-drawn but clean U-shaped loss curve on notebook paper. One point on the slope has a tangent/uplift cue labeled \"gradient: higher loss\". A separate colored downhill arrow labeled \"move opposite\" points toward \"lower error\". Use color accents so the gradient cue and update arrow are unmistakably different.\nStyle/medium: neat hand-drawn tutoring sketch mixed with polished educational illustration, warm paper texture, human and approachable.\nComposition/framing: notebook page fills most of the frame, pencil/hand at one side, safe margin around labels.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no dense formulas; no extra text; no logos; no watermark; labels must be large and readable; avoid messy handwriting.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:33:52+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\04-notebook-tutor-sketch.png",
+  "api_response_id": "resp_05cf73c263510d38006a4a7961272481a087776b5afe97810c",
+  "openai_request_id": "6a732a0b-914e-4eb1-84f4-65982ed0662a",
+  "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+  "style_references": [],
+  "retry_count": 0
+}

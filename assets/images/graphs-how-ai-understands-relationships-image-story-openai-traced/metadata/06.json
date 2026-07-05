@@ -1,0 +1,16 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "card_number": 6,
+  "card_title": "Path Explains A Recommendation",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 6 showing a highlighted graph path from watched AI basics to a suggested coding tutorial.\nTechnical overlay: tablet shows a small graph. A clear highlighted path runs from AI basics to machine learning to coding tutorial. The final coding tutorial node is marked as the recommendation, while unrelated nodes are dim.\nText (verbatim): \"A path can explain a recommendation.\", \"path\", \"recommend\".\nConstraints: the path must be clearly sequential from start to suggestion; no random arrows; no dense network; keep text and path readable.",
+  "model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T12:42:41+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced\\06-path-explains-a-recommendation.png",
+  "api_response_id": null,
+  "openai_request_id": "890aef55-bd00-4b4e-bbfe-f7e7ccab2ebd",
+  "langsmith_parent_trace_id": "019f2d26-2ef8-7c72-b4a0-889f504c68dc",
+  "retry_count": 0
+}

@@ -1,0 +1,82 @@
+{
+  "id": "student-ai-study-runway-smart-plan",
+  "title": "Student AI Study - Planner Driven Edit",
+  "strategy": "Use the best verified Runway clips, variable scene durations, and scene-level voiceovers with small audio offsets so narration does not reset exactly on every visual cut.",
+  "scenes": [
+    {
+      "id": "scene-01-stuck",
+      "scene_type": "hook",
+      "motion_role": "reaction",
+      "text_density": "medium",
+      "duration": 4.2,
+      "video_url": "https://tmpfiles.org/dl/wdwuyluczUu4/scene-01-stuck.mp4",
+      "voiceover_text": "Stuck on a textbook page? Show AI the page.",
+      "voiceover_start": 0.25,
+      "audio_duration": 3.9,
+      "verification": {
+        "status": "accepted",
+        "reason": "Visible character motion, text preserved, full frame preserved."
+      }
+    },
+    {
+      "id": "scene-02-context",
+      "scene_type": "demonstration",
+      "motion_role": "phone_scan_ui_response",
+      "text_density": "high",
+      "duration": 5.4,
+      "video_url": "https://tmpfiles.org/dl/wgwDy0uJzdGQ/scene-02-context.mp4",
+      "voiceover_text": "Then give context: your class, topic, and exact doubt.",
+      "voiceover_start": 4.0,
+      "audio_duration": 4.7,
+      "verification": {
+        "status": "accepted",
+        "reason": "Regenerated stronger motion; acceptable text preservation."
+      }
+    },
+    {
+      "id": "scene-03-steps",
+      "scene_type": "instruction",
+      "motion_role": "step_highlight",
+      "text_density": "high",
+      "duration": 4.6,
+      "video_url": "https://tmpfiles.org/dl/whwvyLuvzW8K/scene-03-steps.mp4",
+      "voiceover_text": "Ask for simple steps, one example, and one question.",
+      "voiceover_start": 9.15,
+      "audio_duration": 4.3,
+      "verification": {
+        "status": "accepted",
+        "reason": "Lower motion, but safe text preservation; rejected high-motion warped version."
+      }
+    },
+    {
+      "id": "scene-04-practice",
+      "scene_type": "behavior_change",
+      "motion_role": "writing_practice",
+      "text_density": "medium",
+      "duration": 5.2,
+      "video_url": "https://tmpfiles.org/dl/wEwey4uDi9fw/scene-04-practice.mp4",
+      "voiceover_text": "Do not copy answers. Use hints, quizzes, and feedback.",
+      "voiceover_start": 13.45,
+      "audio_duration": 4.7,
+      "verification": {
+        "status": "accepted",
+        "reason": "Good practice scene; motion subtle but pedagogically clear."
+      }
+    },
+    {
+      "id": "scene-05-best-setup",
+      "scene_type": "summary",
+      "motion_role": "summary_nodes",
+      "text_density": "high",
+      "duration": 4.6,
+      "video_url": "https://tmpfiles.org/dl/wUwkyvuJiXLf/scene-05-best-setup.mp4",
+      "voiceover_text": "Best setup: AI helps, you practice, teacher verifies.",
+      "voiceover_start": 18.45,
+      "audio_duration": 4.5,
+      "verification": {
+        "status": "accepted",
+        "reason": "Text preserved; rejected higher-motion text-warp version."
+      }
+    }
+  ]
+}

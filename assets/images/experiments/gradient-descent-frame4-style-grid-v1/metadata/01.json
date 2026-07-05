@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+  "card_number": 1,
+  "card_title": "Story Derived Warm Study Desk",
+  "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one Gradient Descent frame showing that the slope/gradient points toward higher loss and the model update moves opposite toward lower error.\nScene/backdrop: warm Indian study room with wooden desk, lamp, notebook, books, and a tablet as the main technical surface.\nSubject: recurring Indian teenage learner in a teal/green shirt, focused expression, hand near the tablet.\nTechnical visual: tablet shows a large U-shaped loss curve with one point on the slope. A thin tangent or uphill cue is labeled \"gradient: higher loss\". A separate stronger downhill arrow is labeled \"move opposite\" and points toward \"lower error\". The gradient cue and the update arrow must be visually distinct.\nStyle/medium: polished warm educational story illustration, cinematic but calm, similar to a high-quality mobile story frame.\nComposition/framing: learner and cozy desk are visible, but tablet graph is the main focus and occupies most of the lower-middle frame.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no dog/cat prediction; no extra text; no logos; no watermark; labels must be large and readable; do not label the downhill update arrow as the gradient.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:33:00+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\01-story-derived-warm-study-desk.png",
+  "api_response_id": "resp_0180947823899fc6006a4a792e42d881a2898e52d2c1cc1dea",
+  "openai_request_id": "113d76ba-94c5-49e6-878d-fbfe3922f973",
+  "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+  "style_references": [],
+  "retry_count": 0
+}

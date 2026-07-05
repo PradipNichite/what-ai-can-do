@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\03-prediction-error.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 0.9573726852734884,
+  "max_frame_diff": 1.1481597423553467,
+  "black_border_ratio_mean": 0.005588650173611111,
+  "black_border_ratio_max": 0.00625,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\verification\\03-prediction-error.contact-sheet.jpg"
+}

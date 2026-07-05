@@ -1,0 +1,51 @@
+{
+  "id": "vectors-how-ai-compares-meaning-runway-clips",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "image_base_path": "assets/images/vectors-how-ai-compares-meaning-video-first",
+  "clips": [
+    {
+      "id": "01-meaning-not-exact-words",
+      "image": "01-meaning-not-exact-words.png",
+      "image_url": "https://tmpfiles.org/dl/wYwCtfZSJN3X/01-meaning-not-exact-words.png",
+      "prompt": "The two phrase bubbles drift slightly closer as the arrow between them glows. The search result dots pulse one by one to show related meaning. The learner gives a small understanding nod. Keep the full vertical frame visible. Keep existing text unchanged and readable. No new text. No crop."
+    },
+    {
+      "id": "02-vector-list-of-numbers",
+      "image": "02-vector-list-of-numbers.png",
+      "image_url": "https://tmpfiles.org/dl/wuwQtEZDJOQd/02-vector-list-of-numbers.png",
+      "prompt": "The phrase card sends a soft pulse downward into the vector number row. The number cells light up left to right while the learner watches. Locked readable composition with small smooth motion only. Keep the full vertical frame visible. Keep numbers and text unchanged. No new text. No crop."
+    },
+    {
+      "id": "03-meaning-space-nearby-points",
+      "image": "03-meaning-space-nearby-points.png",
+      "image_url": "https://tmpfiles.org/dl/w5w2tYZsJvzw/03-meaning-space-nearby-points.png",
+      "prompt": "The meaning points gently settle into their colored clusters. Each cluster outline glows softly in sequence to show nearby meanings. Subtle camera push-in, clean diagram motion. Keep the full vertical frame visible. Keep labels unchanged. No new text. No crop."
+    },
+    {
+      "id": "04-similar-directions-small-angle",
+      "image": "04-similar-directions-small-angle.png",
+      "image_url": "https://tmpfiles.org/dl/wiwltVZ2JiFY/04-similar-directions-small-angle.png",
+      "prompt": "The vector arrows draw outward from the origin one by one. The small angle arc between the related phone vectors glows gently. Keep the camera mostly locked for readability. Keep the full vertical frame visible. Keep labels unchanged. No new text. No crop."
+    },
+    {
+      "id": "05-semantic-search-nearest-vectors",
+      "image": "05-semantic-search-nearest-vectors.png",
+      "image_url": "https://tmpfiles.org/dl/wWwjtDZtJxDK/05-semantic-search-nearest-vectors.png",
+      "prompt": "The question card sends a soft pulse down into the gold query point. Nearest result points glow and connect to the query point with subtle lines. Clean educational motion with no flashy effects. Keep the full vertical frame visible. Keep all text unchanged. No new text. No crop."
+    },
+    {
+      "id": "06-recommendations-nearby-vectors",
+      "image": "06-recommendations-nearby-vectors.png",
+      "image_url": "https://tmpfiles.org/dl/wRwhtRZkJKrI/06-recommendations-nearby-vectors.png",
+      "prompt": "The related AI learning cards glow and connect in sequence. The recommended next card brightens gently while the unrelated cooking card stays still. The learner gives a small satisfied nod. Keep the full vertical frame visible. Keep all text unchanged. No new text. No crop."
+    },
+    {
+      "id": "07-memory-anchor-quick-check",
+      "image": "07-memory-anchor-quick-check.png",
+      "image_url": "https://tmpfiles.org/dl/wMwtt6ZZJlGC/07-memory-anchor-quick-check.png",
+      "prompt": "The chain nodes light up in order: words, vectors, nearby, results. The memory anchor softly glows, then the quick check card brightens. Gentle final camera push-in. Keep the full vertical frame visible. Keep all text unchanged and readable. No new text. No crop."
+    }
+  ]
+}

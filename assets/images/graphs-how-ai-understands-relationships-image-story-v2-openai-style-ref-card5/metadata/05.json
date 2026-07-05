@@ -1,0 +1,22 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "card_number": 5,
+  "card_title": "Connected Neighbors Are Related",
+  "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 5 of 8\nPrimary request: Create a polished native story card showing that connected neighbor nodes are related. This card must not become a plain infographic; keep the warm desk/tablet/learner story composition.\nScene/backdrop: Same Indian learner at the wooden desk. Tablet is angled toward the viewer. A watched \"AI basics\" node is highlighted on the tablet. Two connected neighbor nodes, \"machine learning\" and \"coding tutorial\", are linked with clear edges and marked related. Far nodes like cricket and music are dimmed.\nSubject: Tablet graph UI with watched node, connected neighbor nodes, dim far nodes, student using a pencil or finger to follow the links.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, expressive, native integrated text, no clean corporate slide.\nComposition/framing: 9:16 portrait. Learner, tablet, notebook, sticky notes, and graph UI all visible. Put the main sentence as a handwritten notebook banner or tablet top bar. Put \"related\" labels attached to the actual edges.\nText to render verbatim, exactly:\n\"Connected neighbors are related.\"\n\"related\"\nConstraints: visible edges must explain relatedness; do not rely only on glow; keep graph sparse and readable; preserve warm study-desk/tablet context; no blank white infographic card; no extra text; no logos; no watermark.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:29:55+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-card5\\05-connected-neighbors-are-related.png",
+  "api_response_id": "resp_0cd510084dd199b0006a4918ea0cc48191941fb2c0324c63ed",
+  "openai_request_id": "3f69a082-8b93-420f-9aba-1b15c89517b1",
+  "langsmith_parent_trace_id": "019f2d89-26bb-78b0-b601-c6954f5f04ae",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

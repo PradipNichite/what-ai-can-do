@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\matrices-images-become-numbers-runway-clips\\01-learning-promise.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 21.389114379882812,
+  "max_frame_diff": 23.754722595214844,
+  "black_border_ratio_mean": 0.06346218532986111,
+  "black_border_ratio_max": 0.06712239583333333,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\matrices-images-become-numbers-runway-clips\\verification\\01-learning-promise.contact-sheet.jpg"
+}

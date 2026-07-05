@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+  "card_number": 5,
+  "card_title": "Dark AI Training Dashboard",
+  "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one modern AI training dashboard frame showing the gradient direction mechanism for Gradient Descent.\nScene/backdrop: dark but readable tablet or monitor dashboard in a study room, with a subtle learner silhouette or hand nearby.\nSubject: human context is present but minimal; the technical dashboard is the hero.\nTechnical visual: dashboard shows one large glowing U-shaped loss curve with a point on the slope. A thin amber tangent/uphill cue is labeled \"gradient: higher loss\". A separate bright green downhill update arrow is labeled \"move opposite\" and points toward a \"lower error\" marker. The two directions must not be confused.\nStyle/medium: modern AI dashboard, high contrast, cinematic, not corporate stock, not cyberpunk clutter.\nComposition/framing: vertical mobile frame with the dashboard centered and large; minimal surrounding environment.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no code blocks; no extra text; no logos; no watermark; labels must be readable on mobile; avoid tiny UI chrome.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:33:52+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\05-dark-ai-training-dashboard.png",
+  "api_response_id": "resp_038c1db733c7e6bd006a4a79636be881a38fa25149e20dfefd",
+  "openai_request_id": "5006163d-a0fb-44dd-8c79-4724d94a81b1",
+  "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+  "style_references": [],
+  "retry_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 6,
+  "image_title": "Same Idea In Real AI",
+  "video_title": "Real AI Panels",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_01165f05915c59e1006a4a0a8b88ec819bb482a1864a8b3991",
+  "openai_request_id": "fed0df4d-c547-4dab-995c-dbb58775de06",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\06-same-idea-in-real-ai.png",
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\06-same-idea-in-real-ai-video.png"
+  ]
+}

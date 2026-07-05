@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "card_number": 6,
+  "card_title": "Lower Loss",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 6 showing lower loss after one small update.\nScene/backdrop: close tablet on warm study desk with notebook, pencil, and lamp glow.\nSubject: same recurring Indian teenage learner; teal/green sleeve and soft partial face or hand context.\nStyle/medium: warm minimalist tablet closeup, polished mobile educational illustration, cinematic but uncluttered.\nComposition/framing: tablet fills most of frame; loss meter and prediction chips are large; safe margins for motion.\nText (verbatim): \"loss: 5/10\", \"lower error\".\nTechnical overlay: tablet shows a smaller loss meter labeled \"loss: 5/10\". Nearby, prediction and correct icon chips are closer together than in frame 2 but still visibly separate. Include a tiny curve inset with the point slightly lower than before.\nMotion target for later video: loss meter shrinks and prediction chip slides closer to the correct chip without fully matching.\nConstraints: no extra text, no logos, no watermark, no dense formulas, do not show perfect prediction, keep labels readable.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "low",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:58:33+00:00",
+  "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\06-lower-loss.png",
+  "api_response_id": "resp_02aff29ff4d129f1006a4a8d3eaff0819fbc0a84554ef90813",
+  "openai_request_id": "3d767844-618c-40e8-86ea-d66e007542f8",
+  "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+  "style_references": [
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+  ],
+  "retry_count": 0
+}

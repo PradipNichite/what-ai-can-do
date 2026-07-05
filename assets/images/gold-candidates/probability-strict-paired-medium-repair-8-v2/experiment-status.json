@@ -1,0 +1,37 @@
+{
+  "image_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "video_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-video-first-v2.md",
+  "out_dir": "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-8-v2",
+  "frames": [
+    8
+  ],
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "quality": "medium",
+  "size": "1024x1536",
+  "style_references": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\01-lesson-opener.png"
+  ],
+  "langsmith_trace_id": "019f3151-397c-75f3-bc40-ecd81d764502",
+  "results": [
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 8,
+      "image_title": "Quick Check",
+      "video_title": "Quick Check",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_086da698f6e339bb006a4a10b5cd0c819a813cebfa398368ba",
+      "openai_request_id": "69d7334c-d116-4520-ac76-cbe09f0dc7eb",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-8-v2\\image-only\\08-quick-check.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-8-v2\\video-first\\08-quick-check-video.png"
+      ]
+    }
+  ],
+  "image_contact_sheet": "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-8-v2\\image-only-contact-sheet.jpg",
+  "video_contact_sheet": "assets\\images\\gold-candidates\\probability-strict-paired-medium-repair-8-v2\\video-first-contact-sheet.jpg"
+}

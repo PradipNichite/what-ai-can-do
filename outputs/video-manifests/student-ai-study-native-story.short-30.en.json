@@ -1,0 +1,67 @@
+{
+  "id": "student-ai-study-native-story-short-30-en",
+  "title": "How Students Can Use AI To Study Better - 30s Short",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 30,
+  "source_story": "outputs/mobile-stories/how-students-can-use-ai-to-study-better.md",
+  "image_base_path": "assets/images/student-ai-study-native-story",
+  "voiceover": {
+    "provider": "creatomate-elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": null,
+    "stability": 0.72,
+    "text": "Stuck on a textbook page? Do not just stare at it. Show AI the page, and ask it to explain the idea simply. The trick is context. A photo, your exact doubt, and your class level gives AI a much better starting point. Then ask for steps: explain simply, give an example, and ask me a question. But do not copy answers. Use AI for hints, quizzes, and checking your work. Best setup: AI helps, you practice, and your teacher or textbook verifies."
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "duration": 6,
+      "image": "01-stuck-show-ai-page.png",
+      "image_url": "https://tmpfiles.org/dl/waw4ySu6ohZA/01-stuck-show-ai-page.png",
+      "caption_title": "Stuck on a page?",
+      "caption_body": "Show AI the exact page.",
+      "motion": "pan_left_with_zoom"
+    },
+    {
+      "id": "scene-02",
+      "duration": 6,
+      "image": "02-give-ai-context.png",
+      "image_url": "https://tmpfiles.org/dl/wKwKy4uJosdW/02-give-ai-context.png",
+      "caption_title": "Give context",
+      "caption_body": "Photo + question = better help.",
+      "motion": "pan_right_with_zoom"
+    },
+    {
+      "id": "scene-03",
+      "duration": 6,
+      "image": "03-turn-confusion-into-steps.png",
+      "image_url": "https://tmpfiles.org/dl/w4wyyBuso9YA/03-turn-confusion-into-steps.png",
+      "caption_title": "Ask for steps",
+      "caption_body": "Simple explanation. Example. Question.",
+      "motion": "pan_center"
+    },
+    {
+      "id": "scene-04",
+      "duration": 6,
+      "image": "04-practice-not-copy.png",
+      "image_url": "https://tmpfiles.org/dl/wKwuyHuZoRSs/04-practice-not-copy.png",
+      "caption_title": "Practice, don't copy",
+      "caption_body": "Use hints and quizzes.",
+      "motion": "pan_left_with_zoom"
+    },
+    {
+      "id": "scene-05",
+      "duration": 6,
+      "image": "05-best-study-setup.png",
+      "image_url": "https://tmpfiles.org/dl/wFwWyyuIJdHr/05-best-study-setup.png",
+      "caption_title": "Best setup",
+      "caption_body": "AI helps. You practice. Teacher verifies.",
+      "motion": "pan_right_with_zoom"
+    }
+  ]
+}

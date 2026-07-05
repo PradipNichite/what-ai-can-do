@@ -1,0 +1,77 @@
+{
+  "id": "matrices-images-become-numbers-micro-lesson-v1-en",
+  "title": "Micro-Lesson: How Images Become Matrices",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 34.8,
+  "learning_design": {
+    "format": "micro-lesson",
+    "learning_goal": "Understand that digital images can be represented as matrices of pixel values.",
+    "why_it_matters": "This makes matrices feel useful for AI and computer vision.",
+    "memory_anchor": "An image is a grid of numbers.",
+    "quick_check": "If a grayscale image is 100 by 100 pixels, how many brightness numbers does it have?",
+    "cognitive_load": "low-medium"
+  },
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+    "voice_name": "Zara - Soft and Serene Indian Voice",
+    "local_output_path": "outputs/video-assets/matrices-images-become-numbers-micro-lesson-v1-en.voiceover.mp3",
+    "text": "In this micro lesson, you will learn why matrices matter in AI images. A photo looks visual to us, but a computer can break it into tiny pixels. In grayscale, each pixel becomes one brightness number. Put those numbers in rows and columns, and you get a matrix. Color images use three number grids: red, green, and blue. AI scans these grids to find edges, shapes, and patterns. Remember: an image is a grid of numbers.",
+    "public_url": "https://tmpfiles.org/dl/wMwvta6prgET/matrices-images-become-numbers-micro-lesson-v1-en.voiceover.mp3"
+  },
+  "scenes": [
+    {
+      "id": "01-learning-promise",
+      "duration": 4.7,
+      "video_url": "https://tmpfiles.org/dl/w5wltV6xr3yF/01-learning-promise.mp4",
+      "caption": "What you will learn",
+      "caption_start": 0.3,
+      "caption_duration": 1.6
+    },
+    {
+      "id": "02-photo-to-pixels",
+      "duration": 5.0,
+      "video_url": "https://tmpfiles.org/dl/wFwut26Jr8ad/02-photo-to-pixels.mp4",
+      "caption": "Photos become pixels",
+      "caption_start": 5.0,
+      "caption_duration": 1.8
+    },
+    {
+      "id": "03-brightness-numbers",
+      "duration": 5.0,
+      "video_url": "https://tmpfiles.org/dl/w5wEtx6MrfiR/03-brightness-numbers.mp4"
+    },
+    {
+      "id": "04-image-as-matrix",
+      "duration": 5.0,
+      "video_url": "https://tmpfiles.org/dl/wmwwtC6PrSOD/04-image-as-matrix.mp4",
+      "caption": "Rows + columns = matrix",
+      "caption_start": 15.2,
+      "caption_duration": 2.0
+    },
+    {
+      "id": "05-rgb-channels",
+      "duration": 5.0,
+      "video_url": "https://tmpfiles.org/dl/wfwat06Crm2l/05-rgb-channels.mp4"
+    },
+    {
+      "id": "06-ai-scans-patterns",
+      "duration": 5.0,
+      "video_url": "https://tmpfiles.org/dl/wzwitL6CrHsH/06-ai-scans-patterns.mp4"
+    },
+    {
+      "id": "07-recap",
+      "duration": 5.1,
+      "video_url": "https://tmpfiles.org/dl/wkw7tJ6ZrKNw/07-recap.mp4",
+      "caption": "Image = grid of numbers",
+      "caption_start": 30.0,
+      "caption_duration": 2.8
+    }
+  ]
+}

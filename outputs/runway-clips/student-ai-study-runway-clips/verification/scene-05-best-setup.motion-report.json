@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\student-ai-study-runway-clips\\scene-05-best-setup.mp4",
+  "duration_seconds": 5.04,
+  "samples": 6,
+  "mean_frame_diff": 1.0557326555252076,
+  "max_frame_diff": 1.7790971994400024,
+  "black_border_ratio_mean": 0.01798755787037037,
+  "black_border_ratio_max": 0.018298611111111113,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\student-ai-study-runway-clips\\verification\\scene-05-best-setup.contact-sheet.jpg"
+}

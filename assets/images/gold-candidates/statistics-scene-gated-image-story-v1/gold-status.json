@@ -1,0 +1,37 @@
+{
+  "lesson": "statistics-how-ai-learns-patterns-from-data",
+  "status": "accepted-gold-candidate",
+  "generated_variant": "scene-gated-image-story-v1",
+  "image_only": {
+    "folder": "assets/images/gold-candidates/statistics-scene-gated-image-story-v1",
+    "contact_sheet": "assets/images/gold-candidates/statistics-scene-gated-image-story-v1/statistics-scene-gated-image-story-v1-contact-sheet.jpg",
+    "qa_markdown": "assets/images/gold-candidates/statistics-scene-gated-image-story-v1/statistics-scene-gated-image-story-v1-qa.md",
+    "qa_json": "assets/images/gold-candidates/statistics-scene-gated-image-story-v1/statistics-scene-gated-image-story-v1-qa.json",
+    "qa_status": "pass-with-caveats",
+    "qa_next_action": "accept",
+    "remaining_caveat": "Accepted for image-only use; smallest graph/table labels may need enlargement for phone-only publication."
+  },
+  "scene_adequacy": {
+    "qa_markdown": "assets/reviews/statistics-scene-adequacy.md",
+    "qa_json": "assets/reviews/statistics-scene-adequacy.json",
+    "status": "pass-with-caveats",
+    "next_action": "proceed-to-prompts"
+  },
+  "prompt_packs": {
+    "image_only": "assets/image-prompts/statistics-how-ai-learns-patterns-from-data-image-story.md",
+    "video_first": "assets/image-prompts/statistics-how-ai-learns-patterns-from-data-video-first.md"
+  },
+  "generation_traces": [
+    {
+      "trace_id": "019f327b-47d0-7701-9b4f-11656061f015",
+      "purpose": "full scene-gated image-only generation and QA"
+    }
+  ],
+  "qa_request_ids": {
+    "image_only_final": "fc503221-247e-4fd5-a7cc-6014d4f6a738"
+  },
+  "next_video_test": {
+    "recommended_scope": "Runway smoke test on frames 4, 5, and 7 before full video assembly.",
+    "reason": "These scenes carry table-to-plot, trend-line, and new-example prediction motion risk."
+  }
+}

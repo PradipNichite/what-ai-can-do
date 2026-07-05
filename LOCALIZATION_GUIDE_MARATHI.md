@@ -123,7 +123,7 @@ Before finalizing, check:
 
 Important:
 
-Do not approve Marathi image assets only by reading the source caption. Always inspect the final rendered image.
+Do not approve Marathi image assets only by reading the source caption. Always inspect the final rendered image with ChatGPT vision capability.
 
 ## Good Style Examples
 

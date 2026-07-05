@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wBwwamOfNA4c/04-slope-gives-direction.png",
+  "promptText": "Locked camera. Preserve the full vertical frame exactly. Keep every word readable and unchanged. The tangent and gradient higher-loss cue glow first, then the separate move-opposite arrow gently pulses toward lower error. Add only subtle learner eye movement and tablet glow. No zoom. No crop. No text morphing. No new text.",
+  "ratio": "720:1280",
+  "duration": 5
+}

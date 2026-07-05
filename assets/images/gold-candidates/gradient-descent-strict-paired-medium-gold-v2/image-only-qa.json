@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-05T12:29:45+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_0c4d562a7181a60b006a4a4e2320e88192bb2117ba12752a34",
+  "openai_request_id": "3f74cc76-29c5-46cb-b070-7ddea7f564ea",
+  "inputs": {
+    "image_folder": "assets/images/gold-candidates/gradient-descent-strict-paired-medium-gold-v2/image-only",
+    "contact_sheet": "assets/images/gold-candidates/gradient-descent-strict-paired-medium-gold-v2/image-only-contact-sheet.jpg",
+    "prompt_pack": "assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+    "source_module": "modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md",
+    "images": [
+      "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "needs-revision",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: it names the lesson as \u201cGradient Descent: How AI Learns From Mistakes,\u201d shows the wrong-prediction example with a cat image, \u201cprediction: dog,\u201d and \u201ccorrect: cat,\u201d and includes the school-math/AI bridge through \u201cSlope tells which way to move\u201d plus the sticky note about lowering error with small downhill steps.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "Across the contact sheet, text and diagrams are integrated into tablet screens, notebook pages, sticky notes, and poster-like brush headers. The warm desk, learner, tablet, notes, books, and diagrams feel like one coherent educational-card design rather than separate plain captions on stock backgrounds.",
+      "required_fix": "None"
+    },
+    "overlay_risk": {
+      "status": "low",
+      "evidence": "Most labels are attached to believable surfaces: tablet UI chips, notebook pages, sticky notes, and diagram annotations. The large white brush-stroke headers are stylistically consistent across cards and read as native poster typography, not obvious post-production text boxes. The only non-card text is the contact-sheet filename strip below each frame, which is not part of the rendered card."
+    },
+    "mechanism_visibility": {
+      "status": "partial",
+      "evidence": "The main mechanism is visible through the sequence: wrong prediction becomes a loss meter in frame 2; a high point appears on a U-shaped loss curve in frame 3; slope and downhill direction are shown in frame 4; a small update is shown in frame 5; lower loss and closer-but-still-wrong prediction are shown in frame 6; repeated steps appear in frame 7; small steps vs overshoot are compared in frame 8. However, frame 6 omits the required explanatory line \u201cThe prediction is closer, not perfect,\u201d which weakens the intended teaching safeguard against implying perfection after one step.",
+      "required_fix": "Regenerate or revise frame 6 to include the missing required text \u201cThe prediction is closer, not perfect.\u201d Keep the prediction still visibly imperfect, e.g. prediction remains dog while correct is cat, or use a closer-but-not-matching confidence display."
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Large headers and main tablet labels are generally readable on a phone-sized contact sheet: prediction/correct chips, loss meter, curve labels, slope, lower error, repeat, small step, and too far are visible. Some smaller notebook/sticky-note text is borderline but still mostly legible. Frame 5\u2019s update rule is readable but split awkwardly as \u201cnew weight =\u201d on one line and \u201cold weight - small step\u201d on the next, making the equation less clean than requested.",
+      "required_fix": "Improve frame 5 equation layout if regenerating: show \u201cnew weight = old weight - small step\u201d as one clear line or a cleaner two-line note where the equality relationship is unambiguous. Frame 6 must also add the missing sentence in readable size."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener. Lesson title, learning promise, slope connection, and wrong prediction example are all visible. Cat image with \u201cprediction: dog\u201d and \u201ccorrect: cat\u201d makes the mismatch obvious.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Shows prediction dog vs correct cat, highlighted error gap, and a vertical loss meter labeled \u201closs.\u201d Sticky note reads \u201closs = how wrong the model is.\u201d Mechanism of mistake becoming score is visible.",
+        "fix": "None"
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Large U-shaped loss curve dominates the tablet with a glowing point high on the right side. Text says \u201cA model setting sits on a loss curve,\u201d \u201cHigh point = high error,\u201d and \u201closs.\u201d Minimal axis clutter.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "U-shaped curve has a marked point, local tangent/line, \u201cslope\u201d label, and a downhill arrow labeled toward \u201clower error.\u201d Notebook note reinforces \u201cMove downhill to lower error.\u201d",
+        "fix": "None"
+      },
+      {
+        "frame": 5,
+        "status": "needs-revision",
+        "evidence": "The small-step mechanism is visible: old and new points are close together and connected by a short arrow labeled \u201csmall step.\u201d The formula note is present but awkwardly split as \u201cnew weight =\u201d then \u201cold weight - small step,\u201d rather than the requested clean expression.",
+        "fix": "Revise equation layout to clearly read \u201cnew weight = old weight - small step,\u201d ideally as one large notebook/tablet note with one equals sign and one minus sign."
+      },
+      {
+        "frame": 6,
+        "status": "needs-revision",
+        "evidence": "Shows lower loss meter, prediction dog and correct cat still separated, and a curve inset with a lower point. However, the required sentence \u201cThe prediction is closer, not perfect.\u201d is missing from the rendered card.",
+        "fix": "Add the missing text \u201cThe prediction is closer, not perfect.\u201d in a readable tablet or notebook callout while keeping the prediction visibly not perfect."
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "Tablet shows a U-shaped loss curve with ordered dotted points and arrows descending toward the valley. Text reads \u201cTraining repeats the loop,\u201d \u201csmall steps lower loss,\u201d and \u201crepeat.\u201d Mechanism is clear and not just decorative.",
+        "fix": "None"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Quick check card clearly compares a green small-step dotted path descending into the valley with a red oversized path jumping past the valley and landing higher. Labels \u201csmall step\u201d and \u201ctoo far\u201d are visible, and notebook text says the large step can overshoot.",
+        "fix": "None"
+      }
+    ],
+    "verdict": "Strong native educational image-story with clear mechanism and good opener, but not ready as final because frame 6 omits required teaching text and frame 5\u2019s update rule is visually awkward. Regenerate or revise those frames rather than the whole set.",
+    "next_action": "regenerate-frame"
+  }
+}

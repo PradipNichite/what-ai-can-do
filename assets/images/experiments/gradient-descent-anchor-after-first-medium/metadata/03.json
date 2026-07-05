@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 3,
+  "card_title": "Loss Curve",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 3 showing one large U-shaped loss curve on the tablet.\nTechnical overlay: a single glowing point high on the right side of the curve, with the curve and point large enough for mobile.\nText (verbatim): \"A model setting sits on a loss curve.\", \"High point = high error\", \"loss\".\nConstraints: avoid axis clutter; no formulas; no extra labels beyond the listed text.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:04:11+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\03-loss-curve.png",
+  "api_response_id": "resp_0f061c4cc79f26af006a4920eeab04819db27d9838d0a99009",
+  "openai_request_id": "24b80b23-b372-4dba-a73c-bf32b7d54b8c",
+  "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+  "style_references": [
+    "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

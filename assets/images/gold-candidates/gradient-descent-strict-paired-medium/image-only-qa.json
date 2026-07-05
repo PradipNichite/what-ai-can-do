@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-05T12:10:56+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_005ae034a2221f8f006a4a49b8ffc88192850724e9f91d3c6c",
+  "openai_request_id": "85958fa0-d9a5-4151-a20e-54c95ab4997b",
+  "inputs": {
+    "image_folder": "assets/images/gold-candidates/gradient-descent-strict-paired-medium/image-only",
+    "contact_sheet": "assets/images/gold-candidates/gradient-descent-strict-paired-medium/image-only-contact-sheet.jpg",
+    "prompt_pack": "assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+    "source_module": "modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md",
+    "images": [
+      "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "needs-revision",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: it clearly names the lesson, \u201cGradient Descent: How AI Learns From Mistakes,\u201d shows the AI promise about lowering error with small downhill steps, connects slope to movement direction on a notebook graph, and introduces the mismatch example with tablet chips \u201cprediction: dog\u201d and \u201ccorrect: cat.\u201d The cat image plus dog prediction makes the mistake visually obvious.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "partial",
+      "evidence": "Most text is integrated into tablet screens, notebook cards, sticky notes, and poster-style headers within the warm study-desk scene. The recurring learner, tablet, desk lamp, plant, books, and notebook style are consistent. However, several top brush-stroke headline panels feel like repeated poster overlays rather than fully embedded surfaces, and some frames add extra generated mini-notes not in the prompt.",
+      "required_fix": "Keep the designed educational-poster look, but reduce repeated generic top-banner treatment where possible and avoid extra small explanatory text that was not requested."
+    },
+    "overlay_risk": {
+      "status": "medium",
+      "evidence": "The tablet diagrams and sticky notes feel native, but the large white brush-stroke headline areas on frames 1, 3, 4, 5, 7, and 8 have a somewhat pasted poster-caption feel. They are visually consistent and not obviously post-production overlays, but they risk reading as a caption layer over the scene rather than part of the desk/tablet environment."
+    },
+    "mechanism_visibility": {
+      "status": "partial",
+      "evidence": "The sequence visibly shows the core mechanism: wrong prediction, loss meter, U-shaped loss curve, slope/tangent direction, a small step, lower loss, repeated steps, and overshoot comparison. Frame 5 has a serious text/technical issue: the update note appears to read \u201cnew weight = old weight = small step\u201d instead of the required minus-step update. Frame 2 also flips the animal example relative to frame 1: frame 1 has prediction dog/correct cat, while frame 2 shows prediction cat/correct dog, which breaks example continuity.",
+      "required_fix": "Regenerate or repair frame 5 so the formula clearly reads \u201cnew weight = old weight - small step.\u201d Repair frame 2 to preserve the same example direction as frame 1: prediction dog, correct cat, or avoid animal labels if not needed."
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Main headlines and major labels are generally large and readable on the contact sheet: \u201closs,\u201d \u201cslope,\u201d \u201clower error,\u201d \u201csmall step,\u201d \u201crepeat,\u201d and \u201ctoo far\u201d are visible. Some small notebook/tablet notes are too dense for mobile, especially frame 6\u2019s small panels and frame 7\u2019s notebook checklist. Frame 5\u2019s formula is not just small but semantically misrendered.",
+      "required_fix": "Prioritize only the required text on each card. Remove or enlarge tiny extra notes, especially in frames 6 and 7, and fix frame 5\u2019s update expression."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener. Title, learning promise, slope callout, and mismatch chips are all visible. The learner and warm Indian study-desk/tablet style are clear. The cat image with \u201cprediction: dog\u201d and \u201ccorrect: cat\u201d introduces the example well.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "needs-revision",
+        "evidence": "The loss meter is clear and the mistake-to-loss idea is readable. However, the example continuity is reversed: tablet shows \u201cYour prediction\u201d with a cat and \u201cCorrect answer\u201d with a dog, conflicting with frame 1\u2019s prediction dog/correct cat example. Main headline and sticky note are readable.",
+        "fix": "Regenerate/repair so the same mismatch continues: prediction dog, correct cat. Keep the loss meter as a score."
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Large U-shaped loss curve is clear, with a high glowing point on the right and a readable callout \u201cHigh point = high error.\u201d The \u201closs\u201d axis label is readable and the tablet dominates the frame.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Slope/tangent line, point, and downhill arrow toward \u201clower error\u201d are visible. The card separates the direction clue from the full loop and makes downhill movement clear.",
+        "fix": "None"
+      },
+      {
+        "frame": 5,
+        "status": "reject",
+        "evidence": "The curve, old/new points, and small step arrow are visually good, but the update expression on the notebook appears wrong: it reads like \u201cnew weight = old weight = small step\u201d rather than \u201cnew weight = old weight - small step.\u201d This is a core technical text failure for the update rule.",
+        "fix": "Regenerate/repair frame 5. The formula must clearly read \u201cnew weight = old weight - small step,\u201d with a visible minus sign and no mistaken second equals sign."
+      },
+      {
+        "frame": 6,
+        "status": "needs-revision",
+        "evidence": "The tablet shows lower loss, closer prediction/correct chips, and a small curve inset. It correctly avoids implying perfection. But the frame is cluttered with multiple small panels and extra notes; some text is too small for mobile.",
+        "fix": "Simplify to the required text only: \u201cAfter the step, loss is lower.\u201d \u201cThe prediction is closer, not perfect.\u201d and \u201clower error.\u201d Enlarge the loss meter and closer-not-perfect chip comparison."
+      },
+      {
+        "frame": 7,
+        "status": "needs-revision",
+        "evidence": "Repeated dotted descent steps toward the valley are clear, and \u201cTraining repeats the loop,\u201d \u201csmall steps lower loss,\u201d and \u201crepeat\u201d are visible. However, the notebook checklist adds dense extra text that will not be readable on a phone and distracts from the simple repeat mechanism.",
+        "fix": "Remove or greatly simplify the notebook checklist. Keep the ordered dotted path, arrows, \u201crepeat,\u201d and \u201csmall steps lower loss.\u201d"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "The quick check is understandable: green small-step path descends toward the valley while the red oversized path jumps too far and lands higher. \u201csmall step,\u201d \u201ctoo far,\u201d and the overshoot note are readable.",
+        "fix": "None"
+      }
+    ],
+    "verdict": "Good visual story structure and mostly strong mechanism diagrams, but not ready to accept because frame 5 misrenders the core update formula and frame 2 breaks the dog/cat example continuity. Some later frames also need mobile simplification.",
+    "next_action": "regenerate-frame"
+  }
+}

@@ -10,6 +10,16 @@
 - Be honest about limitations, privacy, safety, and human responsibility.
 - Use examples instead of broad claims.
 
+For the math-in-AI series, start from the familiar school math idea before the AI application. The tone should feel like an applied lesson for 11th/12th standard students, not an attention-grabbing Short.
+
+Use this order:
+
+1. familiar school concept
+2. where it appears in AI
+3. the mechanism connecting them
+4. one small technical example
+5. the real application
+
 ## Avoid
 
 - "AI will change everything."
@@ -17,6 +27,7 @@
 - Technical-first explanations.
 - Silicon Valley-style hype.
 - Treating AI as magic.
+- Social-media hook language for concept lessons.
 - Presenting invented examples as real.
 - Making every automation sound like job replacement.
 

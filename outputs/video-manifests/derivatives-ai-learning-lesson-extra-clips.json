@@ -1,0 +1,13 @@
+{
+  "id": "derivatives-ai-learning-lesson-extra-clips",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "clips": [
+    {
+      "id": "02-derivative-at-point",
+      "image_url": "https://tmpfiles.org/dl/wewPtllXZrti/02-derivative-at-a-point.png",
+      "prompt": "Animate this exact vertical educational card as a calm lesson segment. Preserve all existing text and graph labels exactly. The tangent line glows at the marked point, the tiny step and tiny change triangle draws gently, and the student looks at the graph. Keep the full 9:16 card readable, locked composition, no new text, no extra equations, no cropping."
+    }
+  ]
+}

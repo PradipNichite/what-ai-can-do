@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wDwdtIAFKFae/05-the-math-glimpse.png",
+  "promptText": "Animate this exact math glimpse card as a clear mobile explainer. Preserve all text and equations exactly. The slope triangle draws on, the current point glows, the update formula highlights left to right, dashboard lights softly animate. Keep full 9:16 card readable, no new equations or labels.",
+  "ratio": "720:1280",
+  "duration": 5
+}

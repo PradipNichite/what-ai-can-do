@@ -1,0 +1,62 @@
+{
+  "id": "derivatives-ai-learning-retention-edit-v2-en",
+  "title": "Derivatives: How AI Learns From Mistakes - Retention Edit v2",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 25.95,
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+    "voice_name": "Zara - Soft and Serene Indian Voice",
+    "local_output_path": "outputs/video-assets/derivatives-ai-learning-retention-edit-v2-en.voiceover.mp3",
+    "text": "AI learns from mistakes. Like a missed shot, the error shows which way to adjust. In AI, the model predicts, checks the correct answer, and measures error. A derivative is the slope of that error. It points toward lower error. AI takes a small step, checks again, and repeats. Remember: derivative tells AI which way to adjust.",
+    "public_url": "https://tmpfiles.org/dl/wXw1tJeyXC6C/derivatives-ai-learning-retention-edit-v2-en.voiceover.mp3"
+  },
+  "scenes": [
+    {
+      "id": "01-mistake",
+      "duration": 3.0,
+      "video_url": "https://tmpfiles.org/dl/w0wwtceytvul/01-mistake.mp4"
+    },
+    {
+      "id": "02-direction-clue",
+      "duration": 3.7,
+      "video_url": "https://tmpfiles.org/dl/wnwptve7tmig/02-direction-clue.mp4"
+    },
+    {
+      "id": "03-prediction-error",
+      "duration": 4.4,
+      "video_url": "https://tmpfiles.org/dl/wlwPtJe8tmhZ/03-prediction-error.mp4"
+    },
+    {
+      "id": "04-error-curve",
+      "duration": 4.5,
+      "video_url": "https://tmpfiles.org/dl/wcwDtseftYmb/04-error-curve.mp4"
+    },
+    {
+      "id": "05-math-glimpse",
+      "duration": 3.8,
+      "video_url": "https://tmpfiles.org/dl/wzw8toeQteNK/05-math-glimpse.mp4"
+    },
+    {
+      "id": "06-small-corrections",
+      "duration": 3.4,
+      "video_url": "https://tmpfiles.org/dl/wNwbtIeFtVEr/06-small-corrections.mp4"
+    },
+    {
+      "id": "07-why-matters",
+      "duration": 3.15,
+      "video_url": "https://tmpfiles.org/dl/w9wetIeWXAgn/07-why-matters.mp4"
+    }
+  ],
+  "learning_design": {
+    "primary_goal": "Students remember that derivative means direction for reducing error.",
+    "takeaway": "Derivative tells AI which way to adjust.",
+    "style": "retention over flash; motion guides attention only"
+  }
+}

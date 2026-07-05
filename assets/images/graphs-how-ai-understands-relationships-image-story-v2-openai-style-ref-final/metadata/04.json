@@ -1,0 +1,22 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "card_number": 4,
+  "card_title": "Nodes Plus Edges Form A Graph",
+  "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 4 of 8\nPrimary request: Create a polished native educational story card showing that nodes plus edges form a graph. It must stay in the same warm Indian study-desk/tablet story world.\nScene/backdrop: Same learner at desk, notebook open with a small graph doodle, tablet showing a compact readable network. The learner points at the tablet with a pencil.\nSubject: Tablet network with 8 to 10 large circular nodes connected by clean edges, grouped into learning/AI, study/math, and entertainment clusters.\nStyle/medium: warm modern educational illustration, story-card aesthetic, friendly educational poster typography integrated with tablet and notebook surfaces.\nComposition/framing: 9:16 portrait. Tablet is the main visual surface; notebook callout beside it explains the idea. Include desk lamp warmth and familiar objects for continuity.\nText to render verbatim, exactly:\n\"Nodes + edges form a graph.\"\n\"graph\"\nConstraints: no dense network; no tiny labels; graph must be understandable on a phone; text must be on tablet/notebook elements, not a generic title overlay; no extra text; no logos; no watermark.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:46:39+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\04-nodes-plus-edges-form-a-graph.png",
+  "api_response_id": "resp_0fe71500099986c9006a491cd75f888192b35cf5ef8d327877",
+  "openai_request_id": "0d0aa375-4bd4-45b4-857f-e3a7c78bd636",
+  "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

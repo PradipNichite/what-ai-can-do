@@ -1,0 +1,82 @@
+{
+  "id": "derivatives-ai-learning-micro-lesson-v1-en",
+  "title": "Micro-Lesson: How Derivatives Help AI Learn From Mistakes",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 40.25,
+  "learning_design": {
+    "format": "micro-lesson",
+    "learning_goal": "Understand derivative as direction for reducing AI error.",
+    "why_it_matters": "This is the intuition behind model training.",
+    "memory_anchor": "Derivative tells AI which way to adjust.",
+    "quick_check": "If error increases, should AI keep adjusting the same way?",
+    "cognitive_load": "medium"
+  },
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+    "voice_name": "Zara - Soft and Serene Indian Voice",
+    "local_output_path": "outputs/video-assets/derivatives-ai-learning-micro-lesson-v1-en.voiceover.mp3",
+    "text": "In this micro lesson, you will learn how derivatives help AI reduce mistakes. Why it matters: training AI means reducing error. Think of a missed basketball shot. The miss tells you which way to adjust. In math, a derivative is slope at one point. It tells how a tiny change affects the result. In AI, the model predicts, checks the correct answer, and measures error. The derivative points toward lower error. So AI takes a small step, checks again, and repeats. Remember: derivative tells AI which way to adjust.",
+    "public_url": "https://tmpfiles.org/dl/wuwitegolXri/derivatives-ai-learning-micro-lesson-v1-en.voiceover.mp3"
+  },
+  "scenes": [
+    {
+      "id": "01-mistake",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wjw4tQg4fxEJ/01-mistake.mp4",
+      "caption": "What you will learn",
+      "caption_start": 0.3,
+      "caption_duration": 1.6
+    },
+    {
+      "id": "02-derivative-at-point",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wdwmtrgjlwfs/02-derivative-at-point.mp4",
+      "caption": "Why it matters",
+      "caption_start": 5.2,
+      "caption_duration": 1.6
+    },
+    {
+      "id": "02-direction-clue",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wrwTtygilnZL/02-direction-clue.mp4"
+    },
+    {
+      "id": "03-prediction-error",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wJw6tAgdlILM/03-prediction-error.mp4"
+    },
+    {
+      "id": "04-error-curve",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/w6wdttgFl9t6/04-error-curve.mp4"
+    },
+    {
+      "id": "05-math-glimpse",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wPwutugBlEay/05-math-glimpse.mp4"
+    },
+    {
+      "id": "06-small-corrections",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wlwYtMgWlnu1/06-small-corrections.mp4",
+      "caption": "Small step. Check again.",
+      "caption_start": 31.0,
+      "caption_duration": 2.0
+    },
+    {
+      "id": "07-why-matters",
+      "duration": 5.25,
+      "video_url": "https://tmpfiles.org/dl/wQwotagJlqS4/07-why-matters.mp4",
+      "caption": "Derivative = which way to adjust",
+      "caption_start": 35.6,
+      "caption_duration": 3.2
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 5,
+  "card_title": "One Small Update",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 5 showing one small gradient descent update on the curve.\nTechnical overlay: old point and nearby new point slightly lower on the curve, connected by a short arrow labeled \"step opposite gradient\". Put the update rule on one large notebook/tablet note as two stacked lines: \"new weight =\" and \"old weight - small step\". It must use exactly one equals sign and one clear minus sign.\nText (verbatim): \"Gradient descent takes one small step.\", \"step opposite gradient\", \"new weight =\", \"old weight - small step\", \"small step\".\nConstraints: step must be visibly small and opposite the gradient cue; update expression should be large and simple; do not replace the minus sign with a second equals sign; keep the two-line update visually grouped as one rule; no extra formulas.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:28:09+00:00",
+  "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\05-one-small-update.png",
+  "api_response_id": "resp_00bb6ed5deff5a50006a4a5bec1e44819f853904ea80fb7403",
+  "openai_request_id": "ee4d6537-0942-4932-9ec2-d4431cdcc948",
+  "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+  "style_references": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

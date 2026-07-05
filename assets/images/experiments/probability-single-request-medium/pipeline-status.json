@@ -1,0 +1,12 @@
+{
+  "status": "pass-with-caveats",
+  "next_action": "accept",
+  "lesson_slug": "probability-how-ai-handles-uncertainty",
+  "pipeline_run_id": "20260704T153339Z",
+  "langsmith_trace_id": "019f2dc3-9924-7962-a398-d987da5ba82f",
+  "out_dir": "assets\\images\\experiments\\probability-single-request-medium",
+  "contact_sheet": "assets\\images\\experiments\\probability-single-request-medium\\probability-single-request-medium-contact-sheet.jpg",
+  "qa_md": "assets\\images\\experiments\\probability-single-request-medium\\probability-single-request-medium-qa.md",
+  "qa_json": "assets\\images\\experiments\\probability-single-request-medium\\probability-single-request-medium-qa.json",
+  "qa_openai_request_id": "62bf36ef-afd2-4e68-9691-557d6b6134b9"
+}

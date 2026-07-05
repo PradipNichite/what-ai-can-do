@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-runway-smoke-video-first.md",
+  "card_number": 4,
+  "card_title": "Gradient Direction",
+  "prompt": "The tangent line and faint higher-loss gradient cue draw first, then the separate opposite downhill arrow draws toward the lower part of the curve. The learner's pointing hand moves slightly. Keep existing text unchanged. No new text. No crop.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:04:58+00:00",
+  "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v1\\04-gradient-direction.png",
+  "api_response_id": "resp_08eb52bef7dfc1d2006a4a729e0ac4819f9f4b8632ff68c5e7",
+  "openai_request_id": "05d4609a-0709-46b0-90c7-0f10e56ceecd",
+  "langsmith_parent_trace_id": "019f32cf-9741-7a32-8b7f-e251ce0e2c4f",
+  "style_references": [
+    "assets\\images\\gold-candidates\\gradient-descent-scene-gated-full-v3\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

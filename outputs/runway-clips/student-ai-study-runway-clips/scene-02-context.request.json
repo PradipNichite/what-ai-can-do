@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wKwKy4uJosdW/02-give-ai-context.png",
+  "promptText": "Keep the full vertical card visible. Add continuous visible motion for the full 5 seconds: the student's hand lifts the phone slightly toward the textbook, the blue arrows pulse in sequence, the phone screen scan glows softly, and the AI helper nods or waves. Subtle push-in camera motion. Keep all existing text unchanged and readable. No new text.",
+  "ratio": "720:1280",
+  "duration": 5
+}

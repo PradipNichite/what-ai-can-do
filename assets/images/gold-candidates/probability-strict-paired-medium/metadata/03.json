@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 3,
+  "image_title": "Scores For Options",
+  "video_title": "Score Bars",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_08e0b0ed7702b381006a4a092de0a08199a9c1c1df07566d9d",
+  "openai_request_id": "5afd42a6-b85d-41fb-b7ad-f33ed2d2cc60",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\03-scores-for-options.png",
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\03-scores-for-options-video.png"
+  ]
+}

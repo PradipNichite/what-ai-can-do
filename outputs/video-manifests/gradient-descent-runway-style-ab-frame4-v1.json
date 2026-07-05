@@ -1,0 +1,20 @@
+{
+  "id": "gradient-descent-runway-style-ab-frame4-v1",
+  "lesson": "gradient-descent-how-ai-learns-from-mistakes",
+  "purpose": "A/B Runway smoke test: story-derived accepted frame 4 versus clean mechanism-first frame 4.",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "clips": [
+    {
+      "id": "story-04-gradient-direction",
+      "image_url": "https://tmpfiles.org/dl/wBwwamOfNA4c/04-slope-gives-direction.png",
+      "prompt": "Locked camera. Preserve the full vertical frame exactly. Keep every word readable and unchanged. The tangent and gradient higher-loss cue glow first, then the separate move-opposite arrow gently pulses toward lower error. Add only subtle learner eye movement and tablet glow. No zoom. No crop. No text morphing. No new text."
+    },
+    {
+      "id": "clean-04-gradient-direction",
+      "image_url": "https://tmpfiles.org/dl/wgw1anOfNimc/04-gradient-direction.png",
+      "prompt": "Locked camera. Preserve the full vertical frame exactly. Keep all labels readable and unchanged. The tangent line highlights first, the higher-loss gradient cue glows, then the green descent arrow gently pulses down the curve. Add only subtle pointing-hand motion and clean graph glow. No zoom. No crop. No text morphing. No new text."
+    }
+  ]
+}

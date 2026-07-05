@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python tools/verify_image_story_gate.py --changed",
+            "commandWindows": "python tools\\verify_image_story_gate.py --changed",
+            "timeout": 30,
+            "statusMessage": "Checking image-story gate"
+          }
+        ]
+      }
+    ]
+  }
+}

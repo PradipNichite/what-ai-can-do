@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\warm-minimal-tablet-keyframe-comparison-v1.md",
+  "card_number": 4,
+  "card_title": "Statistics Opener Bridge",
+  "prompt": "Use case: scientific-educational style comparison\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create a Warm Minimal Tablet Closeup source frame for the opening bridge of \"Statistics: How AI Learns Patterns From Data\".\nScene/backdrop: warm study desk closeup with tablet, notebook edge, pencil, and soft lamp glow.\nSubject: Indian teenage learner's hand in teal/green sleeve points at the tablet; partial face optional and soft.\nTechnical visual: tablet shows many scattered data dots gently organizing into a visible trend line. The frame should make clear that many examples reveal a pattern.\nStyle/medium: warm minimalist tablet closeup, polished human educational illustration.\nComposition/framing: tablet fills most of the frame; dots and trend line are the hero.\nText to render verbatim, exactly: \"many examples\", \"pattern\".\nMotion target for later video: dots appear, then trend line draws through them.\nConstraints: no lesson title; no extra text; no formulas; no logos; no watermark; avoid generic bar-chart slide look.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:23:10+00:00",
+  "output_path": "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\04-statistics-opener-bridge.png",
+  "api_response_id": "resp_0cae5c5cbf75a9ff006a4a84ef8a7881a29881c9a9ab9ec2b9",
+  "openai_request_id": "72fa76c8-4ead-4118-ad69-71ecb50a8b96",
+  "langsmith_parent_trace_id": "019f3316-5c4a-7d83-81eb-a23699daa22e",
+  "style_references": [],
+  "retry_count": 0
+}

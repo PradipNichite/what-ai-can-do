@@ -1,0 +1,51 @@
+{
+  "id": "vectors-how-ai-compares-meaning-v2-runway-clips",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "image_base_path": "assets/images/vectors-how-ai-compares-meaning-video-first-v2",
+  "clips": [
+    {
+      "id": "01-related-meaning-search",
+      "image": "01-related-meaning-search.png",
+      "image_url": "https://tmpfiles.org/dl/wyw6tqn5K6Qn/01-related-meaning-search.png",
+      "prompt": "Student looks at the phone with a thoughtful expression. The floating meaning icons glow softly and connect with a thin light path. Gentle desk parallax and warm lamp flicker. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "02-sentence-to-vector",
+      "image": "02-sentence-to-vector.png",
+      "image_url": "https://tmpfiles.org/dl/w0wWtznQKwO9/02-sentence-to-vector.png",
+      "prompt": "The tablet interface sends a soft pulse into the row of number chips. Number chips glow left to right while the student's finger moves slightly. Keep the numbers stable and readable. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "03-meaning-space-clusters",
+      "image": "03-meaning-space-clusters.png",
+      "image_url": "https://tmpfiles.org/dl/wrw1tEn8KxrT/03-meaning-space-clusters.png",
+      "prompt": "The colored meaning clusters float gently above the tablet. Similar dots gather closer and glow in sequence by cluster. The student watches with a curious expression. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "04-vector-direction-angle",
+      "image": "04-vector-direction-angle.png",
+      "image_url": "https://tmpfiles.org/dl/wRwHt9nzKhkl/04-vector-direction-angle.png",
+      "prompt": "The vector arrows draw outward from the tablet origin one by one. The two nearby arrows glow together and the small angle arc pulses softly. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "05-semantic-search-nearest",
+      "image": "05-semantic-search-nearest.png",
+      "image_url": "https://tmpfiles.org/dl/wLwytgnJKFxo/05-semantic-search-nearest.png",
+      "prompt": "A bright query dot lands on the tablet map and connects to nearby phone-related icons. Farther icons stay dim. The student leans forward slightly with an aha expression. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "06-recommendation-nearby",
+      "image": "06-recommendation-nearby.png",
+      "image_url": "https://tmpfiles.org/dl/wGwytknqKzpL/06-recommendation-nearby.png",
+      "prompt": "Related learning cards on the tablet glow and connect in sequence. The vector arrow card brightens as the recommended next item while the unrelated cooking card remains dim. Keep the full vertical frame visible. No new text. No crop."
+    },
+    {
+      "id": "07-recap-meaning-vectors",
+      "image": "07-recap-meaning-vectors.png",
+      "image_url": "https://tmpfiles.org/dl/wJwgt8nZZ9l3/07-recap-meaning-vectors.png",
+      "prompt": "The recap chain on the tablet lights up in order: speech bubble, number chips, nearby dots, search result icon. The student smiles with a small aha expression. Gentle final camera push-in. Keep the full vertical frame visible. No new text. No crop."
+    }
+  ]
+}

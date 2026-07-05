@@ -1,0 +1,16 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "card_number": 3,
+  "card_title": "Relationships Become Edges",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 3 showing relationship lines added between related video/topic nodes.\nTechnical overlay: tablet shows the same nodes. Clear edges connect AI basics to machine learning, machine learning to coding tutorial, and study tips to study topic. Unrelated nodes such as cricket and music remain unconnected or dim.\nText (verbatim): \"Relationships become edges.\", \"edge\", \"related\".\nConstraints: edges must look like chosen relationships, not random decoration; avoid a tangled web; keep all labels readable; no extra text.",
+  "model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T12:41:46+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced\\03-relationships-become-edges.png",
+  "api_response_id": null,
+  "openai_request_id": "751b85ef-1cc1-4a71-b99e-9e9160cc00d7",
+  "langsmith_parent_trace_id": "019f2d26-2ef8-7c72-b4a0-889f504c68dc",
+  "retry_count": 0
+}

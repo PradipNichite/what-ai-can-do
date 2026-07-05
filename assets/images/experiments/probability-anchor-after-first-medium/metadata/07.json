@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "card_number": 7,
+  "card_title": "Memory Anchor",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card, frame 7 of 8\nPrimary request: Create a polished native story card summarizing probability in AI prediction. Keep the same warm educational story style.\nScene/backdrop: Same study desk. The learner smiles with an aha expression while looking at a tablet and notebook.\nSubject: Tablet shows a clean chain from input to probability scores to chosen answer. Notebook has the memory anchor written clearly.\nTechnical visual: Chain nodes connected by arrows, with small probability bars inside the middle node.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, integrated text, not a flat diagram slide.\nComposition/framing: 9:16 portrait. Tablet centered, hands visible, warm desk objects around it. Main anchor appears as friendly notebook typography integrated into the scene.\nText to render verbatim, exactly:\n\"input\"\n\"probability scores\"\n\"chosen answer\"\n\"AI predictions are confidence-weighted guesses.\"\nConstraints: keep memory anchor readable; avoid dense paragraphs; no extra text; no logos; no watermark; no generic caption panel.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:30:54+00:00",
+  "output_path": "assets\\images\\experiments\\probability-anchor-after-first-medium\\07-memory-anchor.png",
+  "api_response_id": "resp_0041b1fab22470d0006a492730252c8192bfd3b9343321bda1",
+  "openai_request_id": "8554f754-e659-4379-9714-bb768ef8c1b7",
+  "langsmith_parent_trace_id": "019f2dbe-9dbd-7b80-aaab-1cfd242a5883",
+  "style_references": [
+    "assets\\images\\experiments\\probability-anchor-after-first-medium\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

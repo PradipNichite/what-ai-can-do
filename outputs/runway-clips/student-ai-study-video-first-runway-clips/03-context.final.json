@@ -1,0 +1,7 @@
+{
+  "id": "d07c97cc-4ac8-4b68-adab-a1395c949330",
+  "createdAt": "2026-06-29T11:58:53.959Z",
+  "status": "FAILED",
+  "failure": "An unexpected error occurred.",
+  "failureCode": "INTERNAL.BAD_OUTPUT.CODE01"
+}

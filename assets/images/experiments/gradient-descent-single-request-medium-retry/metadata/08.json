@@ -1,0 +1,24 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 8,
+  "card_title": "Quick Check: Step Size Matters",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 8 as a quick check about step size.\nTechnical overlay: one U-shaped loss curve with two paths: a smooth small-step dotted path descending into the valley and a second oversized path jumping past the valley and landing higher.\nText (verbatim): \"Quick check: why small steps?\", \"Too large can overshoot the valley.\", \"small step\", \"too far\".\nConstraints: make the two paths easy to compare; avoid scary warning symbols; no extra text.",
+  "generation_mode": "single-request-lesson",
+  "card_count_requested": 8,
+  "image_outputs_received": 8,
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "api_response_id": "resp_0addbdfa7e5f1465006a49243d6dc081a3b5b43ec4a855bb7a",
+  "openai_request_id": "b7645d65-67e0-481b-98a0-81e5de62cd63",
+  "langsmith_parent_trace_id": "019f2db5-63f4-7a31-af76-92e1a0f13531",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "output_path": "assets\\images\\experiments\\gradient-descent-single-request-medium-retry\\08-quick-check-step-size-matters.png"
+}

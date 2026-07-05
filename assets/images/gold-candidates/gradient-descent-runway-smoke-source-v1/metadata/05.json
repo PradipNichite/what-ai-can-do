@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-runway-smoke-video-first.md",
+  "card_number": 5,
+  "card_title": "Small Update",
+  "prompt": "The curve point moves one short step downhill and the small step arrow glows. The update note stays locked and readable. Add only subtle hand motion and tablet glow. No new text. No crop.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:04:58+00:00",
+  "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v1\\05-small-update.png",
+  "api_response_id": "resp_0db1e520a2c7cbf4006a4a729cf6d8819c91cc97887232e2a3",
+  "openai_request_id": "312c41b6-f806-4fc8-a515-eb804b086886",
+  "langsmith_parent_trace_id": "019f32cf-9741-7a32-8b7f-e251ce0e2c4f",
+  "style_references": [
+    "assets\\images\\gold-candidates\\gradient-descent-scene-gated-full-v3\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

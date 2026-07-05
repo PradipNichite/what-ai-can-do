@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "card_number": 1,
+  "card_title": "Opener Bridge",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 1 of a Warm Minimal Tablet Closeup micro-lesson about \"Gradient Descent: How AI Learns From Mistakes\".\nScene/backdrop: warm wooden study desk with soft lamp glow, notebook edge, pencil, books, small plant, and a tablet held close to the viewer.\nSubject: Indian 11th/12th standard learner; teal/green sleeve and focused pointing hand visible near the tablet; partial face may appear softly in the background but the tablet is the hero.\nStyle/medium: warm minimalist tablet closeup, polished modern Indian educational illustration, cinematic 9:16 mobile frame, uncluttered and motion-safe.\nComposition/framing: tablet fills about 75 percent of the frame; desk context stays subtle; leave safe bottom margin for captions.\nText (verbatim): \"mistake\", \"loss\", \"small step\".\nTechnical overlay: tablet shows a compact left-to-right chain: wrong prediction icon -> vertical loss meter -> U-shaped loss curve -> short green downhill step arrow. The chain must imply AI improves by reducing error.\nMotion target for later video: chain lights up left to right and the small step arrow pulses once.\nConstraints: no lesson title, no dog/cat words, no extra text, no dense formulas, no logos, no watermark, keep labels large and native to the tablet UI, do not make a flat slide card.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "low",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:57:25+00:00",
+  "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\01-opener-bridge.png",
+  "api_response_id": "resp_0c8613fc4eeac947006a4a8cfd55d481a1b297fd35ec388714",
+  "openai_request_id": "462ec0ed-7dfc-45d9-baa5-377c62c2ae36",
+  "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+  "style_references": [
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+  ],
+  "retry_count": 0
+}

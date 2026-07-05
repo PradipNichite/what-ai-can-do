@@ -1,0 +1,22 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "card_number": 7,
+  "card_title": "Knowledge Graphs Connect Facts",
+  "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 7 of 8\nPrimary request: Create a polished native story card showing that graphs can connect facts too. Keep the same warm educational story style.\nScene/backdrop: Same study desk. The learner holds or looks at a tablet showing a simple knowledge graph. Notebook beside the tablet has tiny doodles of person, place, concept, book, and video icons.\nSubject: Tablet knowledge graph with large entity nodes and clean edges. Icons for person, place, concept, video, and book. One node label and one edge label.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, integrated text, not a flat diagram slide.\nComposition/framing: 9:16 portrait. Tablet centered, hands visible, warm desk objects around it. Main title appears as friendly poster typography integrated into the scene.\nText to render verbatim, exactly:\n\"Graphs can connect facts too.\"\n\"knowledge graph\"\n\"node\"\n\"edge\"\nConstraints: avoid dense concept-map text; use icons and very short labels; keep mobile readable; no extra text; no logos; no watermark; no generic caption panel.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:36:46+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full\\07-knowledge-graphs-connect-facts.png",
+  "api_response_id": "resp_08331258469a880c006a491a857b1081a098cbd2b7e76eb8e9",
+  "openai_request_id": "ae5fcb42-a84b-455b-94ee-42c84e2b08b1",
+  "langsmith_parent_trace_id": "019f2d8d-0c87-7f92-98ab-cfbd84d10cca",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

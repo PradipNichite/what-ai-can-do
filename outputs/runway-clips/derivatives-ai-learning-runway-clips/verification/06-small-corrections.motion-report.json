@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\06-small-corrections.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 5.962361296017964,
+  "max_frame_diff": 11.322396278381348,
+  "black_border_ratio_mean": 0.022750379774305555,
+  "black_border_ratio_max": 0.023601345486111112,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\verification\\06-small-corrections.contact-sheet.jpg"
+}

@@ -1,0 +1,24 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "card_number": 2,
+  "card_title": "Probability Scale",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card, frame 2 of 8\nPrimary request: Create a polished native story card showing probability as a scale. Keep the same warm Indian study-desk world and recurring learner style as card 1.\nScene/backdrop: Same learner at the wooden study desk, pointing at a tablet.\nSubject: Tablet shows a large horizontal probability scale from 0 to 1, with 0%, 50%, and 100% below it. A pointer sits near 0.7 with a soft confidence glow.\nTechnical visual: Notebook beside tablet has a simple handwritten note connecting higher probability to stronger confidence.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, integrated tablet UI and notebook notes, not a clean infographic slide.\nComposition/framing: 9:16 portrait. Big tablet in lower/middle area; student face and pointing hand visible behind it.\nText to render verbatim, exactly:\n\"Probability is a likelihood score.\"\n\"0\"\n\"0.5\"\n\"1\"\n\"0%\"\n\"50%\"\n\"100%\"\nConstraints: scale and numbers must be large enough for mobile; no extra text; no logos; no watermark; no blank PPT background.",
+  "generation_mode": "single-request-lesson",
+  "card_count_requested": 8,
+  "image_outputs_received": 8,
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "api_response_id": "resp_00d1e90c4d86c6c8006a4927de7604819e9c68bd4632821bc7",
+  "openai_request_id": "6b2cae5d-b9c0-4ee1-bcde-514a603ee79e",
+  "langsmith_parent_trace_id": "019f2dc3-9924-7962-a398-d987da5ba82f",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "output_path": "assets\\images\\experiments\\probability-single-request-medium\\02-probability-scale.png"
+}

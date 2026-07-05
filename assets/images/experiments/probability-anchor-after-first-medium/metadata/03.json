@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "card_number": 3,
+  "card_title": "Scores For Options",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card, frame 3 of 8\nPrimary request: Create a polished native story card showing AI assigning probability scores to possible answers. Keep the same learner, desk, tablet, and story-card composition.\nScene/backdrop: Same learner leans toward the tablet with a curious expression.\nSubject: Tablet shows three large probability bars for a photo classifier.\nTechnical visual: Cat bar is tallest, dog medium, car short. Each bar has a readable label and number.\nStyle/medium: warm modern educational illustration, high quality WhatsApp/Instagram story aesthetic, integrated text, not flat infographic.\nComposition/framing: 9:16 portrait. Tablet fills the lower half, learner and desk objects fill the upper/middle. Integrate the headline as a sticky note or notebook banner.\nText to render verbatim, exactly:\n\"AI gives each option a score.\"\n\"cat 0.72\"\n\"dog 0.20\"\n\"car 0.08\"\nConstraints: bar heights must match the numbers; keep labels large; no extra text; no logos; no watermark; no generic caption panel.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-04T15:29:43+00:00",
+  "output_path": "assets\\images\\experiments\\probability-anchor-after-first-medium\\03-scores-for-options.png",
+  "api_response_id": "resp_05d66a43426d8391006a4926eb4e00819eb7d59484a531feae",
+  "openai_request_id": "67a9ef0d-893a-9a9f-8f91-f24c9b27a89b",
+  "langsmith_parent_trace_id": "019f2dbe-9dbd-7b80-aaab-1cfd242a5883",
+  "style_references": [
+    "assets\\images\\experiments\\probability-anchor-after-first-medium\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

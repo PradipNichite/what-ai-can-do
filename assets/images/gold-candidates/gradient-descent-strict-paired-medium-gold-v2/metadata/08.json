@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 8,
+  "image_title": "Quick Check: Step Size Matters",
+  "video_title": "Quick Check: Step Size Matters",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_0b6fda9a4e313143006a4a380c5c94819db535089d940df74c",
+  "openai_request_id": "2f2b1ce4-1d50-4d7d-b8a7-26c03274bc6e",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\08-quick-check-step-size-matters.png",
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\08-quick-check-step-size-matters-video.png"
+  ]
+}

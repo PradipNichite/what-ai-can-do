@@ -1,0 +1,16 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "card_number": 4,
+  "card_title": "Nodes Plus Edges Form A Graph",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 4 showing a compact readable graph network on the tablet.\nTechnical overlay: about 8 to 10 large circular nodes connected by clean edges, grouped into two or three small clusters: learning/AI, study/math, entertainment. The graph is sparse and readable.\nText (verbatim): \"Nodes + edges form a graph.\", \"graph\".\nConstraints: no dense network; no tiny labels; the graph must be understandable on a phone; no extra text.",
+  "model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T12:42:41+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced\\04-nodes-plus-edges-form-a-graph.png",
+  "api_response_id": null,
+  "openai_request_id": "96087c21-3315-421d-887a-c2a1f6c740a6",
+  "langsmith_parent_trace_id": "019f2d26-2ef8-7c72-b4a0-889f504c68dc",
+  "retry_count": 0
+}

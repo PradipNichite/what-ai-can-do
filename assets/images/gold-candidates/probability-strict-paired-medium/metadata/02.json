@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 2,
+  "image_title": "Probability Scale",
+  "video_title": "Probability Scale",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_05e8ef4f7d5b9004006a4a08af6c088199aab11e48eb8a467c",
+  "openai_request_id": "8858ab6f-9fe3-402b-bdd6-d587b44cec01",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\02-probability-scale.png",
+    "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\02-probability-scale-video.png"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "card_number": 1,
+  "card_title": "Separate Items",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card\nPrimary request: Create card 1 for \"Graphs: How AI Understands Relationships\". The card should feel like one complete designed educational poster, where illustration, diagram, and text are generated together, not a separate caption pasted on top. Show an Indian high-school learner at a warm study desk looking at a tablet. The tablet shows separate video/topic cards with simple icons: AI basics, machine learning, coding tutorial, study tips, cricket, music.\nStyle/medium: realistic warm study-desk/tablet technical style.\nComposition/framing: tablet large in foreground; learner visible behind it. Integrate the lesson title as designed poster typography in the scene, the learning promise as a tablet/notebook callout, and the example task as a sticky note or mini card near the tablet.\nText (verbatim): \"Graphs: How AI understands relationships\", \"Nodes and edges help AI connect video topics.\", \"Example: recommend the next study video\".\nConstraints: no lines between cards yet; make the items clearly separate; render all text clearly and exactly; no extra text; no logos; no watermark; no generic caption panel; text must feel native to the generated educational card, not pasted over the image.",
+  "model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T12:41:46+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced\\01-separate-items.png",
+  "api_response_id": null,
+  "openai_request_id": "004f745d-2d66-49d5-a9a1-da251d50bc07",
+  "langsmith_parent_trace_id": "019f2d26-2ef8-7c72-b4a0-889f504c68dc",
+  "retry_count": 0
+}

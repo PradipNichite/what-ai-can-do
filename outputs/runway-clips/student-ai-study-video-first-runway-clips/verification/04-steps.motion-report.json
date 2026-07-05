@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\student-ai-study-video-first-runway-clips\\04-steps.mp4",
+  "duration_seconds": 5.04,
+  "samples": 6,
+  "mean_frame_diff": 6.86827781200409,
+  "max_frame_diff": 11.810868263244629,
+  "black_border_ratio_mean": 0.04264793113425926,
+  "black_border_ratio_max": 0.05319552951388889,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\student-ai-study-video-first-runway-clips\\verification\\04-steps.contact-sheet.jpg"
+}

@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-05T08:52:28+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_09e29665c29f6550006a4a1b38dce4819a96925b9f317d997e",
+  "openai_request_id": "f439f6f4-d05b-486d-95e7-87bd55b40858",
+  "inputs": {
+    "image_folder": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/image-only",
+    "contact_sheet": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/image-only-contact-sheet.jpg",
+    "prompt_pack": "assets/image-prompts/probability-how-ai-handles-uncertainty-image-story.md",
+    "source_module": "modules/visual-ai-concepts/probability-how-ai-handles-uncertainty.source.md",
+    "images": [
+      "assets\\images\\gold-candidates\\probability-strict-paired-medium-gold-v2\\image-only-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: it clearly shows the title \u201cProbability: How AI handles uncertainty,\u201d the learning statement \u201cAI estimates what is most likely,\u201d and the concrete cat/dog/car example on the tablet with a 0-to-1 probability scale in the notebook.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "All frames share a warm Indian study-desk scene with the same learner, tablet, notebook, lamp, books, stationery, and integrated educational UI. Text appears as poster typography, sticky notes, notebook writing, and tablet interface elements rather than as a separate flat caption layer.",
+      "required_fix": "None"
+    },
+    "overlay_risk": {
+      "status": "low",
+      "evidence": "The typography is visually embedded into scene surfaces: brush-poster title areas, tablet screens, spiral notebooks, sticky notes, and cards. No frame looks like a generic subtitle block pasted over an unrelated stock background."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The sequence visibly shows the intended mechanism: possible answers in frame 1, probability scale in frame 2, scored bars in frame 3, highest score selected in frame 4, close-score uncertainty in frame 5, same scoring idea across AI uses in frame 6, input-to-scores-to-answer chain in frame 7, and quick-check comparison in frame 8.",
+      "required_fix": "None"
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Most required text is large and readable in the contact sheet, especially frames 1\u20135, 7, and 8. Frame 6 has three mini tablet panels where the panel labels and internal tiny bars are more crowded than the rest, though the required labels \u201cimage AI,\u201d \u201crecommendation,\u201d \u201cchatbot,\u201d and \u201cscores to choice\u201d remain visually identifiable.",
+      "required_fix": "Optional improvement only: enlarge frame 6 tablet panels or reduce decorative detail so the three AI-use labels and repeated scoring bars are easier to read on a phone."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener with title, learner, tablet input card, cat/dog/car options, notebook probability scale, and sticky-note example. It explains the lesson without external context.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Probability scale is dominant on the tablet with 0, 0.5, 1 and 0%, 50%, 100%; pointer near the high side supports likelihood/confidence.",
+        "fix": "None"
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Tablet clearly shows cat/dog/car probability bars with cat tallest, dog medium, car short, matching cat 0.72, dog 0.20, car 0.08. Notebook headline is integrated.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Highest cat bar is highlighted on the tablet, dog and car are lower/dim, and the text \u201cchosen: cat\u201d plus \u201clikely, not guaranteed\u201d prevents certainty confusion.",
+        "fix": "None"
+      },
+      {
+        "frame": 5,
+        "status": "pass",
+        "evidence": "Close cat 0.42 and dog 0.39 bars are visibly near each other, car 0.19 is lower, and a low-confidence meter reinforces uncertainty.",
+        "fix": "None"
+      },
+      {
+        "frame": 6,
+        "status": "needs-revision",
+        "evidence": "Concept is visible: three panels for image AI, recommendation, and chatbot repeat score-to-choice structure. However, this is the most crowded frame; mini-panel labels and bars are smaller than the rest of the set.",
+        "fix": "If regenerating selectively, make the tablet UI larger, simplify icons, and enlarge the three labels and scoring bars while keeping the sticky note \u201cscores to choice.\u201d"
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "Tablet shows the chain input \u2192 probability scores \u2192 chosen answer, and notebook clearly carries the memory anchor \u201cAI predictions are confidence-weighted guesses.\u201d",
+        "fix": "None"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Quick check is clear: A has a dominant cat 0.90 score, B has close cat 0.42 and dog 0.39 scores, and B is highlighted with \u201cB has closer scores.\u201d No green checkmark appears on A.",
+        "fix": "None"
+      }
+    ],
+    "verdict": "Acceptable image-story set. The opener is self-contained, the warm desk/tablet style is consistent, the probability mechanism is visible across the sequence, and text is mostly mobile-readable and natively integrated. Only caveat: frame 6 is slightly crowded compared with the rest and could be enlarged if aiming for a stronger final polish.",
+    "next_action": "accept"
+  }
+}

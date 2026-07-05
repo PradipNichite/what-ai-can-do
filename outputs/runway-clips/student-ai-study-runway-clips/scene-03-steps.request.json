@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/w4wyyBuso9YA/03-turn-confusion-into-steps.png",
+  "promptText": "Locked camera. Preserve the full vertical card exactly. Do not change or blank the phone screen. Keep all existing text and UI readable and unchanged. Add small continuous motion only: student eyes blink, slight smile appears, finger moves a little, phone step cards glow one by one, arrows pulse gently. No new text. No zoom. No crop.",
+  "ratio": "720:1280",
+  "duration": 5
+}

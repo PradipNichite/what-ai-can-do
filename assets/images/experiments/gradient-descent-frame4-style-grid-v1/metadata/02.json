@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+  "card_number": 2,
+  "card_title": "Clean Mechanism First",
+  "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one clean mechanism-first Gradient Descent frame showing that the slope/gradient points toward higher loss and the model update moves opposite toward lower error.\nScene/backdrop: clean light educational background with one simple learner figure at the side, no clutter.\nSubject: friendly Indian teenage learner pointing at a large graph, secondary to the graph.\nTechnical visual: huge U-shaped loss curve dominates the frame. One point sits on the slope. A thin tangent or uphill cue is labeled \"gradient: higher loss\". A separate green downhill arrow is labeled \"move opposite\" and ends near \"lower error\". Make the causal relationship visually obvious.\nStyle/medium: clean mechanism-first educational illustration, simple flat shading, crisp graph, high readability, not a PPT slide.\nComposition/framing: graph fills most of the frame; character is small and supportive; enough safe margin for image-to-video motion.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no formulas; no extra text; no logos; no watermark; labels must be large and readable; do not label the downhill arrow as the gradient.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:33:00+00:00",
+  "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\02-clean-mechanism-first.png",
+  "api_response_id": "resp_00776074bf8aeb20006a4a792e5568819c9ba46f1e8f1306c0",
+  "openai_request_id": "f4fda76b-e71c-48b7-bfb9-0cada0ecb768",
+  "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+  "style_references": [],
+  "retry_count": 0
+}

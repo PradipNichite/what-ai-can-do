@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wqwIyShfiMZC/05-practice.png",
+  "promptText": "Student writes in notebook. Phone shows a hint card, not a final answer. Pencil moves, hint card gently pops, AI helper encourages. Keep text minimal and readable. Do not add extra text.",
+  "ratio": "720:1280",
+  "duration": 5
+}

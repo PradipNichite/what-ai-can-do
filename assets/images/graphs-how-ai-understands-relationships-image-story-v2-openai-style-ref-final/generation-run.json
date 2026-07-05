@@ -1,0 +1,243 @@
+{
+  "generated_at": "2026-07-04T14:49:23+00:00",
+  "lesson_slug": "graphs-how-ai-understands-relationships-v2",
+  "pipeline_run_id": "20260704T144513Z",
+  "pipeline_stage": "image_story_pipeline",
+  "request_group": "image_story_lesson",
+  "prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "source_module": "modules\\visual-ai-concepts\\graphs-how-ai-understands-relationships.source.md",
+  "out_dir": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final",
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "qa_model": "gpt-5.5",
+  "parallel": 3,
+  "style_references": [
+    "assets/images/student-ai-study-native-story/01-stuck-show-ai-page.png",
+    "assets/images/student-ai-study-native-story/04-practice-not-copy.png",
+    "assets/images/derivatives-ai-learning-native-story/01-ai-makes-mistake.png"
+  ],
+  "cards": [
+    {
+      "number": 1,
+      "title": "Lesson Opener",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\01-lesson-opener.png"
+    },
+    {
+      "number": 2,
+      "title": "Items Become Nodes",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\02-items-become-nodes.png"
+    },
+    {
+      "number": 3,
+      "title": "Relationships Become Edges",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\03-relationships-become-edges.png"
+    },
+    {
+      "number": 4,
+      "title": "Nodes Plus Edges Form A Graph",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\04-nodes-plus-edges-form-a-graph.png"
+    },
+    {
+      "number": 5,
+      "title": "Connected Neighbors Are Related",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\05-connected-neighbors-are-related.png"
+    },
+    {
+      "number": 6,
+      "title": "Path Explains Recommendation",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\06-path-explains-recommendation.png"
+    },
+    {
+      "number": 7,
+      "title": "Knowledge Graphs Connect Facts",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\07-knowledge-graphs-connect-facts.png"
+    },
+    {
+      "number": 8,
+      "title": "Quick Check",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\08-quick-check.png"
+    }
+  ],
+  "contact_sheet": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final-contact-sheet.jpg",
+  "qa_md": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final-qa.md",
+  "qa_json": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final-qa.json",
+  "langsmith_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+  "results": [
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+      "card_number": 1,
+      "card_title": "Lesson Opener",
+      "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 1 of 8\nPrimary request: Create a polished vertical mobile story card for Indian 11th/12th standard students titled \"Graphs: How AI understands relationships\". The card must feel like a complete designed educational poster where illustration, tablet diagram, notebook notes, sticky notes, and text are generated together, not a separate caption overlay.\nScene/backdrop: Warm Indian student study desk at home. A recurring Indian high-school learner in a green/teal shirt sits at a wooden desk with a tablet, open notebook, pen cup, books, sticky notes, and warm lamp. The tablet shows separate video/topic cards: AI basics, machine learning, coding tutorial, study tips, cricket, music.\nSubject: Indian high-school learner, tablet with video/topic cards, notebook showing tiny node-and-edge doodle, sticky note with recommendation task.\nStyle/medium: warm modern educational illustration, high quality Instagram/WhatsApp story aesthetic, expressive, clear, hand-drawn poster typography mixed with tablet UI, not corporate stock, not flat PPT.\nComposition/framing: 9:16 portrait. Student and tablet occupy the middle. Integrate the title as large friendly poster typography near the top, the learning promise as a notebook callout, and the example as a sticky note attached near the tablet.\nText to render verbatim, exactly:\n\"Graphs: How AI understands relationships\"\n\"Nodes + edges connect video topics.\"\n\"Example: recommend the next study video\"\nConstraints: no lines between video cards yet; keep items separate; render all text clearly and exactly; no extra text; no logos; no watermark; no generic caption panel; text must feel native to the scene through poster title, notebook callout, and sticky note; mobile readable.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T14:45:18+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\01-lesson-opener.png",
+      "api_response_id": "resp_00f49c4da003847b006a491c876790819dabc9d682979d31dc",
+      "openai_request_id": "131976d7-e1dd-46c8-9676-a9457f34d417",
+      "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+      "card_number": 2,
+      "card_title": "Items Become Nodes",
+      "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 2 of 8\nPrimary request: Create a polished mobile story card showing how separate video/topic items become graph nodes. Keep the same warm Indian study-desk world and recurring learner style as card 1.\nScene/backdrop: Same learner at the wooden study desk. Tablet is large in the foreground. The tablet shows video/topic cards gently transforming into colorful circular nodes. Notebook beside the tablet has a simple hand-drawn note.\nSubject: Tablet UI transformation from video cards to large circular nodes, student watching curiously, pen and sticky notes around the tablet.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, integrated tablet UI and notebook notes, not a clean infographic slide.\nComposition/framing: 9:16 portrait. Big tablet in lower/middle area; student face visible behind it. Use arrows from video cards to nodes and one magnified node callout.\nText to render verbatim, exactly:\n\"Each item becomes a node.\"\n\"AI basics\"\n\"machine learning\"\n\"coding tutorial\"\n\"study tips\"\n\"cricket\"\n\"music\"\n\"node\"\nConstraints: use only the listed video/topic labels from the opener; do not introduce unrelated labels such as climate, plant life, atoms, history, geography, or school subjects; do not show edges yet; nodes must be large enough for mobile; text appears as tablet label and notebook callout; no extra text; no logos; no watermark; no blank PPT background.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T14:45:18+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\02-items-become-nodes.png",
+      "api_response_id": "resp_02b154c33bc6a6bc006a491c86c7b8819c947ffd7bfffa3b58",
+      "openai_request_id": "8583fd07-7367-4961-80e5-af341e9b2d93",
+      "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+      "card_number": 3,
+      "card_title": "Relationships Become Edges",
+      "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 3 of 8\nPrimary request: Create a polished native story card showing relationship lines added between related video/topic nodes. Keep the same warm desk, learner, tablet, and story-card composition.\nScene/backdrop: Same learner leans toward the tablet with an aha expression. The tablet shows the nodes from the previous card. Clean glowing edges are drawn between related nodes: AI basics to machine learning, machine learning to coding tutorial, and study tips to study topic. Cricket and music remain dim and separate.\nSubject: Tablet graph UI, hand-drawn arrows, edge labels, learner noticing the connections.\nStyle/medium: warm modern educational illustration, high quality WhatsApp/Instagram story aesthetic, integrated text, not flat infographic.\nComposition/framing: 9:16 portrait. The tablet fills the lower half, learner and desk objects fill the upper/middle. Integrate the headline as a sticky note or notebook banner, not a floating poster block.\nText to render verbatim, exactly:\n\"Relationships become edges.\"\n\"edge\"\n\"related\"\nConstraints: edges must explain chosen relationships, not random decoration; avoid tangled network; keep labels large; no extra text; no logos; no watermark; no generic caption panel.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T14:45:18+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\03-relationships-become-edges.png",
+      "api_response_id": "resp_09712c241414bb51006a491c86e484819ca0e12b446eedabfe",
+      "openai_request_id": "a2bbec1f-afd8-424b-b79b-f0015a6eccec",
+      "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+      "card_number": 4,
+      "card_title": "Nodes Plus Edges Form A Graph",
+      "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 4 of 8\nPrimary request: Create a polished native educational story card showing that nodes plus edges form a graph. It must stay in the same warm Indian study-desk/tablet story world.\nScene/backdrop: Same learner at desk, notebook open with a small graph doodle, tablet showing a compact readable network. The learner points at the tablet with a pencil.\nSubject: Tablet network with 8 to 10 large circular nodes connected by clean edges, grouped into learning/AI, study/math, and entertainment clusters.\nStyle/medium: warm modern educational illustration, story-card aesthetic, friendly educational poster typography integrated with tablet and notebook surfaces.\nComposition/framing: 9:16 portrait. Tablet is the main visual surface; notebook callout beside it explains the idea. Include desk lamp warmth and familiar objects for continuity.\nText to render verbatim, exactly:\n\"Nodes + edges form a graph.\"\n\"graph\"\nConstraints: no dense network; no tiny labels; graph must be understandable on a phone; text must be on tablet/notebook elements, not a generic title overlay; no extra text; no logos; no watermark.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T14:46:39+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\04-nodes-plus-edges-form-a-graph.png",
+      "api_response_id": "resp_0fe71500099986c9006a491cd75f888192b35cf5ef8d327877",
+      "openai_request_id": "0d0aa375-4bd4-45b4-857f-e3a7c78bd636",
+      "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+      "card_number": 5,
+      "card_title": "Connected Neighbors Are Related",
+      "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 5 of 8\nPrimary request: Create a polished native story card showing that connected neighbor nodes are related. This card must not become a plain infographic; keep the warm desk/tablet/learner story composition.\nScene/backdrop: Same Indian learner at the wooden desk. Tablet is angled toward the viewer. A watched \"AI basics\" node is highlighted on the tablet. Two connected neighbor nodes, \"machine learning\" and \"coding tutorial\", are linked with clear edges and marked related. Far nodes like cricket and music are dimmed.\nSubject: Tablet graph UI with watched node, connected neighbor nodes, dim far nodes, student using a pencil or finger to follow the links.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, expressive, native integrated text, no clean corporate slide.\nComposition/framing: 9:16 portrait. Learner, tablet, notebook, sticky notes, and graph UI all visible. Put the main sentence as a handwritten notebook banner or tablet top bar. Put \"related\" labels attached to the actual edges.\nText to render verbatim, exactly:\n\"Connected neighbors are related.\"\n\"AI basics\"\n\"machine learning\"\n\"coding tutorial\"\n\"related\"\nConstraints: visible edges must explain relatedness; do not rely only on glow; keep graph sparse and readable; preserve warm study-desk/tablet context; no blank white infographic card; no extra text; no logos; no watermark.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T14:46:41+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\05-connected-neighbors-are-related.png",
+      "api_response_id": "resp_0bcd924e51793381006a491cd82110819d80ab69b6e1637dcd",
+      "openai_request_id": "c0f5213d-a766-401c-acfc-72e21653387d",
+      "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+      "card_number": 6,
+      "card_title": "Path Explains Recommendation",
+      "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 6 of 8\nPrimary request: Create a polished native story card showing how a graph path can explain a recommendation. Keep the same learner and warm desk/tablet visual world.\nScene/backdrop: Same learner at desk, tablet large in foreground. On tablet, a highlighted path runs from AI basics to machine learning to coding tutorial. The final coding tutorial node is marked as the recommendation. Unrelated nodes are dim.\nSubject: Tablet graph path, recommendation label, learner following the path with finger, notebook note beside the tablet.\nStyle/medium: warm modern educational illustration, mobile story card aesthetic, integrated arrows and labels, not a standalone flowchart slide.\nComposition/framing: 9:16 portrait. Use the tablet as the technical surface and a sticky-note takeaway below it.\nText to render verbatim, exactly:\n\"A path can explain a recommendation.\"\n\"AI basics\"\n\"machine learning\"\n\"coding tutorial\"\n\"path\"\n\"recommend\"\nConstraints: path must be sequential and readable; no random arrows; no dense network; labels must attach to actual path and recommendation; no extra text; no logos; no watermark.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T14:46:44+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\06-path-explains-recommendation.png",
+      "api_response_id": "resp_09aad56bca630310006a491cdcdb448192bbb82bc75b6d4a01",
+      "openai_request_id": "1c37b35a-ed2c-42fc-8f42-aaa48c3c8eff",
+      "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+      "card_number": 7,
+      "card_title": "Knowledge Graphs Connect Facts",
+      "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 7 of 8\nPrimary request: Create a polished native story card showing that graphs can connect facts too. Keep the same warm educational story style.\nScene/backdrop: Same study desk. The learner holds or looks at a tablet showing a simple knowledge graph. Notebook beside the tablet has tiny doodles of person, place, concept, book, and video icons.\nSubject: Tablet knowledge graph with large entity nodes and clean edges. Icons for person, place, concept, video, and book. One node label and one edge label.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, integrated text, not a flat diagram slide.\nComposition/framing: 9:16 portrait. Tablet centered, hands visible, warm desk objects around it. Main title appears as friendly poster typography integrated into the scene.\nText to render verbatim, exactly:\n\"Graphs can connect facts too.\"\n\"knowledge graph\"\n\"node\"\n\"edge\"\nConstraints: avoid dense concept-map text; use icons and very short labels; keep mobile readable; no extra text; no logos; no watermark; no generic caption panel.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T14:47:55+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\07-knowledge-graphs-connect-facts.png",
+      "api_response_id": "resp_0ac2af44e7ee98b6006a491d23072c819fa42425bbbec07f3d",
+      "openai_request_id": "4ce258f3-98d0-4876-94b4-12682adf7abb",
+      "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+      "card_number": 8,
+      "card_title": "Quick Check",
+      "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 8 of 8\nPrimary request: Create a polished final quick-check mobile story card. It should feel like the same warm native story world, with the learner choosing between two recommendation cards.\nScene/backdrop: Same learner at desk with tablet and notebook. Tablet shows watched \"AI basics\" connected by a visible path to \"coding tutorial\". Two choice cards sit below: coding tutorial with check mark, cricket highlights dimmed/unconnected.\nSubject: Tablet quick-check UI, visible path, two recommendation choices, student thinking and pointing.\nStyle/medium: warm modern educational illustration, high quality Instagram/WhatsApp story aesthetic, integrated quiz UI, not a generic quiz slide.\nComposition/framing: 9:16 portrait. Main question at top as tablet/notebook heading. Graph path in middle. Two choice cards at bottom with visual evidence.\nText to render verbatim, exactly:\n\"Quick check: which recommendation fits?\"\n\"Choose the one with a path.\"\n\"AI basics\"\n\"coding tutorial\"\n\"cricket highlights\"\n\"path\"\nConstraints: connected recommendation must be visibly justified by path; unconnected cricket choice should be dim; keep text readable; no extra text; no logos; no watermark; no generic caption panel.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T14:47:59+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\08-quick-check.png",
+      "api_response_id": "resp_0bee1d2179c7c22c006a491d260144819e95668679771b6e77",
+      "openai_request_id": "5826b88f-ff6a-4ff0-bee4-7f06e4267213",
+      "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    }
+  ]
+}

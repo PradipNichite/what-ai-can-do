@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-05T08:30:06+00:00",
+  "model": "gpt-5.5",
+  "mode": "video-first",
+  "response_id": "resp_0938c89b296ea3a7006a4a15f4fa08819bb7ddaf8b7b324fdb",
+  "openai_request_id": "e7d22dae-0885-46f4-9d6e-6bbded78869a",
+  "inputs": {
+    "image_folder": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/video-first",
+    "contact_sheet": "assets/images/gold-candidates/probability-strict-paired-medium-gold-v2/video-first-contact-sheet.jpg",
+    "prompt_pack": "assets/image-prompts/probability-how-ai-handles-uncertainty-video-first-v2.md",
+    "source_module": "modules/visual-ai-concepts/probability-how-ai-handles-uncertainty.source.md",
+    "images": [
+      "assets\\images\\gold-candidates\\probability-strict-paired-medium-gold-v2\\video-first-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass-with-caveats",
+    "intended_use": "video-first",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 clearly opens with the recurring student at a warm study desk looking at a tablet. The tablet shows a visible tabby-cat input photo and three unselected option cards labeled cat, dog, and car, matching the intended first technical setup of possible answers.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "All eight frames appear as native illustrated compositions in the same warm Indian study-room/tablet style. The UI elements are perspective-matched to the tablet surfaces, with consistent lighting, shadows, desk props, learner pose, and environment. The frames do not look like flat Markdown slides or generic poster overlays pasted on top of unrelated backgrounds.",
+      "required_fix": "None"
+    },
+    "overlay_risk": {
+      "status": "low",
+      "evidence": "Tablet labels, bars, cards, glows, and notebook note are integrated into the rendered scene with perspective and lighting. No obvious mismatched edge halos, boxy pasted captions, or separate post-production text plates are visible. The filename strips between contact-sheet rows appear to be contact-sheet labels, not part of the source frames."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The sequence visibly shows the probability mechanism: possible labels around an input image, a 0-to-1 scale with pointer, probability bars with values, the highest cat score glowing/chosen, close cat/dog scores with low-confidence meter, three AI-use panels, an input\u2192scores\u2192choice recap, and a quick-check comparison between a clear winner and close scores.",
+      "required_fix": "None"
+    },
+    "mobile_readability": {
+      "status": "partial",
+      "evidence": "Most key text is readable in the contact sheet: cat/dog/car, 0/0.5/1 and percentages, cat 0.72/dog 0.20/car 0.08, chosen: cat, cat 0.42/dog 0.39/car 0.19, low confidence, A/B, 0.90, 0.42, 0.39. Minor risk remains in frame 4\u2019s small top labels and frame 6/7\u2019s mini panel/chain labels after video compression, though they are still identifiable here.",
+      "required_fix": "If these frames will be cropped or heavily compressed, enlarge frame 4 top score labels and frame 6/7 internal UI labels/bars slightly; otherwise no regeneration is required."
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener for the video-first sequence: student, tablet, clear cat photo, and three option cards cat/dog/car. No option is selected yet, which fits the intended motion target.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Probability scale is large on the tablet with 0, 0.5, 1 and 0%, 50%, 100%. Pointer sits around the intended 0.7 position, and the learner\u2019s finger gives a clear motion target.",
+        "fix": "None"
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Three probability bars are large and distinct. Cat is tallest, dog medium, car shortest. Labels cat 0.72, dog 0.20, car 0.08 are readable and placed beside the bars rather than hidden at the bottom.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Cat bar is highlighted/glowing, dog and car are lower, and a selected card reads chosen: cat. The frame communicates highest probability chosen without claiming certainty.",
+        "fix": "Optional: make the small top labels cat 0.72/dog 0.20/car 0.08 slightly larger if expecting strong mobile compression."
+      },
+      {
+        "frame": 5,
+        "status": "pass",
+        "evidence": "Close cat and dog bars are visibly similar, with values cat 0.42 and dog 0.39. Car is lower at 0.19. A yellow low confidence meter appears below, and the learner looks thoughtful/uncertain.",
+        "fix": "None"
+      },
+      {
+        "frame": 6,
+        "status": "pass",
+        "evidence": "Three compact AI panels are visible and labeled image AI, recommendation, and chatbot. Each panel has icon-first design and visible bar-like scoring elements; the chatbot panel is not just chat bubbles.",
+        "fix": "Optional: thicken the internal mini bars and enlarge panel text slightly for safer phone readability after animation."
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "Recap chain is clear: input icon to scores bars to choice icon. The notebook note reads confidence-weighted guess, giving the memory anchor. Student has an aha expression.",
+        "fix": "Optional: enlarge the tablet chain labels if the final video uses zoom-out or compression."
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Quick check is visually understandable: Card A has a clear tall winner bar with 0.90, while Card B has two close bars labeled 0.42 and 0.39 with yellow highlight/glow. Learner points to B.",
+        "fix": "None"
+      }
+    ],
+    "verdict": "The contact sheet is ready for video-first use. It maintains the warm recurring student/tablet style, shows the probability mechanism step by step, and avoids poster-like text density. Only minor mobile-compression risks remain in a few small UI labels, especially frames 4, 6, and 7.",
+    "next_action": "accept"
+  }
+}

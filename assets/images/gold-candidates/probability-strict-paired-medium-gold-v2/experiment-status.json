@@ -1,0 +1,163 @@
+{
+  "image_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "video_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-video-first-v2.md",
+  "out_dir": "assets\\images\\gold-candidates\\probability-strict-paired-medium",
+  "frames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "quality": "medium",
+  "size": "1024x1536",
+  "style_references": [
+    "assets\\images\\experiments\\probability-single-request-medium\\01-lesson-opener.png"
+  ],
+  "langsmith_trace_id": "019f312f-fbce-75f0-9f30-a32eb1c153ae",
+  "results": [
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 1,
+      "image_title": "Lesson Opener",
+      "video_title": "Possible Answers",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0e3e3146d1f0dea4006a4a08338ad0819aa3b5c877bebf7431",
+      "openai_request_id": "5761c744-da5e-4eff-862d-d49580d1d348",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\01-lesson-opener.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\01-lesson-opener-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 2,
+      "image_title": "Probability Scale",
+      "video_title": "Probability Scale",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_05e8ef4f7d5b9004006a4a08af6c088199aab11e48eb8a467c",
+      "openai_request_id": "8858ab6f-9fe3-402b-bdd6-d587b44cec01",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\02-probability-scale.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\02-probability-scale-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 3,
+      "image_title": "Scores For Options",
+      "video_title": "Score Bars",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_08e0b0ed7702b381006a4a092de0a08199a9c1c1df07566d9d",
+      "openai_request_id": "5afd42a6-b85d-41fb-b7ad-f33ed2d2cc60",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\03-scores-for-options.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\03-scores-for-options-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 4,
+      "image_title": "Highest Score Is Chosen",
+      "video_title": "Highest Score",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_044786c1cd8fac35006a4a099fdd78819a82357fa5da5dac1b",
+      "openai_request_id": "2a95fb58-6b4e-40b2-8dd2-e1772bd9fba6",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\04-highest-score-is-chosen.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\04-highest-score-is-chosen-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 5,
+      "image_title": "Close Scores Mean Uncertainty",
+      "video_title": "Uncertainty",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0457832fe1f450ca006a4a0a161ae4819baa31dfff38da17df",
+      "openai_request_id": "77c8f860-9c1a-472b-8e33-3188fbc71973",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\05-close-scores-mean-uncertainty.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\05-close-scores-mean-uncertainty-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 6,
+      "image_title": "Same Idea In Real AI",
+      "video_title": "Real AI Panels",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_01165f05915c59e1006a4a0a8b88ec819bb482a1864a8b3991",
+      "openai_request_id": "fed0df4d-c547-4dab-995c-dbb58775de06",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\06-same-idea-in-real-ai.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\06-same-idea-in-real-ai-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 7,
+      "image_title": "Memory Anchor",
+      "video_title": "Recap Chain",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_00976c6d6082731c006a4a0b089a38819ab2099631248001c1",
+      "openai_request_id": "933528da-3a8f-49f3-a550-ce6734123594",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\07-memory-anchor.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\07-memory-anchor-video.png"
+      ]
+    },
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 8,
+      "image_title": "Quick Check",
+      "video_title": "Quick Check",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_0c058e9eeb82df1f006a4a0b84faec819aa50eb137abaadd5d",
+      "openai_request_id": "88e5b4d8-1f3a-4a26-a593-7ebadf947e51",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only\\08-quick-check.png",
+        "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first\\08-quick-check-video.png"
+      ]
+    }
+  ],
+  "image_contact_sheet": "assets\\images\\gold-candidates\\probability-strict-paired-medium\\image-only-contact-sheet.jpg",
+  "video_contact_sheet": "assets\\images\\gold-candidates\\probability-strict-paired-medium\\video-first-contact-sheet.jpg"
+}

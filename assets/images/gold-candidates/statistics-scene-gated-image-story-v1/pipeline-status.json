@@ -1,0 +1,12 @@
+{
+  "status": "pass-with-caveats",
+  "next_action": "accept",
+  "lesson_slug": "statistics-how-ai-learns-patterns-from-data",
+  "pipeline_run_id": "20260705T133246Z",
+  "langsmith_trace_id": "019f327b-47d0-7701-9b4f-11656061f015",
+  "out_dir": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1",
+  "contact_sheet": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\statistics-scene-gated-image-story-v1-contact-sheet.jpg",
+  "qa_md": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\statistics-scene-gated-image-story-v1-qa.md",
+  "qa_json": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\statistics-scene-gated-image-story-v1-qa.json",
+  "qa_openai_request_id": "fc503221-247e-4fd5-a7cc-6014d4f6a738"
+}

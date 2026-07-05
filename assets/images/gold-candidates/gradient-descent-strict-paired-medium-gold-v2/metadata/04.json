@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 4,
+  "image_title": "Slope Gives Direction",
+  "video_title": "Gradient Direction",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_0e4869800fb2bde6006a4a35e0f044819cb877cb7e0506c788",
+  "openai_request_id": "f2b2cf99-7ffe-483f-96e0-bd0dce4b0f30",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\04-slope-gives-direction.png",
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\04-slope-gives-direction-video.png"
+  ]
+}

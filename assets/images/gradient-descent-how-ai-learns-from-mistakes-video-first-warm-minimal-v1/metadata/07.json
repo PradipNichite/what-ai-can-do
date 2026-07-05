@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "card_number": 7,
+  "card_title": "Repeat Loop",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 7 showing repeated small gradient descent updates reducing loss.\nScene/backdrop: tablet close on warm desk, notebook and pencil visible, learner hand resting nearby.\nSubject: same recurring Indian teenage learner; teal/green sleeve or hand context only; tablet mechanism dominates.\nStyle/medium: warm minimalist tablet closeup, clean educational illustration with soft glow, 9:16 mobile source frame.\nComposition/framing: tablet fills most of frame; dotted path and loss meter are large enough for mobile.\nText (verbatim): \"repeat\", \"lower loss\".\nTechnical overlay: tablet shows a U-shaped loss curve with a dotted path of four small points stepping downhill toward the valley. Beside the curve, a compact loss meter shows stacked ghost levels shrinking from high to lower. The final point is near lower loss but not exactly perfect.\nMotion target for later video: dotted points light up in order and the loss meter shrinks level by level.\nConstraints: no extra text, no dense formulas, no logos, no watermark, no perfect-answer implication, make the ordered step sequence unmistakable.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "low",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:59:17+00:00",
+  "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\07-repeat-loop.png",
+  "api_response_id": "resp_016b19c259afeb58006a4a8d6ca8fc819c99c8d8a217cb6574",
+  "openai_request_id": "a6770b83-0d6a-43ce-ba89-05ffc1b014c0",
+  "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+  "style_references": [
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+  ],
+  "retry_count": 0
+}

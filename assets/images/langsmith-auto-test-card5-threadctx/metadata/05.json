@@ -1,0 +1,17 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "card_number": 5,
+  "card_title": "Connected Nodes Are Related",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 5 showing a watched AI basics node and nearby connected recommendation candidates.\nTechnical overlay: one watched AI basics node is highlighted. Two directly connected neighbor nodes, machine learning and coding tutorial, are marked as related through visible edges. Far nodes like cricket and music are dimmed and farther away.\nText (verbatim): \"Connected neighbors are related.\", \"related\".\nConstraints: visible edges must explain relatedness; do not rely only on glow; keep graph sparse and readable; no extra text.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:25:49+00:00",
+  "output_path": "assets\\images\\langsmith-auto-test-card5-threadctx\\05-connected-nodes-are-related.png",
+  "api_response_id": "resp_0ff762f683873fac006a4917f182ec819cb64bdb2e7a18090a",
+  "openai_request_id": "196d94f5-cbea-4558-9800-477723f77443",
+  "langsmith_parent_trace_id": "019f2d85-6fb2-7d92-a1c4-9d9a3ccf75b7",
+  "retry_count": 0
+}

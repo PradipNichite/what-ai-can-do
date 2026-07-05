@@ -1,0 +1,84 @@
+{
+  "id": "student-ai-study-video-first-story-edit-en",
+  "title": "How Students Can Use AI To Study Better - Continuous Story Edit",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 22,
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+    "voice_name": "Zara - Soft and Serene Indian Voice",
+    "local_output_path": "outputs/video-assets/student-ai-study-video-first-story-edit-en.voiceover.mp3",
+    "text": "She is stuck on one textbook page. Instead of asking a vague question, she shows AI the page. Now AI can see the exact doubt and turn it into simple steps. She tries the answer herself, takes a hint only when needed, and then checks her work. That is how AI becomes a study coach, not a shortcut."
+  },
+  "scenes": [
+    {
+      "id": "01-stuck",
+      "duration": 3.4,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/66f92af0-71c4-4fb8-8fbf-551900e92850.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMTQ0ZDg2NGJjMGIwZjA3OCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4MjkzNjM1N30.SrHJtvFwSgmqZjHZE40G-gYmGtsAQPcUBvc_Si0F5S8"
+    },
+    {
+      "id": "02-photo",
+      "duration": 4.0,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/f11b34f4-1dbc-4b51-ba98-5b8291912393.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZDdlNjE5OGUzNzU4MDJhYiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg4Nzk0NX0.5s7OyC7geHdu21SPg5jiqOE4vUDXthcM1400wXpfH5U",
+      "caption": "Don't ask vaguely",
+      "caption_start": 4.1,
+      "caption_duration": 1.7,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/wVwkyNmGH0Ch/page-scan.mp3",
+          "time": 4.2,
+          "duration": 0.9,
+          "volume": "30%"
+        }
+      ]
+    },
+    {
+      "id": "04-steps",
+      "duration": 3.8,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/34089c05-cf55-4c34-b5a6-490543c70117.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjZmMjNjMDk3ZGU4ZTQxNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjk0NDA0Mn0.S-VzI9d4f17BI1cpbA1lXzFz-vjN6QcwAlWqYcyhMPU"
+    },
+    {
+      "id": "05-practice",
+      "duration": 4.3,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/1c8f862b-c6cc-458f-a045-53eb46e86f58.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNWE0ZjdiMWE5N2Q4YjYxOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg5NTU4OH0.nUjISgzdJkPabMm9glh_e9j5X7E0ztzQwgTGpvaXNWg",
+      "caption": "Try first",
+      "caption_start": 11.5,
+      "caption_duration": 1.5,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/wzwgycmLHDRU/hint-pop.mp3",
+          "time": 12.2,
+          "duration": 0.65,
+          "volume": "28%"
+        }
+      ]
+    },
+    {
+      "id": "06-feedback",
+      "duration": 3.2,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/fdc5f286-84bd-49b5-920a-0067d38073b2.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMmM3ODVmYTQyZjA2M2Q5YyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg3MDE2Mn0.mGtm8PJlE8D_YLrTPFR-dfqXvDc3L7G0sCjQe6lLNH4"
+    },
+    {
+      "id": "07-verify",
+      "duration": 3.3,
+      "video_url": "https://dnznrvs05pmza.cloudfront.net/866be9e5-a181-4a0c-a1e8-59fd343fb45e.mp4?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzgxYjA4ZWYyMzRjNTBjNiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc4Mjg4NjgzMn0.PRkVcVL6ghFRwyo2mCsBZ7xAuNfr7V0FlCnrBGscBK4",
+      "caption": "Study coach, not shortcut",
+      "caption_start": 18.7,
+      "caption_duration": 2.2,
+      "sfx": [
+        {
+          "url": "https://tmpfiles.org/dl/wGwzyTmGHdYe/final-chime.mp3",
+          "time": 19.4,
+          "duration": 1.0,
+          "volume": "28%"
+        }
+      ]
+    }
+  ]
+}

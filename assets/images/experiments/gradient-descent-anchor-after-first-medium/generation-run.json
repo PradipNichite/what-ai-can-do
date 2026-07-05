@@ -1,0 +1,239 @@
+{
+  "generated_at": "2026-07-04T15:07:31+00:00",
+  "lesson_slug": "gradient-descent-how-ai-learns-from-mistakes",
+  "pipeline_run_id": "20260704T150241Z",
+  "pipeline_stage": "image_story_pipeline",
+  "request_group": "image_story_lesson",
+  "prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "source_module": "modules\\visual-ai-concepts\\gradient-descent-how-ai-learns-from-mistakes.source.md",
+  "out_dir": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium",
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "qa_model": "gpt-5.5",
+  "parallel": 3,
+  "style_references": [
+    "assets/images/student-ai-study-native-story/01-stuck-show-ai-page.png",
+    "assets/images/student-ai-study-native-story/04-practice-not-copy.png",
+    "assets/images/derivatives-ai-learning-native-story/01-ai-makes-mistake.png"
+  ],
+  "reference_strategy": "anchor-after-first",
+  "character_anchor_card": 1,
+  "cards": [
+    {
+      "number": 1,
+      "title": "Mistake Starts Learning",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+    },
+    {
+      "number": 2,
+      "title": "Mistake Becomes Loss",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\02-mistake-becomes-loss.png"
+    },
+    {
+      "number": 3,
+      "title": "Loss Curve",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\03-loss-curve.png"
+    },
+    {
+      "number": 4,
+      "title": "Slope Gives Direction",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\04-slope-gives-direction.png"
+    },
+    {
+      "number": 5,
+      "title": "One Small Update",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\05-one-small-update.png"
+    },
+    {
+      "number": 6,
+      "title": "Lower Error",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\06-lower-error.png"
+    },
+    {
+      "number": 7,
+      "title": "Repeat To Learn",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\07-repeat-to-learn.png"
+    },
+    {
+      "number": 8,
+      "title": "Quick Check: Step Size Matters",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\08-quick-check-step-size-matters.png"
+    }
+  ],
+  "contact_sheet": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\gradient-descent-anchor-after-first-medium-contact-sheet.jpg",
+  "qa_md": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\gradient-descent-anchor-after-first-medium-qa.md",
+  "qa_json": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\gradient-descent-anchor-after-first-medium-qa.json",
+  "langsmith_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+  "results": [
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 1,
+      "card_title": "Mistake Starts Learning",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 1 for \"Gradient Descent: How AI Learns From Mistakes\". Show an Indian high-school learner at a warm study desk looking at a tablet. The tablet shows an animal input card, a model prediction chip, and a correct answer chip that do not match.\nStyle/medium: realistic warm study-desk/tablet technical style.\nComposition/framing: tablet large in foreground; learner visible behind it; headline/callout text integrated in the upper safe area.\nText (verbatim): \"AI makes a prediction.\", \"But it is wrong.\", \"prediction: dog\", \"correct: cat\".\nConstraints: make the mismatch visually obvious; keep text large and readable; no extra text; no logos; no watermark.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-04T15:02:47+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png",
+      "api_response_id": "resp_0433304237146c49006a49209d083481a3894fb32a95521838",
+      "openai_request_id": "fed7d99d-1581-49d6-af2c-2f3d2bcb575a",
+      "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+      "style_references": [
+        "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+        "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+        "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 2,
+      "card_title": "Mistake Becomes Loss",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 2 showing the mismatch becoming a loss score.\nScene/backdrop: same warm Indian study desk and learner.\nTechnical overlay: tablet shows a prediction chip and correct answer chip separated by a highlighted error gap; the gap feeds into a large loss meter.\nText (verbatim): \"The mistake becomes a loss score.\", \"loss = how wrong the model is\", \"loss\".\nConstraints: loss meter must read as a score, not a warning decoration; keep labels large; no dense formulas; no extra text.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-04T15:04:11+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\02-mistake-becomes-loss.png",
+      "api_response_id": "resp_04c85fba16dd97cd006a4920eeb3cc81a1919dc379a54a1ea1",
+      "openai_request_id": "12d302d8-e7af-4828-b705-282d7a7cb472",
+      "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+      "style_references": [
+        "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 3,
+      "card_title": "Loss Curve",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 3 showing one large U-shaped loss curve on the tablet.\nTechnical overlay: a single glowing point high on the right side of the curve, with the curve and point large enough for mobile.\nText (verbatim): \"A model setting sits on a loss curve.\", \"High point = high error\", \"loss\".\nConstraints: avoid axis clutter; no formulas; no extra labels beyond the listed text.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-04T15:04:11+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\03-loss-curve.png",
+      "api_response_id": "resp_0f061c4cc79f26af006a4920eeab04819db27d9838d0a99009",
+      "openai_request_id": "24b80b23-b372-4dba-a73c-bf32b7d54b8c",
+      "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+      "style_references": [
+        "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 4,
+      "card_title": "Slope Gives Direction",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 4 showing the local slope at a point on the loss curve.\nTechnical overlay: U-shaped loss curve with a point, a tangent line, a short label \"slope\", and a clear arrow pointing downhill toward lower error.\nText (verbatim): \"Slope gives the direction clue.\", \"Move downhill to lower error.\", \"slope\", \"lower error\".\nConstraints: make downhill direction obvious; show this is a direction clue, not the full training loop; no dense formulas.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-04T15:04:11+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\04-slope-gives-direction.png",
+      "api_response_id": "resp_0b810a577c9c5714006a4920eec7dc819d99ea67d73eeeeb6a",
+      "openai_request_id": "1f0c75e3-3eb2-4213-ba4b-78a6bf4a2653",
+      "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+      "style_references": [
+        "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 5,
+      "card_title": "One Small Update",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 5 showing one small gradient descent update on the curve.\nTechnical overlay: old point and nearby new point slightly lower on the curve, connected by a short step arrow.\nText (verbatim): \"Gradient descent takes one small step.\", \"weight -> weight - small step\", \"small step\".\nConstraints: step must be visibly small; update expression should be large and simple; no extra formulas.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-04T15:05:19+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\05-one-small-update.png",
+      "api_response_id": "resp_078324dc7305c55b006a492131bd948191a12be6911954da40",
+      "openai_request_id": "37dbe698-d161-4fdc-b168-f0ddcd3cffb7",
+      "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+      "style_references": [
+        "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 6,
+      "card_title": "Lower Error",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 6 showing lower loss after one update.\nTechnical overlay: smaller loss meter, prediction/correct chips closer together, and a small curve inset with the point lower than before.\nText (verbatim): \"After the step, loss is lower.\", \"The prediction is closer, not perfect.\", \"lower error\".\nConstraints: do not show perfect prediction after one step; keep text and diagram readable.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-04T15:05:22+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\06-lower-error.png",
+      "api_response_id": "resp_098ded115db8cbc9006a492133fadc8191af2fd78baec09083",
+      "openai_request_id": "0331969f-b7d5-461e-baae-1ba456c4bc68",
+      "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+      "style_references": [
+        "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 7,
+      "card_title": "Repeat To Learn",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 7 showing repeated gradient descent steps.\nTechnical overlay: U-shaped loss curve with dotted points and short step arrows descending toward the valley.\nText (verbatim): \"Training repeats the loop.\", \"small steps -> lower loss\", \"repeat\".\nConstraints: repeated steps must be clearly ordered; path should not look decorative; no dense formulas.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-04T15:05:30+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\07-repeat-to-learn.png",
+      "api_response_id": "resp_05f81d2a8bf9435e006a49213d596481a1b34f1571c84b45d3",
+      "openai_request_id": "fa56b6bc-5d8c-481a-a1b8-dcaca220e178",
+      "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+      "style_references": [
+        "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+      "card_number": 8,
+      "card_title": "Quick Check: Step Size Matters",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 8 as a quick check about step size.\nTechnical overlay: one U-shaped loss curve with two paths: a smooth small-step dotted path descending into the valley and a second oversized path jumping past the valley and landing higher.\nText (verbatim): \"Quick check: why small steps?\", \"Too large can overshoot the valley.\", \"small step\", \"too far\".\nConstraints: make the two paths easy to compare; avoid scary warning symbols; no extra text.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-04T15:06:28+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\08-quick-check-step-size-matters.png",
+      "api_response_id": "resp_043a29b37d13a0dd006a4921766d908192b724109bbdb0f8aa",
+      "openai_request_id": "95a88bde-258f-42e8-87ae-1ee030c2ef1f",
+      "langsmith_parent_trace_id": "019f2da7-3d6d-7ac0-a58b-058d7f3d341f",
+      "style_references": [
+        "assets\\images\\experiments\\gradient-descent-anchor-after-first-medium\\01-mistake-starts-learning.png"
+      ],
+      "retry_count": 0
+    }
+  ]
+}

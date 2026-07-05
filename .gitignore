@@ -1,0 +1,7 @@
+.env
+*.env.local
+*.env.production
+outputs/video-assets/
+outputs/video-renders/
+*.pyc
+__pycache__/

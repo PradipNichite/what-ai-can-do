@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\statistics-how-ai-learns-patterns-from-data-image-story.md",
+  "card_number": 6,
+  "card_title": "Variation Around Pattern",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 6 showing points scattered around the trend line so learners see variation/noise.\nScene/backdrop: same warm study desk and learner.\nTechnical overlay: tablet shows the trend line with several points close to it and a couple of points visibly above or below it. Use soft highlight rings around off-line points.\nText (verbatim): \"Real data has variation.\", \"near the line\", \"not exact\".\nConstraints: do not make all points sit perfectly on the line; do not imply the trend guarantees every individual score; keep diagram sparse and readable; no extra text.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:35:14+00:00",
+  "output_path": "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\06-variation-around-pattern.png",
+  "api_response_id": "resp_0ec57e7dd5ed2e19006a4a5d955d108192947cbecbc53f0233",
+  "openai_request_id": "9fb1763f-3e12-4ed7-87dd-135de18cbe6c",
+  "langsmith_parent_trace_id": "019f327b-47d0-7701-9b4f-11656061f015",
+  "style_references": [
+    "assets\\images\\gold-candidates\\statistics-scene-gated-image-story-v1\\01-lesson-opener.png"
+  ],
+  "retry_count": 0
+}

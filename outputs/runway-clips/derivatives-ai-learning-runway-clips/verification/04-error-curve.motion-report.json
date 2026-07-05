@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\04-error-curve.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 0.9877835710843405,
+  "max_frame_diff": 1.107725739479065,
+  "black_border_ratio_mean": 0.00629638671875,
+  "black_border_ratio_max": 0.006342230902777778,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\derivatives-ai-learning-runway-clips\\verification\\04-error-curve.contact-sheet.jpg"
+}

@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-07-04T12:47:52+00:00",
+  "lesson_slug": "graphs-how-ai-understands-relationships",
+  "pipeline_run_id": "20260704T124705Z",
+  "pipeline_stage": "image_story_pipeline",
+  "request_group": "image_story_lesson",
+  "prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+  "source_module": "modules\\visual-ai-concepts\\graphs-how-ai-understands-relationships.source.md",
+  "out_dir": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5",
+  "image_model": "gpt-image-2",
+  "qa_model": "gpt-5.5",
+  "parallel": 1,
+  "cards": [
+    {
+      "number": 5,
+      "title": "Connected Nodes Are Related",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5\\05-connected-nodes-are-related.png"
+    }
+  ],
+  "contact_sheet": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5-contact-sheet.jpg",
+  "qa_md": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5-qa.md",
+  "qa_json": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5-qa.json",
+  "langsmith_trace_id": "019f2d2b-1970-7281-a581-3d1f19c4ce8c",
+  "results": [
+    {
+      "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story.md",
+      "card_number": 5,
+      "card_title": "Connected Nodes Are Related",
+      "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 5 showing a watched AI basics node and nearby connected recommendation candidates.\nTechnical overlay: one watched AI basics node is highlighted. Two directly connected neighbor nodes, machine learning and coding tutorial, are marked as related through visible edges. Far nodes like cricket and music are dimmed and farther away.\nText (verbatim): \"Connected neighbors are related.\", \"related\".\nConstraints: visible edges must explain relatedness; do not rely only on glow; keep graph sparse and readable; no extra text.",
+      "model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "request_timestamp": "2026-07-04T12:47:09+00:00",
+      "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-openai-traced-card5\\05-connected-nodes-are-related.png",
+      "api_response_id": null,
+      "openai_request_id": "b80e0a80-cb8a-4f3b-aaf7-79ddce314469",
+      "langsmith_parent_trace_id": "019f2d2b-1970-7281-a581-3d1f19c4ce8c",
+      "retry_count": 0
+    }
+  ]
+}

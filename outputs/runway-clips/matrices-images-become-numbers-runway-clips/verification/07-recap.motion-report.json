@@ -1,0 +1,10 @@
+{
+  "video": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\matrices-images-become-numbers-runway-clips\\07-recap.mp4",
+  "duration_seconds": 5.04,
+  "samples": 4,
+  "mean_frame_diff": 0.8610300819079081,
+  "max_frame_diff": 1.0947742462158203,
+  "black_border_ratio_mean": 0.06738525390625,
+  "black_border_ratio_max": 0.06779839409722223,
+  "contact_sheet": "C:\\Users\\Pradip Nichite\\Documents\\What AI Can Do\\outputs\\runway-clips\\matrices-images-become-numbers-runway-clips\\verification\\07-recap.contact-sheet.jpg"
+}

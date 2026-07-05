@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-04T14:44:35+00:00",
+  "model": "gpt-5.5",
+  "mode": "image-story",
+  "response_id": "resp_0e66e1a4e9d30b69006a491c2a0f208191b1454b452add1970",
+  "openai_request_id": "3db4fa75-f1c1-4f96-9ed8-3efa51f0052a",
+  "inputs": {
+    "image_folder": "assets/images/graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full",
+    "contact_sheet": "assets/images/graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full/graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full-contact-sheet.jpg",
+    "prompt_pack": "assets/image-prompts/graphs-how-ai-understands-relationships-image-story-v2.md",
+    "source_module": "modules/visual-ai-concepts/graphs-how-ai-understands-relationships.source.md",
+    "images": [
+      "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full-contact-sheet.jpg"
+    ]
+  },
+  "verdict": {
+    "status": "pass",
+    "intended_use": "image-story",
+    "opener": {
+      "status": "pass",
+      "evidence": "Frame 1 is self-contained: it visibly shows the title \u201cGraphs: How AI understands relationships,\u201d a warm Indian student study-desk scene, separate video/topic cards on the tablet, a notebook note reading \u201cNodes + edges connect video topics,\u201d and a sticky note example about recommending the next study video.",
+      "required_fix": "None"
+    },
+    "native_composition": {
+      "status": "pass",
+      "evidence": "Across all 8 frames, the learner, desk, tablet, notebook, lamp, books, sticky notes, and diagrams are generated as one coherent illustrated story world. Text is mostly embedded into tablet screens, notebook pages, sticky notes, and poster-style brush headings rather than placed on a plain slide background.",
+      "required_fix": "None"
+    },
+    "overlay_risk": {
+      "status": "low",
+      "evidence": "Most instructional text is visually attached to scene objects: tablet UI in frames 2, 3, 5, 6, 7, and 8; notebook/sticky-note text in frames 1 and 4; and brush-poster headings in frames 1, 6, 7, and 8. The top brush headings are large, but they match the illustrated poster style and do not look like hard-edged post-production caption blocks."
+    },
+    "mechanism_visibility": {
+      "status": "pass",
+      "evidence": "The sequence visibly shows the intended mechanism: separate topic cards in frame 1, cards becoming nodes in frame 2, relationships becoming glowing edges in frame 3, nodes plus edges forming a graph in frame 4, connected neighbors in frame 5, a highlighted path to a recommendation in frame 6, a knowledge graph in frame 7, and a quick-check comparison between a connected recommendation and an unconnected cricket option in frame 8.",
+      "required_fix": "None"
+    },
+    "mobile_readability": {
+      "status": "pass",
+      "evidence": "Main headings and key mechanism labels are readable in the contact sheet: \u201cEach item becomes a node,\u201d \u201cRelationships become edges,\u201d \u201cNodes + edges form a graph,\u201d \u201cConnected neighbors are related,\u201d \u201cpath,\u201d \u201crecommend,\u201d \u201cknowledge graph,\u201d and the final quick-check text. Some tiny topic-card labels are small in the contact sheet, but the core educational labels should be readable when viewed as full 9:16 story cards.",
+      "required_fix": "None"
+    },
+    "frame_notes": [
+      {
+        "frame": 1,
+        "status": "pass",
+        "evidence": "Strong opener: title, learner, tablet with separate topic/video cards, notebook graph doodle, and sticky-note recommendation example are all visible. It introduces the lesson, the graph idea, and the recommendation use case.",
+        "fix": "None"
+      },
+      {
+        "frame": 2,
+        "status": "pass",
+        "evidence": "Clear transformation from labeled video/topic cards into colored circular nodes. The label \u201cEach item becomes a node\u201d is readable, and a magnified \u201cnode\u201d callout appears beside the tablet.",
+        "fix": "None"
+      },
+      {
+        "frame": 3,
+        "status": "pass",
+        "evidence": "Relationship lines are now visible between nodes on the tablet, with readable labels \u201cedge\u201d and \u201crelated.\u201d The sticky note headline \u201cRelationships become edges\u201d is integrated into the desk scene.",
+        "fix": "None"
+      },
+      {
+        "frame": 4,
+        "status": "pass",
+        "evidence": "Tablet shows a compact node-and-edge network with a visible \u201cgraph\u201d label. Notebook note reads \u201cNodes + edges form a graph,\u201d and the student is pointing with a pencil, supporting the teaching moment.",
+        "fix": "None"
+      },
+      {
+        "frame": 5,
+        "status": "pass",
+        "evidence": "The watched/central AI basics node and connected neighbor nodes are visible on the tablet. Related tags appear on the connecting edges, while farther nodes are dimmed, supporting the neighbor-candidate idea.",
+        "fix": "None"
+      },
+      {
+        "frame": 6,
+        "status": "pass",
+        "evidence": "A highlighted sequential path runs from \u201cAI basics\u201d to \u201cmachine learning\u201d to \u201ccoding tutorial,\u201d with \u201cpath\u201d and recommendation labeling visible. The student\u2019s finger follows the path, making the mechanism clear.",
+        "fix": "None"
+      },
+      {
+        "frame": 7,
+        "status": "pass",
+        "evidence": "Knowledge graph broadening is clear: tablet shows a simple graph with entity-style icons, labels \u201cknowledge graph,\u201d \u201cnode,\u201d and \u201cedge,\u201d plus a notebook graph doodle below. The title \u201cGraphs can connect facts too\u201d is readable.",
+        "fix": "None"
+      },
+      {
+        "frame": 8,
+        "status": "pass",
+        "evidence": "Final quick check is understandable: the tablet shows \u201cAI basics\u201d connected by a visible path to \u201ccoding tutorial,\u201d while the bottom choice cards contrast checked \u201ccoding tutorial\u201d against dimmer \u201ccricket highlights.\u201d The instruction \u201cChoose the one with a path\u201d is readable.",
+        "fix": "None"
+      }
+    ],
+    "verdict": "Accepted. The contact sheet forms a coherent native image-story with a self-contained opener, visible graph mechanism progression, integrated educational text, and a clear recommendation/path quick check. No blocking pasted-overlay or mechanism-visibility issues are visible.",
+    "next_action": "accept"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-07-05T15:09:12+00:00",
+  "prompt_pack": "assets\\image-prompts\\gradient-descent-runway-smoke-video-first.md",
+  "out_dir": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v2",
+  "lesson_slug": "gradient-descent-runway-smoke-video-first",
+  "pipeline_run_id": "20260705T150809Z",
+  "model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "size": "1024x1536",
+  "quality": "medium",
+  "parallel": 3,
+  "cards": [
+    {
+      "number": 4,
+      "title": "Gradient Direction",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v2\\04-gradient-direction.png"
+    },
+    {
+      "number": 5,
+      "title": "Small Update",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v2\\05-small-update.png"
+    },
+    {
+      "number": 8,
+      "title": "Quick Check Step Size Matters",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v2\\08-quick-check-step-size-matters.png"
+    }
+  ],
+  "langsmith_trace_id": "019f32d2-97b7-7f01-beb4-a938a7a73325",
+  "results": [
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-runway-smoke-video-first.md",
+      "card_number": 4,
+      "card_title": "Gradient Direction",
+      "prompt": "The tangent line and faint higher-loss gradient cue draw first, then the separate opposite downhill arrow draws toward the lower part of the curve. The learner's pointing hand moves slightly. Keep existing text unchanged. No new text. No crop.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:08:13+00:00",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v2\\04-gradient-direction.png",
+      "api_response_id": "resp_0f3563a8e574e1b4006a4a7360018881a3b94e582cf3487a85",
+      "openai_request_id": "419a460b-60bf-44da-b2bb-a050e399cb9e",
+      "langsmith_parent_trace_id": "019f32d2-97b7-7f01-beb4-a938a7a73325",
+      "style_references": [],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-runway-smoke-video-first.md",
+      "card_number": 5,
+      "card_title": "Small Update",
+      "prompt": "The curve point moves one short step downhill and the small step arrow glows. The update note stays locked and readable. Add only subtle hand motion and tablet glow. No new text. No crop.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:08:13+00:00",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v2\\05-small-update.png",
+      "api_response_id": "resp_007798d1064fb9fc006a4a735fc81c819eaa05ddb62f8f859a",
+      "openai_request_id": "fa06d744-43cd-4b1a-b0d5-f12d2a24f40d",
+      "langsmith_parent_trace_id": "019f32d2-97b7-7f01-beb4-a938a7a73325",
+      "style_references": [],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-runway-smoke-video-first.md",
+      "card_number": 8,
+      "card_title": "Quick Check Step Size Matters",
+      "prompt": "The small-step path glows calmly down toward the valley, then the too-far overshoot path flashes once and settles higher on the curve. The learner's pencil hovers as if answering a quick check. Keep all text unchanged. No new text. No crop.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:08:13+00:00",
+      "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v2\\08-quick-check-step-size-matters.png",
+      "api_response_id": "resp_014e684aa3210269006a4a735eed58819f915a4c1b567419b5",
+      "openai_request_id": "ce4d874d-770d-45b9-a5f7-c131187bd62c",
+      "langsmith_parent_trace_id": "019f32d2-97b7-7f01-beb4-a938a7a73325",
+      "style_references": [],
+      "retry_count": 0
+    }
+  ]
+}

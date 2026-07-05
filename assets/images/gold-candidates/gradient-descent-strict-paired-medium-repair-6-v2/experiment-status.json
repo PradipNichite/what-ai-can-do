@@ -1,0 +1,37 @@
+{
+  "image_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "video_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "out_dir": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-6-v2",
+  "frames": [
+    6
+  ],
+  "image_model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "quality": "medium",
+  "size": "1024x1536",
+  "style_references": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+  ],
+  "langsmith_trace_id": "019f3246-a572-7290-b340-feb3a22c1afe",
+  "results": [
+    {
+      "request_type": "openai_dual_format_image_generation",
+      "frame_number": 6,
+      "image_title": "Lower Error",
+      "video_title": "Lower Loss",
+      "image_model": "gpt-image-2",
+      "quality": "medium",
+      "size": "1024x1536",
+      "api_response_id": "resp_01bfb1f2c4c2d614006a4a4f8ae1a4819d8e506d4bb4ee7d24",
+      "openai_request_id": "af625f77-2621-47df-bb11-b6fe2674b66b",
+      "outputs_requested": 2,
+      "outputs_received": 2,
+      "written_paths": [
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-6-v2\\image-only\\06-lower-error.png",
+        "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-6-v2\\video-first\\06-lower-error-video.png"
+      ]
+    }
+  ],
+  "image_contact_sheet": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-6-v2\\image-only-contact-sheet.jpg",
+  "video_contact_sheet": "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-repair-6-v2\\video-first-contact-sheet.jpg"
+}

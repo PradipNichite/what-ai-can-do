@@ -1,0 +1,57 @@
+{
+  "id": "derivatives-ai-learning-continuous-edit-en",
+  "title": "Derivatives: How AI Learns From Mistakes - Continuous Story Edit",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 32.1,
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "voice_id": "ADd2WEtjmwokqUr0Y5Ad",
+    "voice_name": "Zara - Soft and Serene Indian Voice",
+    "local_output_path": "outputs/video-assets/derivatives-ai-learning-continuous-edit-en.voiceover.mp3",
+    "text": "AI learns a bit like this shot. First it misses. A derivative tells which direction will reduce the mistake. In training, AI compares its prediction with the correct answer, measures the error, and adjusts a little. On the error curve, the slope points toward lower error. The math is simple in spirit: new weight equals old weight minus a small step times the slope. Repeat this many times, and mistakes become smaller. That is why derivatives matter in AI.",
+    "public_url": "https://tmpfiles.org/dl/wEwUtzA9iJwN/derivatives-ai-learning-continuous-edit-en.voiceover.mp3"
+  },
+  "scenes": [
+    {
+      "id": "01-mistake",
+      "duration": 4.0,
+      "video_url": "https://tmpfiles.org/dl/wqwptsAGzwvf/01-mistake.mp4"
+    },
+    {
+      "id": "02-direction-clue",
+      "duration": 4.4,
+      "video_url": "https://tmpfiles.org/dl/wwwItnA4zfR5/02-direction-clue.mp4"
+    },
+    {
+      "id": "03-prediction-error",
+      "duration": 5.0,
+      "video_url": "https://tmpfiles.org/dl/wLwttVA9zBSw/03-prediction-error.mp4"
+    },
+    {
+      "id": "04-error-curve",
+      "duration": 4.6,
+      "video_url": "https://tmpfiles.org/dl/w2w5tbAOzOrV/04-error-curve.mp4"
+    },
+    {
+      "id": "05-math-glimpse",
+      "duration": 5.5,
+      "video_url": "https://tmpfiles.org/dl/wew5t6AjzAGO/05-math-glimpse.mp4"
+    },
+    {
+      "id": "06-small-corrections",
+      "duration": 4.0,
+      "video_url": "https://tmpfiles.org/dl/wPw8t0A7zext/06-small-corrections.mp4"
+    },
+    {
+      "id": "07-why-matters",
+      "duration": 4.6,
+      "video_url": "https://tmpfiles.org/dl/wcwAt4Ajzspu/07-why-matters.mp4"
+    }
+  ]
+}

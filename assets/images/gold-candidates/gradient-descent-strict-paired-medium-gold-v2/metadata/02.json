@@ -1,0 +1,17 @@
+{
+  "request_type": "openai_dual_format_image_generation",
+  "frame_number": 2,
+  "image_title": "Mistake Becomes Loss",
+  "video_title": "Measure Loss",
+  "image_model": "gpt-image-2",
+  "quality": "medium",
+  "size": "1024x1536",
+  "api_response_id": "resp_050ab25fa6ff9129006a4a34c30354819fa74ab4377c797579",
+  "openai_request_id": "8fb291f9-829b-4c5a-8069-0662a98c335a",
+  "outputs_requested": 2,
+  "outputs_received": 2,
+  "written_paths": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\image-only\\02-mistake-becomes-loss.png",
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium\\video-first\\02-mistake-becomes-loss-video.png"
+  ]
+}

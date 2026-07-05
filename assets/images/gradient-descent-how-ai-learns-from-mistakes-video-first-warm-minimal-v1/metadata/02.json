@@ -1,0 +1,23 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "card_number": 2,
+  "card_title": "Measure Loss",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create frame 2 showing a model mistake becoming a loss score.\nScene/backdrop: close-up tablet on warm wooden study desk with lamp glow, notebook edge, pencil, and subtle books/plant context.\nSubject: same recurring Indian teenage learner; teal/green sleeve and hand near the tablet; tablet is dominant.\nStyle/medium: warm minimalist tablet closeup, polished educational illustration, cinematic 9:16 frame.\nComposition/framing: tablet fills most of frame; simple UI elements large enough for phone viewing; safe margins for slight camera motion.\nText (verbatim): \"prediction\", \"correct\", \"loss: 8/10\".\nTechnical overlay: tablet shows two icon chips that do not match: one prediction chip and one correct-answer chip. A highlighted gap between them feeds into a large vertical loss meter labeled \"loss: 8/10\", filled high on a simple 0-to-10 scale without clutter.\nMotion target for later video: mismatch gap glows, then a pulse flows into the loss meter and fills it upward.\nConstraints: no dog/cat words, no extra text, no logos, no watermark, no dense formulas, avoid angry warning graphics, keep the score label large and readable.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "low",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:57:25+00:00",
+  "output_path": "assets\\images\\gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1\\02-measure-loss.png",
+  "api_response_id": "resp_0dc6c436d65eb817006a4a8d00c9d0819eb20dc952b130e53f",
+  "openai_request_id": "fee051a5-d7af-4fec-997f-ba8936cc8c07",
+  "langsmith_parent_trace_id": "019f3336-8a7d-7523-8684-4d7e8e60424f",
+  "style_references": [
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\01-gradient-opener-bridge.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\02-gradient-direction.png",
+    "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\03-gradient-repeat-loop.png"
+  ],
+  "retry_count": 0
+}

@@ -1,0 +1,21 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-how-ai-learns-from-mistakes-image-story.md",
+  "card_number": 2,
+  "card_title": "Mistake Becomes Loss",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 self-contained carousel card\nPrimary request: Create card 2 showing the mismatch becoming a loss score.\nScene/backdrop: same warm Indian study desk and learner.\nTechnical overlay: tablet shows the same example direction as card 1: the model prediction is dog and the correct answer is cat. Put a \"prediction: dog\" chip and a \"correct: cat\" chip separated by a highlighted error gap; the gap feeds into a large score-like loss meter with 0-to-10 tick marks and a clear high marker at 8.\nText (verbatim): \"The mistake becomes a loss score.\", \"loss = how wrong the model is\", \"loss: 8/10\".\nConstraints: loss meter must read as a measured score, not a warning decoration or emotion meter; do not reverse the example; keep prediction dog and correct cat; keep labels large; no dense formulas; no extra text.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T13:27:01+00:00",
+  "output_path": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\02-mistake-becomes-loss.png",
+  "api_response_id": "resp_0100e538d4558683006a4a5badd3e4819d8e1d6901d6660c15",
+  "openai_request_id": "56dc8bd5-70e8-424b-91e5-7faab1146998",
+  "langsmith_parent_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+  "style_references": [
+    "assets\\images\\gold-candidates\\gradient-descent-strict-paired-medium-gold-v2\\image-only\\01-mistake-starts-learning.png"
+  ],
+  "retry_count": 0
+}

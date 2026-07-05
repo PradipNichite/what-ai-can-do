@@ -1,6 +1,7 @@
 # Matrices: How Images Become Numbers
 
-Status: Backlog idea.
+Status: video-interactive
+Pipeline stage: 08 Video / Interactive
 
 Parent topic: [Applied Mathematics In AI](../topics/applied-mathematics-ai.md)
 
@@ -35,6 +36,13 @@ A grayscale image can be represented as a matrix where each cell stores brightne
 - Interactive pixel grid demo
 - Printable worksheet with small image-to-grid exercise
 
+## Assets
+
+- Source module: `modules/visual-ai-concepts/matrices-how-images-become-numbers.source.md`
+- Video-first prompt pack: `assets/image-prompts/matrices-images-become-numbers-video-first.md`
+- Source frames: `assets/images/matrices-images-become-numbers-video-first/`
+- Micro-lesson video v1: `outputs/video-renders/matrices-images-become-numbers-micro-lesson-v1-en.mp4`
+
 ## Next Step
 
-Draft a 6-frame mobile story and one technical-intuition image prompt.
+Review the micro-lesson video, then decide whether v2 should regenerate the pixel zoom and recap frames.

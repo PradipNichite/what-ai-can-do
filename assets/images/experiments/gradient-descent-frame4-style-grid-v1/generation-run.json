@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-07-05T15:35:09+00:00",
+  "prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+  "out_dir": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1",
+  "lesson_slug": "gradient-descent-frame4-style-grid",
+  "pipeline_run_id": "20260705T153252Z",
+  "model": "gpt-image-2",
+  "image_agent_model": "gpt-5.5",
+  "size": "1024x1536",
+  "quality": "medium",
+  "parallel": 3,
+  "cards": [
+    {
+      "number": 1,
+      "title": "Story Derived Warm Study Desk",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\01-story-derived-warm-study-desk.png"
+    },
+    {
+      "number": 2,
+      "title": "Clean Mechanism First",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\02-clean-mechanism-first.png"
+    },
+    {
+      "number": 3,
+      "title": "Warm Minimal Tablet Closeup",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\03-warm-minimal-tablet-closeup.png"
+    },
+    {
+      "number": 4,
+      "title": "Notebook Tutor Sketch",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\04-notebook-tutor-sketch.png"
+    },
+    {
+      "number": 5,
+      "title": "Dark AI Training Dashboard",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\05-dark-ai-training-dashboard.png"
+    },
+    {
+      "number": 6,
+      "title": "Classroom Board Hybrid",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\06-classroom-board-hybrid.png"
+    }
+  ],
+  "langsmith_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+  "results": [
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+      "card_number": 1,
+      "card_title": "Story Derived Warm Study Desk",
+      "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one Gradient Descent frame showing that the slope/gradient points toward higher loss and the model update moves opposite toward lower error.\nScene/backdrop: warm Indian study room with wooden desk, lamp, notebook, books, and a tablet as the main technical surface.\nSubject: recurring Indian teenage learner in a teal/green shirt, focused expression, hand near the tablet.\nTechnical visual: tablet shows a large U-shaped loss curve with one point on the slope. A thin tangent or uphill cue is labeled \"gradient: higher loss\". A separate stronger downhill arrow is labeled \"move opposite\" and points toward \"lower error\". The gradient cue and the update arrow must be visually distinct.\nStyle/medium: polished warm educational story illustration, cinematic but calm, similar to a high-quality mobile story frame.\nComposition/framing: learner and cozy desk are visible, but tablet graph is the main focus and occupies most of the lower-middle frame.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no dog/cat prediction; no extra text; no logos; no watermark; labels must be large and readable; do not label the downhill update arrow as the gradient.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:33:00+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\01-story-derived-warm-study-desk.png",
+      "api_response_id": "resp_0180947823899fc6006a4a792e42d881a2898e52d2c1cc1dea",
+      "openai_request_id": "113d76ba-94c5-49e6-878d-fbfe3922f973",
+      "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+      "style_references": [],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+      "card_number": 2,
+      "card_title": "Clean Mechanism First",
+      "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one clean mechanism-first Gradient Descent frame showing that the slope/gradient points toward higher loss and the model update moves opposite toward lower error.\nScene/backdrop: clean light educational background with one simple learner figure at the side, no clutter.\nSubject: friendly Indian teenage learner pointing at a large graph, secondary to the graph.\nTechnical visual: huge U-shaped loss curve dominates the frame. One point sits on the slope. A thin tangent or uphill cue is labeled \"gradient: higher loss\". A separate green downhill arrow is labeled \"move opposite\" and ends near \"lower error\". Make the causal relationship visually obvious.\nStyle/medium: clean mechanism-first educational illustration, simple flat shading, crisp graph, high readability, not a PPT slide.\nComposition/framing: graph fills most of the frame; character is small and supportive; enough safe margin for image-to-video motion.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no formulas; no extra text; no logos; no watermark; labels must be large and readable; do not label the downhill arrow as the gradient.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:33:00+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\02-clean-mechanism-first.png",
+      "api_response_id": "resp_00776074bf8aeb20006a4a792e5568819c9ba46f1e8f1306c0",
+      "openai_request_id": "f4fda76b-e71c-48b7-bfb9-0cada0ecb768",
+      "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+      "style_references": [],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+      "card_number": 3,
+      "card_title": "Warm Minimal Tablet Closeup",
+      "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one warm minimalist tablet closeup showing the gradient direction mechanism for Gradient Descent.\nScene/backdrop: close-up of hands holding or pointing at a tablet on a warm study desk; only hints of notebook, lamp glow, and pencil are visible.\nSubject: learner is mostly represented by hands and sleeve in teal/green; no full face needed.\nTechnical visual: tablet screen shows a large U-shaped loss curve with one point on the slope. A thin red/orange tangent or uphill cue is labeled \"gradient: higher loss\". A separate green update arrow is labeled \"move opposite\" and leads toward a small \"lower error\" marker near the valley.\nStyle/medium: warm minimalist educational illustration, soft lighting, premium mobile explainer look, fewer objects than story mode.\nComposition/framing: tablet fills 75 percent of the vertical frame; hands and desk edges provide human context.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no dog/cat prediction; no extra text; no logos; no watermark; labels must be large and readable; keep graph technically clean and uncluttered.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:33:00+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\03-warm-minimal-tablet-closeup.png",
+      "api_response_id": "resp_0b5f2adf8de4fc94006a4a792e4d58819c8b2adb746725d85b",
+      "openai_request_id": "d86a41ec-3c22-4eb2-a669-aedb80eadef2",
+      "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+      "style_references": [],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+      "card_number": 4,
+      "card_title": "Notebook Tutor Sketch",
+      "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one notebook tutor-style frame showing the gradient direction mechanism for Gradient Descent.\nScene/backdrop: open notebook on a study desk, with a pencil and a small tablet edge nearby.\nSubject: learner's hand is drawing the graph in the notebook; no full character required.\nTechnical visual: hand-drawn but clean U-shaped loss curve on notebook paper. One point on the slope has a tangent/uplift cue labeled \"gradient: higher loss\". A separate colored downhill arrow labeled \"move opposite\" points toward \"lower error\". Use color accents so the gradient cue and update arrow are unmistakably different.\nStyle/medium: neat hand-drawn tutoring sketch mixed with polished educational illustration, warm paper texture, human and approachable.\nComposition/framing: notebook page fills most of the frame, pencil/hand at one side, safe margin around labels.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no dense formulas; no extra text; no logos; no watermark; labels must be large and readable; avoid messy handwriting.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:33:52+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\04-notebook-tutor-sketch.png",
+      "api_response_id": "resp_05cf73c263510d38006a4a7961272481a087776b5afe97810c",
+      "openai_request_id": "6a732a0b-914e-4eb1-84f4-65982ed0662a",
+      "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+      "style_references": [],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+      "card_number": 5,
+      "card_title": "Dark AI Training Dashboard",
+      "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one modern AI training dashboard frame showing the gradient direction mechanism for Gradient Descent.\nScene/backdrop: dark but readable tablet or monitor dashboard in a study room, with a subtle learner silhouette or hand nearby.\nSubject: human context is present but minimal; the technical dashboard is the hero.\nTechnical visual: dashboard shows one large glowing U-shaped loss curve with a point on the slope. A thin amber tangent/uphill cue is labeled \"gradient: higher loss\". A separate bright green downhill update arrow is labeled \"move opposite\" and points toward a \"lower error\" marker. The two directions must not be confused.\nStyle/medium: modern AI dashboard, high contrast, cinematic, not corporate stock, not cyberpunk clutter.\nComposition/framing: vertical mobile frame with the dashboard centered and large; minimal surrounding environment.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no code blocks; no extra text; no logos; no watermark; labels must be readable on mobile; avoid tiny UI chrome.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:33:52+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\05-dark-ai-training-dashboard.png",
+      "api_response_id": "resp_038c1db733c7e6bd006a4a79636be881a38fa25149e20dfefd",
+      "openai_request_id": "5006163d-a0fb-44dd-8c79-4724d94a81b1",
+      "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+      "style_references": [],
+      "retry_count": 0
+    },
+    {
+      "source_prompt_pack": "assets\\image-prompts\\gradient-descent-frame4-style-grid.md",
+      "card_number": 6,
+      "card_title": "Classroom Board Hybrid",
+      "prompt": "Use case: scientific-educational style exploration\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create one classroom board hybrid frame showing the gradient direction mechanism for Gradient Descent.\nScene/backdrop: warm classroom or tutoring corner with a large board and a small tablet on a desk.\nSubject: Indian teenage learner stands beside or points toward the board; friendly, focused, not cartoonish.\nTechnical visual: board shows one large U-shaped loss curve with one point on the slope. A thin chalk tangent or uphill cue is labeled \"gradient: higher loss\". A separate colored downhill update arrow is labeled \"move opposite\" and points toward \"lower error\". The board must look like a living teaching scene, not a slide.\nStyle/medium: warm classroom explainer illustration with chalk/marker texture, clean but human.\nComposition/framing: board occupies most of the frame; learner provides scale and emotion; safe margins for video motion.\nText to render verbatim, exactly: \"gradient: higher loss\", \"move opposite\", \"lower error\".\nConstraints: no lesson title; no extra text; no logos; no watermark; labels must be large and readable; do not add formulas or unrelated diagrams.",
+      "model": "gpt-5.5",
+      "image_model": "gpt-image-2",
+      "size": "1024x1536",
+      "quality": "medium",
+      "output_format": "png",
+      "output_compression": null,
+      "request_timestamp": "2026-07-05T15:34:17+00:00",
+      "output_path": "assets\\images\\experiments\\gradient-descent-frame4-style-grid-v1\\06-classroom-board-hybrid.png",
+      "api_response_id": "resp_0b483715ce4699ad006a4a797b0b4c819eba9be9b599b7b8a8",
+      "openai_request_id": "a5c61358-fc33-43dc-92c7-5748109de10d",
+      "langsmith_parent_trace_id": "019f32e9-3f3a-7d70-bf84-07e07d82c71f",
+      "style_references": [],
+      "retry_count": 0
+    }
+  ]
+}

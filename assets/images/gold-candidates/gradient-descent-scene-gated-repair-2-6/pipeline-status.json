@@ -1,0 +1,12 @@
+{
+  "status": "needs-revision",
+  "next_action": "regenerate-set",
+  "lesson_slug": "gradient-descent-how-ai-learns-from-mistakes",
+  "pipeline_run_id": "20260705T132655Z",
+  "langsmith_trace_id": "019f3275-ec07-7b22-bb12-7e9e8c2afabd",
+  "out_dir": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6",
+  "contact_sheet": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\gradient-descent-scene-gated-repair-2-6-contact-sheet.jpg",
+  "qa_md": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\gradient-descent-scene-gated-repair-2-6-qa.md",
+  "qa_json": "assets\\images\\gold-candidates\\gradient-descent-scene-gated-repair-2-6\\gradient-descent-scene-gated-repair-2-6-qa.json",
+  "qa_openai_request_id": "3d6b5f4d-8473-4d3a-ad1c-3a20933a8d42"
+}

@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\gradient-descent-runway-smoke-video-first.md",
+  "card_number": 8,
+  "card_title": "Quick Check Step Size Matters",
+  "prompt": "The small-step path glows calmly down toward the valley, then the too-far overshoot path flashes once and settles higher on the curve. The learner's pencil hovers as if answering a quick check. Keep all text unchanged. No new text. No crop.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T15:08:13+00:00",
+  "output_path": "assets\\images\\gold-candidates\\gradient-descent-runway-smoke-source-v2\\08-quick-check-step-size-matters.png",
+  "api_response_id": "resp_014e684aa3210269006a4a735eed58819f915a4c1b567419b5",
+  "openai_request_id": "ce4d874d-770d-45b9-a5f7-c131187bd62c",
+  "langsmith_parent_trace_id": "019f32d2-97b7-7f01-beb4-a938a7a73325",
+  "style_references": [],
+  "retry_count": 0
+}

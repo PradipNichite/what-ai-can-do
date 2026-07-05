@@ -1,0 +1,22 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "card_number": 2,
+  "card_title": "Items Become Nodes",
+  "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 2 of 8\nPrimary request: Create a polished mobile story card showing how separate video/topic items become graph nodes. Keep the same warm Indian study-desk world and recurring learner style as card 1.\nScene/backdrop: Same learner at the wooden study desk. Tablet is large in the foreground. The tablet shows video/topic cards gently transforming into colorful circular nodes. Notebook beside the tablet has a simple hand-drawn note.\nSubject: Tablet UI transformation from video cards to large circular nodes, student watching curiously, pen and sticky notes around the tablet.\nStyle/medium: warm modern educational illustration, high quality mobile story aesthetic, integrated tablet UI and notebook notes, not a clean infographic slide.\nComposition/framing: 9:16 portrait. Big tablet in lower/middle area; student face visible behind it. Use arrows from video cards to nodes and one magnified node callout.\nText to render verbatim, exactly:\n\"Each item becomes a node.\"\n\"AI basics\"\n\"machine learning\"\n\"coding tutorial\"\n\"study tips\"\n\"cricket\"\n\"music\"\n\"node\"\nConstraints: use only the listed video/topic labels from the opener; do not introduce unrelated labels such as climate, plant life, atoms, history, geography, or school subjects; do not show edges yet; nodes must be large enough for mobile; text appears as tablet label and notebook callout; no extra text; no logos; no watermark; no blank PPT background.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:45:18+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-final\\02-items-become-nodes.png",
+  "api_response_id": "resp_02b154c33bc6a6bc006a491c86c7b8819c947ffd7bfffa3b58",
+  "openai_request_id": "8583fd07-7367-4961-80e5-af341e9b2d93",
+  "langsmith_parent_trace_id": "019f2d97-3c24-70c2-b316-b2970a79ab0b",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

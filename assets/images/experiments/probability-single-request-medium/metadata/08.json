@@ -1,0 +1,24 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\probability-how-ai-handles-uncertainty-image-story.md",
+  "card_number": 8,
+  "card_title": "Quick Check",
+  "prompt": "Use case: scientific-educational\nAsset type: 9:16 native educational story card, frame 8 of 8\nPrimary request: Create a polished final quick-check mobile story card. It should feel like the same warm native story world, with the learner comparing two probability cards.\nScene/backdrop: Same learner at desk with tablet and notebook.\nSubject: Tablet shows two score cards side by side. Card A has a clear winner. Card B has close top scores and is highlighted as more uncertain.\nTechnical visual: A strong confidence icon beside A, a yellow low-confidence meter beside B, and the learner pointing to B.\nStyle/medium: warm modern educational illustration, high quality Instagram/WhatsApp story aesthetic, integrated quiz UI, not a generic quiz slide.\nComposition/framing: 9:16 portrait. Main question at top as tablet/notebook heading. Two choice cards large in the middle.\nText to render verbatim, exactly:\n\"Quick check: which is more uncertain?\"\n\"A: cat 0.90, dog 0.07, car 0.03\"\n\"B: cat 0.42, dog 0.39, car 0.19\"\n\"B has closer scores.\"\nConstraints: B must be visibly more uncertain because top scores are close; keep text readable; no extra text; no logos; no watermark; no generic caption panel.",
+  "generation_mode": "single-request-lesson",
+  "card_count_requested": 8,
+  "image_outputs_received": 8,
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "api_response_id": "resp_00d1e90c4d86c6c8006a4927de7604819e9c68bd4632821bc7",
+  "openai_request_id": "6b2cae5d-b9c0-4ee1-bcde-514a603ee79e",
+  "langsmith_parent_trace_id": "019f2dc3-9924-7962-a398-d987da5ba82f",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "output_path": "assets\\images\\experiments\\probability-single-request-medium\\08-quick-check.png"
+}

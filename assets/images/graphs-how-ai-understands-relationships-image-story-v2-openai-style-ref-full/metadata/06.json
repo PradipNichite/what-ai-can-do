@@ -1,0 +1,22 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\graphs-how-ai-understands-relationships-image-story-v2.md",
+  "card_number": 6,
+  "card_title": "Path Explains Recommendation",
+  "prompt": "Use case: illustration-story\nAsset type: 9:16 native educational story card, frame 6 of 8\nPrimary request: Create a polished native story card showing how a graph path can explain a recommendation. Keep the same learner and warm desk/tablet visual world.\nScene/backdrop: Same learner at desk, tablet large in foreground. On tablet, a highlighted path runs from AI basics to machine learning to coding tutorial. The final coding tutorial node is marked as the recommendation. Unrelated nodes are dim.\nSubject: Tablet graph path, recommendation label, learner following the path with finger, notebook note beside the tablet.\nStyle/medium: warm modern educational illustration, mobile story card aesthetic, integrated arrows and labels, not a standalone flowchart slide.\nComposition/framing: 9:16 portrait. Use the tablet as the technical surface and a sticky-note takeaway below it.\nText to render verbatim, exactly:\n\"A path can explain a recommendation.\"\n\"AI basics\"\n\"machine learning\"\n\"coding tutorial\"\n\"path\"\n\"recommend\"\nConstraints: path must be sequential and readable; no random arrows; no dense network; labels must attach to actual path and recommendation; no extra text; no logos; no watermark.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "request_timestamp": "2026-07-04T14:35:39+00:00",
+  "output_path": "assets\\images\\graphs-how-ai-understands-relationships-image-story-v2-openai-style-ref-full\\06-path-explains-recommendation.png",
+  "api_response_id": "resp_04204b8f974bb5c0006a491a43024881a0be5110f21ff0ee2f",
+  "openai_request_id": "7d4fbfd1-0fc7-4404-977e-889b0bee32b1",
+  "langsmith_parent_trace_id": "019f2d8d-0c87-7f92-98ab-cfbd84d10cca",
+  "style_references": [
+    "assets\\images\\student-ai-study-native-story\\01-stuck-show-ai-page.png",
+    "assets\\images\\student-ai-study-native-story\\04-practice-not-copy.png",
+    "assets\\images\\derivatives-ai-learning-native-story\\01-ai-makes-mistake.png"
+  ],
+  "retry_count": 0
+}

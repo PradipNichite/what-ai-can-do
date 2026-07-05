@@ -1,0 +1,19 @@
+{
+  "source_prompt_pack": "assets\\image-prompts\\warm-minimal-tablet-keyframe-comparison-v1.md",
+  "card_number": 8,
+  "card_title": "Vectors Sentence To Numbers",
+  "prompt": "Use case: scientific-educational style comparison\nAsset type: 9:16 source frame for image-to-video animation\nPrimary request: Create a Warm Minimal Tablet Closeup source frame showing a meaning becoming a vector.\nScene/backdrop: tablet on warm desk, notebook and pencil edge visible.\nSubject: learner's hand points at the tablet transformation.\nTechnical visual: tablet shows a simple speech-bubble icon transforming into a row of glowing number chips like [0.82, -0.14, 0.51]. The row should look like coordinates, not exam marks.\nStyle/medium: warm minimalist tablet closeup, polished mobile educational illustration.\nComposition/framing: transformation is centered and large; safe bottom space for caption.\nText to render verbatim, exactly: \"meaning -> numbers\".\nMotion target for later video: pulse travels from speech bubble into the number chips.\nConstraints: no extra text; no formulas beyond the short number chips; no logos; no watermark; keep number chips stable and readable.",
+  "model": "gpt-5.5",
+  "image_model": "gpt-image-2",
+  "size": "1024x1536",
+  "quality": "medium",
+  "output_format": "png",
+  "output_compression": null,
+  "request_timestamp": "2026-07-05T16:24:07+00:00",
+  "output_path": "assets\\images\\experiments\\warm-minimal-tablet-keyframe-comparison-v1\\08-vectors-sentence-to-numbers.png",
+  "api_response_id": "resp_0eb0f7d49878487f006a4a8528dfcc81a0865743971c9028c9",
+  "openai_request_id": "11e886ea-43c2-4e21-baa1-d97c985fb24c",
+  "langsmith_parent_trace_id": "019f3316-5c4a-7d83-81eb-a23699daa22e",
+  "style_references": [],
+  "retry_count": 0
+}

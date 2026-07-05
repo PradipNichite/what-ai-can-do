@@ -149,6 +149,46 @@ Decision from this experiment:
 - Use Warm Minimal as the next full video-first regeneration candidate for Gradient Descent and Statistics.
 - Do not use the current Warm Minimal vector frames as final; repair the vector prompt with explicit distance rings, nearest-neighbor radius, or angle/distance cues.
 
+## Experiment 4: Full Gradient Descent Warm Minimal Pass
+
+Question: does Warm Minimal Tablet Closeup work across the full Gradient Descent video-first sequence, and do the highest-risk frames survive Runway?
+
+Inputs:
+
+- Source module: `modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md`
+- Prompt pack: `assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-video-first.md`
+- Source frame folder: `assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/`
+- Source contact sheet: `assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/gradient-descent-warm-minimal-source-contact-sheet.jpg`
+- Runway manifest: `outputs/video-manifests/gradient-descent-warm-minimal-runway-smoke-v1.json`
+- Runway clips: `outputs/runway-clips/gradient-descent-warm-minimal-runway-smoke-v1/`
+
+Trace / request IDs:
+
+- Full source-frame generation LangSmith trace: `019f3336-8a7d-7523-8684-4d7e8e60424f`
+- Targeted frames 5-6 repair LangSmith trace: `019f333b-ce2d-74f0-a0ef-8086b81aa445`
+- Final source-frame QA OpenAI request ID: `5111c65a-8262-43f5-aa0a-511f4efb038a`
+
+QA:
+
+- Source-frame QA note: `assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/gradient-descent-warm-minimal-source-frame-review-notes.md`
+- Source-frame QA status: `pass-with-caveats`
+- Source-frame QA next action: `accept`
+- Runway smoke QA note: `outputs/runway-clips/gradient-descent-warm-minimal-runway-smoke-v1/gradient-descent-warm-minimal-runway-smoke-v1-qa.md`
+- Runway smoke QA status: `pass-with-caveats`
+
+Observed:
+
+- The full 8-frame source set keeps the Warm Minimal tablet style coherent while still showing the technical mechanism.
+- Frames 5 and 6 needed prompt tightening after first QA; targeted regeneration fixed the weak update arrow and partial-improvement gap.
+- Runway preserved frame 4's gradient-versus-opposite-update relationship and frame 8's small-step-versus-overshoot comparison.
+- The first frame-5 Runway prompt over-animated the point around the curve. The locked-arrow variant worked better: keep old/new points fixed and pulse only the short update arrow.
+
+Decision from this experiment:
+
+- Warm Minimal Tablet Closeup is proven enough for Gradient Descent video-first production.
+- For small graph updates, prefer locked, local motion prompts over asking Runway to move a point.
+- Repeat the full Warm Minimal source-frame pass for Statistics before promoting Warm Minimal from provisional default to stronger series rule.
+
 ## Working Rubric
 
 Use this rubric when selecting a video-first visual style:
@@ -175,12 +215,11 @@ Use this rubric when selecting a video-first visual style:
 
 ## Next Steps
 
-1. Regenerate the full Gradient Descent video-first source-frame pack in Warm Minimal Tablet Closeup.
-2. Regenerate the full Statistics video-first source-frame pack in Warm Minimal Tablet Closeup.
+1. Regenerate the full Statistics video-first source-frame pack in Warm Minimal Tablet Closeup.
+2. Use Gradient Descent's locked-arrow Runway prompt pattern for future small-update graph clips.
 3. Repair Vectors prompts before full regeneration:
    - show distance/nearest-neighbor rings,
    - make phone-related result icons unambiguous,
    - preserve the speech-bubble-to-number-chips transformation.
 4. Run Runway smoke clips for the hardest frames before full assembly.
 5. Keep image-only story cards in the richer self-contained style unless a separate image-only experiment proves Warm Minimal works better there.
-

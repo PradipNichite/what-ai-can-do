@@ -1,6 +1,6 @@
 # Pipeline Board
 
-Last updated: 2026-06-29
+Last updated: 2026-07-05
 
 This board tracks where each content item currently sits. It is intentionally lightweight so topics can move independently through the pipeline.
 
@@ -58,6 +58,7 @@ For stage definitions, see [Content Pipeline](CONTENT_PIPELINE.md).
 |---|---|---|---|
 | Derivatives: How AI Learns From Mistakes | Marathi 9:16 story | 00 Captured | Write natural Marathi card copy |
 | Derivatives: How AI Learns From Mistakes | Video storyboard | 00 Captured | Convert existing 8 frames into short video beats |
+| Gradient Descent: How AI Learns From Mistakes | Warm Minimal video-first / Runway smoke | 08 Video / Interactive | Source frames and selected Runway smoke clips passed with caveats; use locked-arrow prompt for frame 5 and plan full assembly |
 | How Students Can Use AI To Study Better | Marathi 9:16 story | 00 Captured | Localize naturally for Maharashtra students |
 | How Students Can Use AI To Study Better | Video storyboard | 00 Captured | Use existing image sequence as base |
 

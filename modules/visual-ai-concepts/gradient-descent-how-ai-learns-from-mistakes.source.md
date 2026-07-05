@@ -1,7 +1,7 @@
 # Gradient Descent: How AI Learns From Mistakes
 
-Status: visual-draft
-Pipeline stage: 05 Visual Draft
+Status: video-interactive
+Pipeline stage: 08 Video / Interactive
 Type: Granular Episode
 Parent series: How AI Uses Math
 Series guide: ../../HOW_AI_USES_MATH_SERIES_GUIDE.md
@@ -10,7 +10,7 @@ Image prerequisites: ../../HOW_AI_USES_MATH_IMAGE_PREREQUISITES.md
 Primary learner: 11th/12th standard students
 Primary intent: technically correct applied math understanding
 Primary renderer: shared lesson core
-Next action: Generate Warm Minimal Tablet Closeup video-first source frames from `assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-video-first.md`, then build a contact sheet and run video-first QA before Runway generation.
+Next action: Use the accepted Warm Minimal source frames and Runway smoke-test results to plan full video assembly; use the locked-arrow Runway prompt pattern for frame 5.
 
 ## 1. Lesson Identity
 
@@ -279,13 +279,13 @@ The gradient only gives local direction information. A very large step may pass 
 
 ## 10. Approval Notes
 
-Approved concept: pending review
+Approved concept: Warm Minimal Tablet Closeup video-first source frames passed QA with caveats; selected Runway smoke clips passed with the locked-arrow prompt pattern for the small-update frame.
 
 Open questions:
 
 - Should the final video mention learning rate by name, or keep it as "step size" for this episode?
 - Should the mini example stay classification-based to connect with Functions and Linear Equations, or use a numeric prediction example?
 
-Renderer priority: image-only concept story first, then Warm Minimal Tablet Closeup video-first source images
+Renderer priority: image-only concept story first, then Warm Minimal Tablet Closeup video-first source images and selected Runway clips
 
-Image generation allowed: yes for image-only concept-proof draft
+Image generation allowed: yes for targeted repair or final-quality source-frame regeneration; use QA before full video assembly

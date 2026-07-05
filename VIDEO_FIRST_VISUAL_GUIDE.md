@@ -281,6 +281,8 @@ For text-heavy frames:
 Locked camera. Preserve all text exactly. Add only small character motion and gentle UI glow. No text morphing. No new text.
 ```
 
+For graph-update frames, prefer local motion over moving a point across the curve. If the still image already shows old and new points, keep both points fixed and pulse the short update arrow. Broad point movement can make Runway slide the point around the whole curve and confuse the mechanism.
+
 For action-heavy frames:
 
 ```text

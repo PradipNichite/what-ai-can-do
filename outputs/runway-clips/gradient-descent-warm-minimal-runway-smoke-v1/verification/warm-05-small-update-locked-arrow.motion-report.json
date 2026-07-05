@@ -1,0 +1,10 @@
+{
+  "video": "D:\\Projects\\FutureSmart\\Media Engine\\What AI Can Do\\outputs\\runway-clips\\gradient-descent-warm-minimal-runway-smoke-v1\\warm-05-small-update-locked-arrow.mp4",
+  "duration_seconds": 5.04,
+  "samples": 6,
+  "mean_frame_diff": 0.6524097204208374,
+  "max_frame_diff": 1.0806597471237183,
+  "black_border_ratio_mean": 0.09918692129629629,
+  "black_border_ratio_max": 0.100693359375,
+  "contact_sheet": "D:\\Projects\\FutureSmart\\Media Engine\\What AI Can Do\\outputs\\runway-clips\\gradient-descent-warm-minimal-runway-smoke-v1\\verification\\warm-05-small-update-locked-arrow.contact-sheet.jpg"
+}

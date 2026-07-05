@@ -4,7 +4,7 @@ Use this note when starting a fresh Codex session for this project.
 
 ## Latest Handoff: 2026-07-05
 
-Recent session focus: OpenAI image generation pipeline, LangSmith tracing, image-only lesson quality, video-first source-frame style, and early Runway smoke testing.
+Recent session focus: full Warm Minimal Tablet Closeup Gradient Descent source-frame pass, OpenAI visual QA, targeted frame repair, and selected Runway smoke testing.
 
 Current visual direction:
 
@@ -12,7 +12,7 @@ Current visual direction:
 - Use **Warm Minimal Tablet Closeup** as the provisional default candidate for video-first math/AI source frames.
 - Keep **Clean Mechanism First** as fallback for hard technical diagrams.
 - Use **Notebook Tutor Sketch** and **Dark AI Dashboard** only as selective insert styles.
-- Do not regenerate all existing lessons yet. First prove the new video-first style on full Gradient Descent and Statistics source-frame packs plus selected Runway clips.
+- Do not regenerate all existing lessons yet. Gradient Descent now proves the Warm Minimal direction well enough for video-first production with caveats; next prove it on Statistics before promoting it to a stronger series rule.
 
 Key evidence to open first:
 
@@ -23,6 +23,11 @@ assets/images/experiments/gradient-descent-frame4-style-grid-v1/gradient-descent
 assets/images/experiments/warm-minimal-tablet-keyframe-comparison-v1/current-vs-warm-keyframes-contact-sheet.jpg
 assets/images/experiments/warm-minimal-tablet-keyframe-comparison-v1/warm-minimal-tablet-keyframe-comparison-v1-qa.md
 outputs/runway-clips/gradient-descent-runway-style-ab-frame4-v1/
+assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-video-first.md
+assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/gradient-descent-warm-minimal-source-contact-sheet.jpg
+assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/gradient-descent-warm-minimal-source-frame-review-notes.md
+outputs/video-manifests/gradient-descent-warm-minimal-runway-smoke-v1.json
+outputs/runway-clips/gradient-descent-warm-minimal-runway-smoke-v1/gradient-descent-warm-minimal-runway-smoke-v1-qa.md
 ```
 
 Important traces / request IDs:
@@ -31,20 +36,24 @@ Important traces / request IDs:
 - Gradient style-grid QA OpenAI request ID: `a20a330b-23c4-4daa-a919-01bdaf0204f8`
 - Warm Minimal cross-lesson generation LangSmith trace: `019f3316-5c4a-7d83-81eb-a23699daa22e`
 - Warm Minimal cross-lesson QA OpenAI request ID: `62aaaf4d-d89b-42f9-974f-3d82397e4de5`
+- Full Gradient Warm Minimal source-frame generation LangSmith trace: `019f3336-8a7d-7523-8684-4d7e8e60424f`
+- Gradient targeted frames 5-6 repair LangSmith trace: `019f333b-ce2d-74f0-a0ef-8086b81aa445`
+- Final Gradient Warm Minimal source-frame QA OpenAI request ID: `5111c65a-8262-43f5-aa0a-511f4efb038a`
 
 Most useful next action:
 
-1. Create a full Warm Minimal Tablet Closeup video-first prompt pack for **Gradient Descent**.
-2. Generate all Gradient video source frames with OpenAI SDK, one LangSmith trace for the lesson.
+1. Create/update the full Warm Minimal Tablet Closeup video-first prompt pack for **Statistics**.
+2. Generate all Statistics video source frames with OpenAI SDK, one LangSmith trace for the lesson.
 3. Build contact sheet and run `tools/openai_visual_qa.py` in `video-first` mode.
-4. If QA passes, send only the highest-risk frames to Runway first: gradient direction, small update, repeat/step-size.
-5. After Gradient is proven, repeat for **Statistics**.
+4. If QA passes, send only the highest-risk Statistics frames to Runway first.
+5. For future Gradient assembly, use the accepted source frames and the locked-arrow Runway prompt pattern for frame 5.
 
 Known caveats:
 
 - Vectors should not be fully regenerated until prompts add clearer distance/nearest-neighbor cues.
 - Warm Minimal frames are video-first; they require voiceover/motion and are not replacements for image-only self-contained story cards.
 - Existing richer image-only Gradient and Statistics candidates are still useful gold examples for static cards.
+- In Runway, do not ask a graph point to travel along the curve unless the motion must be broad; for small updates, keep points fixed and pulse the short arrow.
 
 ## Project Goal
 

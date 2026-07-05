@@ -196,11 +196,11 @@ No new text. No crop.
 
 Learning job: the model changes its weight by one small step opposite the gradient.
 
-Visual evidence: old point, nearby new lower point, and a short step arrow.
+Visual evidence: old point, nearby new lower point, and a thick short green arrow directly connecting them.
 
 Transformation: old weight setting -> nearby new weight setting.
 
-Motion role: point moves one short distance and the step arrow glows.
+Motion role: old point moves one short distance along the arrow and the step arrow glows.
 
 Risk: if the point jumps far, the later step-size lesson becomes confusing.
 
@@ -215,15 +215,16 @@ Subject: same recurring Indian teenage learner; teal/green sleeve and hand resti
 Style/medium: warm minimalist tablet closeup, polished 9:16 educational illustration, uncluttered and motion-safe.
 Composition/framing: tablet is the main technical surface; curve and old/new points are large; safe bottom margin for captions.
 Text (verbatim): "small step", "opposite gradient".
-Technical overlay: tablet shows the same U-shaped loss curve with an old point and a nearby new point slightly lower on the curve. A short green step arrow labeled "opposite gradient" connects them, and a small native tablet chip reads "small step". Do not include a full formula.
-Motion target for later video: old point moves one short step to the nearby lower point and the arrow glows.
-Constraints: no extra text, no formulas, no logos, no watermark, step must be visibly small, do not show the point jumping across the valley.
+Technical overlay: tablet shows the same U-shaped loss curve with two large colored points: old point higher on the slope and new point nearby slightly lower. A thick short green arrow must directly connect old point to new point, starting at the old point and ending at the new point. Place the label "opposite gradient" beside the arrow, not floating in the center of the graph. A small native tablet chip reads "small step". Do not include a full formula.
+Motion target for later video: old point moves one short step along the visible arrow to the nearby lower point and the arrow glows.
+Constraints: no extra text, no formulas, no logos, no watermark, the connecting arrow must be clearly visible on mobile, step must be visibly small, do not show the point jumping across the valley.
 ```
 
 Runway prompt:
 
 ```text
-The curve point moves one short step to the nearby lower point and the small step arrow glows.
+Keep both colored points fixed in place; do not move the points around the curve.
+Only the short green arrow between the two points pulses softly.
 The learner's hand shifts subtly beside the tablet.
 Keep the full vertical frame visible.
 Keep existing text unchanged and readable.
@@ -234,11 +235,11 @@ No new text. No crop.
 
 Learning job: after one update, the model can reduce loss without becoming perfect.
 
-Visual evidence: loss meter shrinks from high state to `loss: 5/10`; prediction chip moves closer to correct chip but does not match.
+Visual evidence: loss meter shrinks from high state to `loss: 5/10`; prediction chip and correct chip use the same visual language as frame 2, now closer together but still separated by a small remaining gap.
 
 Transformation: high loss -> lower loss.
 
-Motion role: meter decreases and prediction chip slides closer.
+Motion role: meter decreases and prediction chip slides closer while a small remaining gap stays visible.
 
 Risk: the visual must not imply a perfect answer after one step.
 
@@ -253,9 +254,9 @@ Subject: same recurring Indian teenage learner; teal/green sleeve and soft parti
 Style/medium: warm minimalist tablet closeup, polished mobile educational illustration, cinematic but uncluttered.
 Composition/framing: tablet fills most of frame; loss meter and prediction chips are large; safe margins for motion.
 Text (verbatim): "loss: 5/10", "lower error".
-Technical overlay: tablet shows a smaller loss meter labeled "loss: 5/10". Nearby, prediction and correct icon chips are closer together than in frame 2 but still visibly separate. Include a tiny curve inset with the point slightly lower than before.
-Motion target for later video: loss meter shrinks and prediction chip slides closer to the correct chip without fully matching.
-Constraints: no extra text, no logos, no watermark, no dense formulas, do not show perfect prediction, keep labels readable.
+Technical overlay: tablet shows a smaller loss meter labeled "loss: 5/10". Reuse the same two-card comparison language from frame 2: one chip labeled "prediction" and one chip labeled "correct". Put the chips closer together than frame 2, but keep a clear small remaining gap between them so improvement is partial, not perfect. Include a tiny curve inset with the point slightly lower than before.
+Motion target for later video: loss meter shrinks and the prediction chip slides closer to the correct chip while the small remaining gap stays visible.
+Constraints: no extra text, no logos, no watermark, no dense formulas, do not use a single checkmark as the answer, do not show perfect prediction, keep labels readable.
 ```
 
 Runway prompt:

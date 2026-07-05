@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-06-29
+Last updated: 2026-07-05
 
 ## Current Direction
 
@@ -94,6 +94,27 @@ Key technical frames:
 - `02-derivative-at-a-point.png`: tangent slope, tiny step, tiny change.
 - `04-derivative-reduces-error.png`: error curve and slope direction.
 - `05-the-math-glimpse.png`: `slope = Delta error / Delta weight` and `new weight = old weight - small step x slope`.
+
+### Gradient Descent: Warm Minimal Video-First Test
+
+Status: Video-first source frames and Runway smoke test passed with caveats.
+
+This module now proves the provisional Warm Minimal Tablet Closeup direction on a full Gradient Descent sequence. The source frames show the mechanism chain: mistake -> loss -> loss curve -> gradient direction -> small update -> lower loss -> repeat -> step-size overshoot.
+
+Important files:
+
+- `modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md`
+- `assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-video-first.md`
+- `assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/`
+- `assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/gradient-descent-warm-minimal-source-frame-review-notes.md`
+- `outputs/video-manifests/gradient-descent-warm-minimal-runway-smoke-v1.json`
+- `outputs/runway-clips/gradient-descent-warm-minimal-runway-smoke-v1/gradient-descent-warm-minimal-runway-smoke-v1-qa.md`
+
+Key learning:
+
+- Warm Minimal survives Runway for gradient direction and step-size comparison.
+- For the small-update frame, do not ask Runway to move the point along the curve; use the locked-arrow pattern where points stay fixed and only the short update arrow pulses.
+- The next useful style-proof step is a full Warm Minimal source-frame pass for Statistics.
 
 ## Asset Inventory
 

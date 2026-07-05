@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wVw4aJClbxKu/05-small-update.png",
+  "promptText": "Locked camera. Preserve the full vertical frame exactly. Keep every word readable and unchanged. Keep both colored points fixed in place. Do not move the points around the curve. Only the short green arrow between the two points pulses softly, with subtle tablet glow and tiny hand motion. No zoom. No crop. No text morphing. No new text.",
+  "ratio": "720:1280",
+  "duration": 5
+}

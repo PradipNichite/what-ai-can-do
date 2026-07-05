@@ -1,0 +1,10 @@
+{
+  "video": "D:\\Projects\\FutureSmart\\Media Engine\\What AI Can Do\\outputs\\runway-clips\\gradient-descent-warm-minimal-runway-smoke-v1\\warm-08-step-size-check.mp4",
+  "duration_seconds": 5.04,
+  "samples": 6,
+  "mean_frame_diff": 1.188944435119629,
+  "max_frame_diff": 1.503975749015808,
+  "black_border_ratio_mean": 0.10790292245370371,
+  "black_border_ratio_max": 0.11153537326388889,
+  "contact_sheet": "D:\\Projects\\FutureSmart\\Media Engine\\What AI Can Do\\outputs\\runway-clips\\gradient-descent-warm-minimal-runway-smoke-v1\\verification\\warm-08-step-size-check.contact-sheet.jpg"
+}

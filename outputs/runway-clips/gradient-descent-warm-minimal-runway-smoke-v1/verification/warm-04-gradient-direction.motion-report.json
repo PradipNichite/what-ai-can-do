@@ -1,0 +1,10 @@
+{
+  "video": "D:\\Projects\\FutureSmart\\Media Engine\\What AI Can Do\\outputs\\runway-clips\\gradient-descent-warm-minimal-runway-smoke-v1\\warm-04-gradient-direction.mp4",
+  "duration_seconds": 5.04,
+  "samples": 6,
+  "mean_frame_diff": 2.7592187762260436,
+  "max_frame_diff": 5.670694351196289,
+  "black_border_ratio_mean": 0.07053747106481481,
+  "black_border_ratio_max": 0.07216037326388888,
+  "contact_sheet": "D:\\Projects\\FutureSmart\\Media Engine\\What AI Can Do\\outputs\\runway-clips\\gradient-descent-warm-minimal-runway-smoke-v1\\verification\\warm-04-gradient-direction.contact-sheet.jpg"
+}

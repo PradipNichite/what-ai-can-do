@@ -1,0 +1,41 @@
+{
+  "id": "gradient-descent-warm-minimal-runway-smoke-v1",
+  "lesson": "gradient-descent-how-ai-learns-from-mistakes",
+  "purpose": "Runway smoke test for the Warm Minimal Tablet Closeup source-frame set after video-first QA passed with caveats.",
+  "source_frame_folder": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1",
+  "prompt_pack": "assets/image-prompts/gradient-descent-how-ai-learns-from-mistakes-video-first.md",
+  "qa_note": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/gradient-descent-warm-minimal-source-frame-review-notes.md",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "clips": [
+    {
+      "id": "warm-04-gradient-direction",
+      "frame": 4,
+      "local_image": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/04-gradient-direction.png",
+      "image_url": "https://tmpfiles.org/dl/wOw9ajCObufy/04-gradient-direction.png",
+      "prompt": "Locked camera. Preserve the full vertical frame exactly. Keep every word readable and unchanged. The tangent and higher-loss gradient cue draw first, then the separate move-opposite arrow gently pulses toward lower error. Add only subtle pointing-hand motion and tablet glow. No zoom. No crop. No text morphing. No new text."
+    },
+    {
+      "id": "warm-05-small-update",
+      "frame": 5,
+      "local_image": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/05-small-update.png",
+      "image_url": "https://tmpfiles.org/dl/wVw4aJClbxKu/05-small-update.png",
+      "prompt": "Locked camera. Preserve the full vertical frame exactly. Keep every word readable and unchanged. The old point moves one short step along the green arrow to the nearby lower point, and the arrow glows softly. Add only subtle hand motion and tablet glow. No zoom. No crop. No text morphing. No new text."
+    },
+    {
+      "id": "warm-05-small-update-locked-arrow",
+      "frame": 5,
+      "local_image": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/05-small-update.png",
+      "image_url": "https://tmpfiles.org/dl/wVw4aJClbxKu/05-small-update.png",
+      "prompt": "Locked camera. Preserve the full vertical frame exactly. Keep every word readable and unchanged. Keep both colored points fixed in place. Do not move the points around the curve. Only the short green arrow between the two points pulses softly, with subtle tablet glow and tiny hand motion. No zoom. No crop. No text morphing. No new text."
+    },
+    {
+      "id": "warm-08-step-size-check",
+      "frame": 8,
+      "local_image": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/08-step-size-quick-check.png",
+      "image_url": "https://tmpfiles.org/dl/w1wla3CqbzML/08-step-size-quick-check.png",
+      "prompt": "Locked camera. Preserve the full vertical frame exactly. Keep every word readable and unchanged. The small-step path glows calmly down toward the valley, then the too-far overshoot path flashes once and settles higher on the curve. Add only subtle pencil-hand motion. No zoom. No crop. No text morphing. No new text."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Style Gate"
+  short_description: "Keep shorts in the approved visual style before animation work."
+  default_prompt: "Use this skill before creating or reviewing How AI Uses Math video shorts."

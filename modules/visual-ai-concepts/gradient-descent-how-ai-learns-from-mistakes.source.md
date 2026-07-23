@@ -10,7 +10,7 @@ Image prerequisites: ../../HOW_AI_USES_MATH_IMAGE_PREREQUISITES.md
 Primary learner: 11th/12th standard students
 Primary intent: technically correct applied math understanding
 Primary renderer: shared lesson core
-Next action: Use the accepted Warm Minimal source frames and Runway smoke-test results to plan full video assembly; use the locked-arrow Runway prompt pattern for frame 5.
+Next action: Create the gold-standard hybrid prompt/source-frame pack from the clean scene adequacy pass in `assets/reviews/gradient-descent-gold-standard-scene-adequacy.md`. Recreate the story/source scenes so the cold-student chain is visible, then use image-to-video for native story motion, one embedded programmatic mechanism insert for the exact slope/update sequence, ElevenLabs voiceover, and Creatomate assembly.
 
 ## 1. Lesson Identity
 
@@ -72,12 +72,12 @@ Gradient descent gives AI a practical way to improve settings when there is no s
 What changes, moves, or gets computed:
 
 ```text
-prediction -> loss/error -> gradient direction -> small step -> lower loss -> repeat
+current weight -> prediction -> loss -> point on loss curve -> local slope/gradient -> opposite small update -> new weight -> new prediction -> lower loss -> repeat decision
 ```
 
 Mechanism explanation in simple words:
 
-The model starts with a weight setting that makes a wrong prediction. The difference between the prediction and the correct answer becomes a loss score. The loss curve shows how the loss changes when the weight changes. The gradient points in the direction where loss increases fastest, so gradient descent takes a small step in the opposite direction. After the step, the model checks the loss again and repeats.
+The model starts with one current weight setting. That setting produces a prediction. The prediction is compared with the correct answer, and the size of the mistake becomes a loss score. A loss curve is a simplified way to show how different weight settings can create different loss values. At the current point, the local slope tells which direction would increase loss. Gradient descent uses that clue by stepping a small distance in the opposite direction. The new setting produces a new prediction and a new loss score. If the loss is still high, the loop repeats.
 
 Technical accuracy notes:
 
@@ -99,13 +99,14 @@ AI is not physically seeing a whole hill. It computes local slope information fr
 Example input:
 
 ```text
-feature chips for a simple animal example
+one simple animal-classifier training example
 ```
 
 Intermediate representation:
 
 ```text
-current weight = too low
+current weight setting W1
+input features enter the tiny model
 prediction: dog 0.62
 correct: cat
 ```
@@ -113,17 +114,19 @@ correct: cat
 Computation/comparison/scoring/update:
 
 ```text
-loss: 8/10
-gradient arrow points toward higher loss
-update takes one small step opposite the gradient
-weight -> weight - small step
+prediction is compared with the target
+loss at W1: 8/10
+W1 appears as a high point on the loss curve
+local slope/gradient points toward higher loss
+update takes one small step opposite the gradient to W2
 ```
 
 Output:
 
 ```text
-new prediction is closer
-loss: 5/10
+new prediction: cat 0.48, dog 0.44
+loss at W2: 5/10
+not perfect yet, so the model repeats
 ```
 
 What the learner should notice:
@@ -140,16 +143,22 @@ The lesson is not only about finding the slope once. The important idea is the t
 
 ## 7. Renderer-Agnostic Scene Flow
 
+This gold-standard version is not locked to 6-8 scenes. It uses 12 compact beats because the learner needs the causal bridge, not just the vocabulary.
+
 | Step | Teaching job | Core visual idea | Must be technically true |
 |---|---|---|---|
-| 1 | Wrong prediction | model starts with a mistake | prediction can differ from correct answer |
-| 2 | Measure loss | error becomes a score | loss measures how wrong the prediction is |
-| 3 | Loss curve | loss depends on model setting | different weights can create different loss values |
-| 4 | Gradient direction | slope shows which way loss changes | gradient direction is local slope information |
-| 5 | Small update | weight changes a little | update moves opposite the gradient |
-| 6 | Lower loss | new setting improves prediction | a better setting can reduce loss |
-| 7 | Repeat | many small steps train the model | training repeats the update loop |
-| 8 | Quick check | step size matters | too-large steps can overshoot lower loss |
+| 1 | Learning promise | school slope connects to AI training | this lesson is about reducing prediction error |
+| 2 | Familiar school concept | a student marks slope on a simple curve in a notebook | slope is local direction/steepness, not the whole curve |
+| 3 | AI task setup | tiny model sees one animal example | the same example continues through the lesson |
+| 4 | Current setting makes prediction | current weight W1 produces `dog 0.62` while target is cat | a model setting affects the output |
+| 5 | Mistake becomes loss | mismatch feeds a loss meter: `loss 8/10` | loss is a numeric score of wrongness |
+| 6 | Loss depends on setting | W1 appears as a high point on a loss curve | different settings can have different loss values |
+| 7 | Programmatic mechanism begins | exact curve, current point, tangent, and uphill gradient appear inside the tablet | gradient points toward higher loss |
+| 8 | Opposite small update | the update arrow moves from W1 to nearby W2 opposite the gradient | descent steps opposite the gradient, not along it |
+| 9 | New setting checked | W2 produces a closer prediction and lower loss `5/10` | one update can improve loss without making it perfect |
+| 10 | Repeat loop | W2 becomes the new current point; smaller steps continue toward the valley | training repeats measure, slope, step, check |
+| 11 | Step-size quick check | small steps descend; one huge jump overshoots to higher loss | too-large updates can make loss worse |
+| 12 | Memory anchor | visual recap: measure loss -> read slope -> step opposite -> repeat | the learner can say the loop in one sentence |
 
 ## 8. Renderer Adaptation Notes
 
@@ -157,26 +166,31 @@ The lesson is not only about finding the slope once. The important idea is the t
 
 What needs motion:
 
+- notebook slope mark becomes the visual bridge into the tablet
+- same training example travels through prediction, loss, curve, update, and repeat
 - prediction chip appears beside correct answer
 - error gap lights up and becomes a loss meter
-- loss curve draws with a high point
-- gradient/higher-loss cue appears from the point
-- opposite downhill update arrow appears from the point
-- point moves one small step opposite the gradient cue
-- loss meter shrinks
-- dotted path descends toward the valley
+- loss curve draws with W1 as the current point
+- programmatic insert controls the exact tangent, gradient/uphill cue, opposite update arrow, W1 -> W2 move, and loss change
+- loss meter shrinks from 8/10 to 5/10, but the prediction remains imperfect
+- dotted path descends toward the valley as repeated checks, not decorative motion
 - oversized step overshoots for contrast
 
 What voiceover must explain:
 
 - loss is a score for mistake size
-- gradient indicates the higher-loss direction
-- gradient descent moves opposite that direction repeatedly
+- the loss curve is a simplified slice showing how settings affect loss
+- gradient indicates the higher-loss direction at the current point
+- gradient descent moves a small step opposite that direction
+- after the update, the model checks loss again
 - step size controls how far each update moves
 
 What should be captioned:
 
+- `slope`
 - `loss`
+- `current setting`
+- `opposite step`
 - `small step`
 - `lower error`
 - memory anchor
@@ -192,7 +206,9 @@ What should remain visual only:
 What must be understandable without audio:
 
 - a wrong prediction creates loss
+- the same current setting becomes a point on a loss curve
 - the point moves downhill on the loss curve
+- the update is opposite the gradient/uphill direction
 - repeated small steps reduce loss
 - step size can overshoot
 
@@ -211,6 +227,9 @@ What should be simplified:
 
 What teacher can ask:
 
+- Which object stayed the same across the scenes?
+- What did W1 produce?
+- How did W1 become a point on the loss curve?
 - If the loss is high, should the model keep the same weight?
 - Which way is downhill on this curve?
 - What happens if the step is too large?
@@ -218,7 +237,7 @@ What teacher can ask:
 What board diagram works:
 
 ```text
-prediction -> loss -> gradient clue -> opposite small update -> repeat
+W1 -> prediction -> loss -> point on curve -> gradient clue -> opposite small update -> W2 -> lower loss -> repeat
 ```
 
 What can become a short activity:
@@ -268,24 +287,28 @@ The gradient only gives local direction information. A very large step may pass 
 
 | # | Scene | Learning job | Visible evidence | Transformation / comparison | Motion role | Risk |
 |---|---|---|---|---|---|---|
-| 1 | Wrong prediction | AI starts with a mistake | prediction chip differs from correct answer chip | model output vs target | prediction chip appears | too much app UI text |
-| 2 | Measure loss | error becomes a score | prediction/correct gap feeds a ticked loss meter marked `loss: 8/10` | mistake gap -> loss score | gap lights up and meter fills to high | loss looks like emotion, not score |
-| 3 | Loss curve | error depends on model setting | curve with a high point, `loss` vertical cue, and `weight setting` horizontal cue | weight setting -> loss value | curve draws and point lands on one setting | curve too tiny or axis cue missing on mobile |
-| 4 | Gradient direction | slope gives the direction clue | tangent shows `gradient: higher loss`; separate arrow shows `move opposite` toward lower error | local slope -> opposite update direction | gradient cue appears, then opposite arrow draws downhill | implies gradient itself points downhill |
-| 5 | Small update | weight changes a little opposite the gradient | point moves one short step labeled `opposite gradient` | old weight -> new weight | point steps opposite the gradient cue | step too large or unclear |
-| 6 | Lower loss | prediction improves | loss meter shrinks from `8/10` to `5/10`; prediction closer | high loss -> lower loss | meter decreases | implies perfect prediction |
-| 7 | Repeat | many small steps train model | dotted path descends toward valley | repeated updates -> lower loss | dots appear in order | path looks decorative |
-| 8 | Quick check | step size matters | small-step path vs overshoot path | careful update vs overshoot | warning path flashes | dense labels or scary warning style |
+| 1 | Learning promise | orient the viewer | title, slope notebook, AI training tablet | school slope -> AI error reduction | bridge line lights from notebook to tablet | too hook-like or vague |
+| 2 | Familiar slope | ground the school concept | tangent on simple curve, uphill/downhill arrows | local slope clue | pencil marks tangent | turning into derivative lesson |
+| 3 | AI task setup | introduce the single tracked example | animal input, tiny model panel, target cat card | example enters model | input card slides to model | generic app UI |
+| 4 | Current prediction | show W1 creates an output | W1 badge, dog 0.62, cat target | setting -> prediction | prediction chip appears | learner misses that setting caused output |
+| 5 | Loss score | convert mistake to number | mismatch gap feeds `loss 8/10` meter | prediction vs target -> loss | gap turns into meter fill | loss looks emotional, not numeric |
+| 6 | Loss curve mapping | connect W1 to graph | W1 dot high on loss-vs-setting curve | setting -> loss value | curve draws, W1 dot lands | curve appears from nowhere |
+| 7 | Gradient clue | show precise local slope | tangent at W1, uphill cue labeled `gradient: higher loss` | local slope -> higher-loss direction | programmatic tangent/gradient appear | implying gradient points downhill |
+| 8 | Opposite update | show descent step | short arrow from W1 to W2 opposite gradient | W1 -> W2 | programmatic arrow pulses, dot moves or old/new points lock | step too large |
+| 9 | Check new loss | prove update had effect | W2 dot lower, loss 5/10, prediction closer | new setting -> lower loss | meter shrinks, W2 glows | implying perfect answer |
+| 10 | Repeat loop | show training as repeated checks | W2 becomes current; dotted path has ordered check marks | one update -> next update | path draws in ordered steps | decorative path |
+| 11 | Step size check | compare careful vs huge step | small-step path vs overshoot landing higher | careful updates vs large jump | oversized arrow overshoots | overshoot looks like progress |
+| 12 | Memory anchor | make the mental model retrievable | four-step recap chain | measure -> slope -> opposite step -> repeat | chain lights one by one | recap becomes slogan without mechanism |
 
 ## 10. Approval Notes
 
-Approved concept: Warm Minimal Tablet Closeup video-first source frames passed QA with caveats; selected Runway smoke clips passed with the locked-arrow prompt pattern for the small-update frame.
+Approved concept: The old native-story candidate is useful as style/reference evidence only. Its caveated QA is not a clean pass. The new gold-standard version must earn a fresh scene adequacy pass and fresh visual QA from actual contact sheets/frames before any candidate claim.
 
 Open questions:
 
 - Should the final video mention learning rate by name, or keep it as "step size" for this episode?
 - Should the mini example stay classification-based to connect with Functions and Linear Equations, or use a numeric prediction example?
 
-Renderer priority: image-only concept story first, then Warm Minimal Tablet Closeup video-first source images and selected Runway clips
+Renderer priority: repaired lesson core -> gold-standard hybrid video blueprint -> scene adequacy pass -> regenerated source frames/contact sheet -> visual QA -> image-to-video clips plus embedded programmatic mechanism insert -> ElevenLabs voiceover -> Creatomate assembly -> sampled-frame QA.
 
-Image generation allowed: yes for targeted repair or final-quality source-frame regeneration; use QA before full video assembly
+Image generation allowed: yes, but only from the cleanly passed gold-standard flow in `assets/reviews/gradient-descent-gold-standard-scene-adequacy.md`. Regenerate the needed story/source frames instead of polishing the caveated render.

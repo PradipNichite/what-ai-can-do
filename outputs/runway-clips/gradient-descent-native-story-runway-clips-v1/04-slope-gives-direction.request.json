@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wvwQvGVrURKO/04-slope-gives-direction.png",
+  "promptText": "Locked 9:16 camera. Preserve all text exactly. Animate teaching order: tangent/slope cue glows first, higher-loss gradient cue pulses, then the move-opposite arrow gently draws toward lower error. Add only subtle learner eye/hand movement and warm lamp shimmer. No crop. No new text. No graph warping.",
+  "ratio": "720:1280",
+  "duration": 5
+}

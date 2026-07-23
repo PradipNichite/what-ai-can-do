@@ -1,0 +1,6 @@
+#!/bin/sh
+python tools/verify_agent_system.py || exit 1
+python tools/verify_image_story_gate.py --changed || exit 1
+python tools/verify_media_api_contracts.py || exit 1
+python tools/verify_video_style_gate.py --changed || exit 1
+python tools/verify_visual_qa_verdicts.py --changed || exit 1

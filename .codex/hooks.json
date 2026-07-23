@@ -5,10 +5,38 @@
         "hooks": [
           {
             "type": "command",
+            "command": "python tools/verify_agent_system.py",
+            "commandWindows": "python tools\\verify_agent_system.py",
+            "timeout": 30,
+            "statusMessage": "Checking agent system wiring"
+          },
+          {
+            "type": "command",
             "command": "python tools/verify_image_story_gate.py --changed",
             "commandWindows": "python tools\\verify_image_story_gate.py --changed",
             "timeout": 30,
             "statusMessage": "Checking image-story gate"
+          },
+          {
+            "type": "command",
+            "command": "python tools/verify_media_api_contracts.py",
+            "commandWindows": "python tools\\verify_media_api_contracts.py",
+            "timeout": 30,
+            "statusMessage": "Checking media API contracts"
+          },
+          {
+            "type": "command",
+            "command": "python tools/verify_video_style_gate.py --changed",
+            "commandWindows": "python tools\\verify_video_style_gate.py --changed",
+            "timeout": 30,
+            "statusMessage": "Checking video style gate"
+          },
+          {
+            "type": "command",
+            "command": "python tools/verify_visual_qa_verdicts.py --changed",
+            "commandWindows": "python tools\\verify_visual_qa_verdicts.py --changed",
+            "timeout": 30,
+            "statusMessage": "Checking visual QA verdict discipline"
           }
         ]
       }

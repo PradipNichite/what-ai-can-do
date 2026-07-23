@@ -1,0 +1,7 @@
+{
+  "model": "gen4_turbo",
+  "promptImage": "https://tmpfiles.org/dl/wjwdvTVzUvnV/06-lower-error.png",
+  "promptText": "Locked 9:16 camera. Preserve all card text. Animate loss 8/10 changing attention toward loss 5/10 with a gentle meter decrease and a small green lower-error glow. Keep prediction/correct panels stable. No crop. No new text. No distorted numbers.",
+  "ratio": "720:1280",
+  "duration": 5
+}

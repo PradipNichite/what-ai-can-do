@@ -1,0 +1,4 @@
+interface:
+  display_name: "Media API Contracts"
+  short_description: "Use proven media API request contracts from this repo."
+  default_prompt: "Use the repo's media API contracts before calling or modifying Runway, Creatomate, ElevenLabs, tmpfiles, or OpenAI media pipeline code."

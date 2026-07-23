@@ -18,13 +18,18 @@ folder, so existing commands still work.
 - `generate_runway_clips.py` - Runway image-to-video task creation and polling.
 - `render_creatomate_phase1.py` - Creatomate assembly/render submission.
 - `generate_elevenlabs_voiceover.py` - ElevenLabs voiceover generation.
+- `upload_tmpfiles.py` - public URL helper for source frames, Runway clips, and voiceover assets.
 - `generate_elevenlabs_sfx.py` - ElevenLabs sound-effect generation.
 - `generate_scene_voiceovers.py` - per-scene voiceover helper.
 - `build_smart_video_manifest.py` - scene plan to Creatomate manifest.
 - `verify_video_motion.py` - video-frame sampling and motion/contact-sheet checks.
+- `verify_video_style_gate.py` - static guardrail that prevents programmatic animation from replacing approved shorts style or bypassing visual QA.
 - `verify_image_story_gate.py` - textual image-story gate checker used by hooks.
+- `verify_media_api_contracts.py` - static guardrail that keeps env names, API request fields, provider endpoints, and wrapper-script contracts aligned with `.agents/skills/media-api-contracts/`.
 - `generate_marathi_captioned_story.py` - local captioned-story renderer.
 - `build_knowledge_viewer.py` - local knowledge-viewer builder.
+- `classify_scene_motion_strategy.py` - scene-level motion/router classifier for shorts video.
+- `render_programmatic_animation.py` - deterministic code-driven educational animation renderer.
 - `prompts/openai_scene_adequacy.md` - reviewable prompt instructions for pre-image scene adequacy.
 
 ## Keys And Local Environment
@@ -37,6 +42,15 @@ RUNWAYML_API_SECRET=...
 CREATOMATE_API_KEY=...
 ELEVENLABS_API_KEY=...
 ```
+
+Production video shorts use:
+
+```text
+source frames -> image-to-video clips -> ElevenLabs voice -> Creatomate assembly
+```
+
+Local still-image assembly is only a timing/debug preview and should not be
+presented as a comparison candidate or final deliverable.
 
 Optional OpenAI settings:
 
@@ -231,6 +245,50 @@ Dry runs do not call OpenAI:
 python tools/openai_visual_qa.py ... --dry-run
 python tools/openai_image_story_generate.py ... --dry-run
 ```
+
+## Programmatic Technical Animation
+
+Use this lane for precise technical motion where image-to-video would likely
+warp labels, curves, or numeric relationships.
+
+Classify a source module before generating clips:
+
+```powershell
+python tools/classify_scene_motion_strategy.py `
+  --source-module modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md `
+  --out outputs/video-manifests/gradient-descent-motion-strategy-v1.json `
+  --md-out outputs/video-scripts/gradient-descent-motion-strategy-v1.md
+```
+
+Attach classifier output to a smart edit manifest when the scene IDs match:
+
+```powershell
+python tools/build_smart_video_manifest.py outputs/video-manifests/<plan>.json `
+  --motion-strategy outputs/video-manifests/gradient-descent-motion-strategy-v1.json `
+  --out outputs/video-manifests/<edit>.json
+```
+
+Render the gradient descent prototype:
+
+```powershell
+python tools/render_programmatic_animation.py `
+  --spec outputs/video-manifests/gradient-descent-programmatic-animation-v1.json `
+  --backend auto `
+  --out outputs/video-renders/gradient-descent-programmatic-animation-v1.mp4 `
+  --poster outputs/video-renders/gradient-descent-programmatic-animation-v1-poster.png `
+  --report outputs/video-renders/gradient-descent-programmatic-animation-v1.render-report.json
+```
+
+Verify the rendered motion:
+
+```powershell
+python tools/verify_video_motion.py outputs/video-renders/gradient-descent-programmatic-animation-v1.mp4 --samples 12
+```
+
+The prototype currently implements `animation_backend: "pillow"`. Keep the
+backend in the manifest and CLI because later experiments should be able to use
+the same lesson spec with backends such as `motion-canvas`, `revideo`,
+`remotion`, or `manim` instead of rewriting the lesson plan.
 
 ## Parallelism
 

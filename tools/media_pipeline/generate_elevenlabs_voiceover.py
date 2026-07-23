@@ -8,6 +8,14 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_MANIFEST = ROOT / "outputs" / "video-manifests" / "ai-customer-support-agent.mr.phase1.json"
+PREFERRED_VOICE_ID = "ADd2WEtjmwokqUr0Y5Ad"
+PREFERRED_VOICE_NAME = "Zara - Soft and Serene Indian Voice"
+DEFAULT_VOICE_SETTINGS = {
+    "stability": 0.54,
+    "similarity_boost": 0.78,
+    "style": 0.08,
+    "use_speaker_boost": True,
+}
 
 
 def load_dotenv():
@@ -77,11 +85,13 @@ def main():
     api_key = os.environ.get("ELEVENLABS_API_KEY")
     if not api_key:
         raise SystemExit("Missing ELEVENLABS_API_KEY environment variable.")
-    voice_id = real_value(args.voice_id) or pick_first_voice_id(api_key)
-
     manifest_path = Path(args.manifest).resolve()
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    model_id = args.model_id or manifest.get("voiceover", {}).get("model_id", "eleven_multilingual_v2")
+    manifest_voice = manifest.get("voiceover", {})
+    voice_id = real_value(args.voice_id) or real_value(manifest_voice.get("voice_id")) or PREFERRED_VOICE_ID
+    if voice_id == PREFERRED_VOICE_ID:
+        print(f"Using preferred ElevenLabs voice: {PREFERRED_VOICE_NAME} ({PREFERRED_VOICE_ID})")
+    model_id = args.model_id or manifest_voice.get("model_id", "eleven_multilingual_v2")
     default_out = manifest.get("voiceover", {}).get("local_output_path")
     if not default_out:
         default_out = f"outputs/video-assets/{manifest['id']}.voiceover.mp3"
@@ -103,12 +113,7 @@ def main():
         {
             "text": text,
             "model_id": model_id,
-            "voice_settings": {
-                "stability": 0.48,
-                "similarity_boost": 0.78,
-                "style": 0.18,
-                "use_speaker_boost": True,
-            },
+            "voice_settings": manifest_voice.get("voice_settings") or DEFAULT_VOICE_SETTINGS,
         },
     )
 

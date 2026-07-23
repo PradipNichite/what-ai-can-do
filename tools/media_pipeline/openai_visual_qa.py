@@ -305,23 +305,30 @@ def markdown_from_verdict(
 
 
 def enforce_strict_status(verdict: dict[str, Any]) -> dict[str, Any]:
-    """Prevent polished-but-shallow visuals from being accepted."""
+    """Prevent caveated or polished-but-shallow visuals from being accepted."""
 
     blocking_gate = (
         verdict.get("technical_understanding", {}).get("status") == "fail"
         or verdict.get("false_completion_risk", {}).get("status") == "high"
     )
-    if not blocking_gate:
+    caveated = verdict.get("status") == "pass-with-caveats"
+    if not blocking_gate and not caveated:
         return verdict
 
     verdict = dict(verdict)
     verdict["status"] = "needs-revision"
-    verdict["next_action"] = "regenerate-frame"
-    verdict["verdict"] = (
-        verdict.get("verdict", "")
-        + " Strict QA override: high false-completion risk or failed technical "
-        "understanding cannot be accepted."
-    ).strip()
+    if verdict.get("next_action") == "accept":
+        verdict["next_action"] = "revise-prompt-pack"
+    if blocking_gate and verdict.get("next_action") == "use-as-reference-only":
+        verdict["next_action"] = "regenerate-frame"
+    reasons = []
+    if caveated:
+        reasons.append("pass-with-caveats is blocking and must be repaired before acceptance")
+    if blocking_gate:
+        reasons.append(
+            "high false-completion risk or failed technical understanding cannot be accepted"
+        )
+    verdict["verdict"] = (verdict.get("verdict", "") + " Strict QA override: " + "; ".join(reasons) + ".").strip()
     return verdict
 
 

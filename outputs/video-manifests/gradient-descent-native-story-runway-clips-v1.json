@@ -1,0 +1,53 @@
+{
+  "id": "gradient-descent-native-story-runway-clips-v1",
+  "lesson": "gradient-descent-how-ai-learns-from-mistakes",
+  "purpose": "Runway image-to-video clips for the recovered native-story Gradient Descent lesson. Use these clips for Creatomate assembly; do not assemble static source images as the deliverable.",
+  "model": "gen4_turbo",
+  "ratio": "720:1280",
+  "duration": 5,
+  "source_frame_folder": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3",
+  "style_reference_contact_sheet": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-contact-sheet.jpg",
+  "style_reference_qa": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-qa.md",
+  "clips": [
+    {
+      "id": "01-mistake-starts-learning",
+      "image_url": "https://tmpfiles.org/dl/wGwrvAVCUcAl/01-mistake-starts-learning.png",
+      "prompt": "Locked 9:16 camera. Preserve the full native story card and all text exactly. Add subtle student attention, warm lamp shimmer, cat/prediction/correct chips gently glow in sequence, and the small slope notebook cue pulses once. No crop. No zoom. No new text. No text morphing."
+    },
+    {
+      "id": "02-mistake-becomes-loss",
+      "image_url": "https://tmpfiles.org/dl/wTwrv6VhUSf9/02-mistake-becomes-loss.png",
+      "prompt": "Locked 9:16 camera. Preserve the full card and readable text. Animate the prediction dog chip, correct cat chip, error link, and loss meter in order; the loss meter fills gently to 8/10. Keep desk, learner, sticky notes, and tablet stable. No crop. No new text. No text changes."
+    },
+    {
+      "id": "03-loss-curve",
+      "image_url": "https://tmpfiles.org/dl/wKw0v9VAUxlx/03-loss-curve.png",
+      "prompt": "Locked 9:16 camera. Preserve the full educational scene. The U-shaped loss curve glows softly, the high point pulses, and the high-error callout appears emphasized by light only. Keep every label unchanged and readable. No crop. No zoom. No added words."
+    },
+    {
+      "id": "04-slope-gives-direction",
+      "image_url": "https://tmpfiles.org/dl/wvwQvGVrURKO/04-slope-gives-direction.png",
+      "prompt": "Locked 9:16 camera. Preserve all text exactly. Animate teaching order: tangent/slope cue glows first, higher-loss gradient cue pulses, then the move-opposite arrow gently draws toward lower error. Add only subtle learner eye/hand movement and warm lamp shimmer. No crop. No new text. No graph warping."
+    },
+    {
+      "id": "05-one-small-update",
+      "image_url": "https://tmpfiles.org/dl/wowWvcVnUfc1/05-one-small-update.png",
+      "prompt": "Locked 9:16 camera. Preserve the full native story card. Keep the graph labels and equation readable and unchanged. Animate a short point movement from OLD to NEW with a tiny pulse on the small-step arrow; do not move the curve or labels. No crop. No zoom. No text morphing."
+    },
+    {
+      "id": "06-lower-error",
+      "image_url": "https://tmpfiles.org/dl/wjwdvTVzUvnV/06-lower-error.png",
+      "prompt": "Locked 9:16 camera. Preserve all card text. Animate loss 8/10 changing attention toward loss 5/10 with a gentle meter decrease and a small green lower-error glow. Keep prediction/correct panels stable. No crop. No new text. No distorted numbers."
+    },
+    {
+      "id": "07-repeat-to-learn",
+      "image_url": "https://tmpfiles.org/dl/wwwkvvVEUWMA/07-repeat-to-learn.png",
+      "prompt": "Locked 9:16 camera. Preserve the full scene and all labels. Dotted training path lights up one dot at a time downhill toward the valley, then the repeat label pulses gently. Keep the curve fixed and readable. No crop. No zoom. No new text."
+    },
+    {
+      "id": "08-quick-check-step-size-matters",
+      "image_url": "https://tmpfiles.org/dl/wkw3vyVlUxow/08-quick-check-step-size-matters.png",
+      "prompt": "Locked 9:16 camera. Preserve every word and the full quick-check card. The small-step path glows green first; the too-large overshoot path glows red second and stops at the higher-error point. Keep the student, desk, tablet, and graph stable. No crop. No new text. No text morphing."
+    }
+  ]
+}

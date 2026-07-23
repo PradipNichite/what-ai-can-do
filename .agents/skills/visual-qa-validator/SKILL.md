@@ -36,8 +36,10 @@ Identify at least one:
    - style reference
    - lesson-core/source reference
    - skill-base example
-5. Write a concise QA note with evidence, caveats, and verdict.
-6. Run required repository verifier commands when applicable.
+5. Compare the result against the accepted style/reference contact sheet when one exists. For How AI Uses Math videos, this is mandatory before any pass verdict.
+6. Write a concise QA note with evidence, caveats, and verdict.
+7. Treat caveats as blocking repair work. A `pass-with-caveats` verdict is not a pass and does not authorize promotion, candidate presentation, video generation, or publish-ready movement.
+8. Run required repository verifier commands when applicable.
 
 ## Visual Inspection Criteria
 
@@ -54,6 +56,9 @@ For every visual set, answer:
 - Are style, character, lighting, and environment consistent enough for the renderer?
 - Are labels/numbers accurate enough for the teaching goal?
 - Does the artifact work without external project notes?
+- Does it preserve the approved visual language for the lesson or series?
+- Would a side-by-side view with the accepted reference make this look like the same series?
+- Is any "animation" replacing the visual style instead of enhancing a specific technical moment?
 
 For video-first frames, also answer:
 
@@ -68,13 +73,15 @@ For image-only stories, also answer all acceptance questions in `IMAGE_STORY_GAT
 
 Use one of these verdicts:
 
-- `pass`: ready for the intended next step.
-- `pass-with-caveats`: usable, but caveats must be recorded.
+- `pass`: ready for the intended next step, with no unresolved caveats.
+- `pass-with-caveats`: blocked; record the caveats as explicit fixes, address them, then rerun QA. Do not treat it as a pass.
 - `needs-revision`: useful direction, but not acceptable yet.
 - `reject`: should not be used as a final asset or skill base.
 - `reference-only`: useful only for style, mechanism, opener, or failure calibration.
 
-Never call an asset `accepted`, `visual-draft`, `visual-qa`, `publish-ready`, or a `skill base` unless the verdict supports that exact use.
+Never call an asset `accepted`, `visual-draft`, `visual-qa`, `publish-ready`, candidate, comparison-ready, or a `skill base` unless the verdict is a clean `pass` for that exact use. `pass-with-caveats` must be converted into `needs-revision`, `reject`, or a clean `pass` after the caveats are fixed and QA is rerun.
+
+For How AI Uses Math video shorts, mark `reject` when a render is technically correct but visually changes the approved style into PPT cards, flat diagram cards, generic tutorial panels, or standalone programmatic animation.
 
 ## QA Note Shape
 
@@ -97,6 +104,7 @@ Intended use: <image-only story | video-first frames | style reference | skill-b
 
 - Files/images opened with ChatGPT vision:
 - Contact sheet inspected:
+- Style/reference contact sheet inspected:
 - Any obvious blank/corrupt/missing frame seen by vision:
 - Caveats:
 

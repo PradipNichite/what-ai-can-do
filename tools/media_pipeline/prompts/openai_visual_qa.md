@@ -27,3 +27,5 @@ Ask this before accepting:
 - Would the viewer leave with a usable mental model, or just a false sense that they understood?
 
 If the sequence creates a false sense of technical completion, mark `false_completion_risk` as `high` and use `needs-revision` or `reject`, even when style, text readability, and opener quality are strong.
+
+Use `pass` only when there are no unresolved caveats for the intended use. A `pass-with-caveats` result is blocked: state the required fixes and choose a next action that repairs the asset rather than accepting or promoting it.

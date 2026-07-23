@@ -1,0 +1,21 @@
+{
+  "id": "gradient-descent-native-story-programmatic-insert-v1",
+  "lesson": "gradient-descent-how-ai-learns-from-mistakes",
+  "purpose": "Style-preserving programmatic insert for the exact small-update scene inside the native-story Gradient Descent short.",
+  "animation_backend": "pillow-overlay",
+  "renderer_strategy": "programmatic-technical-insert",
+  "source_frame": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/05-one-small-update.png",
+  "style_reference_contact_sheet": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-contact-sheet.jpg",
+  "style_reference_qa": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-qa.md",
+  "duration": 5,
+  "fps": 30,
+  "output_size": [720, 1280],
+  "old_point": [610, 864],
+  "new_point": [654, 964],
+  "control_point": [642, 910],
+  "loss_badge_box": [592, 1048, 786, 1110],
+  "animation_policy": {
+    "role": "small technical insert",
+    "rule": "Preserve the native story composition and animate only the exact old-to-new update cue."
+  }
+}

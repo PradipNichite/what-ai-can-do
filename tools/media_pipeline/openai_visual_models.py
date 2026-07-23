@@ -106,7 +106,14 @@ class MissingScene(BaseModel):
 class SceneAdequacyVerdict(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    status: Literal["pass", "pass-with-caveats", "needs-revision", "reject"]
+    status: Literal["pass", "pass-with-caveats", "needs-revision", "reject"] = Field(
+        description=(
+            "Use pass only when the scene flow has no unresolved caveats. "
+            "pass-with-caveats is blocking, not permission to proceed; prefer "
+            "needs-revision when caveats affect comprehension, causal flow, or "
+            "renderer readiness."
+        )
+    )
     scene_count: SceneAdequacyCheck
     mechanism_chain: SceneAdequacyCheck
     technical_completeness: SceneAdequacyCheck
@@ -136,7 +143,13 @@ class VisualQAVerdict(BaseModel):
         "needs-revision",
         "reject",
         "reference-only",
-    ]
+    ] = Field(
+        description=(
+            "Use pass only when there are no unresolved caveats for the intended "
+            "use. pass-with-caveats is blocking and must not pair with accept or "
+            "promotion to candidate/visual-qa/publish-ready."
+        )
+    )
     intended_use: Literal["image-story", "video-first", "style-reference", "skill-base"]
     opener: GateCheck
     native_composition: GateCheck

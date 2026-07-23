@@ -1,0 +1,112 @@
+{
+  "id": "gradient-descent-programmatic-classifier-short-v3",
+  "title": "Gradient Descent",
+  "subtitle": "How AI reduces error one small step at a time",
+  "renderer": "gradient_descent_classifier_short",
+  "animation_backend": "pillow",
+  "renderer_strategy": "programmatic-technical-animation",
+  "motion_strategy_source": "outputs/video-manifests/gradient-descent-motion-strategy-v1.json",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 24,
+  "duration_seconds": 24,
+  "curve": {
+    "x_range": [-2.2, 2.2],
+    "y_range": [0, 5.2],
+    "minimum": 0,
+    "base_loss": 0.28
+  },
+  "steps": [-1.85, -1.35, -0.95, -0.62, -0.36, -0.18],
+  "scene_timing": [
+    {
+      "id": "wrong_prediction",
+      "source_step": "1",
+      "start": 0.0,
+      "end": 3.0,
+      "title": "Gradient Descent",
+      "subtitle": "How AI learns from a mistake",
+      "caption": "First, the model gets an answer wrong.",
+      "renderer_strategy": "image-to-video",
+      "chip": "1/8"
+    },
+    {
+      "id": "measure_loss",
+      "source_step": "2",
+      "start": 3.0,
+      "end": 5.7,
+      "title": "Measure the loss",
+      "subtitle": "The mistake becomes a score.",
+      "caption": "Loss turns the mistake into a number AI can reduce.",
+      "renderer_strategy": "hybrid-overlay",
+      "chip": "2/8"
+    },
+    {
+      "id": "loss_curve",
+      "source_step": "3",
+      "start": 5.7,
+      "end": 8.3,
+      "title": "Loss curve",
+      "subtitle": "Every setting has a different loss.",
+      "caption": "The curve is a map of better and worse settings.",
+      "renderer_strategy": "programmatic-technical-animation",
+      "chip": "3/8"
+    },
+    {
+      "id": "gradient_direction",
+      "source_step": "4",
+      "start": 8.3,
+      "end": 11.1,
+      "title": "Gradient direction",
+      "subtitle": "The slope says which way loss rises.",
+      "caption": "Gradient points uphill, so descent moves the other way.",
+      "renderer_strategy": "programmatic-technical-animation",
+      "chip": "4/8"
+    },
+    {
+      "id": "small_update",
+      "source_step": "5",
+      "start": 11.1,
+      "end": 14.0,
+      "title": "Take one small update",
+      "subtitle": "Move opposite the gradient.",
+      "caption": "A small update changes the weight without jumping blindly.",
+      "renderer_strategy": "programmatic-technical-animation",
+      "chip": "5/8"
+    },
+    {
+      "id": "lower_loss",
+      "source_step": "6",
+      "start": 14.0,
+      "end": 16.4,
+      "title": "Lower loss",
+      "subtitle": "The new setting is less wrong.",
+      "caption": "After the step, the loss score is lower.",
+      "renderer_strategy": "hybrid-overlay",
+      "chip": "6/8"
+    },
+    {
+      "id": "repeat",
+      "source_step": "7",
+      "start": 16.4,
+      "end": 20.2,
+      "title": "Repeat small steps",
+      "subtitle": "Training is the loop, not one magic jump.",
+      "caption": "Repeat: measure loss, check slope, step downhill.",
+      "renderer_strategy": "programmatic-technical-animation",
+      "chip": "7/8"
+    },
+    {
+      "id": "quick_check",
+      "source_step": "8",
+      "start": 20.2,
+      "end": 24.0,
+      "title": "Step size check",
+      "subtitle": "Too large a step can overshoot the low point.",
+      "caption": "Good training uses repeated careful steps.",
+      "renderer_strategy": "programmatic-technical-animation",
+      "chip": "8/8"
+    }
+  ]
+}

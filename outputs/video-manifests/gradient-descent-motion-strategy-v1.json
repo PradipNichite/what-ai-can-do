@@ -1,0 +1,398 @@
+{
+  "id": "gradient-descent-how-ai-learns-from-mistakes-motion-strategy-v1",
+  "title": "Gradient Descent: How AI Learns From Mistakes",
+  "source": "modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md",
+  "classifier": {
+    "name": "rule-based-motion-strategy-classifier",
+    "version": "1",
+    "strategy_options": [
+      "programmatic-technical-animation",
+      "hybrid-overlay",
+      "image-to-video",
+      "still-animation"
+    ]
+  },
+  "summary": {
+    "scene_count": 8,
+    "strategy_counts": {
+      "hybrid-overlay": 2,
+      "image-to-video": 1,
+      "programmatic-technical-animation": 5
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "source_step": "1",
+      "scene_title": "Wrong prediction",
+      "learning_job": "Wrong prediction",
+      "core_visual_idea": "model starts with a mistake",
+      "technical_truth": "prediction can differ from correct answer",
+      "requires_animation": true,
+      "renderer_strategy": "image-to-video",
+      "preferred_provider": "runway",
+      "candidate_providers": [
+        "runway",
+        "veo",
+        "luma",
+        "fal"
+      ],
+      "fallback_strategy": "still-animation",
+      "reason": "The beat is mainly contextual or cinematic rather than geometry-precise.",
+      "signals": {
+        "programmatic_strong": [],
+        "programmatic_support": [],
+        "image_to_video": [],
+        "still_animation": [],
+        "contextual_fallback": [
+          "correct answer",
+          "mistake",
+          "prediction"
+        ]
+      },
+      "verification_required": {
+        "requires_contact_sheet_review": true,
+        "text_readability_required": true,
+        "commands": [
+          "python tools/verify_video_motion.py <generated-clip.mp4> --samples 12"
+        ],
+        "acceptance_checks": [
+          "subject motion supports the teaching beat",
+          "text-heavy areas do not morph or disappear",
+          "identity and composition stay stable"
+        ]
+      }
+    },
+    {
+      "id": "scene-02",
+      "source_step": "2",
+      "scene_title": "Measure loss",
+      "learning_job": "Measure loss",
+      "core_visual_idea": "error becomes a score",
+      "technical_truth": "loss measures how wrong the prediction is",
+      "requires_animation": true,
+      "renderer_strategy": "hybrid-overlay",
+      "preferred_backend": "remotion-or-creatomate-assembly",
+      "candidate_backends": [
+        "pillow-overlay",
+        "motion-canvas-overlay",
+        "remotion",
+        "creatomate"
+      ],
+      "base_clip_candidates": [
+        "runway",
+        "veo",
+        "luma",
+        "fal"
+      ],
+      "fallback_strategy": "programmatic-technical-animation",
+      "reason": "The beat needs a readable score/meter overlay, but not a full graph animation.",
+      "signals": {
+        "programmatic_strong": [],
+        "programmatic_support": [
+          "error",
+          "loss",
+          "measure",
+          "score"
+        ],
+        "image_to_video": [],
+        "still_animation": [],
+        "contextual_fallback": [
+          "prediction"
+        ]
+      },
+      "verification_required": {
+        "requires_contact_sheet_review": true,
+        "text_readability_required": true,
+        "commands": [
+          "python tools/verify_video_motion.py <assembled-or-generated-clip.mp4> --samples 12"
+        ],
+        "acceptance_checks": [
+          "generated base motion does not warp the technical overlay",
+          "overlay labels remain readable after assembly",
+          "context and technical animation feel connected in one beat"
+        ]
+      }
+    },
+    {
+      "id": "scene-03",
+      "source_step": "3",
+      "scene_title": "Loss curve",
+      "learning_job": "Loss curve",
+      "core_visual_idea": "loss depends on model setting",
+      "technical_truth": "different weights can create different loss values",
+      "requires_animation": true,
+      "renderer_strategy": "programmatic-technical-animation",
+      "preferred_backend": "pillow",
+      "candidate_backends": [
+        "pillow",
+        "motion-canvas",
+        "revideo",
+        "remotion",
+        "manim"
+      ],
+      "fallback_strategy": "hybrid-overlay",
+      "reason": "The beat depends on precise technical motion: curve, weight.",
+      "signals": {
+        "programmatic_strong": [
+          "curve",
+          "weight"
+        ],
+        "programmatic_support": [
+          "loss",
+          "value"
+        ],
+        "image_to_video": [],
+        "still_animation": [],
+        "contextual_fallback": []
+      },
+      "verification_required": {
+        "requires_contact_sheet_review": true,
+        "text_readability_required": true,
+        "commands": [
+          "python tools/render_programmatic_animation.py --spec <scene-spec> --backend auto --out <clip.mp4>",
+          "python tools/verify_video_motion.py <clip.mp4> --samples 12"
+        ],
+        "acceptance_checks": [
+          "primary labels and captions are readable in sampled frames",
+          "technical motion preserves exact graph, meter, arrow, or numeric relationships",
+          "no blank frames or black borders"
+        ]
+      }
+    },
+    {
+      "id": "scene-04",
+      "source_step": "4",
+      "scene_title": "Gradient direction",
+      "learning_job": "Gradient direction",
+      "core_visual_idea": "slope shows which way loss changes",
+      "technical_truth": "gradient direction is local slope information",
+      "requires_animation": true,
+      "renderer_strategy": "programmatic-technical-animation",
+      "preferred_backend": "pillow",
+      "candidate_backends": [
+        "pillow",
+        "motion-canvas",
+        "revideo",
+        "remotion",
+        "manim"
+      ],
+      "fallback_strategy": "hybrid-overlay",
+      "reason": "The beat depends on precise technical motion: direction, gradient, slope.",
+      "signals": {
+        "programmatic_strong": [
+          "direction",
+          "gradient",
+          "slope"
+        ],
+        "programmatic_support": [
+          "loss"
+        ],
+        "image_to_video": [],
+        "still_animation": [],
+        "contextual_fallback": []
+      },
+      "verification_required": {
+        "requires_contact_sheet_review": true,
+        "text_readability_required": true,
+        "commands": [
+          "python tools/render_programmatic_animation.py --spec <scene-spec> --backend auto --out <clip.mp4>",
+          "python tools/verify_video_motion.py <clip.mp4> --samples 12"
+        ],
+        "acceptance_checks": [
+          "primary labels and captions are readable in sampled frames",
+          "technical motion preserves exact graph, meter, arrow, or numeric relationships",
+          "no blank frames or black borders"
+        ]
+      }
+    },
+    {
+      "id": "scene-05",
+      "source_step": "5",
+      "scene_title": "Small update",
+      "learning_job": "Small update",
+      "core_visual_idea": "weight changes a little",
+      "technical_truth": "update moves opposite the gradient",
+      "requires_animation": true,
+      "renderer_strategy": "programmatic-technical-animation",
+      "preferred_backend": "pillow",
+      "candidate_backends": [
+        "pillow",
+        "motion-canvas",
+        "revideo",
+        "remotion",
+        "manim"
+      ],
+      "fallback_strategy": "hybrid-overlay",
+      "reason": "The beat depends on precise technical motion: gradient, opposite, update, weight.",
+      "signals": {
+        "programmatic_strong": [
+          "gradient",
+          "opposite",
+          "update",
+          "weight"
+        ],
+        "programmatic_support": [],
+        "image_to_video": [],
+        "still_animation": [],
+        "contextual_fallback": []
+      },
+      "verification_required": {
+        "requires_contact_sheet_review": true,
+        "text_readability_required": true,
+        "commands": [
+          "python tools/render_programmatic_animation.py --spec <scene-spec> --backend auto --out <clip.mp4>",
+          "python tools/verify_video_motion.py <clip.mp4> --samples 12"
+        ],
+        "acceptance_checks": [
+          "primary labels and captions are readable in sampled frames",
+          "technical motion preserves exact graph, meter, arrow, or numeric relationships",
+          "no blank frames or black borders"
+        ]
+      }
+    },
+    {
+      "id": "scene-06",
+      "source_step": "6",
+      "scene_title": "Lower loss",
+      "learning_job": "Lower loss",
+      "core_visual_idea": "new setting improves prediction",
+      "technical_truth": "a better setting can reduce loss",
+      "requires_animation": true,
+      "renderer_strategy": "hybrid-overlay",
+      "preferred_backend": "remotion-or-creatomate-assembly",
+      "candidate_backends": [
+        "pillow-overlay",
+        "motion-canvas-overlay",
+        "remotion",
+        "creatomate"
+      ],
+      "base_clip_candidates": [
+        "runway",
+        "veo",
+        "luma",
+        "fal"
+      ],
+      "fallback_strategy": "programmatic-technical-animation",
+      "reason": "The beat needs a readable score/meter overlay, but not a full graph animation.",
+      "signals": {
+        "programmatic_strong": [],
+        "programmatic_support": [
+          "improve",
+          "improves",
+          "loss",
+          "lower",
+          "reduce"
+        ],
+        "image_to_video": [],
+        "still_animation": [],
+        "contextual_fallback": [
+          "prediction"
+        ]
+      },
+      "verification_required": {
+        "requires_contact_sheet_review": true,
+        "text_readability_required": true,
+        "commands": [
+          "python tools/verify_video_motion.py <assembled-or-generated-clip.mp4> --samples 12"
+        ],
+        "acceptance_checks": [
+          "generated base motion does not warp the technical overlay",
+          "overlay labels remain readable after assembly",
+          "context and technical animation feel connected in one beat"
+        ]
+      }
+    },
+    {
+      "id": "scene-07",
+      "source_step": "7",
+      "scene_title": "Repeat",
+      "learning_job": "Repeat",
+      "core_visual_idea": "many small steps train the model",
+      "technical_truth": "training repeats the update loop",
+      "requires_animation": true,
+      "renderer_strategy": "programmatic-technical-animation",
+      "preferred_backend": "pillow",
+      "candidate_backends": [
+        "pillow",
+        "motion-canvas",
+        "revideo",
+        "remotion",
+        "manim"
+      ],
+      "fallback_strategy": "hybrid-overlay",
+      "reason": "The beat depends on precise technical motion: step, update.",
+      "signals": {
+        "programmatic_strong": [
+          "step",
+          "update"
+        ],
+        "programmatic_support": [
+          "repeat"
+        ],
+        "image_to_video": [],
+        "still_animation": [],
+        "contextual_fallback": []
+      },
+      "verification_required": {
+        "requires_contact_sheet_review": true,
+        "text_readability_required": true,
+        "commands": [
+          "python tools/render_programmatic_animation.py --spec <scene-spec> --backend auto --out <clip.mp4>",
+          "python tools/verify_video_motion.py <clip.mp4> --samples 12"
+        ],
+        "acceptance_checks": [
+          "primary labels and captions are readable in sampled frames",
+          "technical motion preserves exact graph, meter, arrow, or numeric relationships",
+          "no blank frames or black borders"
+        ]
+      }
+    },
+    {
+      "id": "scene-08",
+      "source_step": "8",
+      "scene_title": "Quick check",
+      "learning_job": "Quick check",
+      "core_visual_idea": "step size matters",
+      "technical_truth": "too-large steps can overshoot lower loss",
+      "requires_animation": true,
+      "renderer_strategy": "programmatic-technical-animation",
+      "preferred_backend": "pillow",
+      "candidate_backends": [
+        "pillow",
+        "motion-canvas",
+        "revideo",
+        "remotion",
+        "manim"
+      ],
+      "fallback_strategy": "hybrid-overlay",
+      "reason": "The beat depends on precise technical motion: overshoot, step.",
+      "signals": {
+        "programmatic_strong": [
+          "overshoot",
+          "step"
+        ],
+        "programmatic_support": [
+          "loss",
+          "lower"
+        ],
+        "image_to_video": [],
+        "still_animation": [],
+        "contextual_fallback": []
+      },
+      "verification_required": {
+        "requires_contact_sheet_review": true,
+        "text_readability_required": true,
+        "commands": [
+          "python tools/render_programmatic_animation.py --spec <scene-spec> --backend auto --out <clip.mp4>",
+          "python tools/verify_video_motion.py <clip.mp4> --samples 12"
+        ],
+        "acceptance_checks": [
+          "primary labels and captions are readable in sampled frames",
+          "technical motion preserves exact graph, meter, arrow, or numeric relationships",
+          "no blank frames or black borders"
+        ]
+      }
+    }
+  ]
+}

@@ -19,12 +19,14 @@ Use this especially for Marathi, Hindi, or any script with joined letters, matra
 ## Visual Story QA
 
 - Did ChatGPT vision inspect the actual rendered image/contact sheet, not only file names, prompts, or source Markdown?
+- Did ChatGPT vision compare the render against the approved style/reference contact sheet for this lesson or series?
 - Can a viewer understand the story by swiping through the frames?
 - Does each frame communicate one idea?
 - Is the learner's emotional journey clear?
 - Does the visual show the hidden workflow, not only the final concept?
 - Is the Indian/local context visible but not forced?
 - Is the output native to the medium, not a Markdown page pasted into an image?
+- Does the renderer preserve the selected visual language instead of drifting into a new format such as PPT cards, flat diagrams, or generic tutorial panels?
 
 ## Technical Understanding QA
 
@@ -36,6 +38,8 @@ Use this especially for "How AI Uses Math" lessons.
 - Are graphs, arrows, scores, paths, meters, or icons doing teaching work, not just decorating the topic?
 - Does the sequence avoid a false sense of understanding where the viewer feels complete but cannot explain the mechanism?
 - If a polished visual hides the actual mechanism, mark it `needs-revision` or `reject` even if style and readability are good.
+- If a technically correct render violates the approved style, mark it `reject` even if the mechanism is visible.
+- If a motion report passes but the contact sheet fails style or teaching-value review, mark it `reject`; motion verification is not visual QA.
 
 ## Marathi-Specific QA
 
@@ -49,8 +53,15 @@ Use this especially for "How AI Uses Math" lessons.
 
 Use these labels in review logs:
 
-- `pass`: ready to use.
+- `pass`: ready to use, with no unresolved caveats.
+- `pass-with-caveats`: not a pass. Record the caveats as required fixes, address them, and rerun QA before any candidate, visual-qa, publish-ready, or next-renderer claim.
 - `revise-copy`: language needs improvement.
 - `rerender-text`: text rendering failed.
 - `rerender-visual`: image composition or story clarity failed.
 - `needs-human-review`: not final until a person checks it.
+- `needs-revision`: useful direction, but not acceptable yet.
+- `reject`: should not be used as a final asset, comparison candidate, or skill base.
+
+Do not promote an artifact on a caveated verdict. If the caveat affects lesson comprehension, scene adequacy, style preservation, readability, or renderer suitability, the correct working status is `needs-revision` until the caveat is fixed and rechecked.
+
+Historical QA notes are not grandfathered. If an older file, folder name, or handoff calls something a gold candidate, accepted reference, or usable asset while its verdict is `pass-with-caveats`, treat it as blocked evidence until a clean QA pass is written from actual pixel/contact-sheet inspection.

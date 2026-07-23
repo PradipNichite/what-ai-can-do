@@ -45,6 +45,7 @@ Use one of these labels in docs and board tables:
 | Granular Episode | A focused concept, workflow, example, or career explanation. |
 | Lesson Core | Stable renderer-agnostic explanation used by multiple outputs. |
 | Renderer | A specific output format such as Markdown, 9:16 story, Marathi story, video, PDF, or interactive demo. |
+| Renderer Strategy | The method used for a renderer, such as image-to-video, programmatic technical animation, still-animation, or hybrid overlay. |
 
 ## Metadata Block
 
@@ -80,11 +81,14 @@ Series guide: HOW_AI_USES_MATH_SERIES_GUIDE.md
 - For math-in-AI topics, `visual-draft` should normally mean image-only story cards exist first. Video-first frames are a later renderer adaptation.
 - Do not move an educational image story, video, slide deck, or interactive renderer to `visual-draft`, `visual-qa`, or `publish-ready` if it only works after reading project notes. It must orient a new viewer inside the artifact itself.
 - Do not move an item to `publish-ready` unless QA notes exist.
+- Do not move an item forward on `pass-with-caveats`. A caveated pass is a blocked QA result; fix the caveats and rerun QA, or mark the artifact `needs-revision`, `reject`, or `reference-only`.
 - Marathi/local-language versions are not literal translation tasks; they are separate renderer work.
 - Keep the lesson core separate from renderer outputs. Improve the core first when the concept changes, then update each affected renderer.
 - Every generated video manifest JSON should have a matching human-readable Markdown script/version file under `outputs/video-scripts/`.
 - Keep JSON as the machine-readable render source and Markdown as the review/comparison source.
 - For math-in-AI topics, do not mark an item as `source-draft` unless it explains the school concept, the AI use, and the actual mechanism connecting them.
+- For video/interactive work, run a motion strategy classification after scene flow or beat planning. Each scene should explicitly say whether it needs animation and whether it routes to `programmatic-technical-animation`, `hybrid-overlay`, `image-to-video`, or `still-animation`.
+- For video/interactive work, preserve renderer choices as explicit settings instead of hidden decisions. Use manifest fields such as `renderer_strategy`, `animation_backend`, `clip_provider`, and `assembly_provider` so Remotion, Motion Canvas, Revideo, Manim, Runway, Veo, Luma, Shotstack, Creatomate, or JSON2Video can be compared later on the same lesson beat.
 
 ## Video Script Versioning
 

@@ -1,0 +1,81 @@
+{
+  "id": "gradient-descent-warm-minimal-lesson-edit-v1",
+  "title": "Gradient Descent: How AI Learns From Mistakes",
+  "lesson": "gradient-descent-how-ai-learns-from-mistakes",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "visual_style": "Warm Minimal Tablet Closeup",
+  "renderer_strategy": "warm-minimal-video-first-edit",
+  "source_frame_folder": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1",
+  "style_reference_contact_sheet": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/gradient-descent-warm-minimal-source-contact-sheet.jpg",
+  "style_reference_qa": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/gradient-descent-warm-minimal-source-frame-review-notes.md",
+  "runway_smoke_qa": "outputs/runway-clips/gradient-descent-warm-minimal-runway-smoke-v1/gradient-descent-warm-minimal-runway-smoke-v1-qa.md",
+  "animation_policy": {
+    "role": "in-tablet enhancement only",
+    "rule": "Do not replace the warm student/tablet shot style with standalone flat programmatic cards."
+  },
+  "voiceover": {
+    "local_output_path": "outputs/video-assets/gradient-descent-warm-minimal-lesson-edit-v1.voiceover.wav",
+    "text": "Gradient descent is how AI learns from mistakes. First, the model makes a wrong prediction. That mistake becomes a loss score. The loss curve shows how different weight settings create different errors. The gradient points toward higher loss, so the update moves the opposite way. One small step changes the weight a little. The loss becomes lower, but not perfect. Training repeats many small steps. If the step is too large, it can overshoot. That is gradient descent: repeated careful steps toward lower error."
+  },
+  "scenes": [
+    {
+      "id": "01-opener-bridge",
+      "type": "image",
+      "path": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/01-opener-bridge.png",
+      "duration": 3.2,
+      "learning_job": "AI improves by reducing mistakes"
+    },
+    {
+      "id": "02-measure-loss",
+      "type": "image",
+      "path": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/02-measure-loss.png",
+      "duration": 3.4,
+      "learning_job": "error becomes a score"
+    },
+    {
+      "id": "03-loss-curve",
+      "type": "image",
+      "path": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/03-loss-curve.png",
+      "duration": 3.2,
+      "learning_job": "loss depends on weight setting"
+    },
+    {
+      "id": "04-gradient-direction",
+      "type": "clip",
+      "path": "outputs/runway-clips/gradient-descent-warm-minimal-runway-smoke-v1/warm-04-gradient-direction.mp4",
+      "duration": 5.0,
+      "learning_job": "gradient points to higher loss; update moves opposite"
+    },
+    {
+      "id": "05-small-update",
+      "type": "clip",
+      "path": "outputs/runway-clips/gradient-descent-warm-minimal-runway-smoke-v1/warm-05-small-update-locked-arrow.mp4",
+      "duration": 5.0,
+      "learning_job": "model changes weight by one small step"
+    },
+    {
+      "id": "06-lower-loss",
+      "type": "image",
+      "path": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/06-lower-loss.png",
+      "duration": 3.4,
+      "learning_job": "one update can reduce loss without becoming perfect"
+    },
+    {
+      "id": "07-repeat-loop",
+      "type": "image",
+      "path": "assets/images/gradient-descent-how-ai-learns-from-mistakes-video-first-warm-minimal-v1/07-repeat-loop.png",
+      "duration": 3.4,
+      "learning_job": "training repeats many small updates"
+    },
+    {
+      "id": "08-step-size-check",
+      "type": "clip",
+      "path": "outputs/runway-clips/gradient-descent-warm-minimal-runway-smoke-v1/warm-08-step-size-check.mp4",
+      "duration": 5.0,
+      "learning_job": "careful small steps beat oversized jumps"
+    }
+  ]
+}

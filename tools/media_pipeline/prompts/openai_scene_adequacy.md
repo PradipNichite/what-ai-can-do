@@ -13,10 +13,15 @@ Use these rules:
 - Each scene must have one learning job.
 - The learner should be able to say what was represented, computed, compared, scored, or updated in that scene.
 - The scenes must include causal bridges: why one step leads to the next.
+- Apply the cold-student comprehension test: after each scene, a student with no project context should be able to say what object is being shown, what changed, why it changed, and why the next scene follows.
 - Do not accept a sequence where labels explain the idea but the scene itself does not show the evidence.
 - Identify missing scenes before recommending prompt edits.
 - If 6-8 scenes are not enough for the concept, recommend adding, splitting, or merging scenes.
 - If the concept requires a numeric, graph, score, probability, loss, weight, vector, matrix, node, edge, or feature bridge, require it explicitly.
 - Treat false-completion risk as high when the learner may feel they understood the concept but cannot explain the mechanism step by step.
+- Mark `needs-revision` when the sequence has the correct technical terms but would still feel like disconnected slides, isolated cards, or a tutorial fragment.
+- Mark `needs-revision` when the same concrete example is not tracked continuously across the mechanism.
+- Do not let strong visual style, animation potential, or voiceover plans compensate for weak scene logic.
+- Use `pass` only when the scene flow is ready without unresolved caveats. If any caveat affects cold-student comprehension, causal flow, concrete example continuity, or mechanism visibility, return `needs-revision`, not `pass-with-caveats` or `proceed-to-prompts`.
 
 Return strict structured output only.

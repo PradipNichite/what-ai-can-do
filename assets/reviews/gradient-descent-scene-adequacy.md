@@ -15,10 +15,22 @@ LangSmith trace ID: `019f325f-28a5-7ac1-ab27-362fad4a12c3`
 
 ## Verdict
 
-- Status: `pass-with-caveats`
-- Next action: `proceed-to-prompts`
+- Status: `needs-revision`
+- Next action: `repair-lesson-flow-before-prompts`
 
-The scene sequence is adequate for teaching gradient descent as repeated error reduction with a one-weight loss-curve example. It includes the necessary numeric loss, graph, slope/gradient, opposite update, repeat loop, and overshoot bridge. The only caveat is that the video-first opener needs narration or a visible caption to make the school-slope-to-AI-training connection explicit.
+Post-render audit, 2026-07-06: the earlier `pass-with-caveats` was a false pass for video comprehension. The scene list contains the right technical nouns, but the rendered lesson still feels like disconnected slides and does not make the causal chain understandable enough for a cold student. Do not proceed to new image prompts or renders from this scene flow until the cold-student comprehension test passes.
+
+The original review said the scene sequence was adequate because it included numeric loss, graph, slope/gradient, opposite update, repeat loop, and overshoot bridge. That was too weak. The sequence must also prove that a student can follow why each step causes the next step. The current assets do not yet do that.
+
+## Superseding Comprehension Failure
+
+- Cold-student test: `fail` - A viewer can see separate scenes about a mistake, a loss score, a curve, a slope, a step, and a repeat loop, but the video does not consistently explain why these scenes belong to one mechanism.
+- Causal bridge test: `fail` - The transition from wrong prediction to numeric loss, from loss to loss curve, from slope to opposite update, and from one update to repeated training needs stronger visual and narration continuity.
+- Scene sufficiency test: `needs-revision` - Eight scenes may be enough, but only if the source module rewrites them as one continuous worked example instead of eight topic cards.
+- Prompt-readiness: `fail` - Do not generate new images or video-first frames until the revised source table passes scene adequacy again.
+- Required fix: rebuild the scene table around a single tracked object: current weight, current prediction, current loss, slope at current point, update direction, new weight, new loss, repeat decision.
+
+Process update, 2026-07-06: the source module has been repaired into a 12-beat gold-standard hybrid flow that tracks W1 -> prediction -> loss -> curve point -> gradient -> opposite update -> W2 -> lower loss -> repeat. A new structured scene adequacy review passed cleanly in `assets/reviews/gradient-descent-gold-standard-scene-adequacy.md`. Use that file, not this older superseded review, as the active prompt-generation gate.
 
 ## Gates
 

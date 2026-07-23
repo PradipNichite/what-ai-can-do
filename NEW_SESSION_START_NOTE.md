@@ -2,6 +2,61 @@
 
 Use this note when starting a fresh Codex session for this project.
 
+## Latest Handoff: 2026-07-06
+
+Recent session focus: Gradient Descent hybrid video experiment using Runway image-to-video clips, one programmatic technical insert, ElevenLabs Zara voice, and Creatomate assembly.
+
+Critical outcome:
+
+- The current Gradient Descent hybrid videos are failure calibration, not lesson candidates.
+- The latest v2 render still feels like disconnected slides and does not reliably teach a student what gradient descent is doing.
+- Do not continue by polishing motion, voice, or render settings.
+- The lesson flow has now been repaired into a 12-beat gold-standard hybrid source draft and passed structured scene adequacy.
+- The next action is to create the gold-standard source-frame/prompt pack from the passed 12-beat flow before generating images, clips, or renders.
+
+Open these first:
+
+```text
+assets/reviews/gradient-descent-scene-adequacy.md
+assets/reviews/gradient-descent-gold-standard-scene-adequacy.md
+outputs/video-scripts/gradient-descent-gold-standard-hybrid-v1.md
+outputs/video-scripts/gradient-descent-script-versions.md
+outputs/video-renders/verification/gradient-descent-complete-lesson-hybrid-creatomate-v2.visual-qa.md
+outputs/video-scripts/gradient-descent-complete-lesson-hybrid-creatomate-v2.md
+modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md
+HOW_AI_USES_MATH_IMAGE_PREREQUISITES.md
+tools/media_pipeline/prompts/openai_scene_adequacy.md
+```
+
+Next action:
+
+1. Treat the previous scene adequacy `pass-with-caveats` as a false pass for video comprehension.
+2. Use the repaired 12-beat source and gold-standard hybrid blueprint as the active draft:
+   - W1 current setting
+   - prediction
+   - loss
+   - point on loss curve
+   - gradient/uphill direction
+   - opposite update
+   - W2
+   - lower loss
+   - repeat decision
+3. Use the clean scene adequacy pass to write prompts/source-frame requirements so a cold student can explain, after each scene:
+   - what object is being shown
+   - what changed
+   - why the next scene follows
+   - how this connects slope from school graphs to AI training
+4. Create new source frames or prompt packs from the passed flow. Do not reuse caveated frames as candidates.
+
+Hard stop:
+
+- Do not generate images, Runway clips, voiceover, or Creatomate renders until the scene adequacy review explicitly passes the cold-student comprehension test.
+- Do not treat native-story style, animation, or smooth voice as a substitute for explanation.
+- If the lesson still reads as a sequence of slides, mark it `reject` even if the pipeline is technically correct.
+- Do not treat `pass-with-caveats` as a pass. Fix the caveats, rerun the relevant scene/visual QA, or mark the artifact `needs-revision`, `reject`, or `reference-only`.
+- Judge lesson adequacy from the scenes and source images themselves, not only from motion. If the images cannot teach the lesson sequence, repair the lesson before making more render variants.
+- Legacy files and folders with names like `gold-candidates` are not automatically trusted if their QA note says `pass-with-caveats`. Use them as reference or failure calibration only until a clean visual QA pass exists.
+
 ## Latest Handoff: 2026-07-05
 
 Recent session focus: full Warm Minimal Tablet Closeup Gradient Descent source-frame pass, OpenAI visual QA, targeted frame repair, and selected Runway smoke testing.

@@ -1,0 +1,21 @@
+{
+  "id": "gradient-descent-programmatic-micro-lesson-v2",
+  "title": "Gradient Descent",
+  "subtitle": "How AI reduces error one small step at a time",
+  "renderer": "gradient_descent_micro_lesson",
+  "animation_backend": "pillow",
+  "renderer_strategy": "programmatic-technical-animation",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 24,
+  "duration_seconds": 20,
+  "curve": {
+    "x_range": [-2.2, 2.2],
+    "y_range": [0, 5.2],
+    "minimum": 0,
+    "base_loss": 0.28
+  },
+  "steps": [-1.85, -1.35, -0.95, -0.62, -0.36, -0.18]
+}

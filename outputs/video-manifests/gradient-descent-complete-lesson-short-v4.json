@@ -1,0 +1,73 @@
+{
+  "id": "gradient-descent-complete-lesson-short-v4",
+  "title": "Gradient Descent In AI",
+  "subtitle": "A complete micro-lesson where animation is only one mechanism beat",
+  "renderer": "gradient_descent_complete_short",
+  "animation_backend": "pillow",
+  "renderer_strategy": "hybrid-complete-lesson-with-programmatic-mechanism",
+  "motion_strategy_source": "outputs/video-manifests/gradient-descent-motion-strategy-v1.json",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 24,
+  "duration_seconds": 36,
+  "curve": {
+    "x_range": [-2.2, 2.2],
+    "y_range": [0, 5.2],
+    "minimum": 0,
+    "base_loss": 0.28
+  },
+  "steps": [-1.85, -1.35, -0.95, -0.62, -0.36, -0.18],
+  "scene_timing": [
+    {
+      "id": "opener",
+      "start": 0.0,
+      "end": 5.0,
+      "learning_job": "orient the viewer to school slope and AI training",
+      "renderer_strategy": "designed-lesson-card"
+    },
+    {
+      "id": "mistake",
+      "start": 5.0,
+      "end": 10.0,
+      "learning_job": "make the concrete cat/dog mistake and loss score visible",
+      "renderer_strategy": "hybrid-overlay"
+    },
+    {
+      "id": "setting",
+      "start": 10.0,
+      "end": 14.5,
+      "learning_job": "show that training changes a model setting, not the answer directly",
+      "renderer_strategy": "designed-lesson-card"
+    },
+    {
+      "id": "mechanism",
+      "start": 14.5,
+      "end": 23.0,
+      "learning_job": "use programmatic animation for the precise gradient/update mechanism",
+      "renderer_strategy": "programmatic-technical-animation"
+    },
+    {
+      "id": "repeat",
+      "start": 23.0,
+      "end": 28.5,
+      "learning_job": "show that repeated updates reduce loss over training examples",
+      "renderer_strategy": "designed-lesson-card"
+    },
+    {
+      "id": "step_size",
+      "start": 28.5,
+      "end": 32.5,
+      "learning_job": "show why the step cannot be blindly huge",
+      "renderer_strategy": "programmatic-technical-animation"
+    },
+    {
+      "id": "takeaway",
+      "start": 32.5,
+      "end": 36.0,
+      "learning_job": "state the memory anchor and complete the lesson",
+      "renderer_strategy": "designed-lesson-card"
+    }
+  ]
+}

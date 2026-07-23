@@ -1,0 +1,70 @@
+{
+  "id": "gradient-descent-native-story-runway-creatomate-v1-en",
+  "title": "Gradient Descent: How AI Learns From Mistakes",
+  "language": "en-IN",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 30,
+  "output_format": "mp4",
+  "target_duration_seconds": 40,
+  "lesson": "gradient-descent-how-ai-learns-from-mistakes",
+  "visual_style": "Native Story Gold Candidate",
+  "motion_provider": "runway",
+  "assembly_provider": "creatomate",
+  "voice_provider": "elevenlabs",
+  "source_frame_folder": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3",
+  "runway_manifest": "outputs/video-manifests/gradient-descent-native-story-runway-clips-v1.json",
+  "uploaded_clip_urls": "outputs/video-manifests/gradient-descent-native-story-runway-clips-v1.uploaded-clip-urls.json",
+  "style_reference_contact_sheet": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-contact-sheet.jpg",
+  "style_reference_qa": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-qa.md",
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "local_output_path": "outputs/video-assets/gradient-descent-native-story-lesson-edit-v1.voiceover.mp3",
+    "public_url": "https://tmpfiles.org/dl/wFwPvcViU3JV/gradient-descent-native-story-lesson-edit-v1.voiceover.mp3",
+    "text": "Gradient descent is how AI learns from mistakes. First, the model predicts dog, but the correct answer is cat. That mistake becomes a loss score. The loss curve shows which model settings create high or low error. The slope points toward higher loss, so gradient descent moves the opposite way. One small step changes the weight. The loss becomes lower, but not perfect. Then training repeats: check the loss, take another small step, and keep improving. But if the step is too large, it can overshoot. Remember: gradient descent means repeated careful steps toward lower error."
+  },
+  "scenes": [
+    {
+      "id": "01-mistake-starts-learning",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wPwKvFVL5J2o/01-mistake-starts-learning.mp4"
+    },
+    {
+      "id": "02-mistake-becomes-loss",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wiwTvMVH5hhz/02-mistake-becomes-loss.mp4"
+    },
+    {
+      "id": "03-loss-curve",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wGwSvdVB5FPe/03-loss-curve.mp4"
+    },
+    {
+      "id": "04-slope-gives-direction",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wewnvDVE5mqN/04-slope-gives-direction.mp4"
+    },
+    {
+      "id": "05-one-small-update",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wjwavhVX5d8h/05-one-small-update.mp4"
+    },
+    {
+      "id": "06-lower-error",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/w6w7vyVS5WEg/06-lower-error.mp4"
+    },
+    {
+      "id": "07-repeat-to-learn",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/w5wZvaV7WPwx/07-repeat-to-learn.mp4"
+    },
+    {
+      "id": "08-quick-check-step-size-matters",
+      "duration": 5,
+      "video_url": "https://tmpfiles.org/dl/wgwhvjVeWxAK/08-quick-check-step-size-matters.mp4"
+    }
+  ]
+}

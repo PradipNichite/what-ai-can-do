@@ -123,18 +123,22 @@ def enforce_scene_status(verdict: dict[str, Any]) -> dict[str, Any]:
         or verdict.get("technical_completeness", {}).get("status") == "fail"
         or verdict.get("false_completion_risk", {}).get("status") == "high"
     )
-    if not blocking_gate:
+    caveated = verdict.get("status") == "pass-with-caveats"
+    if not blocking_gate and not caveated:
         return verdict
 
     verdict = dict(verdict)
     verdict["status"] = "needs-revision"
     if verdict.get("next_action") == "proceed-to-prompts":
         verdict["next_action"] = "revise-scene-flow"
-    verdict["verdict"] = (
-        verdict.get("verdict", "")
-        + " Scene adequacy override: failed mechanism/technical chain or high "
-        "false-completion risk cannot proceed to image prompts."
-    ).strip()
+    reasons = []
+    if caveated:
+        reasons.append("pass-with-caveats is a false pass and must be repaired")
+    if blocking_gate:
+        reasons.append(
+            "failed mechanism/technical chain or high false-completion risk cannot proceed to image prompts"
+        )
+    verdict["verdict"] = (verdict.get("verdict", "") + " Scene adequacy override: " + "; ".join(reasons) + ".").strip()
     return verdict
 
 

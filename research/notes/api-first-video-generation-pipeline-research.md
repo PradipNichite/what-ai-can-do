@@ -2,15 +2,36 @@
 
 Date: 2026-06-28
 
+Update: 2026-07-06 - added programmatic technical animation research and a local gradient descent prototype.
+
 ## Executive Recommendation
 
-Use a hybrid cloud-first pipeline:
+Use a hybrid, switchable-renderer pipeline:
 
-1. Generate optional motion clips for selected scenes using Runway, Google Veo, Luma, Kling, Pika, or Hailuo through official/provider APIs.
-2. Assemble the final 9:16 lesson video with a dedicated cloud rendering API such as Shotstack or Creatomate.
-3. Keep still-image animation as the default path for most scenes, and reserve image-to-video generation for emotional, narrative, or high-value moments.
+1. Use programmatic technical animation for precise mechanism motion such as graph points, arrows, counters, vector movement, probability bars, and matrix transformations.
+2. Generate optional cinematic clips for selected scenes using Runway, Google Veo/Gemini Omni, Luma, Kling, Pika, Hailuo, or fal.ai routes.
+3. Assemble the final 9:16 lesson video with a dedicated renderer such as Remotion, Shotstack, Creatomate, or JSON2Video.
+4. Keep still-image animation as the default path for scenes where motion is only attention guidance, and reserve image-to-video generation for emotional, narrative, or high-value moments.
 
 This gives the best balance of quality, cost, speed, and automation. Pure image-to-video for every scene will look richer, but cost, latency, retries, and consistency issues will rise quickly. Pure slideshow assembly is far cheaper and more reliable, but can feel less cinematic unless the visual direction is already strong.
+
+Key architectural rule: preserve renderer choices as manifest settings. Do not bury the choice in code or chat. Use fields such as `renderer_strategy`, `animation_backend`, `clip_provider`, `clip_model`, `assembly_provider`, and `fallback_strategy` so the same lesson beat can be rendered with multiple options for comparison.
+
+## Architecture 0: Programmatic Technical Animation
+
+Best candidates:
+
+| Product / Backend | Fit | Notes |
+|---|---|---|
+| Local `pillow` prototype | Fast local proof | Implemented for `gradient-descent-programmatic-animation-v1`; good for simple 2D graph/counter/arrow tests before adopting a larger framework. |
+| Motion Canvas | Strongest hand-authored technical animation candidate | TypeScript, procedural generator functions, real-time Vite preview, web editor, and audio-sync workflow. Best for explanatory vectors, graphs, code blocks, and step-by-step mechanisms. |
+| Revideo | Strong automation candidate | Motion Canvas fork focused on TypeScript video templates, dynamic inputs, API rendering, and embeddable previews. |
+| Remotion | Strong production/app candidate | React-based MP4 rendering, media composition, captions, server/serverless rendering, LLM/MCP docs, and good app integration. Better as assembly/container or React motion layer than as the only technical animation engine. |
+| Manim Community | Specialist math fallback | Still active and easier to install than before, but better for math-heavy Python/LaTeX scenes than our warm tablet/productized video pipeline. |
+| DefinedMotion / Three.js | Watchlist | Promising for 2D/3D technical scenes with hot reload and the Three.js ecosystem; younger than the options above. |
+| Helios | Watchlist | Browser-native CSS/GSAP/Web Animations approach; promising but early. |
+
+Primary recommendation for Architecture 0: start with the local `pillow` proof for spec design, then test Motion Canvas and Revideo for the next serious technical animation backend. Use Remotion for final composition or for React-native motion segments where its ecosystem helps.
 
 ## Architecture 1: Story Images to Final Video
 
@@ -90,22 +111,23 @@ Why this wins:
 | Hailuo/MiniMax | Via fal/PiAPI | Yes via aggregators | Yes | Yes | Yes | Cheap enough for batch trials. |
 | Canva/Kapwing/InVideo/Lumen5/FlexClip | No clear headless fit | Dashboard-first | Unclear | Unclear | Weak | Consider only for manual creative exploration. |
 
-## Proposed Cloud Architecture
+## Proposed Switchable Architecture
 
 1. Asset manifest: one JSON record per lesson containing scene order, image URL, prompt, caption, voiceover timing, desired motion type, and generation priority.
-2. Motion decision step: classify each scene as still-animation or image-to-video.
-3. Clip generation queue: send selected scenes to Runway/Veo/Luma/Kling/fal provider; store job IDs; poll status; retry failed clips with safer prompts or fallback to still animation.
-4. Assembly render: submit all final media URLs, voiceover, captions, timings, background music, transitions, and 9:16 output settings to Shotstack or Creatomate.
-5. Review assets: store final MP4 URL, thumbnail, render metadata, provider costs, generation failures, and caption timing.
+2. Motion decision step: classify each scene as `programmatic`, `image-to-video`, `still-animation`, or `hybrid-overlay`.
+3. Programmatic render queue: render precise technical clips locally or through Motion Canvas/Revideo/Remotion/Manim; store backend, command, render report, and verification contact sheet.
+4. Generative clip queue: send selected cinematic scenes to Runway/Veo/Luma/Kling/fal provider; store job IDs; poll status; retry failed clips with safer prompts or fallback to still animation.
+5. Assembly render: submit all final media URLs, voiceover, captions, timings, background music, transitions, and 9:16 output settings to Remotion, Shotstack, Creatomate, or JSON2Video.
+6. Review assets: store final MP4 URL, thumbnail, render metadata, provider costs, generation failures, caption timing, and backend comparison notes.
 
-No local rendering is required. The only local component would be orchestration logic in our app/backend.
+Local rendering is useful for deterministic programmatic clips. Cloud rendering remains useful for final assembly and scale.
 
 ## Recommendations
 
 1. Best if quality is highest priority: Runway or Google Veo for selected image-to-video clips, assembled in Creatomate or Shotstack. Test Runway Gen-4.5, Veo 3.1, and Kling on the same 10 scenes before standardizing.
 2. Best if scalability is highest priority: Google Veo 3.1 on Vertex/Google Cloud plus Shotstack. Google has the clearest enterprise quota/provisioning posture; Shotstack is very clean for high-volume deterministic rendering.
 3. Best if everything must be API-automated: Runway or fal.ai for generative clips plus Shotstack for final assembly. This combination is practical, async, pollable, downloadable, and provider-agnostic.
-4. Personal recommendation for this project: Creatomate or Shotstack as the final assembly backbone, with Runway as the premium image-to-video provider and fal.ai as a secondary experimentation/fallback layer. Start hybrid: animate 70-80% of scenes as stills and generate 20-30% as clips.
+4. Personal recommendation for this project: start hybrid with programmatic technical animation for mechanism scenes, Creatomate/Shotstack/Remotion as assembly candidates, Runway or Gemini Omni/Veo for premium image-to-video, and fal.ai as a secondary experimentation/fallback layer. Keep backend flags in every manifest so we can compare instead of prematurely standardizing.
 
 ## Sources
 
@@ -122,3 +144,9 @@ No local rendering is required. The only local component would be orchestration 
 - Descript API: https://www.descript.com/api and https://docs.descriptapi.com/
 - Canva video developer docs: https://www.canva.dev/docs/apps/creating-videos/
 - JSON2Video: https://json2video.com/ and https://json2video.com/pricing/
+- Motion Canvas: https://motioncanvas.io/
+- Revideo: https://docs.re.video/
+- Remotion, LLM generation, and MCP: https://www.remotion.dev/ , https://www.remotion.dev/docs/ai/generate , https://www.remotion.dev/docs/ai/mcp
+- Manim Community: https://docs.manim.community/en/stable/
+- DefinedMotion: https://github.com/HugoOlsson/DefinedMotion
+- Helios: https://github.com/BintzGavin/helios

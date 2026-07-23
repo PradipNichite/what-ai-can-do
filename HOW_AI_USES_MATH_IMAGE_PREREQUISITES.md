@@ -39,8 +39,13 @@ The scene flow must answer:
 - Does the mini example stay concrete across the sequence?
 - Are the school concept, AI use, mechanism, memory anchor, and quick check all supported by scenes?
 - Would the scene still teach if it were only a rough sketch, before style and image quality?
+- Cold-student test: after each scene, can a learner with no project context say what object is being shown, what changed, why it changed, and why the next scene follows?
+
+Reject or revise the scene flow when it has the right vocabulary but still reads like disconnected slides. Visual style, animation, smooth voiceover, and API assembly do not compensate for missing causal explanation.
 
 If the scene flow fails this gate, revise the source module or scene table before changing image prompts.
+
+Only a clean scene adequacy `pass` can unlock image prompts or video-first frames. Treat `pass-with-caveats` as a false pass: convert every caveat into a scene-level repair, revise the lesson core or scene table, and rerun the adequacy review before generation. A caveat about lesson comprehension, causal flow, or concrete mechanism is not documentation debt; it is the next work item.
 
 Use the structured checker when a lesson is new, technically difficult, or has produced shallow visuals:
 

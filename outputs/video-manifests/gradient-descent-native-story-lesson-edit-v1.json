@@ -1,0 +1,91 @@
+{
+  "id": "gradient-descent-native-story-lesson-edit-v1",
+  "title": "Gradient Descent: How AI Learns From Mistakes",
+  "lesson": "gradient-descent-how-ai-learns-from-mistakes",
+  "format": "vertical-video",
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "visual_style": "Native Story Gold Candidate",
+  "renderer_strategy": "native-story-gold-candidate-edit",
+  "source_frame_folder": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3",
+  "style_reference_contact_sheet": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-contact-sheet.jpg",
+  "style_reference_qa": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/gradient-descent-scene-gated-full-v3-qa.md",
+  "animation_policy": {
+    "role": "subtle motion and technical emphasis only",
+    "rule": "Preserve the full native educational story composition; do not crop into detached tablet closeups or replace the lesson with standalone graph cards."
+  },
+  "voiceover": {
+    "provider": "elevenlabs",
+    "model_id": "eleven_multilingual_v2",
+    "local_output_path": "outputs/video-assets/gradient-descent-native-story-lesson-edit-v1.voiceover.mp3",
+    "public_url": "https://tmpfiles.org/dl/wFwPvcViU3JV/gradient-descent-native-story-lesson-edit-v1.voiceover.mp3",
+    "text": "Gradient descent is how AI learns from mistakes. First, the model predicts dog, but the correct answer is cat. That mistake becomes a loss score. The loss curve shows which model settings create high or low error. The slope points toward higher loss, so gradient descent moves the opposite way. One small step changes the weight. The loss becomes lower, but not perfect. Then training repeats: check the loss, take another small step, and keep improving. But if the step is too large, it can overshoot. Remember: gradient descent means repeated careful steps toward lower error."
+  },
+  "scenes": [
+    {
+      "id": "01-mistake-starts-learning",
+      "type": "image",
+      "path": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/01-mistake-starts-learning.png",
+      "duration": 4.4,
+      "zoom": 0.018,
+      "learning_job": "wrong prediction starts the learning loop"
+    },
+    {
+      "id": "02-mistake-becomes-loss",
+      "type": "image",
+      "path": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/02-mistake-becomes-loss.png",
+      "duration": 4.2,
+      "zoom": 0.018,
+      "learning_job": "mistake becomes a loss score"
+    },
+    {
+      "id": "03-loss-curve",
+      "type": "image",
+      "path": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/03-loss-curve.png",
+      "duration": 4.0,
+      "zoom": 0.018,
+      "learning_job": "loss depends on model setting"
+    },
+    {
+      "id": "04-slope-gives-direction",
+      "type": "image",
+      "path": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/04-slope-gives-direction.png",
+      "duration": 4.7,
+      "zoom": 0.018,
+      "learning_job": "gradient points to higher loss; update moves opposite"
+    },
+    {
+      "id": "05-one-small-update",
+      "type": "image",
+      "path": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/05-one-small-update.png",
+      "duration": 4.3,
+      "zoom": 0.018,
+      "learning_job": "one small update changes the weight"
+    },
+    {
+      "id": "06-lower-error",
+      "type": "image",
+      "path": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/06-lower-error.png",
+      "duration": 4.1,
+      "zoom": 0.018,
+      "learning_job": "loss becomes lower but not perfect"
+    },
+    {
+      "id": "07-repeat-to-learn",
+      "type": "image",
+      "path": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/07-repeat-to-learn.png",
+      "duration": 4.4,
+      "zoom": 0.018,
+      "learning_job": "training repeats many small steps"
+    },
+    {
+      "id": "08-quick-check-step-size-matters",
+      "type": "image",
+      "path": "assets/images/gold-candidates/gradient-descent-scene-gated-full-v3/08-quick-check-step-size-matters.png",
+      "duration": 4.5,
+      "zoom": 0.018,
+      "learning_job": "too-large steps can overshoot"
+    }
+  ]
+}

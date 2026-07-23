@@ -15,10 +15,10 @@ LangSmith trace ID: `019f3279-e383-74a0-9dce-93adaabc4abc`
 
 ## Verdict
 
-- Status: `pass-with-caveats`
-- Next action: `proceed-to-prompts`
+- Status: `needs-revision`
+- Next action: `repair-renderer-execution-requirements-before-prompts`
 
-The image-story scene sequence is adequate for the concept. It shows the full technical bridge from school statistics to AI model training using a concrete numeric mini example. The main caveat is execution: generated cards must keep the table, plot, trend line, variation, and prediction readable and visibly connected, not merely label them.
+Process correction, 2026-07-06: the earlier `pass-with-caveats` verdict is not a pass and must not unlock prompt generation or scale-out. The scene sequence may be directionally strong, but the execution risk is still a blocking lesson-quality requirement: generated cards must keep the table, plot, trend line, variation, and prediction readable and visibly connected, not merely label them. Repair the prompt pack or scene table around that requirement, then rerun scene adequacy or visual QA before treating this lesson as ready.
 
 ## Gates
 

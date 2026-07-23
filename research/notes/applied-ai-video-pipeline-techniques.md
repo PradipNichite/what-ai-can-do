@@ -2,6 +2,8 @@
 
 Date: 2026-06-29
 
+Update: 2026-07-06 - programmatic technical animation is now a separate motion lane for precise educational mechanisms.
+
 ## Why the Current Prototype Feels Uneven
 
 The current Runway + Creatomate prototype is much better than the still-card slideshow, but it still shows common early AI-video pipeline problems:
@@ -47,6 +49,28 @@ Runway's Gen-4 prompting guidance emphasizes describing camera motion and subjec
 - `summary pulse`: nodes light up in sequence
 
 Avoid asking every scene for the same level of motion.
+
+### 2A. Add A Motion Strategy Classifier Before Generation
+
+Do not decide the renderer inside the prompt. Add a classifier stage after scene
+flow or beat timing:
+
+```powershell
+python tools/classify_scene_motion_strategy.py `
+  --source-module modules/visual-ai-concepts/gradient-descent-how-ai-learns-from-mistakes.source.md `
+  --out outputs/video-manifests/gradient-descent-motion-strategy-v1.json `
+  --md-out outputs/video-scripts/gradient-descent-motion-strategy-v1.md
+```
+
+For the gradient descent source, the first classifier pass routes:
+
+- 5 scenes to `programmatic-technical-animation`
+- 2 scenes to `hybrid-overlay`
+- 1 scene to `image-to-video`
+
+This matches the desired architecture: classify whether a scene requires
+animation, then choose programmatic animation, image-to-video, hybrid overlay,
+or still animation with explicit backend/provider fields.
 
 ### 3. Preserve Text By Separating Text-Heavy And Motion-Heavy Shots
 
@@ -127,16 +151,48 @@ Creatomate should be used as the edit assembly layer:
 
 For our current educational style, hard cuts or very short clean cuts may be better than fades.
 
+### 8. Add A Programmatic Technical Animation Lane
+
+Some educational motion should not go through image-to-video at all.
+
+Use code-controlled animation when the learner must see a precise mechanism:
+
+- a dot moving down a loss curve
+- a gradient arrow pointing uphill while the update moves opposite
+- a numeric loss meter decreasing
+- vector points moving closer or farther apart
+- matrix cells becoming pixel values
+- probability bars changing by exact amounts
+
+Target manifest shape:
+
+```json
+{
+  "renderer_strategy": "programmatic-technical-animation",
+  "animation_backend": "pillow",
+  "fallback_backends": ["motion-canvas", "revideo", "remotion", "manim"],
+  "learning_job": "show repeated updates reducing loss",
+  "verification": {
+    "motion_samples": 12,
+    "requires_contact_sheet": true
+  }
+}
+```
+
+Keep the first backend simple if needed, but preserve the switch fields. The same lesson beat should later be renderable through Motion Canvas, Revideo, Remotion, or Manim for quality comparison.
+
 ## Applied Next Pipeline
 
 Recommended next iteration:
 
 1. Create a beat-timed narration manifest.
-2. Generate video-specific source images from the existing story, with less embedded text.
-3. Generate Runway clips from those video frames.
-4. Verify each clip.
-5. Assemble in Creatomate with beat-aware timing.
-6. Add optional captions only after audio sync is good.
+2. Classify each beat as `programmatic`, `image-to-video`, `still-animation`, or `hybrid-overlay`.
+3. For programmatic beats, render deterministic technical clips and verify contact sheets.
+4. For cinematic beats, generate video-specific source images with less embedded text.
+5. Generate Runway/Veo/Luma/fal clips only for scenes where generative motion adds teaching value.
+6. Verify each clip.
+7. Assemble in Creatomate, Shotstack, Remotion, or JSON2Video with beat-aware timing.
+8. Add optional captions only after audio sync is good.
 
 ## Sources
 
